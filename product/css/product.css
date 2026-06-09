@@ -9,7 +9,7 @@
 }
 
 .product-detail {
-    padding: 220px 0 80px;
+    padding: 240px 0 80px;
     background: #fff;
     color: #111;
 }
@@ -29,8 +29,8 @@
 
 .product-detail .product-tabs a {
     width: 160px;
-    height: 32px;
-    line-height: 32px;
+    height: 42px;
+    line-height: 42px;
     background: #e5e5e5;
     color: #111;
     font-size: 13px;
