@@ -17,6 +17,15 @@ body {
     z-index: 100;
 }
 
+#header .logo,
+#header .gnb-area,
+#header .lang,
+#header .menu-btn {
+    position: relative;
+    z-index: 3;
+}
+
+
 #header .gnb-area {
     display: flex;
     gap: 50px;
@@ -43,20 +52,19 @@ body {
 
 #header .sub-bg {
     position: absolute;
-    top: 123%;
-    left: 5%;
-    transform: translateX(-50%);
-    width: 100vw;
+    top: 100%;
+    left: 0;
+    width: 100%;
     height: 220px;
     background: #fff;
     opacity: 0;
     visibility: hidden;
     transition: 0.3s;
-    z-index: 1;
+    z-index: 2;
 }
 
-#header .gnb-area:hover .sub-bg,
-#header .gnb-area:hover .depth2 {
+#header:hover .sub-bg,
+#header:hover .depth2 {
     opacity: 1;
     visibility: visible;
 }
@@ -74,12 +82,20 @@ body {
 
 }
 
+#header .gnb-link:hover {
+    color: #59799e;
+}
+
 #header .depth2 a {
     color: #111;
     display: block;
     padding: 8px 0;
     text-align: center;
 }
+
+#header .depth2 a:hover {
+    color: #59799e;
+} 
 
 #header .gnb-area:hover .depth2 {
     opacity: 1;
