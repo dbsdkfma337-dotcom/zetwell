@@ -1,0 +1,29 @@
+/* 1. 박스 모델 통일 */
+*,*::before,*::after {box-sizing: border-box;}
+
+/* 2. 기본 margin / padding 제거 */
+* {margin: 0;padding: 0;}
+
+/* 3. body 기본 여백 제거 */
+body {margin: 0;line-height: 1.5;}
+
+/* 4. 리스트 스타일 제거 */
+ul,ol {list-style: none;}
+
+/* 5. 이미지 기본 문제 해결 */
+img {display: block; max-width: 100%; border: none;}
+
+/* 6. 버튼, 인풋 폰트 상속 */
+button,input,textarea,select {font: inherit;}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+}
