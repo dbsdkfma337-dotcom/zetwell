@@ -1,3 +1,14 @@
+#header.sub-header {
+    background-color: rgb(15, 15, 15);
+    color: #fff;
+}
+
+.sub-header .logo a,
+.sub-header .gnb-link {
+    color: #fff;
+}
+
+
 .product-detail {
     padding: 60px 0 80px;
     background: #fff;

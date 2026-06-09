@@ -91,6 +91,7 @@ body {
 }
 
 #header .depth2 a {
+    position: relative;
     color: #111;
     display: block;
     padding: 8px 0;
@@ -101,6 +102,21 @@ body {
 #header .depth2 a:hover {
     color: #59799e;
 } 
+
+#header .depth2 a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 2px;
+    width: 0;
+    height: 1px;
+    background: #59799e;
+    transition: width 0.3s;
+}
+
+#header .depth2 a:hover::after {
+    width: 100%;
+}
 
 #header .gnb-area:hover .depth2 {
     opacity: 1;
