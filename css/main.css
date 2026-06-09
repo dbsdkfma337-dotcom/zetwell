@@ -46,6 +46,10 @@ body {
     min-width: 100px;
 }
 
+#header .gnb-item > a {
+    font-size: 18px;
+}
+
 #header .gnb-area {
     position: relative;
 }
@@ -277,8 +281,6 @@ body {
     font-size: 35px;
 }
 
-
-
 .maincontent2 .product-wrap .product-box .btn {
     margin-top: 18px;
     width: 130px;
@@ -331,7 +333,6 @@ body {
 .maincontent3 .text-wrap .top-text span:nth-child(1){
     margin-right: 100px;
     font-size: 35px;
-
 }
 
 .maincontent3 .text-wrap .top-text span:nth-child(2){
