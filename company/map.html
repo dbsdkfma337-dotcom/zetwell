@@ -6,11 +6,11 @@
     <title>Document</title>
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="../css/organization-chart.css">
+    <link rel="stylesheet" href="../css/company.css">
     <script src="../js/main.js" defer></script>
 </head>
 <body>
-    <main class="greeting-page">
+    <main>
         <header id="header" class="sub-header">
             <h1 class="logo">
                 <a href="../index.html">Zetwell</a>
@@ -88,50 +88,42 @@
             <div class="sub-bg"></div>
         </header>
 
-        <section class="sub-visual greeting-visual">
-            <h2>조직도</h2>
+        <section class="sub-visual">
+            <h2>오시는길</h2>
         </section>
 
-        <section class="org-section">
-            <div class="org-inner">
-                <div class="org-title">
-                    <span>ORGANIZATION</span>
-                    <h3>조직도</h3>
+        <section class="location-section">
+            <div class="inner">
+                <div class="location-card">
+                    <span class="location-label">LOCATION</span>
+                    <h3>ZETWELL</h3>
+                    <p class="location-sub">오시는 길</p>
+
+                    <ul class="location-list">
+                        <li>
+                            <strong>TEL</strong>
+                            <span>02-3281-0130</span>
+                        </li>
+                        <li>
+                            <strong>FAX</strong>
+                            <span>02-2602-2929</span>
+                        </li>
+                        <li>
+                            <strong>ADDRESS</strong>
+                            <span>서울시 금천구 가산디지털1로 45<br>이앤씨드림타워 8차 1103호</span>
+                        </li>
+                    </ul>
+
+                    <a href="#" class="map-btn">지도에서 보기</a>
                 </div>
 
-                <div class="org-chart">
-                    <div class="org-node org-ceo">
-                        <em>CEO</em>
-                        <strong>대표이사</strong>
-                    </div>
-
-                    <div class="org-node org-center">
-                        <em>MANAGEMENT</em>
-                        <strong>총무경영관리팀</strong>
-                    </div>
-
-                    <div class="org-team-wrap">
-                        <div class="org-node org-team">
-                            <em>PRODUCTION</em>
-                            <strong>생산기술팀</strong>
-                        </div>
-                        <div class="org-node org-team">
-                            <em>PURCHASING</em>
-                            <strong>구매자재팀</strong>
-                        </div>
-                        <div class="org-node org-team">
-                            <em>SALES</em>
-                            <strong>영업팀</strong>
-                        </div>
-                        <div class="org-node org-team">
-                            <em>R&D CENTER</em>
-                            <strong>기술연구소</strong>
-                        </div>
-                    </div>
+                <div class="map-wrap">
+                    <div id="map"></div>
                 </div>
             </div>
         </section>
-
     </main>
+<script src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=279572585538095692810eedfd219291&autoload=false"></script>
+<script src="../js/location.js"></script>
 </body>
 </html>
