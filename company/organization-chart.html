@@ -6,7 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="./css/greeting.css">
+    <link rel="stylesheet" href="../css/organization-chart.css">
     <script src="../js/main.js" defer></script>
 </head>
 <body>
@@ -60,6 +60,7 @@
                             <a href="#" class="gnb-link">company</a>
                             <ul class="depth2">
                                 <li><a href="./greeting.html">인사말</a></li>
+                                <li><a href="./mission.html">Mission & Vision</a></li>
                                 <li><a href="#">조직도</a></li>
                                 <li><a href="#">오시는길</a></li>
                             </ul>
@@ -86,46 +87,56 @@
 
             <div class="sub-bg"></div>
         </header>
+
         <section class="sub-visual greeting-visual">
-            <h2>인사말</h2>
+            <h2>조직도</h2>
         </section>
 
-        <section class="greeting-section">
+        <section class="organization">
             <div class="inner">
-            <div class="greeting-text">
-                <h3>Zetwell</h3>
-                <span class="title-line"></span>
 
-                <p>여러분 반갑습니다!</p>
+                <div class="org-logo">
+                    <img src="../img/logo.png" alt="Zetwell">
+                </div>
 
-                <p>
-                저희 ㈜제트웰에 오신 여러분 모두 진심으로 환영합니다.
-                ㈜제트웰은 제품혁신에 투자하여, DISPATCHER HARDWARE DEVICE 및
-                특수 산업용 IPC 제품을 연구개발, 제조/생산까지 ONE STOP SYSTEM
-                제조기업 입니다.
-                </p>
+                <div class="org-top">
+                    <div class="org-card ceo">
+                        <strong>CEO</strong>
+                        <span>대표이사</span>
+                    </div>
 
-                <p>
-                저희 ㈜제트웰은 공공안전분야 제품과 5G LTE기반의 응용제품을
-                개발 보급하므로 보다 진보된 기술로 고객과 만나길 기대합니다.
-                </p>
+                    <div class="org-line"></div>
 
-                <p>
-                <strong>빠른 고객응대</strong><br>
-                임직원 모두 고객의 요구에 부흥하는 만족스러운 솔루션을 가장 빠르게
-                제안하고 가장 빠르게 구축하여 제공합니다.
-                </p>
+                    <div class="org-card head">
+                        <strong>Management</strong>
+                        <span>경영지원본부</span>
+                    </div>
+                </div>
 
-                <p>
-                <strong>연결 및 확장</strong><br>
-                상호 운용성, 다양한 모듈형식의 개발되어 모든 제품간의 연결과
-                확장성을 보장합니다.
-                </p>
-            </div>
+                <div class="org-departments">
 
-            <div class="greeting-img">
-                <img src="./img/building.jpg" alt="회사 건물 이미지">
-            </div>
+                    <div class="dept-card">
+                        <h4>생산기술팀</h4>
+                        <p>Production</p>
+                    </div>
+
+                    <div class="dept-card">
+                        <h4>구매자재팀</h4>
+                        <p>Purchasing</p>
+                    </div>
+
+                    <div class="dept-card">
+                        <h4>영업팀</h4>
+                        <p>Sales</p>
+                    </div>
+
+                    <div class="dept-card">
+                        <h4>기술연구소</h4>
+                        <p>R&D Center</p>
+                    </div>
+
+                </div>
+
             </div>
         </section>
     </main>

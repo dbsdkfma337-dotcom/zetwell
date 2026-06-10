@@ -1,0 +1,118 @@
+#header.sub-header {
+    background-color: rgb(15, 15, 15);
+    color: #fff;
+}
+
+.sub-header .logo a,
+.sub-header .gnb-link {
+    color: #fff;
+}
+
+vision-page {
+    background: #f5f6f8;
+}
+
+/* 상단 비주얼 */
+.sub-visual {
+    height: 390px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../img/sub_bg6.jpg") center/cover no-repeat;
+    position: relative;
+}
+
+.sub-visual::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 22, 42, 0.62);
+}
+
+.sub-visual h2 {
+    position: relative;
+    color: rgba(255, 255, 255, 0.45);
+    font-size: 46px;
+    font-weight: 800;
+}
+
+.organization {
+    padding: 100px 0;
+    background: #f7f8fa;
+}
+
+.organization .inner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.org-logo {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.org-logo img {
+    height: 70px;
+}
+
+.org-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.org-card {
+    width: 240px;
+    padding: 30px;
+    border-radius: 20px;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,.08);
+}
+
+.org-card strong {
+    display: block;
+    font-size: 22px;
+    color: #1e3a8a;
+    margin-bottom: 10px;
+}
+
+.org-card span {
+    color: #666;
+}
+
+.org-line {
+    width: 2px;
+    height: 50px;
+    background: #d8dce3;
+}
+
+.org-departments {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 24px;
+}
+
+.dept-card {
+    background: #fff;
+    border-radius: 20px;
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,.06);
+    transition: .3s;
+}
+
+.dept-card:hover {
+    transform: translateY(-8px);
+}
+
+.dept-card h4 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.dept-card p {
+    color: #7a7a7a;
+}

@@ -50,6 +50,8 @@
 .greeting-text {
     width: 430px;
     padding-top: 40px;
+    font-family: 'Pretendard';
+    font-weight: 400;
 }
 
 .greeting-text h3 {
