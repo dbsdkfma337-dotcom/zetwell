@@ -36,51 +36,97 @@
 }
 
 .greeting-section {
-    padding: 70px 0 90px;
+    padding: 110px 20px;
+    background: linear-gradient(180deg, #f6f8fb 0%, #fff 100%);
 }
 
 .greeting-section .inner {
-    max-width: 960px;
+    max-width: 1180px;
     margin: 0 auto;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 460px;
     gap: 90px;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .greeting-text {
-    width: 430px;
-    padding-top: 40px;
-    font-family: 'Pretendard';
-    font-weight: 400;
+    position: relative;
+    padding: 54px 58px;
+    background: #fff;
+    border-radius: 28px;
+    box-shadow: 0 20px 55px rgba(20, 45, 90, 0.08);
+}
+
+.greeting-text::before {
+    content: "GREETING";
+    position: absolute;
+    right: 36px;
+    top: 28px;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 0.18em;
+    color: rgba(47, 95, 208, 0.18);
 }
 
 .greeting-text h3 {
-    font-size: 28px;
+    font-size: 42px;
     font-weight: 800;
     color: #111;
 }
 
-.title-line {
-    display: block;
-    width: 34px;
-    height: 2px;
-    background: #1f5bbf;
-    margin: 20px 0;
+.greeting-text p {
+    margin-bottom: 22px;
+    font-size: 16px;
+    line-height: 1.9;
+    color: #333;
+    word-break: keep-all;
 }
 
-.greeting-text p {
-    margin-bottom: 20px;
-    font-size: 15px;
-    line-height: 1.8;
-    color: #222;
+.greeting-text p:first-of-type {
+    font-size: 20px;
+    font-weight: 700;
+    color: #111;
+}
+
+.greeting-text strong {
+    display: inline-block;
+    margin-bottom: 6px;
+    color: #315fd6;
+    font-weight: 800;
 }
 
 .greeting-img {
-    width: 430px;
+    position: relative;
+    height: 620px;
+    border-radius: 32px;
+    overflow: hidden;
+    box-shadow: 0 26px 60px rgba(0, 0, 0, 0.18);
+}
+
+.greeting-img::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(0,0,0,0.05), rgba(0,0,0,0.28));
 }
 
 .greeting-img img {
     width: 100%;
-    display: block;
-    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.25);
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 900px) {
+    .greeting-section .inner {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .greeting-text {
+        padding: 40px 28px;
+    }
+
+    .greeting-img {
+        height: 420px;
+    }
 }
