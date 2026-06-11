@@ -45,21 +45,21 @@
     grid-template-columns: 1fr 460px;
     gap: 90px;
     align-items: center;
-}
-
-.greeting-text {
-    position: relative;
-    padding: 54px 58px;
     background: #fff;
     border-radius: 28px;
     box-shadow: 0 20px 55px rgba(20, 45, 90, 0.08);
 }
 
+.greeting-text {
+    position: relative;
+    padding: 54px 58px;
+}
+
 .greeting-text::before {
     content: "GREETING";
     position: absolute;
-    right: 36px;
-    top: 28px;
+    right: -570px;
+    top: 33px;
     font-size: 13px;
     font-weight: 800;
     letter-spacing: 0.18em;
@@ -96,7 +96,7 @@
 .greeting-img {
     position: relative;
     height: 620px;
-    border-radius: 32px;
+    border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 26px 60px rgba(0, 0, 0, 0.18);
 }

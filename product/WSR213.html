@@ -6,8 +6,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="../css/company.css">
+    <link rel="stylesheet" href="./css/product.css">
     <script src="../js/main.js" defer></script>
+    <script src="./js/slide.js" defer></script>
 </head>
 <body>
     <main class="greeting-page">
@@ -88,39 +89,62 @@
             <div class="sub-bg"></div>
         </header>
 
-        <section class="sub-visual greeting-visual">
-            <h2>인사말</h2>
+        <section class="sub-visual">
+            <h2>WR213</h2>
         </section>
 
-        <section class="greeting-section">
-            <div class="inner">
-            <div class="greeting-text">
-                <h3>Zetwell</h3>
+        <section class="product-view">
+            <button class="slide-btn prev" type="button">‹</button>
 
-                <p>언제 어디서나 활용 가능한 컴퓨팅 환경 제공</p>
-
-                <p>제트웰은 군, 공공기관 및 산업 현장의 다양한 운용 환경에 대응할 수 있는 Rugged Computing Solution을 제공합니다.</p>
-
-                <p>휴대성과 내구성을 기반으로 한 러기드 노트북, 태블릿, AI Edge Computing 시스템 및 이동형 GPU 플랫폼을 통해 언제 어디서나 안정적인 컴퓨팅 환경을 구현합니다.</p>
-
-                <p>현장의 요구사항을 정확히 이해하고, 운용 목적에 최적화된 솔루션을 제공함으로써 고객의 업무 효율성과 운영 안정성을 높이고 있습니다.</p>
-
-                <p>
-                <strong>Rugged Technology</strong><br>
-                    충격, 진동, 온도 변화 등 다양한 환경에서도 안정적인 성능을 제공합니다.
-                </p>
-
-                <p>
-                <strong>Field Ready Solution</strong><br>
-                    실제 운용 환경을 고려한 설계와 검증을 통해 현장에서 즉시 활용 가능한 솔루션을 제공합니다.
-                </p>
+            <div class="product-slider">
+                <img src="../img/WSR209.png" alt="제품 이미지" class="slide-img active">
+                <img src="../img/WSR210.png" alt="제품 이미지" class="slide-img">
+                <img src="../img/WSR213.png" alt="제품 이미지" class="slide-img">
             </div>
 
-            <div class="greeting-img">
-                <img src="../img/building.png" alt="회사 건물 이미지">
-            </div>
+            <button class="slide-btn next" type="button">›</button>
+
+            <div class="slide-bottom">
+                <div class="progress">
+                    <span></span>
+                </div>
+
+                <div class="count">
+                    <strong id="currentNum">01</strong>
+                    <em>/</em>
+                    <span id="totalNum">03</span>
+                </div>
             </div>
         </section>
+
+        <section class="detail-hero">
+            <div class="hero-text">
+                <h2>
+                    탁월한 성능을 갖춘<br>
+                    프리미엄 mPOS
+                </h2>
+
+                <p>
+                    Octa-core 2.0 GHz 기반 4GB/64GB 메모리와 함께 Android 11을
+                    지원하여 안전하고 빠른 결제 서비스를 제공합니다. 포인트모바일의 사용자
+                    맞춤형 개발 솔루션 EmKit을 통해 비즈니스에 최적화된 단말기 설정이
+                    가능합니다.
+                </p>
+
+                <div class="spec-box">
+                    <div class="icon">▦</div>
+                    <div>
+                        <strong>Octa-core 2.0 GHz</strong>
+                        <span>4GB/64GB 메모리, Android 11</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-img">
+                <img src="../img/WSR209.png" alt="P8">
+            </div>
+        </section>
+
 
         <footer class="footer">
             <div class="footer-inner">
