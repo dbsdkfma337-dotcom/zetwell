@@ -128,18 +128,18 @@ seriesTitle.textContent = currentSeries.title;
 subVisual.style.backgroundImage = `url(${currentSeries.visualImg})`;
 
 productGrid.innerHTML = currentSeries.products.map((product) => {
-  return `
+    return `
     <div class="product-card">
-      <div class="product-img">
-        <img src="${product.img}" alt="${product.alt}">
-      </div>
+        <div class="product-img">
+            <img src="${product.img}" alt="${product.alt}">
+        </div>
 
-      <div class="product-info">
-        <span>${product.category}</span>
-        <h3>${product.name}</h3>
-        <p>${product.desc}</p>
-        <a href="${product.link}" class="more-btn">Learn More</a>
-      </div>
+        <div class="product-info">
+            <span>${product.category}</span>
+            <h3>${product.name}</h3>
+            <p>${product.desc}</p>
+            <a href="${product.link}" class="more-btn">Learn More</a>
+        </div>
     </div>
-  `;
+    `;
 }).join("");
