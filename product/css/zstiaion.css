@@ -10,12 +10,14 @@
 
 /* 상단 비주얼 */
 .sub-visual {
-    height: 390px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: url("./../../img/60646045-c2b5-49f6-b4a5-b1235febf975.png") center/cover no-repeat;
-    position: relative;
+  height: 390px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
 }
 
 .sub-visual::before {
@@ -50,7 +52,7 @@
 
 .product-card {
   min-height: 320px;
-  padding: 60px 70px;
+  padding: 50px 60px;
   display: flex;
   align-items: center;
   gap: 70px;
@@ -89,7 +91,7 @@
 
 .product-info h3 {
   margin-bottom: 18px;
-  font-size: 56px;
+  font-size: 45px;
   font-weight: 900;
   line-height: 1;
   color: #000;

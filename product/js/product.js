@@ -1,116 +1,145 @@
-const products = {
-    wsr213: {
-        name: "Zetstation-WSR213",
-        summary: "고휘도 (1000~1500nits) LCD가 적용된 제품으로 야외에서 사용하기 적합합니다.",
-        image: "../img/5c8877f3-f599-46ba-9ad8-062c459cb814.png",
-        imageAlt: "Zetstation-WSR213 제품 이미지",
-        desc: [
-            "- MOBILE COMMAND TABLE (MCT-43TAE)는 직관 내용, 접근, 정보, 검색, 관제, 산업",
-            "- MOBILE COMMAND TABLE (MCT-43TAE)는 국내 방송, 군, 재난, 경찰 재난, 산업 안전 분야 등<br>다양한 환경에서 사용하는 디지털 상황판(Command & Control Table)입니다."
-        ],
-        spec: [
-            ["Processor", "Intel® Core™ Ultra 7/5 Series processors, Q870 Chipset"],
-            ["Memory", "2 x DDR5 SODIMM, Max 96GB"],
-            ["Display", "Multiple Independent display: Ⅱ x HDMI®, 1 x DP, 1 x eDP / LVDS, 1 x Type C"],
-            ["I/O Port", "5 x Intel 2.5 GbE LAN, 4 x USB 3.2 Gen 1, 4 x USB 2.0"],
-            ["Expansion", "1 x M.2 M Key, 2 x M.2 B Key, 1 x Nano SIM, 1 x PCIe x16"],
-            ["Serial Port", "10 x COM, 8DI / 8DO, Audio"],
-            ["Interface", "TPM 2.0, SMBus, I2C, I2S"]
+const productData = {
+    "s-series": {
+        title: "S-Series",
+        visualImg: "../img/Zetstation-bg.png",
+        products: [
+            {
+            category: "Zetstation-S시리즈",
+            name: "SSR001",
+            desc: "S-Series 제품 설명이 들어갑니다....",
+            img: "../img/SSR001.png",
+            alt: "SSR001",
+            link: "./product-detail.html?product=ssr001"
+            }
         ]
     },
 
-    wsr210: {
-        name: "Zetstation-WSR210",
-        summary: "제품 설명 문구를 여기에 넣어주세요.",
-        image: "../img/5c8877f3-f599-46ba-9ad8-062c459cb814.png",
-        imageAlt: "Zetstation-WSR210 제품 이미지",
-        desc: [
-            "- WSR210 제품 설명 첫 번째 문장입니다.",
-            "- WSR210 제품 설명 두 번째 문장입니다."
-        ],
-        spec: [
-            ["Processor", "WSR210 프로세서 내용"],
-            ["Memory", "WSR210 메모리 내용"],
-            ["Display", "WSR210 디스플레이 내용"],
-            ["I/O Port", "WSR210 I/O 포트 내용"]
+    "w-series": {
+        title: "W-Series",
+        visualImg: "../img/Zetstation-bg.png",
+        products: [
+            {
+            category: "Zetstation-W시리즈",
+            name: "WSR213",
+            desc: "장시간 고강도 데이터 스캔 업무에 적합하도록 무게를 극단적으로 줄이고 양 손에 모두 장착 가능하도록 디자인 되었습니다....",
+            img: "../img/WSR213.png",
+            alt: "WSR213",
+            link: "./product-detail.html?product=wsr213"
+            },
+            {
+            category: "Zetstation-W시리즈",
+            name: "WSR210",
+            desc: "PM3은 ARM® Cortex®-M4 RISC 프로세서, 1D 또는 1D/2D 스캔 엔진, Bluetooth Class II v.4.2....",
+            img: "../img/WSR210.png",
+            alt: "WSR210",
+            link: "./product-detail.html?product=wsr210"
+            },
+            {
+            category: "Zetstation-W시리즈",
+            name: "WSR209",
+            desc: "다양한 산업 환경에서 안정적인 스캔 성능을 제공하는 블루투스 스캐너입니다....",
+            img: "../img/WSR209.png",
+            alt: "WSR209",
+            link: "./product-detail.html?product=wsr209"
+            }
         ]
     },
 
-    wsr209: {
-        name: "Zetstation-WSR209",
-        summary: "제품 설명 문구를 여기에 넣어주세요.",
-        image: "../img/5c8877f3-f599-46ba-9ad8-062c459cb814.png",
-        imageAlt: "Zetstation-WSR209 제품 이미지",
-        desc: [
-            "- WSR209 제품 설명 첫 번째 문장입니다.",
-            "- WSR209 제품 설명 두 번째 문장입니다."
-        ],
-        spec: [
-            ["Processor", "WSR209 프로세서 내용"],
-            ["Memory", "WSR209 메모리 내용"],
-            ["Display", "WSR209 디스플레이 내용"],
-            ["I/O Port", "WSR209 I/O 포트 내용"]
+    "e-series": {
+    title: "E-Series",
+    visualImg: "../img/Zetstation-bg.png",
+    products: [
+            {
+            category: "Zetstation-E시리즈",
+            name: "EPH10",
+            desc: "E-Series 제품 설명이 들어갑니다....",
+            img: "../img/EPH10.png",
+            alt: "EPH10",
+            link: "./product-detail.html?product=esr001"
+            },
+            {
+            category: "Zetstation-E시리즈",
+            name: "EPH8",
+            desc: "E-Series 제품 설명이 들어갑니다....",
+            img: "../img/EPH10.png",
+            alt: "EPH8",
+            link: "./product-detail.html?product=esr001"
+            },
+            {
+            category: "Zetstation-E시리즈",
+            name: "EPN2000B",
+            desc: "E-Series 제품 설명이 들어갑니다....",
+            img: "../img/EPH10.png",
+            alt: "EPN2000B",
+            link: "./product-detail.html?product=esr001"
+            },
+            {
+            category: "Zetstation-E시리즈",
+            name: "IHH10",
+            desc: "E-Series 제품 설명이 들어갑니다....",
+            img: "../img/IHH10.png",
+            alt: "IHH10",
+            link: "./product-detail.html?product=esr001"
+            },
+            {
+            category: "Zetstation-E시리즈",
+            name: "IHH8",
+            desc: "E-Series 제품 설명이 들어갑니다....",
+            img: "../img/IHH10.png",
+            alt: "IHH8",
+            link: "./product-detail.html?product=esr001"
+            },
+            {
+            category: "Zetstation-E시리즈",
+            name: "IHN2000B",
+            desc: "E-Series 제품 설명이 들어갑니다....",
+            img: "../img/IHH10.png",
+            alt: "IHN2000B",
+            link: "./product-detail.html?product=esr001"
+            }
+        ]
+    },
+    "m-series": {
+    title: "M-Series",
+    visualImg: "../img/Zetstation-bg.png",
+    products: [
+            {
+            category: "Zetstation-M시리즈",
+            name: "MODEL HRD2000M",
+            desc: "m-Series 제품 설명이 들어갑니다....",
+            img: "../img/MODEL-HRD2000M.png",
+            alt: "MODEL-HRD2000M",
+            link: "./product-detail.html?product=esr001"
+            }
         ]
     }
 };
 
-const productTabs = document.querySelector("#productTabs");
-const productName = document.querySelector("#productName");
-const productSummary = document.querySelector("#productSummary");
-const productImage = document.querySelector("#productImage");
-const productDesc = document.querySelector("#productDesc");
-const specBody = document.querySelector("#specBody");
+const params = new URLSearchParams(window.location.search);
+const series = params.get("series") || "w-series";
 
-function renderTabs(activeKey) {
-    productTabs.innerHTML = "";
+const currentSeries = productData[series] || productData["w-series"];
 
-    for (const key in products) {
-        const product = products[key];
+const subVisual = document.querySelector(".sub-visual");
+const seriesTitle = document.querySelector("#seriesTitle");
+const productGrid = document.querySelector("#productGrid");
 
-        const tab = document.createElement("a");
-        tab.href = `?product=${key}`;
-        tab.textContent = product.name;
+seriesTitle.textContent = currentSeries.title;
+subVisual.style.backgroundImage = `url(${currentSeries.visualImg})`;
 
-        if (key === activeKey) {
-            tab.classList.add("active");
-        }
+productGrid.innerHTML = currentSeries.products.map((product) => {
+  return `
+    <div class="product-card">
+      <div class="product-img">
+        <img src="${product.img}" alt="${product.alt}">
+      </div>
 
-        productTabs.appendChild(tab);
-    }
-}
-
-function renderProduct(productKey) {
-    const product = products[productKey];
-
-    productName.textContent = product.name;
-    productSummary.textContent = product.summary;
-
-    productImage.src = product.image;
-    productImage.alt = product.imageAlt;
-
-    productDesc.innerHTML = product.desc
-        .map((text) => `<p>${text}</p>`)
-        .join("");
-
-    specBody.innerHTML = product.spec
-        .map((item) => {
-            return `
-                <tr>
-                    <th>${item[0]}</th>
-                    <td>${item[1]}</td>
-                </tr>
-            `;
-        })
-        .join("");
-}
-
-const urlParams = new URLSearchParams(window.location.search);
-const currentProduct = urlParams.get("product") || "wsr213";
-
-if (products[currentProduct]) {
-    renderTabs(currentProduct);
-    renderProduct(currentProduct);
-} else {
-    renderTabs("wsr213");
-    renderProduct("wsr213");
-}
+      <div class="product-info">
+        <span>${product.category}</span>
+        <h3>${product.name}</h3>
+        <p>${product.desc}</p>
+        <a href="${product.link}" class="more-btn">Learn More</a>
+      </div>
+    </div>
+  `;
+}).join("");
