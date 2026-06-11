@@ -9,7 +9,7 @@ const productData = {
             desc: "S-Series 제품 설명이 들어갑니다....",
             img: "../img/WSR213.png",
             alt: "SSR001",
-            link: "./product-detail.html?product=ssr001"
+            link: "./WSR213.html"
             }
         ]
     },

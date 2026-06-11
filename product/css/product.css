@@ -191,7 +191,6 @@
     width: 680px;
     max-width: 100%;
     object-fit: contain;
-    transform: scaleX(-1);
 }
 
 .design-section {
@@ -216,9 +215,10 @@
 }
 
 .design-img img {
-    max-width: 420px;
+    max-width: 550px;
     width: 100%;
     object-fit: contain;
+    transform: scaleX(-1);
 }
 
 .design-info {
