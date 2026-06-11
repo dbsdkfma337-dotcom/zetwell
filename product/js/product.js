@@ -112,6 +112,20 @@ const productData = {
             link: "./product-detail.html?product=esr001"
             }
         ]
+    },
+    "ig-series": {
+    title: "43IG",
+    visualImg: "../img/Zetstation-bg.png",
+    products: [
+            {
+            category: "Zetavle시리즈",
+            name: "43IG",
+            desc: "43IG 제품 설명이 들어갑니다....",
+            img: "../img/MODEL-HRD2000M.png",
+            alt: "MODEL-HRD2000M",
+            link: "./product-detail.html?product=esr001"
+            }
+        ]
     }
 };
 
