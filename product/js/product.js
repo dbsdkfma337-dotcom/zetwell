@@ -7,7 +7,7 @@ const productData = {
             category: "Zetstation-S시리즈",
             name: "SSR001",
             desc: "S-Series 제품 설명이 들어갑니다....",
-            img: "../img/SSR001.png",
+            img: "../img/WSR213.png",
             alt: "SSR001",
             link: "./product-detail.html?product=ssr001"
             }
@@ -24,7 +24,7 @@ const productData = {
             desc: "장시간 고강도 데이터 스캔 업무에 적합하도록 무게를 극단적으로 줄이고 양 손에 모두 장착 가능하도록 디자인 되었습니다....",
             img: "../img/WSR213.png",
             alt: "WSR213",
-            link: "./product-detail.html?product=wsr213"
+            link: "./WSR213.html"
             },
             {
             category: "Zetstation-W시리즈",
@@ -32,7 +32,7 @@ const productData = {
             desc: "PM3은 ARM® Cortex®-M4 RISC 프로세서, 1D 또는 1D/2D 스캔 엔진, Bluetooth Class II v.4.2....",
             img: "../img/WSR210.png",
             alt: "WSR210",
-            link: "./product-detail.html?product=wsr210"
+            link: "./WSR213.html"
             },
             {
             category: "Zetstation-W시리즈",
@@ -40,7 +40,7 @@ const productData = {
             desc: "다양한 산업 환경에서 안정적인 스캔 성능을 제공하는 블루투스 스캐너입니다....",
             img: "../img/WSR209.png",
             alt: "WSR209",
-            link: "./product-detail.html?product=wsr209"
+            link: "./WSR213.html"
             }
         ]
     },

@@ -51,7 +51,7 @@
 }
 
 .slide-img.active {
-  opacity: 1;
+    opacity: 1;
 }
 
 .slide-btn {
@@ -192,4 +192,238 @@
     max-width: 100%;
     object-fit: contain;
     transform: scaleX(-1);
+}
+
+.design-section {
+    min-height: 760px;
+    padding: 80px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 90px;
+    background:
+        radial-gradient(circle at 30% 70%, rgba(190, 140, 135, 0.7), transparent 35%),
+        linear-gradient(90deg, #111 0%, #6f6668 48%, #111 100%);
+    overflow: hidden;
+}
+
+.design-img {
+    width: 45%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.design-img img {
+    max-width: 420px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.design-info {
+    width: 55%;
+}
+
+.info-box {
+    max-width: 720px;
+    padding: 88px 84px 70px;
+    border-radius: 44px;
+    background: rgba(35, 35, 35, 0.35);
+    backdrop-filter: blur(6px);
+}
+
+.info-box h2 {
+    margin-bottom: 46px;
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 1.32;
+    color: #fff;
+    letter-spacing: -1.5px;
+}
+
+.info-box p {
+    max-width: 620px;
+    margin-bottom: 90px;
+    font-size: 17px;
+    line-height: 1.9;
+    color: rgba(255, 255, 255, 0.58);
+    word-break: keep-all;
+}
+
+.spec-list {
+    display: flex;
+    gap: 18px;
+}
+
+.spec-item {
+    width: 220px;
+    height: 170px;
+    border-radius: 18px;
+    background: rgba(20, 20, 20, 0.35);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    color: #fff;
+}
+
+.spec-item .icon {
+    font-size: 42px;
+}
+
+.spec-item strong {
+    font-size: 17px;
+    font-weight: 900;
+}
+
+.spec-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 20px;
+}
+
+.spec-section h2 {
+    margin-bottom: 36px;
+    font-size: 42px;
+    font-weight: 900;
+    color: #000;
+}
+
+.spec-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+.spec-table th,
+.spec-table td {
+    padding: 24px 28px;
+    border-bottom: 1px solid #ddd;
+    font-size: 15px;
+    line-height: 1.9;
+}
+
+.spec-table tr:last-child th,
+.spec-table tr:last-child td {
+    border-bottom: 0;
+}
+
+.spec-table th {
+    width: 250px;
+    background: #f4f4f4;
+    font-weight: 800;
+    color: #000;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.spec-table td {
+    color: #777;
+    vertical-align: middle;
+}
+
+.Highlight-section {
+    position: relative;
+    overflow: hidden;
+    min-height: 760px;
+    padding: 90px 8%;
+    background: #050505;
+    color: #fff;
+}
+
+/* 푸른색 강조 배경 */
+.Highlight-section::before {
+    content: "";
+    position: absolute;
+    left: -18%;
+    bottom: -38%;
+    width: 760px;
+    height: 760px;
+    border-radius: 50%;
+    border: 90px solid rgba(0, 120, 255, 0.55);
+    filter: blur(2px);
+}
+
+.Highlight-section::after {
+    content: "";
+    position: absolute;
+    right: -10%;
+    top: 35%;
+    width: 900px;
+    height: 260px;
+    background: radial-gradient(
+        ellipse,
+        rgba(0, 110, 255, 0.35) 0%,
+        rgba(0, 80, 180, 0.18) 35%,
+        transparent 70%
+    );
+    transform: rotate(-10deg);
+    filter: blur(14px);
+}
+
+.Highlight-inner {
+    position: relative;
+    z-index: 1;
+    max-width: 1500px;
+    min-height: 620px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.Highlight-content {
+    width: 48%;
+}
+
+.Highlight-content h2 {
+    margin-bottom: 120px;
+    font-size: 54px;
+    font-weight: 900;
+    line-height: 1.35;
+    letter-spacing: -1.8px;
+}
+
+.Highlight-card-wrap {
+    display: grid;
+    grid-template-columns: repeat(2, 230px);
+    gap: 16px;
+}
+
+.Highlight-card {
+    height: 150px;
+    border-radius: 16px;
+    background: rgba(20, 20, 20, 0.82);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+}
+
+.Highlight-card .icon {
+    font-size: 42px;
+    color: #fff;
+}
+
+.Highlight-card p {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.Highlight-img {
+    width: 52%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Highlight-img img {
+    width: 620px;
+    max-width: 100%;
+    object-fit: contain;
 }
