@@ -126,7 +126,53 @@ const productData = {
             link: "./product-detail.html?product=esr001"
             }
         ]
-    }
+    },
+    "n-series": {
+    title: "NVIS-Series",
+    visualImg: "../img/Zetstation-bg.png",
+    products: [
+            {
+            category: "NVIS시리즈",
+            name: "R08L100",
+            desc: "R08L100 제품 설명이 들어갑니다....",
+            img: "../img/R08L100-2.png",
+            alt: "R08L100",
+            link: "./nvis.html"
+            },
+            {
+            category: "NVIS시리즈",
+            name: "R10L100",
+            desc: "R10L100 제품 설명이 들어갑니다....",
+            img: "../img/R10L100-2.png",
+            alt: "EPH8",
+            link: "./product-detail.html?product=esr001"
+            },
+            {
+            category: "NVIS시리즈",
+            name: "R15L100",
+            desc: "R15L100 제품 설명이 들어갑니다....",
+            img: "../img/R15L100-2.png",
+            alt: "R15L100",
+            link: "./product-detail.html?product=esr001"
+            },
+            {
+            category: "NVIS시리즈",
+            name: "R19L100",
+            desc: "R19L100 제품 설명이 들어갑니다....",
+            img: "../img/R19L100-2.png",
+            alt: "R19L100",
+            link: "./product-detail.html?product=esr001"
+            },
+            {
+            category: "NVIS시리즈",
+            name: "W22L100",
+            desc: "W22L100 제품 설명이 들어갑니다....",
+            img: "../img/W22L100-2.png",
+            alt: "W22L100",
+            link: "./product-detail.html?product=esr001"
+            }
+        ]
+    },
 };
 
 const params = new URLSearchParams(window.location.search);
