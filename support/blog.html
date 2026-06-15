@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>NVIS</title>
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/company.css">
+    <link rel="stylesheet" href="./blog.css">
     <script src="../js/main.js" defer></script>
 </head>
 <body>
-    <main>
+    <main class="nvis-page">
         <header id="header" class="sub-header">
             <h1 class="logo">
                 <a href="../index.html">Zetwell</a>
@@ -32,7 +33,7 @@
                             <a href="#" class="gnb-link">ZETable</a>
                             <ul class="depth2">
                                 <li><a href="./table.html?product=43ig">43IG</a></li>
-                                <li><a href="#">43MG</a></li>
+                                <li><a href="./table.html?product=43ig">43MG</a></li>
                             </ul>
                         </li>
                         <li class="gnb-item">
@@ -53,17 +54,17 @@
                             <a href="#" class="gnb-link">support</a>
                             <ul class="depth2">
                             <li><a href="#">A/S 접수안내</a></li>
-                            <li><a href="../support/contact.html">제품문의</a></li>
+                            <li><a href="./contact.html">제품문의</a></li>
                             <li><a href="#">Blog</a></li>
                             </ul>
                         </li>
                         <li class="gnb-item">
                             <a href="#" class="gnb-link">company</a>
                             <ul class="depth2">
-                                <li><a href="./greeting.html">인사말</a></li>
-                                <li><a href="./mission.html">Mission & Vision</a></li>
-                                <li><a href="./organization-chart.html">조직도</a></li>
-                                <li><a href="./map.html">오시는길</a></li>
+                                <li><a href="../company/greeting.html">인사말</a></li>
+                                <li><a href="../company/mission.html">Mission & Vision</a></li>
+                                <li><a href="../company/organization-chart.html">조직도</a></li>
+                                <li><a href="../company/map.html">오시는길</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -89,40 +90,11 @@
             <div class="sub-bg"></div>
         </header>
 
-        <section class="sub-visual">
-            <h2>오시는길</h2>
+        <section class="sub-visual" id="subVisual">
+            <h2 id="productTitle">제품문의</h2>
         </section>
 
-        <section class="location-section">
-            <div class="inner">
-                <div class="location-card">
-                    <span class="location-label">LOCATION</span>
-                    <h3>ZETWELL</h3>
-                    <p class="location-sub">오시는 길</p>
 
-                    <ul class="location-list">
-                        <li>
-                            <strong>TEL</strong>
-                            <span>02-3281-0130</span>
-                        </li>
-                        <li>
-                            <strong>FAX</strong>
-                            <span>02-2602-2929</span>
-                        </li>
-                        <li>
-                            <strong>ADDRESS</strong>
-                            <span>서울시 금천구 가산디지털1로 45<br>이앤씨드림타워 8차 1103호</span>
-                        </li>
-                    </ul>
-
-                    <a href="https://kko.to/JtERAr7Inu" class="map-btn" target="_blank" rel="noopener noreferrer">카카오맵 보기</a>
-                </div>
-
-                <div class="map-wrap">
-                    <div id="map"></div>
-                </div>
-            </div>
-        </section>
 
         <footer class="footer">
             <div class="footer-inner">
@@ -153,7 +125,5 @@
             </div>
         </footer>
     </main>
-<script src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=279572585538095692810eedfd219291&autoload=false"></script>
-<script src="../js/location.js"></script>
 </body>
 </html>
