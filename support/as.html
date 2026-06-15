@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>NVIS</title>
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/company.css">
+    <link rel="stylesheet" href="./css/as.css">
     <script src="../js/main.js" defer></script>
 </head>
 <body>
-    <main class="greeting-page">
+    <main class="nvis-page">
         <header id="header" class="sub-header">
             <h1 class="logo">
                 <a href="../index.html">Zetwell</a>
@@ -31,8 +32,8 @@
                         <li class="gnb-item">
                             <a href="#" class="gnb-link">ZETable</a>
                             <ul class="depth2">
-                                <li><a href="../product/table.html?product=43ig">43IG</a></li>
-                                <li><a href="../product/table.html?product=43ig">43MG</a></li>
+                                <li><a href="./table.html?product=43ig">43IG</a></li>
+                                <li><a href="./table.html?product=43ig">43MG</a></li>
                             </ul>
                         </li>
                         <li class="gnb-item">
@@ -52,18 +53,18 @@
                         <li class="gnb-item">
                             <a href="#" class="gnb-link">support</a>
                             <ul class="depth2">
-                            <li><a href="../support/as.html">A/S 접수안내</a></li>
-                            <li><a href="../support/contact.html">제품문의</a></li>
-                            <li><a href="../support/blog.html">Blog</a></li>
+                            <li><a href="./as.html">A/S 접수안내</a></li>
+                            <li><a href="./contact.html">제품문의</a></li>
+                            <li><a href="./blog.html">Blog</a></li>
                             </ul>
                         </li>
                         <li class="gnb-item">
                             <a href="#" class="gnb-link">company</a>
                             <ul class="depth2">
-                                <li><a href="./greeting.html">인사말</a></li>
-                                <li><a href="./mission.html">Mission & Vision</a></li>
-                                <li><a href="./organization-chart.html">조직도</a></li>
-                                <li><a href="./map.html">오시는길</a></li>
+                                <li><a href="../company/greeting.html">인사말</a></li>
+                                <li><a href="../company/mission.html">Mission & Vision</a></li>
+                                <li><a href="../company/organization-chart.html">조직도</a></li>
+                                <li><a href="../company/map.html">오시는길</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -89,47 +90,55 @@
             <div class="sub-bg"></div>
         </header>
 
-        <section class="sub-visual greeting-visual">
-            <h2>조직도</h2>
+        <section class="sub-visual as-visual" id="subVisual">
+            <div class="as-visual-inner">
+                <span>A/S SERVICE</span>
+                <h2>A/S 접수안내</h2>
+                <p>제품 사용 중 발생한 문의사항을 남겨주시면 신속하게 확인 후 안내드립니다.</p>
+        </div>
         </section>
 
-        <section class="org-section">
-            <div class="org-inner">
-                <div class="org-title">
-                    <span>ORGANIZATION</span>
-                    <h3>조직도</h3>
+        <section class="as-contact-section">
+            <div class="as-contact-inner">
+                <div class="as-contact-info">
+                    <span class="section-label">SUPPORT REQUEST</span>
+                    <h3>문의 내용을<br>남겨주세요</h3>
+                    <p>
+                        제품명, 증상, 연락처를 함께 남겨주시면<br>
+                        담당자가 더욱 빠르게 확인할 수 있습니다.
+                    </p>
+
+                    <ul>
+                        <li>
+                            <strong>이메일</strong>
+                            <span>hatisystems@naver.com</span>
+                        </li>
+                        <li>
+                            <strong>대표번호</strong>
+                            <span>02-2605-9999</span>
+                        </li>
+                        <li>
+                            <strong>운영시간</strong>
+                            <span>평일 09:00 - 18:00</span>
+                        </li>
+                    </ul>
                 </div>
 
-                <div class="org-chart">
-                    <div class="org-node org-ceo">
-                        <em>CEO</em>
-                        <strong>대표이사</strong>
+                <form class="as-form" id="asForm">
+                    <div class="form-row">
+                        <input type="text" id="asName" name="name" placeholder="Your Name">
                     </div>
 
-                    <div class="org-node org-center">
-                        <em>MANAGEMENT</em>
-                        <strong>총무경영관리팀</strong>
+                    <div class="form-row">
+                        <input type="email" id="asEmail" name="email" placeholder="Email Address">
                     </div>
 
-                    <div class="org-team-wrap">
-                        <div class="org-node org-team">
-                            <em>PRODUCTION</em>
-                            <strong>생산기술팀</strong>
-                        </div>
-                        <div class="org-node org-team">
-                            <em>PURCHASING</em>
-                            <strong>구매자재팀</strong>
-                        </div>
-                        <div class="org-node org-team">
-                            <em>SALES</em>
-                            <strong>영업팀</strong>
-                        </div>
-                        <div class="org-node org-team">
-                            <em>R&D CENTER</em>
-                            <strong>기술연구소</strong>
-                        </div>
+                    <div class="form-row">
+                        <textarea id="asMessage" name="message" placeholder="Message"></textarea>
                     </div>
-                </div>
+
+                    <button type="submit">SEND MESSAGE</button>
+                </form>
             </div>
         </section>
 
@@ -160,8 +169,7 @@
                     </div>
                 </div>
             </div>
-    </footer>
-
+        </footer>
     </main>
 </body>
 </html>

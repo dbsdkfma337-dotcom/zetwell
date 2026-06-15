@@ -134,7 +134,7 @@ const productData = {
             {
             category: "NVIS시리즈",
             name: "R08L100",
-            desc: "R08L100 제품 설명이 들어갑니다....",
+            desc: "8.4인치 G-WIN 감압식 터치 NVIS 디스플레이",
             img: "../img/R08L100-2.png",
             alt: "R08L100",
             link: "./nvis.html?product=r08l100"
@@ -142,7 +142,7 @@ const productData = {
             {
             category: "NVIS시리즈",
             name: "R10L100",
-            desc: "R10L100 제품 설명이 들어갑니다....",
+            desc: "10.4인치 G-WIN 감압식 터치 NVIS 디스플레이",
             img: "../img/R10L100-2.png",
             alt: "R10L100",
             link: "./nvis.html?product=r10l100"
@@ -150,7 +150,7 @@ const productData = {
             {
             category: "NVIS시리즈",
             name: "R15L100",
-            desc: "R15L100 제품 설명이 들어갑니다....",
+            desc: "15인치 G-WIN Full IP67 NVIS 디스플레이",
             img: "../img/R15L100-2.png",
             alt: "R15L100",
             link: "./nvis.html?product=r15l100"
@@ -158,7 +158,7 @@ const productData = {
             {
             category: "NVIS시리즈",
             name: "R19L100",
-            desc: "R19L100 제품 설명이 들어갑니다....",
+            desc: "19인치 G-WIN Full IP67 NVIS 디스플레이",
             img: "../img/R19L100-2.png",
             alt: "R19L100",
             link: "./nvis.html?product=r19l100"
@@ -166,7 +166,7 @@ const productData = {
             {
             category: "NVIS시리즈",
             name: "W22L100",
-            desc: "W22L100 제품 설명이 들어갑니다....",
+            desc: "21.5인치 G-WIN Full IP67 NVIS 디스플레이",
             img: "../img/W22L100-2.png",
             alt: "W22L100",
             link: "./nvis.html?product=w22l100"
