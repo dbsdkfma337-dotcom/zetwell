@@ -137,15 +137,15 @@ const productData = {
             desc: "R08L100 제품 설명이 들어갑니다....",
             img: "../img/R08L100-2.png",
             alt: "R08L100",
-            link: "./nvis.html"
+            link: "./nvis.html?product=r08l100"
             },
             {
             category: "NVIS시리즈",
             name: "R10L100",
             desc: "R10L100 제품 설명이 들어갑니다....",
             img: "../img/R10L100-2.png",
-            alt: "EPH8",
-            link: "./product-detail.html?product=esr001"
+            alt: "R10L100",
+            link: "./nvis.html?product=r10l100"
             },
             {
             category: "NVIS시리즈",
@@ -153,7 +153,7 @@ const productData = {
             desc: "R15L100 제품 설명이 들어갑니다....",
             img: "../img/R15L100-2.png",
             alt: "R15L100",
-            link: "./product-detail.html?product=esr001"
+            link: "./nvis.html?product=r15l100"
             },
             {
             category: "NVIS시리즈",
@@ -161,7 +161,7 @@ const productData = {
             desc: "R19L100 제품 설명이 들어갑니다....",
             img: "../img/R19L100-2.png",
             alt: "R19L100",
-            link: "./product-detail.html?product=esr001"
+            link: "./nvis.html?product=r19l100"
             },
             {
             category: "NVIS시리즈",
@@ -169,7 +169,7 @@ const productData = {
             desc: "W22L100 제품 설명이 들어갑니다....",
             img: "../img/W22L100-2.png",
             alt: "W22L100",
-            link: "./product-detail.html?product=esr001"
+            link: "./nvis.html?product=w22l100"
             }
         ]
     },

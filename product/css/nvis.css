@@ -2,6 +2,11 @@
     background: url("../../img/R08L100bg.png") bottom/cover no-repeat;
 }
 
+.nvis-page .sub-visual h2 {
+    color: #fff;
+}
+
+
 .feature-section {
     max-width: 1400px;
     margin: 0 auto;
