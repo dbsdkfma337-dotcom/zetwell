@@ -6,6 +6,41 @@ const newsData = [
         date: "2026.06.15",
         link: "./nvis.html"
     },
+    {
+        img: "../img/",
+        category: "blog",
+        title: "NVIS란 무엇인가",
+        date: "2026.06.15",
+        link: "./nvis.html"
+    },
+    {
+        img: "../img/",
+        category: "blog",
+        title: "NVIS란 무엇인가",
+        date: "2026.06.15",
+        link: "./nvis.html"
+    },
+    {
+        img: "../img/",
+        category: "blog",
+        title: "NVIS란 무엇인가",
+        date: "2026.06.15",
+        link: "./nvis.html"
+    },
+    {
+        img: "../img/",
+        category: "blog",
+        title: "NVIS란 무엇인가",
+        date: "2026.06.15",
+        link: "./nvis.html"
+    },
+    {
+        img: "../img/",
+        category: "blog",
+        title: "NVIS란 무엇인가",
+        date: "2026.06.15",
+        link: "./nvis.html"
+    }
 ];
 
 const newsList = document.getElementById("newsList");
