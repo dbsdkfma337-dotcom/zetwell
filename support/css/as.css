@@ -89,7 +89,7 @@
 }
 
 .as-form {
-    padding: 56px;
+    padding: 80px 56px 56px;
     border-radius: 32px;
     background: rgba(255, 255, 255, 0.82);
     backdrop-filter: blur(16px);
@@ -114,7 +114,7 @@
 }
 
 .as-form textarea {
-    height: 180px;
+    height: 280px;
     resize: none;
 }
 
@@ -125,6 +125,7 @@
 }
 
 .as-form button {
+    display: block;
     width: 190px;
     height: 58px;
     margin-top: 10px;
@@ -134,6 +135,7 @@
     color: #fff;
     font-size: 15px;
     font-weight: 900;
+    margin: 0 auto;
     cursor: pointer;
     box-shadow: 0 16px 30px rgba(36, 84, 198, 0.28);
     transition: 0.3s;
