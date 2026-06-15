@@ -399,8 +399,8 @@ const productData = {
     },
 
     w22l100: {
-        title: "w22L100",
-        visualBg: "../img/R08L100-bg.png",
+        title: "W22L100",
+        visualBg: "../img/W22L100-bg.png",
 
         slideImages: [
             "../img/W22L100-1.png",
