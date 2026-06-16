@@ -55,7 +55,8 @@ const productData = {
 
     "e-series": {
     title: "E-Series",
-    visualImg: "../img/Zetstation-bg.png",
+    visualImg: "../img/E-Series-bg.png",
+    visualPosition: "center bottom",
     products: [
             {
             category: "Zetstation-E시리즈",
@@ -110,14 +111,14 @@ const productData = {
 
     "m-series": {
     title: "M-Series",
-    visualImg: "../img/Zetstation-bg.png",
+    visualImg: "../img/UK2000-bg.png",
     products: [
             {
             category: "Zetstation-M시리즈",
-            name: "MODEL HRD2000M",
-            desc: "m-Series 제품 설명이 들어갑니다....",
-            img: "../img/.png",
-            alt: "MODEL-HRD2000M",
+            name: "UK2000",
+            desc: "하이브리드 케리어 장치",
+            img: "../img/UK2000.png",
+            alt: "UK2000",
             link: "./product-detail.html?product=esr001"
             }
         ]
