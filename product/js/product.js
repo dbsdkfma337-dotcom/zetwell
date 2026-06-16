@@ -190,7 +190,7 @@ const productData = {
     visualImg: "../img/Zetstation-bg.png",
     products: [
             {
-            category: "Zetstation-M시리즈",
+            category: "Zetstation-CSTM시리즈",
             name: "MODEL HRD2000M",
             desc: "m-Series 제품 설명이 들어갑니다....",
             img: "../img/MODEL-HRD2000M.png",
