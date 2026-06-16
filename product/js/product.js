@@ -187,14 +187,46 @@ const productData = {
 
     "c-series": {
     title: "CSTM-Series",
-    visualImg: "../img/Zetstation-bg.png",
+    visualImg: "../img/sub01_1.jpg",
     products: [
             {
             category: "Zetstation-CSTM시리즈",
             name: "MODEL HRD2000M",
-            desc: "m-Series 제품 설명이 들어갑니다....",
+            desc: "차량용(이동형) 서버",
             img: "../img/MODEL-HRD2000M.png",
             alt: "MODEL-HRD2000M",
+            link: "./product-detail.html?product=esr001"
+            },
+            {
+            category: "Zetstation-CSTM시리즈",
+            name: "9000SE",
+            desc: "이중화 서버/워크스테이션",
+            img: "../img/9000SE.png",
+            alt: "9000SE",
+            link: "./product-detail.html?product=esr001"
+            },
+            {
+            category: "Zetstation-CSTM시리즈",
+            name: "S988",
+            desc: "8세대 Intel® Core™ i7 프로세서를 탑재한 고성능 워크스테이션",
+            img: "../img/S988.png",
+            alt: "S988",
+            link: "./product-detail.html?product=esr001"
+            },
+            {
+            category: "Zetstation-CSTM시리즈",
+            name: "S1388",
+            desc: "연결성, 보안성 및 사용자 편의성을 극대화한 지능형 관제 시스템",
+            img: "../img/S1388.png",
+            alt: "S1388",
+            link: "./product-detail.html?product=esr001"
+            },
+            {
+            category: "Zetstation-CSTM시리즈",
+            name: "S1519H",
+            desc: "엣지에서 직접 AI 추론을 수행하는 시스템",
+            img: "../img/S1519H.png",
+            alt: "S1519H",
             link: "./product-detail.html?product=esr001"
             }
         ]
