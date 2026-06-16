@@ -157,6 +157,90 @@ body {
     display: block;
 } 
 
+.quick-contact {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    z-index: 9999;
+}
+
+.quick-popup {
+    position: absolute;
+    right: 0;
+    bottom: 80px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: 0.3s;
+}
+
+.quick-popup a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 260px;
+    height: 58px;
+    padding: 0 25px;
+    background: #fff;
+    border-radius: 50px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    color: #111;
+    font-size: 18px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.quick-popup .icon {
+    font-size: 20px;
+}
+
+.quick-popup strong {
+    font-weight: 700;
+}
+
+.quick-popup em {
+    color: #2f5fd0;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.quick-popup .fa-solid {
+    margin-top: 5px;
+}
+
+.quick-btn {
+    width: 62px;
+    height: 62px;
+    border: 0;
+    border-radius: 50%;
+    background: #2f5fd0;
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.quick-btn .close-icon {
+    display: none;
+    font-size: 22px;
+    line-height: 1;
+}
+
+.quick-contact.active .quick-popup {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.quick-contact.active .phone-icon {
+    display: none;
+}
+
+.quick-contact.active .close-icon {
+    display: inline;
+}
+
 .main-visual {
     background: url(../img/main-bg.png) no-repeat center center / cover;
     width: 100%;
