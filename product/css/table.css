@@ -1,3 +1,15 @@
+.sub-visual::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 22, 42, 0.62);
+}
+
+.sub-visual > * {
+    position: relative;
+    z-index: 1;
+}
+
 .table-page .design-section {
     background: radial-gradient(circle at 30% 70%, rgb(48 116 221 / 70%), transparent 35%), linear-gradient(90deg, #111 0%, #666a6f 48%, #111111 100%);
 }

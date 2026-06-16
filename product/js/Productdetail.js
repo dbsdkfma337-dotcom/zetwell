@@ -4,10 +4,12 @@ const productData = {
 
         title: "43IG",
 
+        visualImg: "../img/bg5.png",
+
         sliderImages: [
-            "../img/43IG.png",
             "../img/43IG-h.png",
-            "../img/43IG-r.png"
+            "../img/43IG-r.png",
+            "../img/43IG.png"
         ],
 
         hero: {
@@ -64,13 +66,17 @@ const productData = {
 
 
         specTable: [
-            ["프로세서", "Intel® Core™ Ultra 7/5 Series processors, Q870 Chipset"],
-            ["메모리", "2 x DDR5 SODIMM, Max 96GB"],
-            ["디스플레이 출력", "1 x HDMI®, 1 x DP, 1 x eDP / LVDS"],
-            ["네트워크", "5 x Intel 2.5 GbE LAN"],
-            ["확장 슬롯", "1 x M.2 M Key"],
-            ["입출력 포트", "10 x COM, 8DI / 8DO"],
-            ["인터페이스", "TPM 2.0"]
+            ["디스플레이", '43" 4k UHD (3840 × 2160)'],
+            ["밝기", "500 nits"],
+            ["시야각", "178° (H) / 178° (V)"],
+            ["입력단자", "HDMI, USB, LAN, 전원 입력"],
+            ["전원", "AC 100~240V"],
+            ["작동온도", "-20°C ~ 60°C"],
+            ["보관온도", "-30°C ~ 70°C"],
+            ["방진방수", "IP65"],
+            ["크기(전개 시)", "약 760 x 610 x 620 mm"],
+            ["크기(수납 시)", "약 760 x 610 x 200 mm"],
+            ["증량", "약 24kg"]
         ]
     },
 
@@ -242,3 +248,7 @@ document.getElementById("ruggedList").innerHTML =
             </div>
         `)
         .join("");
+
+
+document.getElementById("subVisual").style.backgroundImage =
+    `url(${product.visualImg})`;

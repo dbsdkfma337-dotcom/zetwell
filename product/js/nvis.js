@@ -1,7 +1,7 @@
 const productData = {
     r08l100: {
         title: "R08L100",
-        visualBg: "../img/R08L100-bg.png",
+        visualBg: "../img/bg5.png",
 
         slideImages: [
             "../img/R08L100-1.png",
