@@ -5,9 +5,9 @@ const productData = {
         products: [
             {
             category: "Zetstation-S시리즈",
-            name: "SSR001",
+            name: "SS",
             desc: "S-Series 제품 설명이 들어갑니다....",
-            img: "../img/WSR213.png",
+            img: "../img/.png",
             alt: "SSR001",
             link: "./WSR213.html"
             }
@@ -40,6 +40,14 @@ const productData = {
             desc: "다양한 산업 환경에서 안정적인 스캔 성능을 제공하는 블루투스 스캐너입니다....",
             img: "../img/WSR209.png",
             alt: "WSR209",
+            link: "./WSR213.html"
+            },
+            {
+            category: "Zetstation-W시리즈",
+            name: "SSR001",
+            desc: "W-Series 제품 설명이 들어갑니다....",
+            img: "../img/.png",
+            alt: "SSR001",
             link: "./WSR213.html"
             }
         ]
@@ -99,6 +107,7 @@ const productData = {
             }
         ]
     },
+
     "m-series": {
     title: "M-Series",
     visualImg: "../img/Zetstation-bg.png",
@@ -107,12 +116,13 @@ const productData = {
             category: "Zetstation-M시리즈",
             name: "MODEL HRD2000M",
             desc: "m-Series 제품 설명이 들어갑니다....",
-            img: "../img/MODEL-HRD2000M.png",
+            img: "../img/.png",
             alt: "MODEL-HRD2000M",
             link: "./product-detail.html?product=esr001"
             }
         ]
     },
+
     "ig-series": {
     title: "43IG",
     visualImg: "../img/Zetstation-bg.png",
@@ -127,6 +137,7 @@ const productData = {
             }
         ]
     },
+
     "n-series": {
     title: "NVIS-Series",
     visualImg: "../img/Zetstation-bg.png",
@@ -173,6 +184,21 @@ const productData = {
             }
         ]
     },
+
+    "c-series": {
+    title: "CSTM-Series",
+    visualImg: "../img/Zetstation-bg.png",
+    products: [
+            {
+            category: "Zetstation-M시리즈",
+            name: "MODEL HRD2000M",
+            desc: "m-Series 제품 설명이 들어갑니다....",
+            img: "../img/MODEL-HRD2000M.png",
+            alt: "MODEL-HRD2000M",
+            link: "./product-detail.html?product=esr001"
+            }
+        ]
+    }
 };
 
 const params = new URLSearchParams(window.location.search);
