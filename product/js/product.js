@@ -141,7 +141,7 @@ const productData = {
 
     "n-series": {
     title: "NVIS-Series",
-    visualImg: "../img/Zetstation-bg.png",
+    visualImg: "../img/W22L100-bg.png",
     products: [
             {
             category: "NVIS시리즈",
