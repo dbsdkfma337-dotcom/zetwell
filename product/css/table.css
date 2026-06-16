@@ -127,6 +127,24 @@
     border-right: 1px solid #ddd;
 }
 
+/* 동영상 */
+
+.video-section {
+    padding: 120px 0;
+    background: #f5f5f5;
+}
+
+.video-box {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.video-box video {
+    width: 100%;
+    display: block;
+}
+
 /* 태블릿 */
 @media (max-width: 1024px) {
     .photo-grid {

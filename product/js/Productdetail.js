@@ -60,6 +60,8 @@ const productData = {
             ]
         },
 
+        video: "../img/43IG-video.mp4",
+
 
         specTable: [
             ["프로세서", "Intel® Core™ Ultra 7/5 Series processors, Q870 Chipset"],
@@ -144,6 +146,17 @@ const productData = {
 const params = new URLSearchParams(window.location.search);
 const productKey = params.get("product") || "43ig";
 const product = productData[productKey];
+const videoSection = document.getElementById("videoSection");
+const productVideo = document.getElementById("productVideo");
+const productVideoSource = document.getElementById("productVideoSource");
+
+if (product.video) {
+    videoSection.style.display = "block";
+    productVideoSource.src = product.video;
+    productVideo.load();
+} else {
+    videoSection.style.display = "none";
+}
 
 if (!product) {
     console.error("해당 제품 데이터가 없습니다:", productKey);
