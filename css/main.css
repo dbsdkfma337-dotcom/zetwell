@@ -80,7 +80,7 @@ body {
 }
 
 #header.open .sub-bg {
-    height: 220px;
+    height: 230px;
     opacity: 1;
     visibility: visible;
 }
@@ -165,7 +165,10 @@ body {
 }
 
 .main-visual p {
-    padding-top: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    transform: translateY(-50%);
     line-height: 1.2;
     color: #fff;
     font-size: 2.5vw;
@@ -177,12 +180,13 @@ body {
     width: 100%;
     min-height: 100vh;
     height: auto;
+    padding: 80px 0;
     color: #fff;
     box-sizing: border-box;
 }
 
 .maincontent1 p {
-    padding: 80px 0px 20px;
+    padding: 0px 0px 20px;
     font-size: 2.5vw;
     border-bottom: 1px solid #Fff;
 }
@@ -218,7 +222,6 @@ body {
     color: #b1b1b1;
     font-size: 14px;
 }
-
 
 .maincontent1 .text-wrap .text-box img {
     width: 80px;
@@ -439,4 +442,31 @@ body {
     font-size: 14px;
     line-height: 1.8;
     color: #bdbdbd;
+}
+
+@media (max-height: 800px) {
+    .maincontent1 {
+        padding: 50px 0;
+    }
+
+    .maincontent1 .text-wrap {
+        gap: 30px;
+        margin-top: 35px;
+    }
+
+    .maincontent1 .text-wrap .text-box {
+        padding-bottom: 30px;
+    }
+
+    .maincontent1 .text-wrap .text-box .num {
+        font-size: 48px;
+    }
+
+    .maincontent1 .text-wrap .text-box > span > span:nth-of-type(1) {
+        font-size: 21px;
+    }
+
+    .maincontent1 .text-wrap .text-box img {
+        width: 65px;
+    }
 }
