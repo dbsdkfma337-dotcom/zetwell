@@ -7,11 +7,11 @@ const newsData = [
         link: "./nvis.html"
     },
     {
-        img: "../img/",
+        img: "../img/trm.png",
         category: "blog",
-        title: "NVIS란 무엇인가",
-        date: "2026.06.15",
-        link: "./nvis.html"
+        title: "TPM 컴퓨터 칩과 디지털 보안",
+        date: "2026.06.17",
+        link: "./tpm.html"
     },
     {
         img: "../img/",
