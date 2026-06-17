@@ -339,3 +339,130 @@
         font-size: 25px;
     }
 }
+
+.tpm-section {
+    padding: 120px 20px;
+    background: #f6f8fb;
+    color: #1f2933;
+}
+
+.tpm-section .inner {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.tpm-title {
+    padding: 80px 70px;
+    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.18);
+}
+
+.tpm-title span {
+    display: inline-block;
+    margin-bottom: 14px;
+    color: #0b6b5c;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.tpm-title h2 {
+    font-size: 42px;
+    line-height: 1.3;
+    font-weight: 800;
+    color: #111827;
+    margin-bottom: 20px;
+}
+
+.tpm-title p {
+    max-width: 720px;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #5b6472;
+}
+
+.tpm-section .img-content img {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.tpm-content {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    padding: 42PX;
+    background: #fff;
+    border: 1px solid #e5eaf0;
+    box-shadow: 0 20px 40px rgba(15, 23, 42, 0.06);
+}
+
+.tpm-card h3 {
+    margin-bottom: 30px;
+    font-size: 26px;
+    font-weight: 800;
+    color: #0f172a;
+}
+
+.text-box {
+    padding-top: 24px;
+    border-top: 1px solid #edf1f5;
+}
+
+.text-box + .text-box {
+    margin-top: 26px;
+}
+
+.text-box h4,
+.feature-item h4 {
+    margin-bottom: 12px;
+    font-size: 19px;
+    font-weight: 700;
+    color: #0b6b5c;
+}
+
+.text-box p,
+.feature-item p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #4b5563;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px;
+}
+
+.feature-item {
+    padding: 28px;
+    background: #f8fafc;
+    border: 1px solid #e5eaf0;
+    border-radius: 18px;
+}
+
+@media (max-width: 768px) {
+    .tpm-section {
+        padding: 80px 16px;
+    }
+
+    .tpm-title h2 {
+        font-size: 30px;
+    }
+
+    .tpm-title p {
+        font-size: 16px;
+    }
+
+    .tpm-card {
+        padding: 28px 22px;
+        border-radius: 18px;
+    }
+
+    .tpm-card h3 {
+        font-size: 22px;
+    }
+
+    .feature-grid {
+        grid-template-columns: 1fr;
+    }
+}

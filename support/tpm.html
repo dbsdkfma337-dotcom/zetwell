@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRM</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/company.css">
+    <link rel="stylesheet" href="./css/blog.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <script src="../js/main.js" defer></script>
+    <script src="./js/news.js" defer></script>
+</head>
+<body>
+    <main class="nvis-page">
+        <header id="header" class="sub-header">
+            <h1 class="logo">
+                <a href="../index.html">Zetwell</a>
+            </h1>
+
+            <div class="gnb-area">
+                <nav class="gnb" aria-label="주요 메뉴">
+                    <ul class="gnb-list">
+                        <li class="gnb-item">
+                            <a href="#" class="gnb-link">ZETstation</a>
+                            <ul class="depth2">
+                                <li><a href="../product/S-Series.html?series=s-series">S-Series</a></li>
+                                <li><a href="../product/S-Series.html?series=w-series">W-Series</a></li>
+                                <li><a href="../product/S-Series.html?series=e-series">E-Series</a></li>
+                                <li><a href="../product/S-Series.html?series=m-series">M-Series</a></li>
+                                <li><a href="../product/S-Series.html?series=c-series">CSTM-Series</a></li>
+                            </ul>
+                        </li>
+                        <li class="gnb-item">
+                            <a href="#" class="gnb-link">ZETable</a>
+                            <ul class="depth2">
+                                <li><a href="../product/table.html?product=43ig">43IG</a></li>
+                                <li><a href="../product/table.html?product=43ig">43MG</a></li>
+                            </ul>
+                        </li>
+                        <li class="gnb-item">
+                            <a href="#" class="gnb-link">Zetview</a>
+                            <ul class="depth2">
+                                <li><a href="../product/S-Series.html?series=n-series">NVIS 모니터</a></li>
+                                <li><a href="#">투명디스플레이</a></li>
+                            </ul>
+                        </li>
+                        <li class="gnb-item">
+                            <a href="#" class="gnb-link">부가장치</a>
+                            <ul class="depth2">
+                                <li><a href="#">PowerlBank</a></li>
+                                <li><a href="#">SolarPanel</a></li>
+                                <li><a href="#">EMP방어</a></li>
+                            </ul>
+                        </li>
+                        <li class="gnb-item">
+                            <a href="#" class="gnb-link">support</a>
+                            <ul class="depth2">
+                            <li><a href="./as.html">A/S 접수안내</a></li>
+                            <li><a href="./contact.html">제품문의</a></li>
+                            <li><a href="./blog.html">Blog</a></li>
+                            </ul>
+                        </li>
+                        <li class="gnb-item">
+                            <a href="#" class="gnb-link">company</a>
+                            <ul class="depth2">
+                                <li><a href="../company/greeting.html">인사말</a></li>
+                                <li><a href="../company/mission.html">Mission & Vision</a></li>
+                                <li><a href="../company/organization-chart.html">조직도</a></li>
+                                <li><a href="../company/map.html">오시는길</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="lang">
+                    <button type="button" class="lang-btn" aria-label="언어 선택">
+                        <img src="../img/5f0d5f7c-cf82-44bb-ab16-2d1b226a41c0.png" alt="">
+                    </button>
+                    <div class="lang-list">
+                        <a href="#">ko</a>
+                        <a href="#">eng</a>
+                    </div>
+                </div>
+
+                <button type="button" class="menu-btn" aria-label="메뉴 열기" style="display: none;">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+
+            <div class="sub-bg"></div>
+        </header>
+
+        <div class="quick-contact" id="quickContact">
+            <div class="quick-popup">
+                <a href="tel:1566-9090">
+                    <span class="fa-solid fa-phone"></span>
+                    <strong>구매문의</strong>
+                    <em>02-3281-0130</em>
+                </a>
+            </div>
+
+            <button type="button" class="quick-btn" id="quickBtn" aria-label="구매문의 열기">
+                <i class="fa-solid fa-phone phone-icon"></i>
+                <span class="close-icon">×</span>
+            </button>
+        </div>
+
+        <section class="tpm-section">
+            <div class="inner">
+                <div class="tpm-title">
+                    <span>Technology Insight</span>
+                    <h2>TPM 컴퓨터 칩과 디지털 보안에서의 역할 이해</h2>
+                    <p>
+                        TPM은 컴퓨팅 장치의 신뢰성과 데이터 보호를 강화하기 위해 사용되는
+                        하드웨어 기반 보안 기술입니다.
+                    </p>
+                </div>
+
+                <div class="tpm-content">
+                    <article class="img-content">
+                        <img src="../img/trm.png" alt="">
+                    </article>
+
+                    <article class="tpm-card">
+                        <h3>01. TPM 이해</h3>
+
+                        <div class="text-box">
+                            <h4>TPM이란?</h4>
+                            <p>
+                                TPM(Trusted Platform Module)은 노트북, 데스크톱, 서버 등 다양한 컴퓨팅 장치에
+                                탑재되는 보안 칩입니다. 암호화 키, 디지털 인증서, 비밀번호와 같은 민감한 정보를
+                                안전하게 저장하고, 보안 기능이 안정적으로 동작할 수 있는 기반을 제공합니다.
+                            </p>
+                        </div>
+
+                        <div class="text-box">
+                            <h4>TPM의 작동 방식</h4>
+                            <p>
+                                TPM은 장치의 주 프로세서와 분리된 독립적인 보안 영역에서 동작합니다.
+                                이를 통해 암호화 키를 생성·관리하고, 시스템 구성 요소가 임의로 변경되거나
+                                변조되는 것을 방지하는 데 도움을 줍니다.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="tpm-card">
+                        <h3>02. TPM의 주요 기능</h3>
+
+                        <div class="feature-grid">
+                            <div class="feature-item">
+                                <h4>보안 부팅</h4>
+                                <p>
+                                    시스템 시작 시 펌웨어와 운영 체제 구성 요소의 무결성을 확인하여
+                                    부팅 과정에서 발생할 수 있는 악성 변조를 탐지합니다.
+                                </p>
+                            </div>
+
+                            <div class="feature-item">
+                                <h4>키 생성 및 저장</h4>
+                                <p>
+                                    TPM 내부의 보호된 영역에서 암호화 키를 생성하고 저장하여
+                                    외부 공격자가 키에 접근하기 어렵도록 합니다.
+                                </p>
+                            </div>
+
+                            <div class="feature-item">
+                                <h4>하드웨어 기반 암호화</h4>
+                                <p>
+                                    CPU에 과도한 부담을 주지 않으면서 암호화와 복호화 작업을 수행할 수 있어
+                                    보안성과 효율성을 함께 높입니다.
+                                </p>
+                            </div>
+
+                            <div class="feature-item">
+                                <h4>원격 증명</h4>
+                                <p>
+                                    원격 장치의 하드웨어와 소프트웨어 상태를 검증할 수 있도록 지원하여
+                                    신뢰할 수 있는 통신 환경을 구성하는 데 활용됩니다.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="tpm-card">
+                        <h3>03. 최신 컴퓨팅 환경에서 TPM의 중요성</h3>
+
+                        <div class="text-box">
+                            <h4>데이터 보호</h4>
+                            <p>
+                                사이버 위협과 데이터 유출 위험이 증가하면서 중요한 정보 보호의 필요성이
+                                더욱 커지고 있습니다. TPM은 데이터를 암호화하고 인증된 사용자만 접근할 수 있도록
+                                지원하여 보안 수준을 높입니다.
+                            </p>
+                        </div>
+
+                        <div class="text-box">
+                            <h4>보안 통신</h4>
+                            <p>
+                                TPM은 안전한 통신 채널을 구축하는 데 필요한 신뢰 기반을 제공하며,
+                                중간자 공격이나 도청과 같은 위협을 줄이는 데 도움을 줍니다.
+                            </p>
+                        </div>
+
+                        <div class="text-box">
+                            <h4>하드웨어 변조 방지</h4>
+                            <p>
+                                장치의 하드웨어나 주요 시스템 구성 요소가 무단으로 변경되는 것을 탐지하여
+                                시스템 무결성을 유지하는 역할을 합니다.
+                            </p>
+                        </div>
+
+                        <div class="text-box">
+                            <h4>클라우드 환경에서의 신뢰 확보</h4>
+                            <p>
+                                클라우드 서비스에서는 장치와 서비스 간의 신뢰가 중요합니다.
+                                TPM은 원격 증명과 키 보호 기능을 통해 클라우드 환경에서도 안전한 운영 기반을 제공합니다.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="tpm-card">
+                        <h3>04. TPM 구현 및 통합</h3>
+
+                        <div class="text-box">
+                            <h4>운영 체제와 TPM</h4>
+                            <p>
+                                Windows, macOS, Linux 등 최신 운영 체제는 TPM 기능을 지원하며,
+                                보안 부팅, 디스크 암호화, 인증 기능 등 다양한 보안 서비스와 연동될 수 있습니다.
+                            </p>
+                        </div>
+
+                        <div class="text-box">
+                            <h4>모바일 디바이스와 TPM</h4>
+                            <p>
+                                스마트폰과 태블릿 같은 모바일 디바이스에서도 하드웨어 기반 보안 기술은
+                                사용자 데이터 보호와 장치 신뢰성 강화를 위해 중요한 역할을 합니다.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="tpm-card">
+                        <h3>05. 과제와 향후 방향</h3>
+
+                        <div class="text-box">
+                            <h4>도입 과제</h4>
+                            <p>
+                                TPM은 높은 보안성을 제공하지만, 장치 호환성, 표준화, 사용자 인식 부족과 같은
+                                과제도 존재합니다. 이러한 요소를 개선하는 것은 TPM 확산에 중요한 부분입니다.
+                            </p>
+                        </div>
+
+                        <div class="text-box">
+                            <h4>TPM 2.0과 미래 보안</h4>
+                            <p>
+                                TPM 2.0은 이전 세대보다 향상된 보안 기능과 유연성을 제공합니다.
+                                앞으로도 하드웨어 기반 보안 기술은 디지털 자산 보호와 신뢰할 수 있는 컴퓨팅 환경을
+                                구축하는 핵심 요소로 활용될 것입니다.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-inner">
+                <div class="footer-left">
+                    <h2>
+                        국내 기술력으로<br>
+                        글로벌 산업 현장을<br>
+                        지원합니다
+                    </h2>
+
+                    <a href="./made-in-korea.html" class="footer-btn">
+                        MADE IN KOREA
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                    <p class="copyright">
+                        Copyright © zetwell. All Rights Reserved.
+                    </p>
+                </div>
+
+                <div class="footer-right">
+                    <div class="footer-col">
+                        <h3>Social</h3>
+                        <ul>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Instagram</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h3>Contact</h3>
+                        <p>
+                            02-2605-9999<br>
+                            02-2602-2929
+                        </p>
+                    </div>
+
+                    <div class="footer-col">
+                        <h3>Address</h3>
+                        <p>
+                            서울시 금천구 가산디지털1로 45<br>
+                            이앤씨드림타워8차 1102호
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
