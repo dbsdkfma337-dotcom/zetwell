@@ -259,6 +259,11 @@ body {
     font-weight: 300;
 }
 
+.main-visual span {
+    font-family: 'Pretendard';
+    font-weight: 400;
+}
+
 .maincontent1 {
     background: url(../img/2main-bg.png) no-repeat right center / cover;
     width: 100%;
@@ -496,6 +501,11 @@ body {
     line-height: 1.45;
     font-weight: 800;
     margin-bottom: 35px;
+}
+
+.footer-left img {
+    width: 60px;
+    vertical-align: -6px;
 }
 
 .footer-btn {
