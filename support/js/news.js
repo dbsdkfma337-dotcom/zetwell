@@ -21,25 +21,11 @@ const newsData = [
         link: "./ip.html"
     },
     {
-        img: "../img/",
+        img: "../img/ru.png",
         category: "blog",
-        title: "NVIS란 무엇인가",
+        title: "방위용 러기드 컴퓨터 선택 기준",
         date: "2026.06.15",
-        link: "./nvis.html"
-    },
-    {
-        img: "../img/",
-        category: "blog",
-        title: "NVIS란 무엇인가",
-        date: "2026.06.15",
-        link: "./nvis.html"
-    },
-    {
-        img: "../img/",
-        category: "blog",
-        title: "NVIS란 무엇인가",
-        date: "2026.06.15",
-        link: "./nvis.html"
+        link: "./rugged-tablet.html"
     }
 ];
 
