@@ -14,11 +14,11 @@ const newsData = [
         link: "./tpm.html"
     },
     {
-        img: "../img/",
+        img: "../img/ip.png",
         category: "blog",
-        title: "NVIS란 무엇인가",
-        date: "2026.06.15",
-        link: "./nvis.html"
+        title: "IP 등급 가이드: 방수와 방진 성능의 기준",
+        date: "2026.06.17",
+        link: "./ip.html"
     },
     {
         img: "../img/",

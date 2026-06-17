@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRM</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/company.css">
+    <link rel="stylesheet" href="./css/blog.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <script src="../js/main.js" defer></script>
+    <script src="./js/news.js" defer></script>
+</head>
+<body>
+    <main class="nvis-page">
+        <header id="header" class="sub-header">
+            <h1 class="logo">
+                <a href="../index.html">Zetwell</a>
+            </h1>
+
+            <div class="gnb-area">
+                <nav class="gnb" aria-label="주요 메뉴">
+                    <ul class="gnb-list">
+                        <li class="gnb-item">
+                            <a href="#" class="gnb-link">ZETstation</a>
+                            <ul class="depth2">
+                                <li><a href="../product/S-Series.html?series=s-series">S-Series</a></li>
+                                <li><a href="../product/S-Series.html?series=w-series">W-Series</a></li>
+                                <li><a href="../product/S-Series.html?series=e-series">E-Series</a></li>
+                                <li><a href="../product/S-Series.html?series=m-series">M-Series</a></li>
+                                <li><a href="../product/S-Series.html?series=c-series">CSTM-Series</a></li>
+                            </ul>
+                        </li>
+                        <li class="gnb-item">
+                            <a href="#" class="gnb-link">ZETable</a>
+                            <ul class="depth2">
+                                <li><a href="../product/table.html?product=43ig">43IG</a></li>
+                                <li><a href="../product/table.html?product=43ig">43MG</a></li>
+                            </ul>
+                        </li>
+                        <li class="gnb-item">
+                            <a href="#" class="gnb-link">Zetview</a>
+                            <ul class="depth2">
+                                <li><a href="../product/S-Series.html?series=n-series">NVIS 모니터</a></li>
+                                <li><a href="#">투명디스플레이</a></li>
+                            </ul>
+                        </li>
+                        <li class="gnb-item">
+                            <a href="#" class="gnb-link">부가장치</a>
+                            <ul class="depth2">
+                                <li><a href="#">PowerlBank</a></li>
+                                <li><a href="#">SolarPanel</a></li>
+                                <li><a href="#">EMP방어</a></li>
+                            </ul>
+                        </li>
+                        <li class="gnb-item">
+                            <a href="#" class="gnb-link">support</a>
+                            <ul class="depth2">
+                            <li><a href="./as.html">A/S 접수안내</a></li>
+                            <li><a href="./contact.html">제품문의</a></li>
+                            <li><a href="./blog.html">Blog</a></li>
+                            </ul>
+                        </li>
+                        <li class="gnb-item">
+                            <a href="#" class="gnb-link">company</a>
+                            <ul class="depth2">
+                                <li><a href="../company/greeting.html">인사말</a></li>
+                                <li><a href="../company/mission.html">Mission & Vision</a></li>
+                                <li><a href="../company/organization-chart.html">조직도</a></li>
+                                <li><a href="../company/map.html">오시는길</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="lang">
+                    <button type="button" class="lang-btn" aria-label="언어 선택">
+                        <img src="../img/5f0d5f7c-cf82-44bb-ab16-2d1b226a41c0.png" alt="">
+                    </button>
+                    <div class="lang-list">
+                        <a href="#">ko</a>
+                        <a href="#">eng</a>
+                    </div>
+                </div>
+
+                <button type="button" class="menu-btn" aria-label="메뉴 열기" style="display: none;">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+
+            <div class="sub-bg"></div>
+        </header>
+
+        <div class="quick-contact" id="quickContact">
+            <div class="quick-popup">
+                <a href="tel:1566-9090">
+                    <span class="fa-solid fa-phone"></span>
+                    <strong>구매문의</strong>
+                    <em>02-3281-0130</em>
+                </a>
+            </div>
+
+            <button type="button" class="quick-btn" id="quickBtn" aria-label="구매문의 열기">
+                <i class="fa-solid fa-phone phone-icon"></i>
+                <span class="close-icon">×</span>
+            </button>
+        </div>
+
+        <section class="ip-section">
+            <div class="inner">
+                <div class="blog-title">
+                    <span>Technology Insight</span>
+                    <h2>방수 및 방진이란? IP 등급의 의미 이해</h2>
+                    <p>
+                        IP 등급은 전기·전자 장비가 먼지, 이물질, 물의 침투로부터
+                        어느 정도 보호되는지를 나타내는 국제 보호 등급입니다.
+                    </p>
+                </div>
+
+                <div class="ip-content blog-content">
+
+                    <div class="ip-visual">
+                        <img src="../img/ip.png" alt="방수 및 방진 보호 개념 이미지">
+                    </div>
+
+                    <article class="ip-card">
+                        <h3>01. IP 등급이란?</h3>
+                        <p>
+                            IP(Ingress Protection) 등급은 제품 외함이 고체 이물질, 먼지,
+                            우발적 접촉, 물의 침투로부터 장비를 얼마나 보호할 수 있는지를
+                            숫자로 구분한 기준입니다. 단순히 “방수” 또는 “생활방수”라고 표현하는 것보다
+                            보호 수준을 더 명확하게 확인할 수 있습니다.
+                        </p>
+                    </article>
+
+                    <article class="ip-card">
+                        <h3>02. IP 코드 읽는 방법</h3>
+
+                        <div class="ip-table">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>코드 문자</th>
+                                        <th>첫 번째 숫자: 고체 입자 보호</th>
+                                        <th>두 번째 숫자: 액체 침투 보호</th>
+                                        <th>세 번째 숫자: 기계적 충격 저항</th>
+                                        <th>추가 문자: 기타 보호</th>
+                                        <th>보충 문자: 기타 보호</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>IP</td>
+                                        <td>단일 숫자: 0~6 또는 문자 X</td>
+                                        <td>단일 숫자: 0~8 또는 문자 X</td>
+                                        <td>단일 숫자: 0~9</td>
+                                        <td>단일 문자: A, B, C, D</td>
+                                        <td>단일 문자: F, H, M, S</td>
+                                    </tr>
+                                    <tr>
+                                        <td>필수</td>
+                                        <td>필수</td>
+                                        <td>필수</td>
+                                        <td>더 이상 사용되지 않음</td>
+                                        <td>선택</td>
+                                        <td>선택</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </article>
+
+                    <article class="ip-card">
+                        <h3>03. 첫 번째 숫자: 방진 등급</h3>
+
+                        <div class="ip-table">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>등급</th>
+                                        <th>보호 수준</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>0</td>
+                                        <td>보호 없음</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>50mm 이상의 큰 고체 물체로부터 보호</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>12.5mm 이상의 물체, 손가락 접촉 등으로부터 보호</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>2.5mm 이상의 도구나 두꺼운 전선으로부터 보호</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>1mm 이상의 전선, 나사, 작은 이물질로부터 보호</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>장비 작동에 영향을 줄 정도의 먼지 침투를 제한</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>먼지 침투를 완전히 차단하는 방진 구조</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </article>
+
+                    <article class="ip-card">
+                        <h3>04. 두 번째 숫자: 방수 등급</h3>
+
+                        <div class="ip-table">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>등급</th>
+                                        <th>보호 수준</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>0</td>
+                                        <td>보호 없음</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>수직으로 떨어지는 물방울로부터 보호</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>기울어진 상태에서 떨어지는 물방울로부터 보호</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>분사되는 물로부터 보호</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>모든 방향에서 튀는 물로부터 보호</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>모든 방향의 저압 물줄기로부터 보호</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>강한 물줄기로부터 보호</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>최대 1m 깊이로부터 보호</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>1m 이상의 침수로부터 보호, 제조업체는 테스트 시간과 깊이를 명시</td>
+                                    </tr>
+                                    <tr>
+                                        <td>9K</td>
+                                        <td>강력한 80°C(176°F) 물 분사로부터 보호</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </article>
+
+                    <article class="ip-card">
+                        <h3>05. 어떤 IP 등급이 필요할까?</h3>
+
+                        <div class="feature-grid">
+                            <div class="feature-item">
+                                <h4>실내 환경</h4>
+                                <p>
+                                    일반적인 사무실이나 실내 설비처럼 물이나 먼지 노출이 적은 환경에서는
+                                    비교적 낮은 IP 등급으로도 충분한 경우가 많습니다.
+                                </p>
+                            </div>
+
+                            <div class="feature-item">
+                                <h4>실외 환경</h4>
+                                <p>
+                                    야외, 해안 지역, 공장, 창고처럼 먼지나 습기, 빗물에 노출될 수 있는 환경에서는
+                                    더 높은 수준의 방진·방수 등급이 필요합니다.
+                                </p>
+                            </div>
+
+                            <div class="feature-item">
+                                <h4>산업 현장</h4>
+                                <p>
+                                    장비 세척을 위해 물줄기나 고압 세척이 사용되는 현장에서는
+                                    IP65, IP66 또는 IP69K와 같은 높은 보호 등급이 고려될 수 있습니다.
+                                </p>
+                            </div>
+
+                            <div class="feature-item">
+                                <h4>제품 선택 기준</h4>
+                                <p>
+                                    IP 등급은 설치 장소, 물과 먼지 노출 정도, 세척 방식,
+                                    장비의 사용 목적을 함께 고려하여 선택하는 것이 중요합니다.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="ip-card ip-summary">
+                        <h3>정리</h3>
+                        <p>
+                            IP 등급은 제품의 방수·방진 성능을 객관적으로 확인할 수 있는 중요한 기준입니다.
+                            특히 산업용 장비, 국방 장비, 야외 설치형 시스템처럼 환경 조건이 까다로운 분야에서는
+                            제품 신뢰성과 안정성을 판단하는 핵심 요소로 활용됩니다.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-inner">
+                <div class="footer-left">
+                    <h2>
+                        국내 기술력으로<br>
+                        글로벌 산업 현장을<br>
+                        지원합니다
+                    </h2>
+
+                    <a href="./made-in-korea.html" class="footer-btn">
+                        MADE IN KOREA
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                    <p class="copyright">
+                        Copyright © zetwell. All Rights Reserved.
+                    </p>
+                </div>
+
+                <div class="footer-right">
+                    <div class="footer-col">
+                        <h3>Social</h3>
+                        <ul>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Instagram</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h3>Contact</h3>
+                        <p>
+                            02-2605-9999<br>
+                            02-2602-2929
+                        </p>
+                    </div>
+
+                    <div class="footer-col">
+                        <h3>Address</h3>
+                        <p>
+                            서울시 금천구 가산디지털1로 45<br>
+                            이앤씨드림타워8차 1102호
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>

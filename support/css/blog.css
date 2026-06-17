@@ -351,12 +351,12 @@
     margin: 0 auto;
 }
 
-.tpm-title {
+.blog-title {
     padding: 80px 70px;
     box-shadow: 0 30px 80px rgba(0, 0, 0, 0.18);
 }
 
-.tpm-title span {
+.blog-title span {
     display: inline-block;
     margin-bottom: 14px;
     color: #0b6b5c;
@@ -366,7 +366,7 @@
     text-transform: uppercase;
 }
 
-.tpm-title h2 {
+.blog-title h2 {
     font-size: 42px;
     line-height: 1.3;
     font-weight: 800;
@@ -374,7 +374,7 @@
     margin-bottom: 20px;
 }
 
-.tpm-title p {
+.blog-title p {
     max-width: 720px;
     font-size: 18px;
     line-height: 1.7;
@@ -382,18 +382,14 @@
 }
 
 .tpm-section .img-content img {
-    width: 800px;
-    margin: 0 auto;
+    width: 680px;
+    margin: 0 auto 30px;
 }
 
 .tpm-content {
     display: flex;
     flex-direction: column;
     gap: 28px;
-    padding: 42PX;
-    background: #fff;
-    border: 1px solid #e5eaf0;
-    box-shadow: 0 20px 40px rgba(15, 23, 42, 0.06);
 }
 
 .tpm-card h3 {
@@ -445,11 +441,11 @@
         padding: 80px 16px;
     }
 
-    .tpm-title h2 {
+    .blog-title h2 {
         font-size: 30px;
     }
 
-    .tpm-title p {
+    .blog-title p {
         font-size: 16px;
     }
 
@@ -462,6 +458,146 @@
         font-size: 22px;
     }
 
+    .feature-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.ip-section {
+    padding: 120px 20px;
+    background: #f5f7fa;
+    color: #1f2933;
+}
+
+.ip-section .inner {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.ip-visual {
+    margin: 0 auto;
+    width: 820px;
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+
+.ip-visual img {
+    width: 100%;
+    display: block;
+}
+
+.ip-content {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.ip-card {
+    padding: 42px;
+}
+
+.ip-card h3 {
+    margin-bottom: 24px;
+    font-size: 26px;
+    font-weight: 800;
+    color: #0f172a;
+}
+
+.ip-card p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #4b5563;
+}
+
+.ip-table {
+    overflow-x: auto;
+}
+
+.ip-table table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 640px;
+}
+
+.ip-table th,
+.ip-table td {
+    padding: 18px 20px;
+    border-bottom: 1px solid #e5eaf0;
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.ip-table th {
+    background: #f8fafc;
+    color: #111827;
+    font-weight: 700;
+}
+
+.ip-table td:first-child {
+    width: 100px;
+    font-weight: 800;
+    color: #52692f;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px;
+}
+
+.feature-item {
+    padding: 28px;
+    background: #f8fafc;
+    border: 1px solid #e5eaf0;
+    border-radius: 18px;
+}
+
+.feature-item h4 {
+    margin-bottom: 12px;
+    font-size: 19px;
+    font-weight: 700;
+    color: #52692f;
+}
+
+.feature-item p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #4b5563;
+}
+
+.ip-summary {
+    background: #111827;
+}
+
+.ip-summary h3,
+.ip-summary p {
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .ip-section {
+        padding: 80px 16px;
+    }
+
+    .ip-title h2 {
+        font-size: 30px;
+    }
+
+    .ip-title p {
+        font-size: 16px;
+    }
+
+    .ip-card {
+        padding: 28px 22px;
+        border-radius: 18px;
+    }
+
+    .ip-card h3 {
+        font-size: 22px;
+    }
+
+    .ip-code-box,
     .feature-grid {
         grid-template-columns: 1fr;
     }
