@@ -504,6 +504,7 @@ body {
 }
 
 .footer-left img {
+    display: inline-block;
     width: 60px;
     vertical-align: -6px;
 }
