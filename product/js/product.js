@@ -7,7 +7,7 @@ const productData = {
             category: "Zetstation-S시리즈",
             name: "SS",
             desc: "S-Series 제품 설명이 들어갑니다....",
-            img: "../img/.png",
+            img: "../img/S.png",
             alt: "SSR001",
             link: "./WSR213.html"
             }
@@ -62,7 +62,7 @@ const productData = {
             category: "Zetstation-E시리즈",
             name: "EPH10",
             desc: "E-Series 제품 설명이 들어갑니다....",
-            img: "../img/EPH10.png",
+            img: "../img/EPH10-All.png",
             alt: "EPH10",
             link: "./product-detail.html?product=esr001"
             },
@@ -70,7 +70,7 @@ const productData = {
             category: "Zetstation-E시리즈",
             name: "EPH8",
             desc: "E-Series 제품 설명이 들어갑니다....",
-            img: "../img/EPH10.png",
+            img: "../img/EPH10-All2.png",
             alt: "EPH8",
             link: "./product-detail.html?product=esr001"
             },
@@ -78,7 +78,7 @@ const productData = {
             category: "Zetstation-E시리즈",
             name: "EPN2000B",
             desc: "E-Series 제품 설명이 들어갑니다....",
-            img: "../img/EPH10.png",
+            img: "../img/EPH10-All3.png",
             alt: "EPN2000B",
             link: "./product-detail.html?product=esr001"
             },
