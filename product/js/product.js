@@ -62,7 +62,7 @@ const productData = {
             category: "Zetstation-E시리즈",
             name: "EPH10",
             desc: "E-Series 제품 설명이 들어갑니다....",
-            img: "../img/EPH10-All.png",
+            img: "../img/100.png",
             alt: "EPH10",
             link: "./product-detail.html?product=esr001"
             },
@@ -70,7 +70,7 @@ const productData = {
             category: "Zetstation-E시리즈",
             name: "EPH8",
             desc: "E-Series 제품 설명이 들어갑니다....",
-            img: "../img/EPH10-All2.png",
+            img: "../img/101.png",
             alt: "EPH8",
             link: "./product-detail.html?product=esr001"
             },
@@ -78,7 +78,7 @@ const productData = {
             category: "Zetstation-E시리즈",
             name: "EPN2000B",
             desc: "E-Series 제품 설명이 들어갑니다....",
-            img: "../img/EPH10-All3.png",
+            img: "../img/102.png",
             alt: "EPN2000B",
             link: "./product-detail.html?product=esr001"
             },
@@ -86,7 +86,7 @@ const productData = {
             category: "Zetstation-E시리즈",
             name: "IHH10",
             desc: "E-Series 제품 설명이 들어갑니다....",
-            img: "../img/EPH10--.png",
+            img: "../img/104.png",
             alt: "IHH10",
             link: "./product-detail.html?product=esr001"
             },
@@ -94,7 +94,7 @@ const productData = {
             category: "Zetstation-E시리즈",
             name: "IHH8",
             desc: "E-Series 제품 설명이 들어갑니다....",
-            img: "../img/EPH10-.png",
+            img: "../img/106.png",
             alt: "IHH8",
             link: "./product-detail.html?product=esr001"
             },
@@ -102,7 +102,7 @@ const productData = {
             category: "Zetstation-E시리즈",
             name: "IHN2000B",
             desc: "E-Series 제품 설명이 들어갑니다....",
-            img: "../img/EPH10-111.png",
+            img: "../img/107.png",
             alt: "IHN2000B",
             link: "./product-detail.html?product=esr001"
             }
