@@ -1,13 +1,70 @@
-.sub-visual::before {
+.table-page .sub-visual {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 57px);
+    min-height: 750px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.table-page .sub-visual::before {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(0, 22, 42, 0.62);
+    background: rgba(0,0,0,.2);
 }
 
-.sub-visual > * {
-    position: relative;
-    z-index: 1;
+.table-page .sub-visual-text {
+    position: absolute;
+    top: 310px;
+    left: 120px;
+    z-index: 2;
+    color: #fff;
+}
+
+.table-page .sub-visual-text p {
+    font-size: 28px;
+    font-weight: 500;
+    color: #315fd6;;
+}
+
+.table-page .sub-visual-text h2 {
+    font-size: 50px;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+.table-page .sub-visual-text strong {
+    display: block;
+    margin-top: 170px;
+    font-size: 110px;
+    line-height: 1;
+    font-weight: 700;
+}
+
+.table-page .sub-visual-text strong::after {
+    content: '';
+    position: absolute;
+    display: block;
+    border-bottom: 1px solid #315fd6;
+}
+
+.table-page .sub-visual-product {
+    position: absolute;
+    right: 18%;
+    bottom: 0;
+    width: 34vw;
+    max-width: 650px;
+    z-index: 2;
+}
+
+.table-page .sub-visual-product img {
+    width: 100%;
+    display: block;
 }
 
 .table-page .design-section {

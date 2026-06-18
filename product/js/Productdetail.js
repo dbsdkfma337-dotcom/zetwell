@@ -2,9 +2,15 @@ const productData = {
 
     "43ig": {
 
-        title: "43IG",
+        title: "이동형 멀티터치<br> 테이블 디스플레이",
 
-        visualImg: "../img/bg5.png",
+        desc: "Built for On-the-Move Operations",
+
+        model: "43IG",
+
+        visualImg: "../img/bg11.png",
+
+        productImg: "../img/.png",
 
         sliderImages: [
             "../img/43IG-h.png",
@@ -252,3 +258,15 @@ document.getElementById("ruggedList").innerHTML =
 
 document.getElementById("subVisual").style.backgroundImage =
     `url(${product.visualImg})`;
+
+document.getElementById("subVisualDesc").textContent =
+    product.desc;
+
+document.getElementById("subVisualTitle").innerHTML =
+    product.title;
+
+document.getElementById("subVisualModel").textContent =
+    product.model;
+
+document.getElementById("subVisualProductImg").src =
+    product.productImg;
