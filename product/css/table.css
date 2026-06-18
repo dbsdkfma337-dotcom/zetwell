@@ -28,8 +28,9 @@
 
 .table-page .sub-visual-text p {
     font-size: 28px;
-    font-weight: 500;
+    font-weight: 600;
     color: #315fd6;;
+    letter-spacing:-0.02em;
 }
 
 .table-page .sub-visual-text h2 {
