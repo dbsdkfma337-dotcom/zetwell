@@ -16,6 +16,7 @@
     align-items: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #111;
     position: relative;
 }
 
@@ -245,7 +246,7 @@
 .info-box p {
     max-width: 620px;
     margin-bottom: 90px;
-    font-size: 17px;
+    font-size: 20px;
     line-height: 1.9;
     color: rgba(255, 255, 255, 0.58);
     word-break: keep-all;
