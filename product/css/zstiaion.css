@@ -12,19 +12,23 @@
 .sub-visual {
   height: 390px;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
+  padding-top: 120px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+  z-index: 1;
+      
 }
+
 
 .sub-visual::before {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(0, 22, 42, 0.62);
+
 }
 
 .sub-visual h2 {
@@ -32,6 +36,12 @@
     color: rgba(255, 255, 255, 0.45);
     font-size: 46px;
     font-weight: 800;
+}
+
+.sub-visual p {
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
 }
 
 .product-list-section {
