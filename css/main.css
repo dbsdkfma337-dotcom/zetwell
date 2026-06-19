@@ -4,7 +4,7 @@ body {
 }
 
 .inner {
-    padding: 0px 50px;
+    padding: 0px 80px;
 }
 
 #header {
@@ -276,7 +276,7 @@ body {
 
 .maincontent1 p {
     padding: 0px 0px 20px;
-    font-size: 2.5vw;
+    font-size: 55px;
     border-bottom: 1px solid #Fff;
 }
 
@@ -310,11 +310,6 @@ body {
 .maincontent1 .text-wrap .text-box > span > span:nth-of-type(2) {
     color: #b1b1b1;
     font-size: 14px;
-}
-
-.maincontent1 .text-wrap .text-box img {
-    width: 80px;
-    height: 100%;
 }
 
 .maincontent3 {
