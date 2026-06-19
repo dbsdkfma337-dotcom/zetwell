@@ -70,3 +70,16 @@ const defaultProduct = productVisualData.mobile;
 
 visual.style.backgroundImage = `url(${defaultProduct.bg})`;
 title.textContent = defaultProduct.title;
+
+const lang = document.querySelector(".lang");
+const langBtn = document.querySelector(".lang-btn");
+const langList = document.querySelector(".lang-list");
+
+langBtn.addEventListener("click", (e) => {
+    e.stopPropagation();
+    langList.classList.toggle("active");
+});
+
+document.addEventListener("click", () => {
+    langList.classList.remove("active");
+});

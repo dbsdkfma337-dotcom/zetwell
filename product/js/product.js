@@ -119,7 +119,7 @@ const productData = {
             desc: "하이브리드 케리어 장치",
             img: "../img/UK2000.png",
             alt: "UK2000",
-            link: "./product-detail.html?product=esr001"
+            link: "./table.html?product=uk2000"
             }
         ]
     },

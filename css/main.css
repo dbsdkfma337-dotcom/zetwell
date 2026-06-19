@@ -133,29 +133,58 @@ body {
     visibility: visible;
 }
 
-.lang .lang-btn {
-    display: flex;
-    gap: 10px;
-    padding: 5px;
-    background-color: #fff;
-    border-radius: 20px;
+.lang {
+    position: relative;
+    z-index: 100;
 }
 
-.lang .lang-btn img{
+.lang .lang-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 0;
+    cursor: pointer;
+}
+
+.lang .lang-btn img {
     width: 30px;
+    height: 30px;
+    display: block;
 }
 
 .lang .lang-list {
-    display: none;
-    padding: 10px 5px;
-    padding: 4rem 0 1rem;
+    position: absolute;
+    top: 40px;
+    right: -14px;
+    min-width: 70px;
+    padding: 10px 0;
     background-color: #fff;
-    border-radius: 50px;
+    border-radius: 12px;
+    opacity: 0;
+    transform-origin: top center;
+    transform: scaleY(0.8);
+    visibility: hidden;
+    transition:
+        transform .25s ease,
+        opacity .2s ease;
+}
+
+.lang .lang-list.active {
+    transform: scaleY(1);
+    opacity: 1;
+    visibility: visible;
 }
 
 .lang .lang-list a {
     display: block;
-} 
+    padding: 7px 14px;
+    color: #111;
+    font-size: 13px;
+    text-align: center;
+}
 
 .quick-contact {
     position: fixed;
