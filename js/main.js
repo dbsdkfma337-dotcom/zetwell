@@ -20,27 +20,27 @@ const productVisualData = {
     mobile: {
         title: "NVIS 모니터",
         bg: "./img/nvis-w22-datial5.png",
-        link: "./product-detail.html?product=mobile"
+        link: "./product/S-Series.html?series=n-series"
     },
     terminal: {
         title: "W-Series",
         bg: "./img/Zetstation-bg.png",
-        link: "./product-detail.html?product=terminal"
+        link: "./product/S-Series.html?series=w-series"
     },
     rfid: {
         title: "E-Series",
         bg: "./img/UK2000-bg.png",
-        link: "./product-detail.html?product=rfid"
+        link: "./product/S-Series.html?series=e-series"
     },
     tablet: {
         title: "M-Series",
         bg: "./img/E-seriesbg.png",
-        link: "./product-detail.html?product=tablet"
+        link: "./product/S-Series.html?series=m-series"
     },
     scanner: {
         title: "43IG",
         bg: "./img/43IG1.png",
-        link: "./product-detail.html?product=scanner"
+        link: "./product/table.html"
     }
 };
 
