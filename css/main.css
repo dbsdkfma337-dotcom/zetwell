@@ -290,6 +290,7 @@ body {
 
 .maincontent1 .text-wrap .text-box{
     position: relative;
+    width: 40%;
     display: flex;
     gap: 50px;
     align-items: center;
