@@ -15,6 +15,22 @@ const productData = {
         ]
     },
 
+    "s-series-eng": {
+        title: "S-Series",
+        desc: "Tactial Xeon Power. Mobile Tactical Server Mounted in a MIL-SPEC Armored Case<br> Compact PACK Architecture Specially Designed for Tactical Mobility  ",
+        visualImg: "../img/Zetstation-bg.png",
+        products: [
+            {
+            category: "Zetstation-S시리즈",
+            name: "SS",
+            desc: "S-Series 제품 설명이 들어갑니다....",
+            img: "../img/S.png",
+            alt: "SSR001",
+            link: "./WSR213.html"
+            }
+        ]
+    },
+
     "w-series": {
         title: "W-Series",
         desc: "NVDIA GPU AI파워, 세이프가드 케이스로 어디서나 안전하게 <br> 멈추지 않는 고가용성 AI워크스테이션을 가방에 수납하십시오. <br>고충격 방지 하드케이스가 기본 매칭되어, 가장험한 현장에서도 탑티어 AI 성능을 완벽히 보호합니다.",
@@ -46,6 +62,47 @@ const productData = {
             },
             {
             category: "Zetstation-W시리즈",
+            name: "SSR001",
+            desc: "W-Series 제품 설명이 들어갑니다....",
+            img: "../img/.png",
+            alt: "SSR001",
+            link: "./WSR213.html"
+            }
+        ]
+    },
+
+    
+    "w-series-eng": {
+        title: "W-Series",
+        desc: "NVDIA GPU AI power, Store your high-availability AI workstation safely in a rugged Safeguard Case wherever you go.<br>Equipped with a high-impact protective hard case as standard, it ensures top-tier AI performance remains fully protected even in the most demanding environments..",
+        visualImg: "../img/Zetstation-bg.png",
+        products: [
+            {
+            category: "Zetstation-W series",
+            name: "WSR213",
+            desc: "장시간 고강도 데이터 스캔 업무에 적합하도록 무게를 극단적으로 줄이고 양 손에 모두 장착 가능하도록 디자인 되었습니다....",
+            img: "../img/WSR213.png",
+            alt: "WSR213",
+            link: "./WSR213.html"
+            },
+            {
+            category: "Zetstation-W series",
+            name: "WSR210",
+            desc: "PM3은 ARM® Cortex®-M4 RISC 프로세서, 1D 또는 1D/2D 스캔 엔진, Bluetooth Class II v.4.2....",
+            img: "../img/WSR210.png",
+            alt: "WSR210",
+            link: "./WSR213.html"
+            },
+            {
+            category: "Zetstation-W series",
+            name: "WSR209",
+            desc: "다양한 산업 환경에서 안정적인 스캔 성능을 제공하는 블루투스 스캐너입니다....",
+            img: "../img/WSR209.png",
+            alt: "WSR209",
+            link: "./WSR213.html"
+            },
+            {
+            category: "Zetstation-W series",
             name: "SSR001",
             desc: "W-Series 제품 설명이 들어갑니다....",
             img: "../img/.png",
@@ -103,6 +160,64 @@ const productData = {
             },
             {
             category: "Zetstation-E시리즈",
+            name: "IHN2000B",
+            desc: "E-Series 제품 설명이 들어갑니다....",
+            img: "../img/107.png",
+            alt: "IHN2000B",
+            link: "./product-detail.html?product=esr001"
+            }
+        ]
+    },
+
+    
+    "e-series-eng": {
+    title: "E-Series",
+    desc: "Carry It. Power It On. Anywhere.<br> The Ultimate Freedom in Edge AI Workstations. Expand the possibilities of AI anytime, anywhere with Zetstation,<br>designed to fit perfectly even in confined spaces without complicated setup.",
+    visualImg: "../img/E-Series-bg.png",
+    visualPosition: "center bottom",
+    products: [
+            {
+            category: "Zetstation-E series",
+            name: "EPH10",
+            desc: "E-Series 제품 설명이 들어갑니다....",
+            img: "../img/100.png",
+            alt: "EPH10",
+            link: "./product-detail.html?product=esr001"
+            },
+            {
+            category: "Zetstation-E series",
+            name: "EPH8",
+            desc: "E-Series 제품 설명이 들어갑니다....",
+            img: "../img/101.png",
+            alt: "EPH8",
+            link: "./product-detail.html?product=esr001"
+            },
+            {
+            category: "Zetstation-E series",
+            name: "EPN2000B",
+            desc: "E-Series 제품 설명이 들어갑니다....",
+            img: "../img/102.png",
+            alt: "EPN2000B",
+            link: "./product-detail.html?product=esr001"
+            },
+            {
+            category: "Zetstation-E series",
+            name: "IHH10",
+            desc: "E-Series 제품 설명이 들어갑니다....",
+            img: "../img/104.png",
+            alt: "IHH10",
+            link: "./product-detail.html?product=esr001"
+            },
+            {
+            category: "Zetstation-E series",
+            name: "IHH8",
+            desc: "E-Series 제품 설명이 들어갑니다....",
+            img: "../img/106.png",
+            alt: "IHH8",
+            link: "./product-detail.html?product=esr001"
+            },
+            {
+            category: "Zetstation-E series",
             name: "IHN2000B",
             desc: "E-Series 제품 설명이 들어갑니다....",
             img: "../img/107.png",
