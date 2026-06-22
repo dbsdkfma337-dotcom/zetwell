@@ -25,7 +25,7 @@ const productData = {
         },
 
         design: {
-            img: "../img/43IG-open.png",
+            img: "../img/43IG-h.png",
             title: `넓은 내부 공간<br>더 높은 활용성`,
             desc: `넉넉한 내부공간으로 다양한 장비와 액세서리를 효율적으로 수납할 수 있습니다. 맞춤형 품 구성으로 장비를 안전하게 고정하여 운반할 수 있습니다.`,
             specs: [
