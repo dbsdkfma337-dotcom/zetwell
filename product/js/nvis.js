@@ -96,6 +96,103 @@ const productData = {
 
     },
 
+    r08l100eng: {
+        title: "R08L100",
+        visualBg: "../img/bg5.png",
+
+        slideImages: [
+            "../img/R08L100-1.png",
+            "../img/R08L100-2.png"
+        ],
+
+        features: [
+            {
+                img: "../img/nvis-datial1.png",
+                title: "Rugged Display Designed<br> for Extreme Environments",
+                desc: "G-WIN Resistive Touch NVIS Display is designed to operate reliably in outdoor and field environments. It supports an operating temperature range of -20°C to 60°C, ensuring consistent performance in both extreme cold and hot climates."
+            },
+            {
+                img: "../img/nvis-datial2.png",
+                title: "Flexible Power Options with<br>Ignition Control",
+                desc: "Supports 9~36V DC power input and ignition key control via a remote input line. It ensures smooth startup and shutdown of vehicle systems, making it ideal for automotive and military platforms."
+            },
+            {
+                img: "../img/nvis-datial3.png",
+                title: "Designed for Daylight and NVIS Compatibility",
+                desc: "Supports both Daylight Mode and NVIS Mode, providing flexibility under changing lighting conditions. It also enables precise operation, even when wearing gloves."
+            },
+            {
+                img: "../img/nvis-datial4.png",
+                title: "MIL-STD-3009 Certified for<br>Night Vision Operations",
+                desc: "As an MIL-STD-3009 compliant NVIS display, it provides night vision goggle (NVG) compatibility and reliable backlight performance."
+            }
+        ],
+
+        specs: [
+            {
+                category: "Display",
+                items: [
+                    {
+                        label: "Size / Resolution",
+                        value: '21.5" / 1920x1080 (1000/NVIS nits)'
+                    },
+                    {
+                        label: "Type / Viewability",
+                        value: `Projected Capacitive Multi Touch Screen Bonding With Panel (Default)<br>
+                        Ture Flat Protection Glass Bonding With Panel (Optional)`
+                    },
+                    {
+                        label: "Contrast",
+                        value: "1000:1"
+                    },
+                    {
+                        label: "View Angles",
+                        value: "89,89,89,89"
+                    }
+                ]
+            },
+            {
+                category: "Mechanical",
+                items: [
+                    {
+                        label: "Dimension",
+                        value: "529.6 x 342.8 x 58 mm"
+                    },
+                    {
+                        label: "Weight",
+                        value: "8.67 kg"
+                    },
+                    {
+                        label: "Mounting",
+                        value: "VESA mount"
+                    }
+                ]
+            },
+            {
+                category: "Environment & Power",
+                items: [
+                    {
+                        label: "Temperature",
+                        value: "Op. -20°C to 60°C Sp. -30°C to 70°C"
+                    },
+                    {
+                        label: "IP rating",
+                        value: "IP67"
+                    },
+                    {
+                        label: "USB Port",
+                        value: "1x M12 type connector for Touchscreen via USB signal"
+                    },
+                    {
+                        label: "Power Input",
+                        value: "1 x M12 waterproof connector for 9~36V DC"
+                    }
+                ]
+            }
+        ]
+
+    },
+
     r10l100: {
         title: "R10L100",
         visualBg: "../img/R08L100-bg.png",

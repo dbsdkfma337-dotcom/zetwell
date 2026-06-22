@@ -39,7 +39,7 @@ const productData = {
             {
             category: "Zetstation-W시리즈",
             name: "WSR213",
-            desc: "장시간 고강도 데이터 스캔 업무에 적합하도록 무게를 극단적으로 줄이고 양 손에 모두 장착 가능하도록 디자인 되었습니다....",
+            desc: "W-Series 제품 설명이 들어갑니다....",
             img: "../img/WSR213.png",
             alt: "WSR213",
             link: "./WSR213.html"
@@ -47,7 +47,7 @@ const productData = {
             {
             category: "Zetstation-W시리즈",
             name: "WSR210",
-            desc: "PM3은 ARM® Cortex®-M4 RISC 프로세서, 1D 또는 1D/2D 스캔 엔진, Bluetooth Class II v.4.2....",
+            desc: "W-Series 제품 설명이 들어갑니다....",
             img: "../img/WSR210.png",
             alt: "WSR210",
             link: "./WSR213.html"
@@ -55,7 +55,7 @@ const productData = {
             {
             category: "Zetstation-W시리즈",
             name: "WSR209",
-            desc: "다양한 산업 환경에서 안정적인 스캔 성능을 제공하는 블루투스 스캐너입니다....",
+            desc: "W-Series 제품 설명이 들어갑니다....",
             img: "../img/WSR209.png",
             alt: "WSR209",
             link: "./WSR213.html"
@@ -71,7 +71,6 @@ const productData = {
         ]
     },
 
-    
     "w-series-eng": {
         title: "W-Series",
         desc: "NVDIA GPU AI power, Store your high-availability AI workstation safely in a rugged Safeguard Case wherever you go.<br>Equipped with a high-impact protective hard case as standard, it ensures top-tier AI performance remains fully protected even in the most demanding environments..",
@@ -80,7 +79,7 @@ const productData = {
             {
             category: "Zetstation-W series",
             name: "WSR213",
-            desc: "장시간 고강도 데이터 스캔 업무에 적합하도록 무게를 극단적으로 줄이고 양 손에 모두 장착 가능하도록 디자인 되었습니다....",
+            desc: "W-Series 제품 설명이 들어갑니다....",
             img: "../img/WSR213.png",
             alt: "WSR213",
             link: "./WSR213.html"
@@ -88,7 +87,7 @@ const productData = {
             {
             category: "Zetstation-W series",
             name: "WSR210",
-            desc: "PM3은 ARM® Cortex®-M4 RISC 프로세서, 1D 또는 1D/2D 스캔 엔진, Bluetooth Class II v.4.2....",
+            desc: "W-Series 제품 설명이 들어갑니다....",
             img: "../img/WSR210.png",
             alt: "WSR210",
             link: "./WSR213.html"
@@ -96,7 +95,7 @@ const productData = {
             {
             category: "Zetstation-W series",
             name: "WSR209",
-            desc: "다양한 산업 환경에서 안정적인 스캔 성능을 제공하는 블루투스 스캐너입니다....",
+            desc: "W-Series 제품 설명이 들어갑니다....",
             img: "../img/WSR209.png",
             alt: "WSR209",
             link: "./WSR213.html"
@@ -331,7 +330,7 @@ const productData = {
             desc: '8.4" G-WIN Resistive Touch NVIS Display',
             img: "../img/R08L100-2.png",
             alt: "R08L100",
-            link: "./nvis.html?product=r08l100"
+            link: "./nvis.html?product=r08l100eng"
             },
             {
             category: "NVIS series",
