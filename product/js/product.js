@@ -1,7 +1,7 @@
 const productData = {
     "s-series": {
         title: "S-Series",
-        desc: "Tactial Xeon Power. Mil-spec 아머 케이스에 장착된 이동형 전술 서버<br> 전술기동을 위해 특수 설계된 콤팩트 PACK 아키텍처.<br> 미션 성공을 위한 고성능 인텔 제온 서버가 가장 안전하고 견고한 하우징을 입었습니다",
+        desc: "Tactial Xeon Power. Mil-spec 아머 케이스에 장착된 이동형 전술 서버<br> 전술기동을 위해 특수 설계된 콤팩트 PACK 아키텍처<br> 미션 성공을 위한 고성능 인텔 제온 서버가 가장 안전하고 견고한 하우징을 입었습니다.",
         visualImg: "../img/Zetstation-bg.png",
         products: [
             {
@@ -114,7 +114,7 @@ const productData = {
 
     "m-series": {
     title: "M-Series",
-    desc: "메는순간, 움직이는 통합  지휘소가된다. 등짐형 멀티 워크스테이션 <br>  복잡한선로와 장비는 생략하십시오. 3개-10개의 마더보드가 장착되어 자유롭게 구성하여<br> 바로 메고 출동하는 올인원 이동형 워크스테이션 솔루션.",
+    desc: "메는순간, 움직이는 통합  지휘소가된다. 등짐형 멀티 워크스테이션 <br>  복잡한선로와 장비는 생략하십시오. 3개-10개의 마더보드가 장착되어 자유롭게 구성하여<br> 바로 메고 출동하는 올인원 이동형 워크스테이션 솔루션",
     visualImg: "../img/UK2000-bg.png",
     products: [
             {
