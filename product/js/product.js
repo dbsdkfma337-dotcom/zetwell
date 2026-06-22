@@ -413,6 +413,53 @@ const productData = {
             link: "./product-detail.html?product=esr001"
             }
         ]
+    },
+
+    "c-series-eng": {
+    title: "CSTM-Series",
+    visualImg: "../img/sub01_1.jpg",
+    products: [
+            {
+            category: "Zetstation-CSTM series",
+            name: "MODEL HRD2000M",
+            desc: "Vehicle-Mounted Server",
+            img: "../img/MODEL-HRD2000M.png",
+            alt: "MODEL-HRD2000M",
+            link: "./product-detail.html?product=esr001"
+            },
+            {
+            category: "Zetstation-CSTM series",
+            name: "9000SE",
+            desc: "Redundant Server / Workstation",
+            img: "../img/9000SE.png",
+            alt: "9000SE",
+            link: "./product-detail.html?product=esr001"
+            },
+            {
+            category: "Zetstation-CSTM series",
+            name: "S988",
+            desc: "High-Performance Workstation Powered by an 8th Generation Intel® Core™ i7 Processor",
+            img: "../img/S988.png",
+            alt: "S988",
+            link: "./product-detail.html?product=esr001"
+            },
+            {
+            category: "Zetstation-CSTM series",
+            name: "S1388",
+            desc: "Intelligent Monitoring System Maximizing Connectivity, Security, and User Convenience",
+            img: "../img/S1388.png",
+            alt: "S1388",
+            link: "./product-detail.html?product=esr001"
+            },
+            {
+            category: "Zetstation-CSTM series",
+            name: "S1519H",
+            desc: "AI Inference System for Edge Computing",
+            img: "../img/S1519H.png",
+            alt: "S1519H",
+            link: "./product-detail.html?product=esr001"
+            }
+        ]
     }
 };
 

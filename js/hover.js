@@ -2,22 +2,22 @@ const productVisualData = {
     mobile: {
         title: "NVIS",
         bg: "/img/nvis-w22-datial5.png",
-        link: "./product/S-Series.html?series=n-series"
+        link: "./product/series.html?series=n-series"
     },
     terminal: {
         title: "W-Series",
         bg: "/img/Zetstation-bg.png",
-        link: "./product/S-Series.html?series=w-series"
+        link: "./product/series.html?series=w-series"
     },
     rfid: {
         title: "E-Series",
         bg: "/img/UK2000-bg.png",
-        link: "./product/S-Series.html?series=e-series"
+        link: "./product/series.html?series=e-series"
     },
     tablet: {
         title: "M-Series",
         bg: "/img/E-seriesbg.png",
-        link: "./product/S-Series.html?series=m-series"
+        link: "./product/series.html?series=m-series"
     },
     scanner: {
         title: "43IG",
