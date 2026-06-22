@@ -1,6 +1,6 @@
 const productVisualData = {
     mobile: {
-        title: "NVIS 모니터",
+        title: "NVIS",
         bg: "/img/nvis-w22-datial5.png",
         link: "./product/S-Series.html?series=n-series"
     },
