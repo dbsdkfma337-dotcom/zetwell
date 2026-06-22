@@ -68,9 +68,6 @@ menuItems.forEach(item => {
 
 const defaultProduct = productVisualData.mobile;
 
-visual.style.backgroundImage = `url(${defaultProduct.bg})`;
-title.textContent = defaultProduct.title;
-
 const lang = document.querySelector(".lang");
 const langBtn = document.querySelector(".lang-btn");
 const langList = document.querySelector(".lang-list");
