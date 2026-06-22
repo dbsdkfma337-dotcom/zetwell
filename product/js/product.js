@@ -243,6 +243,22 @@ const productData = {
         ]
     },
 
+    "m-series-eng": {
+    title: "M-Series",
+    desc: "Put It On. Take Command.<br>A Mobile Multi-Workstation Designed as a Moving Command Center.<br>Eliminate complex wiring and unnecessary equipment.<br>Supporting 3 to 10 motherboards in a customizable configuration,<br>this all-in-one mobile workstation is mission-ready the moment you wear it.",
+    visualImg: "../img/UK2000-bg.png",
+    products: [
+            {
+            category: "Zetstation-M series",
+            name: "UK2000",
+            desc: "Hybrid Carrier System",
+            img: "../img/UK2000.png",
+            alt: "UK2000",
+            link: "./table.html?product=uk2000"
+            }
+        ]
+    },
+
     "ig-series": {
     title: "43IG",
     visualImg: "../img/Zetstation-bg.png",
@@ -298,6 +314,53 @@ const productData = {
             category: "NVIS시리즈",
             name: "W22L100",
             desc: "21.5인치 G-WIN Full IP67 NVIS 디스플레이",
+            img: "../img/W22L100-2.png",
+            alt: "W22L100",
+            link: "./nvis.html?product=w22l100"
+            }
+        ]
+    },
+
+    "n-series-eng": {
+    title: "NVIS-Series",
+    visualImg: "../img/W22L100-bg.png",
+    products: [
+            {
+            category: "NVIS series",
+            name: "R08L100",
+            desc: '8.4" G-WIN Resistive Touch NVIS Display',
+            img: "../img/R08L100-2.png",
+            alt: "R08L100",
+            link: "./nvis.html?product=r08l100"
+            },
+            {
+            category: "NVIS series",
+            name: "R10L100",
+            desc: '10.4" G-WIN Resistive Touch NVIS Display',
+            img: "../img/R10L100-2.png",
+            alt: "R10L100",
+            link: "./nvis.html?product=r10l100"
+            },
+            {
+            category: "NVIS series",
+            name: "R15L100",
+            desc: '15" G-WIN Full IP67 NVIS Display',
+            img: "../img/R15L100-2.png",
+            alt: "R15L100",
+            link: "./nvis.html?product=r15l100"
+            },
+            {
+            category: "NVIS series",
+            name: "R19L100",
+            desc: '19" G-WIN Full IP67 NVIS Display',
+            img: "../img/R19L100-2.png",
+            alt: "R19L100",
+            link: "./nvis.html?product=r19l100"
+            },
+            {
+            category: "NVIS series",
+            name: "W22L100",
+            desc: '21.5" G-WIN Full IP67 NVIS Display',
             img: "../img/W22L100-2.png",
             alt: "W22L100",
             link: "./nvis.html?product=w22l100"
@@ -385,7 +448,13 @@ productGrid.innerHTML = currentSeries.products.map((product) => {
 const seriesDesc = document.querySelector("#seriesDesc");
 
 seriesTitle.textContent = currentSeries.title;
-seriesDesc.innerHTML = currentSeries.desc;
+
+if(currentSeries.desc){
+    seriesDesc.innerHTML = currentSeries.desc;
+    seriesDesc.style.display = "block";
+}else{
+    seriesDesc.style.display = "none";
+}
 
 subVisual.style.backgroundImage = `url(${currentSeries.visualImg})`;
 
