@@ -9,7 +9,7 @@ const productData = {
         ],
 
         koLink: "./nvis.html?product=r08l100",
-        engLink: "./nvis.html?product=r08l100eng",
+        engLink: "./nvis-eng.html?product=r08l100eng",
 
         features: [
             {
@@ -109,7 +109,7 @@ const productData = {
         ],
 
         koLink: "./nvis.html?product=r08l100",
-        engLink: "./nvis.html?product=r08l100eng",
+        engLink: "./nvis-eng.html?product=r08l100eng",
 
         features: [
             {
@@ -209,7 +209,7 @@ const productData = {
         ],
 
         koLink: "./nvis.html?product=r10l100",
-        engLink: "./nvis.html?product=r10l100eng",
+        engLink: "./nvis-eng.html?product=r10l100eng",
 
         features: [
             {
@@ -309,7 +309,7 @@ const productData = {
         ],
 
         koLink: "./nvis.html?product=r10l100",
-        engLink: "./nvis.html?product=r10l100eng",
+        engLink: "./nvis-eng.html?product=r10l100eng",
 
         features: [
             {
@@ -409,7 +409,7 @@ const productData = {
         ],
 
         koLink: "./nvis.html?product=r15l100",
-        engLink: "./nvis.html?product=r15l100eng",
+        engLink: "./nvis-eng.html?product=r15l100eng",
 
         features: [
             {
@@ -515,7 +515,7 @@ const productData = {
         ],
 
         koLink: "./nvis.html?product=r15l100",
-        engLink: "./nvis.html?product=r15l100eng",
+        engLink: "./nvis-eng.html?product=r15l100eng",
 
         features: [
             {
@@ -621,7 +621,7 @@ const productData = {
         ],
 
         koLink: "./nvis.html?product=r19l100",
-        engLink: "./nvis.html?product=r19l100eng",
+        engLink: "./nvis-eng.html?product=r19l100eng",
 
         features: [
             {
@@ -726,7 +726,7 @@ const productData = {
         ],
 
         koLink: "./nvis.html?product=r19l100",
-        engLink: "./nvis.html?product=r19l100eng",
+        engLink: "./nvis-eng.html?product=r19l100eng",
 
         features: [
             {
@@ -831,7 +831,7 @@ const productData = {
         ],
 
         koLink: "./nvis.html?product=w22l100",
-        engLink: "./nvis.html?product=w22l100eng",
+        engLink: "./nvis-eng.html?product=w22l100eng",
 
         features: [
             {
@@ -936,7 +936,7 @@ const productData = {
         ],
 
         koLink: "./nvis.html?product=w22l100",
-        engLink: "./nvis.html?product=w22l100eng",
+        engLink: "./nvis-eng.html?product=w22l100eng",
 
         features: [
             {
