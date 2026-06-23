@@ -79,7 +79,7 @@ const productData = {
 
     "w-series-eng": {
         title: "W-Series",
-        desc: "NVDIA GPU AI power, Store your high-availability AI workstation safely in a rugged Safeguard Case<br> wherever you go.Equipped with a high-impact protective hard case as standard,<br> it ensures top-tier AI performance remains fully protected even in the most demanding environments..",
+        desc: "NVDIA GPU AI power, Store your high-availability AI workstation safely in a rugged Safeguard Case<br> wherever you go.Equipped with a high-impact protective hard case as standard,<br> it ensures top-tier AI performance remains fully protected even in the most demanding environments.",
         visualImg: "../img/Zetstation-bg.png",
         koLink: "./series.html?series=w-series",
         engLink: "./series-eng.html?series=w-series-eng",

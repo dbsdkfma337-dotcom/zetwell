@@ -265,7 +265,7 @@ const productData = {
     "uk2000": {
         title: "등짐형<br> 멀티 워크스테이션",
 
-        desc: "Built for On-the-Move Operations",
+        desc: "Backpack-Mounted Multi Workstation",
 
         model: "UK2000",
 
