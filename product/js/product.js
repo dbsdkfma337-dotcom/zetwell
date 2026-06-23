@@ -96,7 +96,7 @@ const productData = {
             category: "Zetstation-W series",
             name: "WSR210",
             desc: "W-Series ....",
-            img: "../img/WSR210.png",
+            img: "../img/WSR210-ver2.png",
             alt: "WSR210",
             link: "./WSR213.html"
             },
@@ -104,7 +104,7 @@ const productData = {
             category: "Zetstation-W series",
             name: "WSR209",
             desc: "W-Series ....",
-            img: "../img/WSR209.png",
+            img: "../img/WSR209-ver2.png",
             alt: "WSR209",
             link: "./WSR213.html"
             },

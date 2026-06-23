@@ -108,12 +108,12 @@ const productData = {
         features: [
             {
                 img: "../img/nvis-datial1.png",
-                title: "Rugged Display Designed<br> for Extreme Environments",
+                title: "Rugged Display Designed for Extreme Environments",
                 desc: "G-WIN Resistive Touch NVIS Display is designed to operate reliably in outdoor and field environments. It supports an operating temperature range of -20°C to 60°C, ensuring consistent performance in both extreme cold and hot climates."
             },
             {
                 img: "../img/nvis-datial2.png",
-                title: "Flexible Power Options with<br>Ignition Control",
+                title: "Flexible Power Options with Ignition Control",
                 desc: "Supports 9~36V DC power input and ignition key control via a remote input line. It ensures smooth startup and shutdown of vehicle systems, making it ideal for automotive and military platforms."
             },
             {
@@ -123,7 +123,7 @@ const productData = {
             },
             {
                 img: "../img/nvis-datial4.png",
-                title: "MIL-STD-3009 Certified for<br>Night Vision Operations",
+                title: "MIL-STD-3009 Certified for Night Vision Operations",
                 desc: "As an MIL-STD-3009 compliant NVIS display, it provides night vision goggle (NVG) compatibility and reliable backlight performance."
             }
         ],
