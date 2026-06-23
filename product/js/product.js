@@ -27,7 +27,7 @@ const productData = {
             {
             category: "Zetstation-S시리즈",
             name: "SS",
-            desc: "S-Series 제품 설명이 들어갑니다....",
+            desc: "S-Series ....",
             img: "../img/S.png",
             alt: "SSR001",
             link: "./WSR213.html"
@@ -87,7 +87,7 @@ const productData = {
             {
             category: "Zetstation-W series",
             name: "WSR213",
-            desc: "W-Series 제품 설명이 들어갑니다....",
+            desc: "W-Series ....",
             img: "../img/WSR213.png",
             alt: "WSR213",
             link: "./WSR213.html"
@@ -95,7 +95,7 @@ const productData = {
             {
             category: "Zetstation-W series",
             name: "WSR210",
-            desc: "W-Series 제품 설명이 들어갑니다....",
+            desc: "W-Series ....",
             img: "../img/WSR210.png",
             alt: "WSR210",
             link: "./WSR213.html"
@@ -103,7 +103,7 @@ const productData = {
             {
             category: "Zetstation-W series",
             name: "WSR209",
-            desc: "W-Series 제품 설명이 들어갑니다....",
+            desc: "W-Series ....",
             img: "../img/WSR209.png",
             alt: "WSR209",
             link: "./WSR213.html"
@@ -111,7 +111,7 @@ const productData = {
             {
             category: "Zetstation-W series",
             name: "SSR001",
-            desc: "W-Series 제품 설명이 들어갑니다....",
+            desc: "W-Series ....",
             img: "../img/.png",
             alt: "SSR001",
             link: "./WSR213.html"
@@ -190,7 +190,7 @@ const productData = {
             {
             category: "Zetstation-E series",
             name: "EPH10",
-            desc: "E-Series 제품 설명이 들어갑니다....",
+            desc: "E-Series ....",
             img: "../img/100.png",
             alt: "EPH10",
             link: "./product-detail.html?product=esr001"
@@ -198,7 +198,7 @@ const productData = {
             {
             category: "Zetstation-E series",
             name: "EPH8",
-            desc: "E-Series 제품 설명이 들어갑니다....",
+            desc: "E-Series ....",
             img: "../img/101.png",
             alt: "EPH8",
             link: "./product-detail.html?product=esr001"
@@ -206,7 +206,7 @@ const productData = {
             {
             category: "Zetstation-E series",
             name: "EPN2000B",
-            desc: "E-Series 제품 설명이 들어갑니다....",
+            desc: "E-Series ....",
             img: "../img/102.png",
             alt: "EPN2000B",
             link: "./product-detail.html?product=esr001"
@@ -214,7 +214,7 @@ const productData = {
             {
             category: "Zetstation-E series",
             name: "IHH10",
-            desc: "E-Series 제품 설명이 들어갑니다....",
+            desc: "E-Series ....",
             img: "../img/104.png",
             alt: "IHH10",
             link: "./product-detail.html?product=esr001"
@@ -222,7 +222,7 @@ const productData = {
             {
             category: "Zetstation-E series",
             name: "IHH8",
-            desc: "E-Series 제품 설명이 들어갑니다....",
+            desc: "E-Series ....",
             img: "../img/106.png",
             alt: "IHH8",
             link: "./product-detail.html?product=esr001"
@@ -230,7 +230,7 @@ const productData = {
             {
             category: "Zetstation-E series",
             name: "IHN2000B",
-            desc: "E-Series 제품 설명이 들어갑니다....",
+            desc: "E-Series ....",
             img: "../img/107.png",
             alt: "IHN2000B",
             link: "./product-detail.html?product=esr001"
