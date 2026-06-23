@@ -490,6 +490,109 @@ const productData = {
 
     },
 
+    r15l100eng: {
+        title: "R15L100",
+        visualBg: "../img/bg3.png",
+
+        slideImages: [
+            "../img/R15L100-1.png",
+            "../img/R15L100-2.png"
+        ],
+
+        features: [
+            {
+                img: "../img/nvis-R15-datial1.png",
+                title: "Rugged Display Designed<br> for Extreme Environments이",
+                desc: "The PCAP Touch NVIS Display is designed to operate reliably in outdoor and field environments. Supporting an operating temperature range of -20°C to 60°C, it delivers consistent performance in both extreme cold and hot climates. This makes it ideal for mobile units, field facilities, and outdoor tactical systems.."
+            },
+            {
+                img: "../img/nvis-R15-datial2.png",
+                title: "Flexible Power Options<br> with Ignition Control",
+                desc: "The PCAP Touch NVIS Display features a 9–36V DC isolated wide-range power input designed to accommodate a variety of installation requirements. Engineered for mobile and vehicle-mounted applications, it delivers reliable voltage protection and enhanced system stability. The optional ignition on/off control function enables seamless startup and shutdown integration with vehicle systems, making it an optimal solution for automotive and defense platforms."
+            },
+            {
+                img: "../img/nvis-R15-datial3.png",
+                title: "Designed for Daylight<br> and NVIS Compatibility",
+                desc: "Supporting both Daylight Mode and NVIS Mode, this display delivers outstanding adaptability across varying lighting conditions. It ensures clear visibility and excellent readability whether used in direct sunlight or low-light tactical environments. The integrated PCAP touch technology provides precise and responsive control, even when users are wearing gloves or operating in challenging field conditions."
+            },
+            {
+                img: "../img/nvis-R15-datial4.png",
+                title: "MIL-STD-3009 Certified for Night Vision Operations",
+                desc: "Fully compliant with MIL-STD-3009, the PCAP Touch NVIS Display provides night vision compatibility that meets stringent military standards. Designed for demanding military environments, it delivers safe and uninterrupted backlighting to support NVG-equipped missions. Engineered for rugged mobility and tactical precision, this solution is trusted for defense-grade applications."
+            },
+            {
+                img: "../img/nvis-R15-datial5.png",
+                title: "MIL-STD-3009 Certified for Night Vision Operations",
+                desc: "The rugged rack-mount display features an intuitive On-Screen Display (OSD) interface, allowing users to quickly adjust brightness, contrast, and other settings for optimal visual performance. This user-friendly design enhances the overall user experience and reduces the learning curve."
+            }
+        ],
+
+        specs: [
+            {
+                category: "Display",
+                items: [
+                    {
+                        label: "Size / Resolution",
+                        value: '15.0" / 1024x768 (1000/NVIS nits)'
+                    },
+                    {
+                        label: "Type / Viewability",
+                        value: `Projected Capacitive Multi Touch Screen Bonding With Panel (Default)<br>
+                                Ture Flat Resistive Touch Screen Bonding With Panel (Optional)<br>
+                                Ture Flat Protection Glass Bonding With Panel (Optional)`
+                    },
+                    {
+                        label: "Contrast",
+                        value: "2500:1"
+                    },
+                    {
+                        label: "View Angles",
+                        value: "88,88,88,88"
+                    }
+                ]
+            },
+            {
+                category: "Mechanical",
+                items: [
+                    {
+                        label: "Dimension",
+                        value: "379.4 x 278.4 x 58 mm"
+                    },
+                    {
+                        label: "Weight",
+                        value: "3.8 kg"
+                    },
+                    {
+                        label: "Mounting",
+                        value: "VESA mount"
+                    }
+                ]
+            },
+            {
+                category: "Environment & Power",
+                items: [
+                    {
+                        label: "Temperature",
+                        value: "Op: -20°C to 60°C <br>Sp: -30°C to 70°C"
+                    },
+                    {
+                        label: "IP rating",
+                        value: "IP67"
+                    },
+                    {
+                        label: "USB Port",
+                        value: "1x M12 type connector for Touchscreen via USB signal"
+                    },
+                    {
+                        label: "Power Input",
+                        value: "1 x M12 waterproof connector for 9~36V DC"
+                    }
+                ]
+            }
+        ]
+
+    },
+
     r19l100: {
         title: "R19L100",
         visualBg: "../img/R08L100-bg.png",
@@ -592,6 +695,108 @@ const productData = {
 
     },
 
+    r19l100eng: {
+        title: "R19L100",
+        visualBg: "../img/R08L100-bg.png",
+
+        slideImages: [
+            "../img/R19L100-1.png",
+            "../img/R19L100-2.png"
+        ],
+
+        features: [
+            {
+                img: "../img/nvis-R15-datial1.png",
+                title: "Rugged Display Designed<br> for Extreme Environments이",
+                desc: "The PCAP Touch NVIS Display is designed to operate reliably in outdoor and field environments. Supporting an operating temperature range of -20°C to 60°C, it delivers consistent performance in both extreme cold and hot climates. This makes it ideal for mobile units, field facilities, and outdoor tactical systems.."
+            },
+            {
+                img: "../img/nvis-R15-datial2.png",
+                title: "Flexible Power Options<br> with Ignition Control",
+                desc: "The PCAP Touch NVIS Display features a 9–36V DC isolated wide-range power input designed to accommodate a variety of installation requirements. Engineered for mobile and vehicle-mounted applications, it delivers reliable voltage protection and enhanced system stability. The optional ignition on/off control function enables seamless startup and shutdown integration with vehicle systems, making it an optimal solution for automotive and defense platforms."
+            },
+            {
+                img: "../img/nvis-R15-datial3.png",
+                title: "Designed for Daylight<br> and NVIS Compatibility",
+                desc: "Supporting both Daylight Mode and NVIS Mode, this display delivers outstanding adaptability across varying lighting conditions. It ensures clear visibility and excellent readability whether used in direct sunlight or low-light tactical environments. The integrated PCAP touch technology provides precise and responsive control, even when users are wearing gloves or operating in challenging field conditions."
+            },
+            {
+                img: "../img/nvis-R15-datial4.png",
+                title: "MIL-STD-3009 Certified for Night Vision Operations",
+                desc: "Fully compliant with MIL-STD-3009, the PCAP Touch NVIS Display provides night vision compatibility that meets stringent military standards. Designed for demanding military environments, it delivers safe and uninterrupted backlighting to support NVG-equipped missions. Engineered for rugged mobility and tactical precision, this solution is trusted for defense-grade applications."
+            },
+            {
+                img: "../img/nvis-R15-datial5.png",
+                title: "MIL-STD-3009 Certified for Night Vision Operations",
+                desc: "The rugged rack-mount display features an intuitive On-Screen Display (OSD) interface, allowing users to quickly adjust brightness, contrast, and other settings for optimal visual performance. This user-friendly design enhances the overall user experience and reduces the learning curve."
+            }
+        ],
+
+        specs: [
+            {
+                category: "Display",
+                items: [
+                    {
+                        label: "Size / Resolution",
+                        value: '21.5" / 1920x1080 (1000/NVIS nits)'
+                    },
+                    {
+                        label: "Type / Viewability",
+                        value: `Projected Capacitive Multi Touch Screen Bonding With Panel (Default)<br>
+                        Ture Flat Protection Glass Bonding With Panel (Optional)`
+                    },
+                    {
+                        label: "Contrast",
+                        value: "1000:1"
+                    },
+                    {
+                        label: "View Angles",
+                        value: "89,89,89,89"
+                    }
+                ]
+            },
+            {
+                category: "Mechanical",
+                items: [
+                    {
+                        label: "Dimension",
+                        value: "529.6 x 342.8 x 58 mm"
+                    },
+                    {
+                        label: "Weight",
+                        value: "8.67 kg"
+                    },
+                    {
+                        label: "Mounting",
+                        value: "VESA mount"
+                    }
+                ]
+            },
+            {
+                category: "Environment & Power",
+                items: [
+                    {
+                        label: "Temperature",
+                        value: "Op. -20°C to 60°C Sp. -30°C to 70°C"
+                    },
+                    {
+                        label: "IP rating",
+                        value: "IP67"
+                    },
+                    {
+                        label: "USB Port",
+                        value: "1x M12 type connector for Touchscreen via USB signal"
+                    },
+                    {
+                        label: "Power Input",
+                        value: "1 x M12 waterproof connector for 9~36V DC"
+                    }
+                ]
+            }
+        ]
+
+    },
+
     w22l100: {
         title: "W22L100",
         visualBg: "../img/W22L100-bg.png",
@@ -626,6 +831,108 @@ const productData = {
                 img: "../img/nvis-w22-datial5.png",
                 title: "야간 투시경 운용을 위한<br> MIL-STD-3009 인증",
                 desc: "러기드 랙 마운트 디스플레이는 직관적인 화면 디스플레이(OSD) 설정을 제공하여 사용자가 밝기, 대비 및 기타 설정을 빠르게 조정하여 최적의 시각적 성능을 얻을 수 있도록 지원합니다. 이러한 디자인은 사용자 경험을 향상시키고 학습 곡선을 단축시킵니다"
+            }
+        ],
+
+        specs: [
+            {
+                category: "Display",
+                items: [
+                    {
+                        label: "Size / Resolution",
+                        value: '21.5" / 1920x1080 (1000/NVIS nits)'
+                    },
+                    {
+                        label: "Type / Viewability",
+                        value: `Projected Capacitive Multi Touch Screen Bonding With Panel (Default)<br>
+                        Ture Flat Protection Glass Bonding With Panel (Optional)`
+                    },
+                    {
+                        label: "Contrast",
+                        value: "1000:1"
+                    },
+                    {
+                        label: "View Angles",
+                        value: "89,89,89,89"
+                    }
+                ]
+            },
+            {
+                category: "Mechanical",
+                items: [
+                    {
+                        label: "Dimension",
+                        value: "529.6 x 342.8 x 58 mm"
+                    },
+                    {
+                        label: "Weight",
+                        value: "8.67 kg"
+                    },
+                    {
+                        label: "Mounting",
+                        value: "VESA mount"
+                    }
+                ]
+            },
+            {
+                category: "Environment & Power",
+                items: [
+                    {
+                        label: "Temperature",
+                        value: "Op. -20°C to 60°C Sp. -30°C to 70°C"
+                    },
+                    {
+                        label: "IP rating",
+                        value: "IP67"
+                    },
+                    {
+                        label: "USB Port",
+                        value: "1x M12 type connector for Touchscreen via USB signal"
+                    },
+                    {
+                        label: "Power Input",
+                        value: "1 x M12 waterproof connector for 9~36V DC"
+                    }
+                ]
+            }
+        ]
+
+    },
+
+    w22l100eng: {
+        title: "W22L100",
+        visualBg: "../img/W22L100-bg.png",
+
+        slideImages: [
+            "../img/W22L100-1.png",
+            "../img/W22L100-2.png"
+        ],
+
+        features: [
+            {
+                img: "../img/nvis-w22-datial3.png",
+                title: "Rugged Display Designed for<br> Extreme Environments",
+                desc: "The G-WIN Resistive Touch NVIS Display is designed for reliable operation in outdoor and field environments. Supporting an operating temperature range of -20°C to 60°C, it delivers consistent performance in both extreme cold and hot climates."
+            },
+            {
+                img: "../img/nvis-w22-datial2.png",
+                title: "Flexible Power Options<br> with Ignition Control",
+                desc: "The PCAP Touch NVIS Display features a 9–36V DC isolated wide-range power input to meet diverse installation requirements. Designed for mobile and vehicle-mounted applications, it provides reliable voltage protection and enhanced system reliability. The optional ignition on/off control function enables seamless startup and shutdown with vehicle systems, making it an ideal choice for automotive and military platforms."
+            },
+            {
+                img: "../img/nvis-w22-datial3.png",
+                title: "Designed for Daylight<br> and NVIS Compatibility",
+                desc: "The NVIS display supports both Daylight Mode and NVIS Mode, providing exceptional flexibility across changing lighting conditions. Whether operating in direct sunlight or low-light tactical environments, it ensures a clear and highly readable display at all times. The PCAP touch functionality enables precise control, even when wearing gloves or operating in demanding environments."
+            },
+            {
+                img: "../img/nvis-w22-datial4.png",
+                title: "MIL-STD-3009 Certified<br> for Night Vision Operations",
+                desc: "Fully compliant with MIL-STD-3009, the PCAP Touch NVIS Display provides night vision compatibility that meets stringent military standards. Designed for demanding military environments, it delivers safe and uninterrupted backlighting to support NVG-equipped missions. Engineered for rugged mobility and tactical precision, this solution is trusted for defense-grade applications."
+            },
+            {
+                img: "../img/nvis-w22-datial5.png",
+                title: "MIL-STD-3009 Certified for<br> Night Vision Operations",
+                desc: "The rugged rack-mount display features an intuitive On-Screen Display (OSD) interface, allowing users to quickly adjust brightness, contrast, and other settings for optimal visual performance. This user-friendly design enhances the overall user experience and reduces the learning curve."
             }
         ],
 

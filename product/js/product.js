@@ -3,6 +3,8 @@ const productData = {
         title: "S-Series",
         desc: "Tactial Xeon Power. Mil-spec 아머 케이스에 장착된 이동형 전술 서버<br> 전술기동을 위해 특수 설계된 콤팩트 PACK 아키텍처<br> 미션 성공을 위한 고성능 인텔 제온 서버가 가장 안전하고 견고한 하우징을 입었습니다.",
         visualImg: "../img/Zetstation-bg.png",
+        koLink: "./series.html?series=s-series",
+        engLink: "./series-eng.html?series=s-series-eng",
         products: [
             {
             category: "Zetstation-S시리즈",
@@ -19,6 +21,8 @@ const productData = {
         title: "S-Series",
         desc: "Tactial Xeon Power. Mobile Tactical Server Mounted in a MIL-SPEC Armored Case<br> Compact PACK Architecture Specially Designed for Tactical Mobility  ",
         visualImg: "../img/Zetstation-bg.png",
+        koLink: "./series.html?series=s-series",
+        engLink: "./series-eng.html?series=s-series-eng",
         products: [
             {
             category: "Zetstation-S시리즈",
@@ -35,6 +39,8 @@ const productData = {
         title: "W-Series",
         desc: "NVDIA GPU AI파워, 세이프가드 케이스로 어디서나 안전하게 <br> 멈추지 않는 고가용성 AI워크스테이션을 가방에 수납하십시오. <br>고충격 방지 하드케이스가 기본 매칭되어, 가장험한 현장에서도 탑티어 AI 성능을 완벽히 보호합니다.",
         visualImg: "../img/Zetstation-bg.png",
+        koLink: "./series.html?series=w-series",
+        engLink: "./series-eng.html?series=w-series-eng",
         products: [
             {
             category: "Zetstation-W시리즈",
@@ -75,6 +81,8 @@ const productData = {
         title: "W-Series",
         desc: "NVDIA GPU AI power, Store your high-availability AI workstation safely in a rugged Safeguard Case wherever you go.<br>Equipped with a high-impact protective hard case as standard, it ensures top-tier AI performance remains fully protected even in the most demanding environments..",
         visualImg: "../img/Zetstation-bg.png",
+        koLink: "./series.html?series=w-series",
+        engLink: "./series-eng.html?series=w-series-eng",
         products: [
             {
             category: "Zetstation-W series",
@@ -115,6 +123,8 @@ const productData = {
     title: "E-Series",
     desc: "들고 이동해서, 바로켠다. 가장 자유로운 Edge AI 워크스테이션 <br> 복잡한 세팅없이, 좁은 공간에서도 완벽하게 수납되는zetstation으로 언제 어디서나 AI의 한계를 넓히세요.",
     visualImg: "../img/E-Series-bg.png",
+    koLink: "./series.html?series=e-series",
+    engLink: "./series-eng.html?series=e-series-eng",
     visualPosition: "center bottom",
     products: [
             {
@@ -173,6 +183,8 @@ const productData = {
     title: "E-Series",
     desc: "Carry It. Power It On. Anywhere.<br> The Ultimate Freedom in Edge AI Workstations. Expand the possibilities of AI anytime, anywhere with Zetstation,<br>designed to fit perfectly even in confined spaces without complicated setup.",
     visualImg: "../img/E-Series-bg.png",
+    koLink: "./series.html?series=e-series",
+    engLink: "./series-eng.html?series=e-series-eng",
     visualPosition: "center bottom",
     products: [
             {
@@ -230,6 +242,8 @@ const productData = {
     title: "M-Series",
     desc: "메는순간, 움직이는 통합  지휘소가된다. 등짐형 멀티 워크스테이션 <br>  복잡한선로와 장비는 생략하십시오. 3개-10개의 마더보드가 장착되어 자유롭게 구성하여<br> 바로 메고 출동하는 올인원 이동형 워크스테이션 솔루션",
     visualImg: "../img/UK2000-bg.png",
+    koLink: "./series.html?series=m-series",
+    engLink: "./series-eng.html?series=m-series-eng",
     products: [
             {
             category: "Zetstation-M시리즈",
@@ -246,6 +260,8 @@ const productData = {
     title: "M-Series",
     desc: "Put It On. Take Command.<br>A Mobile Multi-Workstation Designed as a Moving Command Center.<br>Eliminate complex wiring and unnecessary equipment.<br>Supporting 3 to 10 motherboards in a customizable configuration,<br>this all-in-one mobile workstation is mission-ready the moment you wear it.",
     visualImg: "../img/UK2000-bg.png",
+    koLink: "./series.html?series=m-series",
+    engLink: "./series-eng.html?series=m-series-eng",
     products: [
             {
             category: "Zetstation-M series",
@@ -276,6 +292,8 @@ const productData = {
     "n-series": {
     title: "NVIS-Series",
     visualImg: "../img/W22L100-bg.png",
+    koLink: "./series.html?series=n-series",
+    engLink: "./series-eng.html?series=n-series-eng",
     products: [
             {
             category: "NVIS시리즈",
@@ -323,6 +341,8 @@ const productData = {
     "n-series-eng": {
     title: "NVIS-Series",
     visualImg: "../img/W22L100-bg.png",
+    koLink: "./series.html?series=n-series",
+    engLink: "./series-eng.html?series=n-series-eng",
     products: [
             {
             category: "NVIS series",
@@ -370,6 +390,8 @@ const productData = {
     "c-series": {
     title: "CSTM-Series",
     visualImg: "../img/sub01_1.jpg",
+    koLink: "./series.html?series=c-series",
+    engLink: "./series-eng.html?series=c-series-eng",
     products: [
             {
             category: "Zetstation-CSTM시리즈",
@@ -417,6 +439,8 @@ const productData = {
     "c-series-eng": {
     title: "CSTM-Series",
     visualImg: "../img/sub01_1.jpg",
+    koLink: "./series.html?series=c-series",
+    engLink: "./series-eng.html?series=c-series-eng",
     products: [
             {
             category: "Zetstation-CSTM series",
@@ -511,3 +535,11 @@ linear-gradient(
 ),
 url(${currentSeries.visualImg})
 `;
+
+const langKo = document.querySelector("#langKo");
+const langEng = document.querySelector("#langEng");
+
+if(langKo && langEng){
+    langKo.href = currentSeries.koLink;
+    langEng.href = currentSeries.engLink;
+}
