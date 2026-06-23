@@ -1,27 +1,27 @@
 const productVisualData = {
     mobile: {
         title: "NVIS",
-        bg: "/img/nvis-w22-datial5.png",
+        bg: "./img/nvis-w22-datial5.png",
         link: "./product/series.html?series=n-series"
     },
     terminal: {
         title: "W-Series",
-        bg: "/img/Zetstation-bg.png",
+        bg: "./img/Zetstation-bg.png",
         link: "./product/series.html?series=w-series"
     },
     rfid: {
         title: "E-Series",
-        bg: "/img/UK2000-bg.png",
+        bg: "./img/UK2000-bg.png",
         link: "./product/series.html?series=e-series"
     },
     tablet: {
         title: "M-Series",
-        bg: "/img/E-seriesbg.png",
+        bg: "./img/E-seriesbg.png",
         link: "./product/series.html?series=m-series"
     },
     scanner: {
         title: "43IG",
-        bg: "/img/43IG1.png",
+        bg: "./img/43IG1.png",
         link: "./product/table.html"
     }
 };
