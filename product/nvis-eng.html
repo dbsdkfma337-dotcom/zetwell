@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NVIS</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/font.css">
+    <link rel="stylesheet" href="./css/product.css">
+    <link rel="stylesheet" href="./css/table.css">
+    <link rel="stylesheet" href="./css/nvis.css">
+    <link rel="stylesheet" href="../css/eng.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <script src="../js/main.js" defer></script>
+    <script src="./js/nvis.js" defer></script>
+    <script src="./js/slide.js" defer></script>
+</head>
+<body>
+    <main class="nvis-page">
+        <header id="header" class="sub-header">
+            <h1 class="logo">
+                <a href="../eng.html">Zetwell</a>
+            </h1>
+
+            <div class="gnb-area">
+                <nav class="gnb" aria-label="주요 메뉴">
+                    <ul class="gnb-list">
+                        <li class="gnb-item">
+                            <a href="#" class="gnb-link">ZETstation</a>
+                            <ul class="depth2">
+                                <li><a href="./series-eng.html?series=s-series-eng">S-Series</a></li>
+                                <li><a href="./series-eng.html?series=w-series-eng">W-Series</a></li>
+                                <li><a href="./series-eng.html?series=e-series-eng">E-Series</a></li>
+                                <li><a href="./series-eng.html?series=m-series-eng">M-Series</a></li>
+                                <li><a href="./series-eng.html?series=c-series-eng">CSTM-Series</a></li>
+                            </ul>
+                        </li>
+                        <li class="gnb-item">
+                            <a href="#" class="gnb-link">ZETable</a>
+                            <ul class="depth2">
+                                <li><a href="./product/table.html?product=43ig">43IG</a></li>
+                                <li><a href="./product/table.html?product=43mg">43MG</a></li>
+                            </ul>
+                        </li>
+                        <li class="gnb-item">
+                            <a href="#" class="gnb-link">Zetview</a>
+                            <ul class="depth2">
+                                <li><a href="./series-eng.html?series=n-series-eng">NVIS Monitor</a></li>
+                                <li><a href="#">Transparent Display</a></li>
+                            </ul>
+                        </li>
+                        <li class="gnb-item">
+                            <a href="#" class="gnb-link">Accessories</a>
+                            <ul class="depth2">
+                                <li><a href="#">PowerlBank</a></li>
+                                <li><a href="#">SolarPanel</a></li>
+                                <li><a href="#">EMP Protection</a></li>
+                            </ul>
+                        </li>
+                        <li class="gnb-item">
+                            <a href="#" class="gnb-link">support</a>
+                            <ul class="depth2">
+                            <li><a href="./support/as.html">A/S Service Request</a></li>
+                            <li><a href="./support/contact.html">Contact Us</a></li>
+                            <li><a href="./support/blog.html">Blog</a></li>
+                            </ul>
+                        </li>
+                        <li class="gnb-item">
+                            <a href="#" class="gnb-link">company</a>
+                            <ul class="depth2">
+                                <li><a href="./company/greeting.html">CEO Message</a></li>
+                                <li><a href="./company/mission.html">Mission & Vision</a></li>
+                                <li><a href="./company/organization-chart.html">Organization Chart</a></li>
+                                <li><a href="./company/map.html">Directions</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+
+                <button type="button" class="menu-btn" aria-label="메뉴 열기" style="display: none;">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+
+            <div class="lang">
+                <button type="button" class="lang-btn" aria-label="언어 선택">
+                    <img src="../../img/icon-language.png" alt="">
+                </button>
+                <div class="lang-list">
+                    <a href="../index.html">ko</a>
+                    <a href="../eng.html">eng</a>
+                </div>
+            </div>
+
+            <div class="sub-bg"></div>
+        </header>
+
+        <div class="quick-contact" id="quickContact">
+            <div class="quick-popup">
+                <a href="tel:1566-9090">
+                    <span class="fa-solid fa-phone"></span>
+                    <strong>Sales Inquiry</strong>
+                    <em>+82-2-3281-0130</em>
+                </a>
+            </div>
+
+            <button type="button" class="quick-btn" id="quickBtn" aria-label="구매문의 열기">
+                <i class="fa-solid fa-phone phone-icon"></i>
+                <span class="close-icon">×</span>
+            </button>
+        </div>
+
+        <section class="sub-visual" id="subVisual">
+            <h2 id="productTitle"></h2>
+        </section>
+
+        <section class="product-view">
+            <button class="slide-btn prev" type="button">‹</button>
+
+            <div class="product-slider" id="productSlider"></div>
+
+            <button class="slide-btn next" type="button">›</button>
+
+            <div class="slide-bottom">
+                <div class="progress">
+                    <span id="progressBar"></span>
+                </div>
+
+                <div class="count">
+                    <strong id="currentNum">01</strong>
+                    <em>/</em>
+                    <span id="totalNum">00</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="feature-section" id="featureSection"></section>
+
+        <section class="spec-section">
+            <h2>Product Information</h2>
+
+            <table class="spec-table">
+                <tbody id="specTableBody"></tbody>
+            </table>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-inner">
+                <div class="footer-left">
+                    <h2>
+                        Built with Korean Technology,<br>
+                        Engineered for Safety and Strength
+                    </h2>
+
+                    <a href="./made-in-korea.html" class="footer-btn">
+                        MADE IN KOREA
+                        <img src="../img/flag.png" alt="">
+                    </a>
+
+                    <p class="copyright">
+                        Copyright © zetwell. All Rights Reserved.
+                    </p>
+                </div>
+
+                <div class="footer-right">
+                    <div class="footer-col">
+                        <h3>Social</h3>
+                        <ul>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Instagram</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h3>Contact</h3>
+                        <p>
+                            02-2605-9999<br>
+                            02-2602-2929
+                        </p>
+                    </div>
+
+                    <div class="footer-col">
+                        <h3>Address</h3>
+                        <p>
+                            Suite 1102, ENC Dream Tower 8<br>
+                            45, Gasan Digital 1-ro<br>
+                            Geumcheon-gu, Seoul, Republic of Korea
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>

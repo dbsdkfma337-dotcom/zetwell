@@ -290,6 +290,103 @@ const productData = {
 
     },
 
+    r10l100eng: {
+        title: "R10L100",
+        visualBg: "../img/R08L100-bg.png",
+
+        slideImages: [
+            "../img/R10L100-1.png",
+            "../img/R10L100-2.png"
+        ],
+
+        features: [
+            {
+                img: "../img/nvis-datial1.png",
+                title: "Rugged Display Designed<br> for Extreme Environments",
+                desc: "G-WIN Resistive Touch NVIS Display is designed to operate reliably in outdoor and field environments. It supports an operating temperature range of -20°C to 60°C, ensuring consistent performance in both extreme cold and hot climates."
+            },
+            {
+                img: "../img/nvis-datial2.png",
+                title: "Flexible Power Options with<br>Ignition Control",
+                desc: "Supports 9~36V DC power input and ignition key control via a remote input line. It ensures smooth startup and shutdown of vehicle systems, making it ideal for automotive and military platforms."
+            },
+            {
+                img: "../img/nvis-datial3.png",
+                title: "Designed for Daylight and NVIS Compatibility",
+                desc: "Supports both Daylight Mode and NVIS Mode, providing flexibility under changing lighting conditions. It also enables precise operation, even when wearing gloves."
+            },
+            {
+                img: "../img/nvis-datial4.png",
+                title: "MIL-STD-3009 Certified for<br>Night Vision Operations",
+                desc: "As an MIL-STD-3009 compliant NVIS display, it provides night vision goggle (NVG) compatibility and reliable backlight performance."
+            }
+        ],
+
+        specs: [
+            {
+                category: "Display",
+                items: [
+                    {
+                        label: "Size / Resolution",
+                        value: '10.4" / 1024x768 (1000/NVIS nits)'
+                    },
+                    {
+                        label: "Type / Viewability",
+                        value: `Resistive Touch Screen (Optional)<br>
+                        Protection Glass w/o Touch Function (Optional)`
+                    },
+                    {
+                        label: "Contrast",
+                        value: "1000:1"
+                    },
+                    {
+                        label: "View Angles",
+                        value: "89,89,89,89"
+                    }
+                ]
+            },
+            {
+                category: "Mechanical",
+                items: [
+                    {
+                        label: "Dimension",
+                        value: "315 x 250 x 67 mm"
+                    },
+                    {
+                        label: "Weight",
+                        value: "2.9 kg"
+                    },
+                    {
+                        label: "Mounting",
+                        value: "VESA mount (Default)<br>Yoke mount (Optional)"
+                    }
+                ]
+            },
+            {
+                category: "Environment & Power",
+                items: [
+                    {
+                        label: "Temperature",
+                        value: "Op. -20°C to 60°C <br>Sp. -30°C to 70°C"
+                    },
+                    {
+                        label: "IP rating",
+                        value: "Front IP65"
+                    },
+                    {
+                        label: "USB Port",
+                        value: "1x USB type-A for touch screen control (Optional)"
+                    },
+                    {
+                        label: "Power Input",
+                        value: "9V~36V DC In Terminal Block"
+                    }
+                ]
+            }
+        ]
+
+    },
+
     r15l100: {
         title: "R15L100",
         visualBg: "../img/bg3.png",

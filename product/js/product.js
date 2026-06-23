@@ -330,7 +330,7 @@ const productData = {
             desc: '8.4" G-WIN Resistive Touch NVIS Display',
             img: "../img/R08L100-2.png",
             alt: "R08L100",
-            link: "./nvis.html?product=r08l100eng"
+            link: "./nvis-eng.html?product=r08l100eng"
             },
             {
             category: "NVIS series",
@@ -338,7 +338,7 @@ const productData = {
             desc: '10.4" G-WIN Resistive Touch NVIS Display',
             img: "../img/R10L100-2.png",
             alt: "R10L100",
-            link: "./nvis.html?product=r10l100"
+            link: "./nvis-eng.html?product=r10l100eng"
             },
             {
             category: "NVIS series",
@@ -346,7 +346,7 @@ const productData = {
             desc: '15" G-WIN Full IP67 NVIS Display',
             img: "../img/R15L100-2.png",
             alt: "R15L100",
-            link: "./nvis.html?product=r15l100"
+            link: "./nvis-eng.html?product=r15l100"
             },
             {
             category: "NVIS series",
@@ -354,7 +354,7 @@ const productData = {
             desc: '19" G-WIN Full IP67 NVIS Display',
             img: "../img/R19L100-2.png",
             alt: "R19L100",
-            link: "./nvis.html?product=r19l100"
+            link: "./nvis-eng.html?product=r19l100"
             },
             {
             category: "NVIS series",
@@ -362,7 +362,7 @@ const productData = {
             desc: '21.5" G-WIN Full IP67 NVIS Display',
             img: "../img/W22L100-2.png",
             alt: "W22L100",
-            link: "./nvis.html?product=w22l100"
+            link: "./nvis-eng.html?product=w22l100"
             }
         ]
     },
