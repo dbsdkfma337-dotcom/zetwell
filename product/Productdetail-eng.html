@@ -3,20 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NVIS</title>
+    <title>Document</title>
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/font.css">
     <link rel="stylesheet" href="./css/product.css">
-    <link rel="stylesheet" href="./css/nvis.css">
+    <link rel="stylesheet" href="./css/Productdetail.css">
     <link rel="stylesheet" href="../css/eng.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <script src="../js/main.js" defer></script>
-    <script src="./js/nvis.js" defer></script>
+    <script src="./js/Productdetail.js" defer></script>
     <script src="./js/slide.js" defer></script>
 </head>
 <body>
-    <main class="nvis-page">
+    <main class="table-page">
         <header id="header" class="sub-header">
             <h1 class="logo">
                 <a href="../eng.html">Zetwell</a>
@@ -113,37 +113,106 @@
         </div>
 
         <section class="sub-visual" id="subVisual">
-            <h2 id="productTitle"></h2>
+            <div class="sub-visual-text">
+                <p id="subVisualDesc"></p>
+
+                <h2 id="subVisualTitle"></h2>
+
+                <strong id="subVisualModel"></strong>
+            </div>
+
+            <div class="sub-visual-product">
+            </div>
         </section>
 
         <section class="product-view">
             <button class="slide-btn prev" type="button">‹</button>
 
-            <div class="product-slider" id="productSlider"></div>
+            <div class="product-slider" id="productSlider">
+            </div>
 
             <button class="slide-btn next" type="button">›</button>
 
             <div class="slide-bottom">
                 <div class="progress">
-                    <span id="progressBar"></span>
+                    <span></span>
                 </div>
 
                 <div class="count">
                     <strong id="currentNum">01</strong>
                     <em>/</em>
-                    <span id="totalNum">00</span>
+                    <span id="totalNum">03</span>
                 </div>
             </div>
         </section>
 
-        <section class="feature-section" id="featureSection"></section>
+        <section class="detail-hero">
+            <div class="hero-text">
+
+                <h2 id="heroTitle"></h2>
+
+                <p id="heroDesc"></p>
+
+                <div class="spec-box">
+                    <div class="icon" id="heroIcon"></div>
+
+                    <div>
+                        <strong id="heroSpecTitle"></strong>
+                        <span id="heroSpecDesc"></span>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="hero-img">
+                <img id="heroImg" src="" alt="">
+            </div>
+        </section>
+
+        <section class="design-section">
+            <div class="design-img">
+                <img id="designImg" src="" alt="">
+            </div>
+
+            <div class="design-info">
+                <div class="info-box">
+                <h2 id="designTitle"></h2>
+                <p id="designDesc"></p>
+
+                <div class="spec-list" id="designSpecList"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="photo-section">
+            <div class="photo-grid" id="photoGrid">
+            </div>
+        </section>
+
+        <section class="rugged-section">
+            <div class="inner">
+                <h2 id="ruggedTitle"></h2>
+                <div class="rugged-list" id="ruggedList"></div>
+            </div>
+        </section>
+
+        <section class="video-section" id="videoSection">
+            <div class="video-box">
+                <video id="productVideo" controls muted playsinline>
+                    <source id="productVideoSource" src="" type="video/mp4">
+                </video>
+            </div>
+        </section>
 
         <section class="spec-section">
-            <h2>Product Information</h2>
+
+            <h2>제품정보</h2>
 
             <table class="spec-table">
-                <tbody id="specTableBody"></tbody>
+                <tbody id="specTableBody">
+                </tbody>
             </table>
+
         </section>
 
         <footer class="footer">
