@@ -263,13 +263,13 @@ const productData = {
     },
 
     "uk2000": {
-        title: "이동형 멀티터치<br> 테이블 디스플레이",
+        title: "등짐형<br> 멀티 워크스테이션",
 
-        desc: "",
+        desc: "Built for On-the-Move Operations",
 
         model: "UK2000",
 
-        visualImg: "../img/UK200-bg.png",
+        visualImg: "../img/UK2000-bg2.png",
 
         sliderImages: [
             "../img/UK2000-open.png",
@@ -278,29 +278,35 @@ const productData = {
         ],
 
         hero: {
-            title: `극한 환경에서<br>장비를 보호하다`,
+            title: `바로 출동하는<br>올인형 워크스테이션 솔루션`,
             desc: `대형 장비 및 정밀 기기를 위한 전문 보호 케이스입니다.<br> 충격,습기,온도 변화로부터 장비를 안전하게 보호하고<br> 어떤 환경에서도 안정적인 운용을 지원합니다. `,
             icon: "⚒",
             specTitle: "강한 내구성",
             specDesc: "고강도 폴리프로필렌 소재로 충격과진동, 극한 환경에서도<br> 높은 내구성을 자랑합니다.",
-            img: "../img/.png"
+            img: "../img/UK2000.png"
         },
 
         design: {
-            img: "../img/.png",
+            img: "../img/UK2000-open.png",
             title: `넓은 내부 공간<br>더 높은 활용성`,
             desc: `넉넉한 내부공간으로 다양한 장비와 액세서리를 효율적으로 수납할 수 있습니다. 맞춤형 품 구성으로 장비를 안전하게 고정하여 운반할 수 있습니다.`,
             specs: [
-                { icon: "⛶", text: "260L 의 대용량공간" },
-                { icon: "◉", text: "4개의 휠로 이동지원" }
+                {
+                    title: "용량",
+                    items: ["내부크기 1080x620x400", "외부크기 1178x718x427", "대용량 공간 260L"]
+                },
+                {
+                    title: "내용필요",
+                    items: ["내용 필요", "내용 필요"]
+                }
             ]
         },
 
         photos: [
-            "../img/43IG1.png",
-            "../img/43IG2.png",
-            "../img/43IG3.png",
-            "../img/43IG4.png"
+            "../img/UK2000-bg3.png",
+            "../img/UK2000-bg5.png",
+            "../img/UK2000-bg4.png",
+            "../img/UK2000-bg.png"
         ],
 
         rugged: {
@@ -327,7 +333,7 @@ const productData = {
             ]
         },
 
-        video: "../img/.mp4",
+        video: "../img/43IG-video.mp4",
 
 
         specTable: [
@@ -461,3 +467,4 @@ document.getElementById("subVisualTitle").innerHTML =
 
 document.getElementById("subVisualModel").textContent =
     product.model;
+

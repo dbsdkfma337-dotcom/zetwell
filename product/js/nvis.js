@@ -8,6 +8,9 @@ const productData = {
             "../img/R08L100-2.png"
         ],
 
+        koLink: "./nvis.html?product=r08l100",
+        engLink: "./nvis.html?product=r08l100eng",
+
         features: [
             {
                 img: "../img/nvis-datial1.png",
@@ -104,6 +107,9 @@ const productData = {
             "../img/R08L100-1.png",
             "../img/R08L100-2.png"
         ],
+
+        koLink: "./nvis.html?product=r08l100",
+        engLink: "./nvis.html?product=r08l100eng",
 
         features: [
             {
@@ -202,6 +208,9 @@ const productData = {
             "../img/R10L100-2.png"
         ],
 
+        koLink: "./nvis.html?product=r10l100",
+        engLink: "./nvis.html?product=r10l100eng",
+
         features: [
             {
                 img: "../img/nvis-datial1.png",
@@ -299,6 +308,9 @@ const productData = {
             "../img/R10L100-2.png"
         ],
 
+        koLink: "./nvis.html?product=r10l100",
+        engLink: "./nvis.html?product=r10l100eng",
+
         features: [
             {
                 img: "../img/nvis-datial1.png",
@@ -395,6 +407,9 @@ const productData = {
             "../img/R15L100-1.png",
             "../img/R15L100-2.png"
         ],
+
+        koLink: "./nvis.html?product=r15l100",
+        engLink: "./nvis.html?product=r15l100eng",
 
         features: [
             {
@@ -499,6 +514,9 @@ const productData = {
             "../img/R15L100-2.png"
         ],
 
+        koLink: "./nvis.html?product=r15l100",
+        engLink: "./nvis.html?product=r15l100eng",
+
         features: [
             {
                 img: "../img/nvis-R15-datial1.png",
@@ -602,6 +620,9 @@ const productData = {
             "../img/R19L100-2.png"
         ],
 
+        koLink: "./nvis.html?product=r19l100",
+        engLink: "./nvis.html?product=r19l100eng",
+
         features: [
             {
                 img: "../img/nvis-R19-datial1.png",
@@ -703,6 +724,9 @@ const productData = {
             "../img/R19L100-1.png",
             "../img/R19L100-2.png"
         ],
+
+        koLink: "./nvis.html?product=r19l100",
+        engLink: "./nvis.html?product=r19l100eng",
 
         features: [
             {
@@ -806,6 +830,9 @@ const productData = {
             "../img/W22L100-2.png"
         ],
 
+        koLink: "./nvis.html?product=w22l100",
+        engLink: "./nvis.html?product=w22l100eng",
+
         features: [
             {
                 img: "../img/nvis-w22-datial3.png",
@@ -907,6 +934,9 @@ const productData = {
             "../img/W22L100-1.png",
             "../img/W22L100-2.png"
         ],
+
+        koLink: "./nvis.html?product=w22l100",
+        engLink: "./nvis.html?product=w22l100eng",
 
         features: [
             {
@@ -1034,28 +1064,28 @@ featureSection.innerHTML = product.features.map((feature, index) => `
 `).join("");
 
 let currentIndex = 0;
-const slides = document.querySelectorAll(".slide-img");
+const nvisSlides = document.querySelectorAll(".slide-img");
 const prevBtn = document.querySelector(".slide-btn.prev");
 const nextBtn = document.querySelector(".slide-btn.next");
 
-totalNum.textContent = String(slides.length).padStart(2, "0");
+totalNum.textContent = String(nvisSlides.length).padStart(2, "0");
 
 function updateSlide() {
-    slides.forEach((slide, index) => {
+    nvisSlides.forEach((slide, index) => {
         slide.classList.toggle("active", index === currentIndex);
     });
 
     currentNum.textContent = String(currentIndex + 1).padStart(2, "0");
-    progressBar.style.width = `${((currentIndex + 1) / slides.length) * 100}%`;
+    progressBar.style.width = `${((currentIndex + 1) / nvisSlides.length) * 100}%`;
 }
 
 prevBtn.addEventListener("click", () => {
-    currentIndex = currentIndex === 0 ? slides.length - 1 : currentIndex - 1;
+    currentIndex = currentIndex === 0 ? nvisSlides.length - 1 : currentIndex - 1;
     updateSlide();
 });
 
 nextBtn.addEventListener("click", () => {
-    currentIndex = currentIndex === slides.length - 1 ? 0 : currentIndex + 1;
+    currentIndex = currentIndex === nvisSlides.length - 1 ? 0 : currentIndex + 1;
     updateSlide();
 });
 
@@ -1075,3 +1105,11 @@ specTableBody.innerHTML = product.specs.map(section => `
         </tr>
     `).join("")}
 `).join("");
+
+const langKo = document.querySelector("#langKo");
+const langEng = document.querySelector("#langEng");
+
+if(langKo && langEng){
+    langKo.href = product.koLink;
+    langEng.href = product.engLink;
+}
