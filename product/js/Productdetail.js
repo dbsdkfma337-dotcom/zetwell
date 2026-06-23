@@ -29,8 +29,14 @@ const productData = {
             title: `넓은 내부 공간<br>더 높은 활용성`,
             desc: `넉넉한 내부공간으로 다양한 장비와 액세서리를 효율적으로 수납할 수 있습니다. 맞춤형 품 구성으로 장비를 안전하게 고정하여 운반할 수 있습니다.`,
             specs: [
-                { icon: "⛶", text: "260L 의 대용량공간" },
-                { icon: "◉", text: "4개의 휠로 이동지원" }
+                {
+                    title: "크기",
+                    items: ["내부크기 1080x620x400", "외부크기 1178x718x427"]
+                },
+                {
+                    title: "수납",
+                    items: ["4 GB RAM", "64 GB 플래시 메모리"]
+                }
             ]
         },
 
@@ -332,8 +338,10 @@ document.getElementById("designSpecList").innerHTML =
     product.design.specs
         .map(item => `
             <div class="spec-item">
-                <div class="icon">${item.icon}</div>
-                <strong>${item.text}</strong>
+                <h3>${item.title}</h3>
+                <ul>
+                    ${item.items.map(text => `<li>${text}</li>`).join("")}
+                </ul>
             </div>
         `)
         .join("");

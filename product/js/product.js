@@ -54,7 +54,7 @@ const productData = {
             category: "Zetstation-W시리즈",
             name: "WSR210",
             desc: "W-Series 제품 설명이 들어갑니다....",
-            img: "../img/WSR210.png",
+            img: "../img/WSR210-ver2.png",
             alt: "WSR210",
             link: "./WSR213.html"
             },
@@ -62,7 +62,7 @@ const productData = {
             category: "Zetstation-W시리즈",
             name: "WSR209",
             desc: "W-Series 제품 설명이 들어갑니다....",
-            img: "../img/WSR209.png",
+            img: "../img/WSR209-ver2.png",
             alt: "WSR209",
             link: "./WSR213.html"
             },
@@ -79,7 +79,7 @@ const productData = {
 
     "w-series-eng": {
         title: "W-Series",
-        desc: "NVDIA GPU AI power, Store your high-availability AI workstation safely in a rugged Safeguard Case wherever you go.<br>Equipped with a high-impact protective hard case as standard, it ensures top-tier AI performance remains fully protected even in the most demanding environments..",
+        desc: "NVDIA GPU AI power, Store your high-availability AI workstation safely in a rugged Safeguard Case<br> wherever you go.Equipped with a high-impact protective hard case as standard,<br> it ensures top-tier AI performance remains fully protected even in the most demanding environments..",
         visualImg: "../img/Zetstation-bg.png",
         koLink: "./series.html?series=w-series",
         engLink: "./series-eng.html?series=w-series-eng",
@@ -178,7 +178,6 @@ const productData = {
         ]
     },
 
-    
     "e-series-eng": {
     title: "E-Series",
     desc: "Carry It. Power It On. Anywhere.<br> The Ultimate Freedom in Edge AI Workstations. Expand the possibilities of AI anytime, anywhere with Zetstation,<br>designed to fit perfectly even in confined spaces without complicated setup.",
@@ -258,7 +257,7 @@ const productData = {
 
     "m-series-eng": {
     title: "M-Series",
-    desc: "Put It On. Take Command.<br>A Mobile Multi-Workstation Designed as a Moving Command Center.<br>Eliminate complex wiring and unnecessary equipment.<br>Supporting 3 to 10 motherboards in a customizable configuration,<br>this all-in-one mobile workstation is mission-ready the moment you wear it.",
+    desc: "Put It On. Take Command.A Mobile Multi-Workstation Designed as a Moving Command Center.<br>Eliminate complex wiring and unnecessary equipment.<br>Supporting 3 to 10 motherboards in a customizable configuration,<br>this all-in-one mobile workstation is mission-ready the moment you wear it.",
     visualImg: "../img/UK2000-bg.png",
     koLink: "./series.html?series=m-series",
     engLink: "./series-eng.html?series=m-series-eng",
