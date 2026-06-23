@@ -7,7 +7,7 @@ const productData = {
 
         model: "43IG",
 
-        visualImg: "../img/bg11.png",
+        visualImg: "../img/43IG-bg.png",
 
         sliderImages: [
             "../img/43IG-h.png",
