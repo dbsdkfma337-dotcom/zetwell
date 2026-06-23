@@ -366,7 +366,7 @@ const productData = {
             desc: '15" G-WIN Full IP67 NVIS Display',
             img: "../img/R15L100-2.png",
             alt: "R15L100",
-            link: "./nvis-eng.html?product=r15l100"
+            link: "./nvis-eng.html?product=r15l100eng"
             },
             {
             category: "NVIS series",
@@ -374,7 +374,7 @@ const productData = {
             desc: '19" G-WIN Full IP67 NVIS Display',
             img: "../img/R19L100-2.png",
             alt: "R19L100",
-            link: "./nvis-eng.html?product=r19l100"
+            link: "./nvis-eng.html?product=r19l100eng"
             },
             {
             category: "NVIS series",
@@ -382,7 +382,7 @@ const productData = {
             desc: '21.5" G-WIN Full IP67 NVIS Display',
             img: "../img/W22L100-2.png",
             alt: "W22L100",
-            link: "./nvis-eng.html?product=w22l100"
+            link: "./nvis-eng.html?product=w22l100eng"
             }
         ]
     },

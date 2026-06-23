@@ -707,7 +707,7 @@ const productData = {
         features: [
             {
                 img: "../img/nvis-R15-datial1.png",
-                title: "Rugged Display Designed<br> for Extreme Environments이",
+                title: "Rugged Display Designed<br> for Extreme Environments",
                 desc: "The PCAP Touch NVIS Display is designed to operate reliably in outdoor and field environments. Supporting an operating temperature range of -20°C to 60°C, it delivers consistent performance in both extreme cold and hot climates. This makes it ideal for mobile units, field facilities, and outdoor tactical systems.."
             },
             {
@@ -911,7 +911,7 @@ const productData = {
         features: [
             {
                 img: "../img/nvis-w22-datial3.png",
-                title: "Rugged Display Designed for<br> Extreme Environments",
+                title: "Rugged Display Designed for Extreme Environments",
                 desc: "The G-WIN Resistive Touch NVIS Display is designed for reliable operation in outdoor and field environments. Supporting an operating temperature range of -20°C to 60°C, it delivers consistent performance in both extreme cold and hot climates."
             },
             {
