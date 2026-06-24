@@ -361,7 +361,7 @@ const productData = {
     },
 
     "uk2000eng": {
-        title: "등짐형<br> 멀티 워크스테이션",
+        title: "Backpack-Mounted<br> Multi Workstation",
 
         desc: "Backpack-Mounted Multi Workstation",
 
