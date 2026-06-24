@@ -9,6 +9,9 @@ const productData = {
 
         visualImg: "../img/43IG-bg.png",
 
+        koLink: "./Productdetail.html?product=43ig",
+        engLink: "./Productdetail-eng.html?product=43igeng",
+
         sliderImages: [
             "../img/43IG-h.png",
             "../img/43IG-r.png",
@@ -97,6 +100,9 @@ const productData = {
         model: "43IG",
 
         visualImg: "../img/43IG-bg.png",
+
+        koLink: "./Productdetail.html?product=43ig",
+        engLink: "./Productdetail-eng.html?product=43igeng",
 
         sliderImages: [
             "../img/43IG-h.png",
@@ -271,6 +277,9 @@ const productData = {
 
         visualImg: "../img/UK2000-bg2.png",
 
+        koLink: "./Productdetail.html?product=uk2000",
+        engLink: "./Productdetail-eng.html?product=uk2000eng",
+
         sliderImages: [
             "../img/UK2000-open.png",
             "../img/UK2000.png",
@@ -359,6 +368,9 @@ const productData = {
         model: "UK2000",
 
         visualImg: "../img/UK2000-bg2.png",
+
+        koLink: "./Productdetail.html?product=uk2000",
+        engLink: "./Productdetail-eng.html?product=uk2000eng",
 
         sliderImages: [
             "../img/UK2000-open.png",
@@ -557,3 +569,10 @@ document.getElementById("subVisualTitle").innerHTML =
 document.getElementById("subVisualModel").textContent =
     product.model;
 
+const langKo = document.querySelector("#langKo");
+const langEng = document.querySelector("#langEng");
+
+if(langKo && langEng){
+    langKo.href = product.koLink;
+    langEng.href = product.engLink;
+}
