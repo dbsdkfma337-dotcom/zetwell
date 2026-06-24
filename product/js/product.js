@@ -394,11 +394,11 @@ const productData = {
     products: [
             {
             category: "Zetstation-CSTM시리즈",
-            name: "MODEL HRD2000M",
+            name: "HRD<br>2000M",
             desc: "차량용(이동형) 서버",
-            img: "../img/MODEL-HRD2000M.png",
-            alt: "MODEL-HRD2000M",
-            link: "./product-detail.html?product=esr001"
+            img: "../img/HRD2000M.png",
+            alt: "HRD2000M",
+            link: "./Productdetail.html?product=hrd2000m"
             },
             {
             category: "Zetstation-CSTM시리즈",
