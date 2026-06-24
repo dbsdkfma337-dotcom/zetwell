@@ -268,7 +268,7 @@ const productData = {
             desc: "Hybrid Carrier System",
             img: "../img/UK2000.png",
             alt: "UK2000",
-            link: "./Productdetail.html?product=uk2000eng"
+            link: "./Productdetail-eng.html?product=uk2000eng"
             }
         ]
     },
