@@ -25,7 +25,7 @@ const productData = {
         engLink: "./series-eng.html?series=s-series-eng",
         products: [
             {
-            category: "Zetstation-S시리즈",
+            category: "Zetstation-S series",
             name: "SS",
             desc: "S-Series ....",
             img: "../img/S.png",
@@ -406,7 +406,7 @@ const productData = {
             desc: "이중화 서버/워크스테이션",
             img: "../img/9000SE.png",
             alt: "9000SE",
-            link: "./product-detail.html?product=esr001"
+            link: "./Productdetail.html?product=9000se"
             },
             {
             category: "Zetstation-CSTM시리즈",
@@ -414,7 +414,7 @@ const productData = {
             desc: "8세대 Intel® Core™ i7 프로세서를 탑재한 고성능 워크스테이션",
             img: "../img/S988.png",
             alt: "S988",
-            link: "./product-detail.html?product=esr001"
+            link: "./Productdetail.html?product=s988"
             },
             {
             category: "Zetstation-CSTM시리즈",
@@ -422,7 +422,7 @@ const productData = {
             desc: "연결성, 보안성 및 사용자 편의성을 극대화한 지능형 관제 시스템",
             img: "../img/S1388.png",
             alt: "S1388",
-            link: "./product-detail.html?product=esr001"
+            link: "./Productdetail.html?product=s1388"
             },
             {
             category: "Zetstation-CSTM시리즈",
@@ -430,7 +430,7 @@ const productData = {
             desc: "엣지에서 직접 AI 추론을 수행하는 시스템",
             img: "../img/S1519H.png",
             alt: "S1519H",
-            link: "./product-detail.html?product=esr001"
+            link: "./Productdetail.html?product=s1519h"
             }
         ]
     },
@@ -443,11 +443,11 @@ const productData = {
     products: [
             {
             category: "Zetstation-CSTM series",
-            name: "MODEL HRD2000M",
+            name: "HRD<br>2000M",
             desc: "Vehicle-Mounted Server",
-            img: "../img/MODEL-HRD2000M.png",
-            alt: "MODEL-HRD2000M",
-            link: "./product-detail.html?product=esr001"
+            img: "../img/HRD2000M.png",
+            alt: "HRD2000M",
+            link: "./Productdetail-eng.html?product=hrd2000meng"
             },
             {
             category: "Zetstation-CSTM series",
@@ -455,7 +455,7 @@ const productData = {
             desc: "Redundant Server / Workstation",
             img: "../img/9000SE.png",
             alt: "9000SE",
-            link: "./product-detail.html?product=esr001"
+            link: "./Productdetail-eng.html?product=9000seeng"
             },
             {
             category: "Zetstation-CSTM series",
@@ -463,7 +463,7 @@ const productData = {
             desc: "High-Performance Workstation Powered by an 8th Generation Intel® Core™ i7 Processor",
             img: "../img/S988.png",
             alt: "S988",
-            link: "./product-detail.html?product=esr001"
+            link: "./Productdetail-eng.html?product=s988eng"
             },
             {
             category: "Zetstation-CSTM series",
@@ -471,7 +471,7 @@ const productData = {
             desc: "Intelligent Monitoring System Maximizing Connectivity, Security, and User Convenience",
             img: "../img/S1388.png",
             alt: "S1388",
-            link: "./product-detail.html?product=esr001"
+            link: "./Productdetail-eng.html?product=s1388eng"
             },
             {
             category: "Zetstation-CSTM series",
@@ -479,7 +479,7 @@ const productData = {
             desc: "AI Inference System for Edge Computing",
             img: "../img/S1519H.png",
             alt: "S1519H",
-            link: "./product-detail.html?product=esr001"
+            link: "./Productdetail-eng.html?product=s1519heng"
             }
         ]
     }
