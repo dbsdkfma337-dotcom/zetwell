@@ -829,7 +829,7 @@ const productData = {
 
         model: "s988",
 
-        visualImg: "../img/HRD2000M-bg.png",
+        visualImg: "../img/s988-bg.png",
 
         koLink: "./Productdetail.html?product=S988",
         engLink: "./Productdetail-eng.html?product=S988eng",
@@ -920,7 +920,7 @@ const productData = {
 
         model: "s988",
 
-        visualImg: "../img/HRD2000M-bg.png",
+        visualImg: "../img/s988-bg.png",
 
         koLink: "./Productdetail.html?product=S988",
         engLink: "./Productdetail-eng.html?product=S988eng",
@@ -1011,7 +1011,7 @@ const productData = {
 
         model: "s1388",
 
-        visualImg: "../img/HRD2000M-bg.png",
+        visualImg: "../img/s1388-bg.png",
 
         koLink: "./Productdetail.html?product=S1388",
         engLink: "./Productdetail-eng.html?product=S1388eng",
@@ -1106,7 +1106,7 @@ const productData = {
 
         model: "s1388",
 
-        visualImg: "../img/HRD2000M-bg.png",
+        visualImg: "../img/s1388-bg.png",
 
         koLink: "./Productdetail.html?product=S1388",
         engLink: "./Productdetail-eng.html?product=S1388eng",
@@ -1201,7 +1201,7 @@ const productData = {
 
         model: "s1519h",
 
-        visualImg: "../img/HRD2000M-bg.png",
+        visualImg: "../img/S1519H-bg.png",
 
         koLink: "./Productdetail.html?product=S1388",
         engLink: "./Productdetail-eng.html?product=S1388eng",
