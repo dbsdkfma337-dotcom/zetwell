@@ -690,19 +690,19 @@ const productData = {
             title: `특수 환경에서도 살아남는,<br>최적화된 임베디드 컴퓨터`,
             cards: [
                 {
-                icon: "🔒",
-                title: " 팬리스(Fanless) 자연 공랭식 방열 디자인",
+                icon: "🌬️ + 🔥",
+                title: "팬리스(Fanless) 자연 공랭식 방열 디자인",
                 value: "팬리스(Fanless)",
                 desc: "물리적인 냉각팬이 없는 고효율 알루미늄 히트싱크 인클로저 섀시 설계로, 먼지와 분진이 많은 차량 내 가혹한 환경에서도 팬 고장 우려 없이 24시간 무소음·무진동 안정 가동이 가능합니다."
                 },
                 {
-                icon: "☔",
+                icon: "🛡️",
                 title: "전·후면 듀얼 핸들 가드",
                 value: "(Handle Guard) 장착",
                 desc: "제품 전면과 후면에 견고한 기구부 핸들 가드를 배치하여, 이동이 잦은 현장 및 차량 내부 랙(Rack) 실장, 긴급 유지보수 및 탈부착 시 탁월한 편의성과 기구적 안전성을 제공합니다."
                 },
                 {
-                icon: "✇",
+                icon: "🚙",
                 title: "차량 설치 및 운용",
                 value: "추천 적용 분야",
                 desc: "• 소방 재난 지휘 차량, 군 작전 통제 차량, 경찰 기동 관제 차량 빌트인 시스템<br>• 진동과 외부 충격이 지속적으로 발생하는 험지 운행 특수 목적 자동차 및 중장비<br>• 안정적인 전원 차단 공정이 필요한 무인 이동형 랙 시스템"
@@ -778,19 +778,19 @@ const productData = {
             title: `Optimized Embedded Computer<br> for Extreme Environments`,
             cards: [
                 {
-                icon: "🔒",
+                icon: "🌬️ + 🔥",
                 title: "Fanless Passive Cooling Design",
                 value: "Fanless",
                 desc: "Featuring a high-efficiency aluminum heatsink enclosure chassis with a fanless passive cooling design, the system enables 24/7 silent and vibration-free operation without the risk of fan failure, even in harsh in-vehicle environments exposed to dust and debris."
                 },
                 {
-                icon: "☔",
+                icon: "🛡️",
                 title: "Front & Rear Dual Handle Guards",
                 value: "Front & Rear Handle Guards",
                 desc: "Robust handle guards are positioned on both the front and rear of the system, providing exceptional convenience and mechanical protection during frequent transportation, in-vehicle rack installation, and emergency maintenance or removal."
                 },
                 {
-                icon: "✇",
+                icon: "🚙",
                 title: "Vehicle Installation and Operation",
                 value: "Recommended Applications",
                 desc: "• Built-in systems for fire and disaster response command vehicles, military command and control vehicles, and police mobile surveillance vehicles<br>• Special-purpose vehicles and heavy-duty equipment operating in harsh environments with constant vibration and impact<br>• Unmanned mobile rack systems requiring safe and reliable power-down protection"
