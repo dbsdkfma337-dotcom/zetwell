@@ -8,11 +8,11 @@ const productData = {
         products: [
             {
             category: "Zetstation-S시리즈",
-            name: "SS",
+            name: "SS-",
             desc: "S-Series 제품 설명이 들어갑니다....",
             img: "../img/S.png",
             alt: "SSR001",
-            link: "./WSR213.html"
+            link: "./Productdetail.html?product=ssr001"
             }
         ]
     },
@@ -26,11 +26,11 @@ const productData = {
         products: [
             {
             category: "Zetstation-S series",
-            name: "SS",
+            name: "SS-",
             desc: "S-Series ....",
             img: "../img/S.png",
             alt: "SSR001",
-            link: "./WSR213.html"
+            link: "./Productdetail.html?product=ssr001eng"
             }
         ]
     },

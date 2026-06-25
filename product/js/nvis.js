@@ -401,7 +401,7 @@ const productData = {
 
     r15l100: {
         title: "R15L100",
-        visualBg: "../img/bg3.png",
+        visualBg: "../img/r15l100-bg.png",
 
         slideImages: [
             "../img/R15L100-1.png",
@@ -507,7 +507,7 @@ const productData = {
 
     r15l100eng: {
         title: "R15L100",
-        visualBg: "../img/bg3.png",
+        visualBg: "../img/r15l100-bg.png",
 
         slideImages: [
             "../img/R15L100-1.png",
@@ -613,7 +613,7 @@ const productData = {
 
     r19l100: {
         title: "R19L100",
-        visualBg: "../img/R08L100-bg.png",
+        visualBg: "../img/r19l100-bg.png",
 
         slideImages: [
             "../img/R19L100-1.png",
@@ -718,7 +718,7 @@ const productData = {
 
     r19l100eng: {
         title: "R19L100",
-        visualBg: "../img/R08L100-bg.png",
+        visualBg: "../img/r19l100-bg.png",
 
         slideImages: [
             "../img/R19L100-1.png",
