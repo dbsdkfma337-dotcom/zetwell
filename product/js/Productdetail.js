@@ -637,7 +637,7 @@ const productData = {
     },
 
     "9000se": {
-        title: "이중화 서버/워크스테이션",
+        title: "이중화 서버<br>워크스테이션",
 
         desc: "Anti-Vibration Kit & Mounting Kit",
 
@@ -730,7 +730,7 @@ const productData = {
     },
 
     "9000seeng": {
-        title: "이중화 서버/워크스테이션",
+        title: "이중화 서버<br>워크스테이션",
 
         desc: "Anti-Vibration Kit & Mounting Kit",
 
