@@ -65,14 +65,6 @@ const productData = {
             img: "../img/WSR209-ver2.png",
             alt: "WSR209",
             link: "./WSR213.html"
-            },
-            {
-            category: "Zetstation-W시리즈",
-            name: "SSR001",
-            desc: "W-Series 제품 설명이 들어갑니다....",
-            img: "../img/.png",
-            alt: "SSR001",
-            link: "./WSR213.html"
             }
         ]
     },
@@ -106,14 +98,6 @@ const productData = {
             desc: "W-Series ....",
             img: "../img/WSR209-ver2.png",
             alt: "WSR209",
-            link: "./WSR213.html"
-            },
-            {
-            category: "Zetstation-W series",
-            name: "SSR001",
-            desc: "W-Series ....",
-            img: "../img/.png",
-            alt: "SSR001",
             link: "./WSR213.html"
             }
         ]
