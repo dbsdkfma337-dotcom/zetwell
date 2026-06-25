@@ -303,10 +303,19 @@ body {
     box-sizing: border-box;
 }
 
-.maincontent1 p {
-    padding: 0px 0px 20px;
-    font-size: 55px;
+.maincontent1 .text {
+    padding: 0px 0px 30px;
     border-bottom: 1px solid #Fff;
+}
+
+.maincontent1 .text > p {
+    font-size: 55px;
+    margin-bottom: 15px;
+    line-height: 1.2;
+}
+
+.maincontent1 .text > span {
+    font-size: 20px;
 }
 
 .maincontent1 .text-wrap {
