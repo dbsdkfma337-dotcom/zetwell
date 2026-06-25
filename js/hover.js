@@ -6,7 +6,7 @@ const productVisualData = {
     },
     terminal: {
         title: "W-Series",
-        bg: "./img/Zetstation-bg.png",
+        bg: "./img/wsr213-bg.png",
         link: "./product/series.html?series=w-series"
     },
     rfid: {

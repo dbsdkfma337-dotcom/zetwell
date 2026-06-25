@@ -26,9 +26,6 @@
 
 .as-contact-section {
     padding: 120px 20px;
-    background:
-        radial-gradient(circle at 20% 20%, rgba(37, 99, 235, 0.12), transparent 28%),
-        linear-gradient(135deg, #f6f8fc 0%, #eef3f9 100%);
 }
 
 .as-contact-inner {
@@ -104,9 +101,9 @@
 .as-form textarea {
     width: 100%;
     padding: 20px 22px;
-    border: 1px solid rgba(15, 23, 42, 0.12);
+    border: 0;
     border-radius: 16px;
-    background: #fff;
+    background: #f3f3f3;
     color: #111827;
     font-size: 15px;
     outline: none;
@@ -128,22 +125,19 @@
     display: block;
     width: 190px;
     height: 58px;
-    margin-top: 10px;
     border: none;
-    border-radius: 999px;
-    background: linear-gradient(135deg, #2454c6, #153a96);
+    border-radius: 8px;
+    background: #111;
     color: #fff;
     font-size: 15px;
     font-weight: 900;
-    margin: 0 auto;
+    margin: 50px auto 0px;
     cursor: pointer;
-    box-shadow: 0 16px 30px rgba(36, 84, 198, 0.28);
     transition: 0.3s;
 }
 
 .as-form button:hover {
     transform: translateY(-3px);
-    box-shadow: 0 22px 40px rgba(36, 84, 198, 0.36);
 }
 
 @media (max-width: 900px) {

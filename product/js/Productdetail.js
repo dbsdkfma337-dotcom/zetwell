@@ -268,6 +268,188 @@ const productData = {
         ]
     },
 
+    "wsr213": {
+        title: "내용필요",
+
+        desc: "내용필요",
+
+        model: "wsr213",
+
+        visualImg: "../img/wsr213-bg4.png",
+
+        koLink: "./Productdetail.html?product=wsr213",
+        engLink: "./Productdetail-eng.html?product=wsr213eng",
+
+        sliderImages: [
+            "../img/WSR213.png",
+            "../img/wsr213-r2.png"
+        ],
+
+        hero: {
+            title: `극한 환경에서<br>장비를 보호하다`,
+            desc: `대형 장비 및 정밀 기기를 위한 전문 보호 케이스입니다.<br> 충격,습기,온도 변화로부터 장비를 안전하게 보호하고<br> 어떤 환경에서도 안정적인 운용을 지원합니다. `,
+            icon: "🔩",
+            specTitle: "강한 내구성",
+            specDesc: "고강도 폴리프로필렌 소재로 충격과진동, 극한 환경에서도<br> 높은 내구성을 자랑합니다.",
+            img: "../img/WSR213-r2.png"
+        },
+
+        design: {
+            img: "../img/WSR213.png",
+            title: `넓은 내부 공간<br>더 높은 활용성`,
+            desc: `넉넉한 내부공간으로 다양한 장비와 액세서리를 효율적으로 수납할 수 있습니다. 맞춤형 품 구성으로 장비를 안전하게 고정하여 운반할 수 있습니다.`,
+            specs: [
+                {
+                    title: "크기및용량",
+                    items: ["내부크기 1080x620x400", "외부크기 1178x718x427", "대용량 공간 260L"]
+                },
+                {
+                    title: "이동편의성",
+                    items: ["4 Wheels", "360° 회전 캐스터 적용"]
+                }
+            ]
+        },
+
+        photos: [
+            "../img/wsr213-bg.png",
+            "../img/wsr213-bg2.png",
+            "../img/wsr213-bg3.png",
+            "../img/wsr213-bg4.png"
+        ],
+
+        rugged: {
+            title: `그 어떤 환경에서도 살아남는,<br>강력한 보호성능`,
+            cards: [
+                {
+                icon: "🔒",
+                title: "견고한 잠금 장치",
+                value: "금속 래치 적용",
+                desc: "금속 래치와 잠금 지원 구조로 운송 중에도 안정적인 보호 성능을 제공합니다."
+                },
+                {
+                icon: "☔",
+                title: "방수·방진 구조",
+                value: "IP65",
+                desc: "특수 실팅 구조로 외부의 물과 먼지로부터 장비를 안전하게 보호합니다."
+                },
+                {
+                icon: "⚙️",
+                title: "자동 압력 조절 밸브",
+                value: "압력 자동 조절",
+                desc: "내부 압력을 자동으로 조절하여 기압 변화시에도 안정적인 상태를 유지합니다."
+                }
+            ]
+        },
+
+        video: "../img/43IG-video.mp4",
+
+
+        specTable: [
+            ["디스플레이", '43" 4k UHD (3840 × 2160)'],
+            ["밝기", "500 nits"],
+            ["시야각", "178° (H) / 178° (V)"],
+            ["입력단자", "HDMI, USB, LAN, 전원 입력"],
+            ["전원", "AC 100~240V"],
+            ["작동온도", "-20°C ~ 60°C"],
+            ["보관온도", "-30°C ~ 70°C"],
+            ["방진방수", "IP65"],
+            ["외부크기", "1178 x 718 x 427 mm"],
+            ["내부크기", "1080 x 620 x 400 mm"],
+            ["중량", "약 24kg"]
+        ]
+    },
+
+    "wsr209": {
+        title: "내용필요",
+
+        desc: "내용필요",
+
+        model: "wsr209",
+
+        visualImg: "../img/wsr209-bg3.png",
+
+        koLink: "./Productdetail.html?product=wsr213",
+        engLink: "./Productdetail-eng.html?product=wsr213eng",
+
+        sliderImages: [
+            "../img/wsr209.png",
+            "../img/wsr209-r.png"
+        ],
+
+        hero: {
+            title: `극한 환경에서<br>장비를 보호하다`,
+            desc: `대형 장비 및 정밀 기기를 위한 전문 보호 케이스입니다.<br> 충격,습기,온도 변화로부터 장비를 안전하게 보호하고<br> 어떤 환경에서도 안정적인 운용을 지원합니다. `,
+            icon: "🔩",
+            specTitle: "강한 내구성",
+            specDesc: "고강도 폴리프로필렌 소재로 충격과진동, 극한 환경에서도<br> 높은 내구성을 자랑합니다.",
+            img: "../img/wsr209.png"
+        },
+
+        design: {
+            img: "../img/wsr209-r.png",
+            title: `넓은 내부 공간<br>더 높은 활용성`,
+            desc: `넉넉한 내부공간으로 다양한 장비와 액세서리를 효율적으로 수납할 수 있습니다. 맞춤형 품 구성으로 장비를 안전하게 고정하여 운반할 수 있습니다.`,
+            specs: [
+                {
+                    title: "크기및용량",
+                    items: ["내부크기 1080x620x400", "외부크기 1178x718x427", "대용량 공간 260L"]
+                },
+                {
+                    title: "이동편의성",
+                    items: ["4 Wheels", "360° 회전 캐스터 적용"]
+                }
+            ]
+        },
+
+        photos: [
+            "../img/wsr213-bg.png",
+            "../img/wsr213-bg2.png",
+            "../img/wsr213-bg3.png",
+            "../img/wsr213-bg4.png"
+        ],
+
+        rugged: {
+            title: `그 어떤 환경에서도 살아남는,<br>강력한 보호성능`,
+            cards: [
+                {
+                icon: "🔒",
+                title: "견고한 잠금 장치",
+                value: "금속 래치 적용",
+                desc: "금속 래치와 잠금 지원 구조로 운송 중에도 안정적인 보호 성능을 제공합니다."
+                },
+                {
+                icon: "☔",
+                title: "방수·방진 구조",
+                value: "IP65",
+                desc: "특수 실팅 구조로 외부의 물과 먼지로부터 장비를 안전하게 보호합니다."
+                },
+                {
+                icon: "⚙️",
+                title: "자동 압력 조절 밸브",
+                value: "압력 자동 조절",
+                desc: "내부 압력을 자동으로 조절하여 기압 변화시에도 안정적인 상태를 유지합니다."
+                }
+            ]
+        },
+
+        video: "../img/43IG-video.mp4",
+
+
+        specTable: [
+            ["디스플레이", '43" 4k UHD (3840 × 2160)'],
+            ["밝기", "500 nits"],
+            ["시야각", "178° (H) / 178° (V)"],
+            ["입력단자", "HDMI, USB, LAN, 전원 입력"],
+            ["전원", "AC 100~240V"],
+            ["작동온도", "-20°C ~ 60°C"],
+            ["보관온도", "-30°C ~ 70°C"],
+            ["방진방수", "IP65"],
+            ["외부크기", "1178 x 718 x 427 mm"],
+            ["내부크기", "1080 x 620 x 400 mm"],
+            ["중량", "약 24kg"]
+        ]
+    },
+
     "ssr001": {
         title: "내용필요",
 
