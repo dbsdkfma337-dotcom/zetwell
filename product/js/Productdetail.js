@@ -646,7 +646,7 @@ const productData = {
         visualImg: "../img/HRD2000M-bg.png",
 
         koLink: "./Productdetail.html?product=hrd2000m",
-        engLink: "./Productdetail-eng.html?product=hrd2000m",
+        engLink: "./Productdetail-eng.html?product=hrd2000meng",
 
         sliderImages: [
             "../img/HRD2000M.png",
@@ -725,7 +725,7 @@ const productData = {
     },
 
     "hrd2000meng": {
-        title: "Industrial Embedded Computer for Mobile Command Applications",
+        title: "Industrial Embedded Computer<br> for Mobile Command Applications",
 
         desc: "Embedded Computer for Command Vehicles",
 
@@ -734,7 +734,7 @@ const productData = {
         visualImg: "../img/HRD2000M-bg.png",
 
         koLink: "./Productdetail.html?product=hrd2000m",
-        engLink: "./Productdetail-eng.html?product=hrd2000m",
+        engLink: "./Productdetail-eng.html?product=hrd2000meng",
 
         sliderImages: [
             "../img/HRD2000M.png",
