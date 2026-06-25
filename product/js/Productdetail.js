@@ -637,9 +637,9 @@ const productData = {
     },
 
     "hrd2000m": {
-        title: "워크스테이션용으로 제작된<br> 차량용(이동형) 서버",
+        title: "지휘 차량 및 특수 이동 환경 최적화<br> 산업용 임베디드 컴퓨터",
 
-        desc: "Anti-Vibration Kit & Mounting Kit",
+        desc: "Embedded Computer for Command Vehicles",
 
         model: "hrd2000m",
 
@@ -655,57 +655,57 @@ const productData = {
         ],
 
         hero: {
-            title: `극한 환경에서<br>장비를 보호하다`,
-            desc: `대형 장비 및 정밀 기기를 위한 전문 보호 케이스입니다.<br> 충격,습기,온도 변화로부터 장비를 안전하게 보호하고<br> 어떤 환경에서도 안정적인 운용을 지원합니다. `,
-            icon: "⚒",
-            specTitle: "강한 내구성",
-            specDesc: "고강도 폴리프로필렌 소재로 충격과진동, 극한 환경에서도<br> 높은 내구성을 자랑합니다.",
+            title: `지휘 차량 전용<br> 진동 보호 거치대 설계`,
+            desc: `차량 주행 시 발생하는 상시 엔진 잔진동과 오프로드 요철 충격을 완벽하게 흡수하는 <strong>안티 바이브레이션 특수 거치 구조</strong>를 적용하여, 이동 중에도 내부 부품 이탈이나 시스템 다운 없이 중단 없는 작전 지휘 환경을 보장합니다.`,
+            icon: "🔩",
+            specTitle: "안티 바이브레이션 설계",
+            specDesc: "주행 진동과 충격을 흡수하는 안티 바이브레이션 구조",
             img: "../img/HRD2000M.png"
         },
 
         design: {
             img: "../img/HRD2000M.png",
-            title: `넓은 내부 공간<br>더 높은 활용성`,
-            desc: `넉넉한 내부공간으로 다양한 장비와 액세서리를 효율적으로 수납할 수 있습니다. 맞춤형 품 구성으로 장비를 안전하게 고정하여 운반할 수 있습니다.`,
+            title: `슈퍼커패시터 내장 전원 보호 모듈`,
+            desc: `차량 시동 시 발생하는 순간적인 전압 강하(Sag) 및 돌발적인 전원 차단 상황에서 시스템을 안전하게 보호하는 슈퍼커패시 터 기반 전원 유지 보듈이 기본 내장되어 데이터 유실을 완벽히 방지합니다.`,
             specs: [
                 {
-                    title: "용량",
-                    items: ["내부크기 1080x620x400", "외부크기 1178x718x427", "대용량 공간 260L"]
+                    title: "내장 UPS 모듈",
+                    items: ["PW601-2S1P (슈퍼커패시터 기반 전원 안정화 및 정전 보호 시스템)",]
                 },
                 {
-                    title: "내용필요",
-                    items: ["내용 필요", "내용 필요"]
+                    title: "전원 입력 (Power)",
+                    items: ["DC 12V / 5A (차량 인버터 대응 어댑터 공급 및 전원 라인 케이블 가공 안정화)",]
                 }
             ]
         },
 
         photos: [
-            "../img/43IG1.png",
-            "../img/43IG2.png",
-            "../img/43IG3.png",
-            "../img/43IG4.png"
+            "../img/hrd2000m-bg3.png",
+            "../img/hrd2000m-bg5.png",
+            "../img/hrd2000m-bg2.png",
+            "../img/hrd2000m-bg4.png"
         ],
 
         rugged: {
-            title: `그 어떤 환경에서도 살아남는,<br>강력한 보호성능`,
+            title: `특수 환경에서도 살아남는,<br>최적화된 임베디드 컴퓨터`,
             cards: [
                 {
                 icon: "🔒",
-                title: "잠금장치",
-                value: "금속 래치 적용",
-                desc: "금속 래치와 잠금 지원 구조로 운송 중에도 안정적인 보호 성능을 제공합니다."
+                title: " 팬리스(Fanless) 자연 공랭식 방열 디자인",
+                value: "팬리스(Fanless)",
+                desc: "물리적인 냉각팬이 없는 고효율 알루미늄 히트싱크 인클로저 섀시 설계로, 먼지와 분진이 많은 차량 내 가혹한 환경에서도 팬 고장 우려 없이 24시간 무소음·무진동 안정 가동이 가능합니다."
                 },
                 {
                 icon: "☔",
-                title: "방수·방진",
-                value: "IP65",
-                desc: "특수 실팅 구조로 외부의 물과 먼지로부터 장비를 안전하게 보호합니다."
+                title: "전·후면 듀얼 핸들 가드",
+                value: "(Handle Guard) 장착",
+                desc: "제품 전면과 후면에 견고한 기구부 핸들 가드를 배치하여, 이동이 잦은 현장 및 차량 내부 랙(Rack) 실장, 긴급 유지보수 및 탈부착 시 탁월한 편의성과 기구적 안전성을 제공합니다."
                 },
                 {
                 icon: "✇",
-                title: "자동 압력 조절 밸브",
-                value: "압력 자동 조절",
-                desc: "내부 압력을 자동으로 조절하여 기압 변화시에도 안정적인 상태를 유지합니다."
+                title: "차량 설치 및 운용",
+                value: "추천 적용 분야",
+                desc: "• 소방 재난 지휘 차량, 군 작전 통제 차량, 경찰 기동 관제 차량 빌트인 시스템<br>• 진동과 외부 충격이 지속적으로 발생하는 험지 운행 특수 목적 자동차 및 중장비<br>• 안정적인 전원 차단 공정이 필요한 무인 이동형 랙 시스템"
                 }
             ]
         },
@@ -714,31 +714,27 @@ const productData = {
 
 
         specTable: [
-            ["디스플레이", '43" 4k UHD (3840 × 2160)'],
-            ["밝기", "500 nits"],
-            ["시야각", "178° (H) / 178° (V)"],
-            ["입력단자", "HDMI, USB, LAN, 전원 입력"],
-            ["전원", "AC 100~240V"],
-            ["작동온도", "-20°C ~ 60°C"],
-            ["보관온도", "-30°C ~ 70°C"],
-            ["방진방수", "IP65"],
-            ["외부크기", "1178 x 718 x 427 mm"],
-            ["내부크기", "1080 x 620 x 400 mm"],
-            ["증량", "약 24kg"]
+            ["내장 UPS 모듈", 'PW601-2S1P (슈퍼커패시터 기반 전원 안정화 및 정전 보호 시스템))'],
+            ["전원 입력 (Power)", "DC 12V / 5A (차량 인버터 대응 어댑터 공급 및 전원 라인 케이블 가공 안정화)"],
+            ["네트워크 (LAN)", "LAN1 : Intel® 2.5GbE I226-IT 산업용 초고속 이더넷<br>LAN2 : Intel® 2.5GbE I226-IT 산업용 초고속 이더넷<br>LAN3 : 방수캡 마감 공정 (NC 처리"],
+            ["모바일 통신 (LTE)", "LTE 무선 모뎀 커스텀 빌드 지원 (Option) / 전면 고이득 WWAN 안테나 포트 2개 탑재"],
+            ["디스플레이 출력", "1 x HDMI® 고화질 디지털 비디오 출력 포트"],
+            ["인터페이스 포트", "1 x USB 2.0 포트 / 전면 원터치 메탈 전원 스위치 버튼 / Red LED 전원 상태 표시등"],
+            ["기구 및 냉각", "팬리스(Fanless) 일체형 알루미늄 압출 히트싱크 섀시 + 전·후면 이중 고강도 핸들 가드"]
         ]
     },
 
     "hrd2000meng": {
-        title: "워크스테이션용으로 제작된<br> 차량용(이동형) 서버",
+        title: "Industrial Embedded Computer for Mobile Command Applications",
 
-        desc: "Anti-Vibration Kit & Mounting Kit",
+        desc: "Embedded Computer for Command Vehicles",
 
         model: "hrd2000m",
 
         visualImg: "../img/HRD2000M-bg.png",
 
         koLink: "./Productdetail.html?product=hrd2000m",
-        engLink: "./Productdetail-eng.html?product=hrd2000meng",
+        engLink: "./Productdetail-eng.html?product=hrd2000m",
 
         sliderImages: [
             "../img/HRD2000M.png",
@@ -747,57 +743,57 @@ const productData = {
         ],
 
         hero: {
-            title: `극한 환경에서<br>장비를 보호하다`,
-            desc: `대형 장비 및 정밀 기기를 위한 전문 보호 케이스입니다.<br> 충격,습기,온도 변화로부터 장비를 안전하게 보호하고<br> 어떤 환경에서도 안정적인 운용을 지원합니다. `,
-            icon: "⚒",
-            specTitle: "강한 내구성",
-            specDesc: "고강도 폴리프로필렌 소재로 충격과진동, 극한 환경에서도<br> 높은 내구성을 자랑합니다.",
+            title: `Vibration-Protected Mount Design for Command Vehicles`,
+            desc: `By incorporating a <strong>specialized anti-vibration mounting structure</strong> that effectively absorbs continuous engine vibrations and off-road shocks encountered during vehicle operation, the system ensures uninterrupted mission command without internal component displacement or system downtime, even while in transit.`,
+            icon: "🔩",
+            specTitle: "Anti-Vibration Design",
+            specDesc: "Anti-vibration structure designed to absorb driving vibrations and impacts",
             img: "../img/HRD2000M.png"
         },
 
         design: {
-            img: "../img/43IG-h.png",
-            title: `넓은 내부 공간<br>더 높은 활용성`,
-            desc: `넉넉한 내부공간으로 다양한 장비와 액세서리를 효율적으로 수납할 수 있습니다. 맞춤형 품 구성으로 장비를 안전하게 고정하여 운반할 수 있습니다.`,
+            img: "../img/HRD2000M.png",
+            title: `Supercapacitor-Integrated Power Protection Module`,
+            desc: `A built-in supercapacitor-based power retention module protects the system from momentary voltage sags during engine startup and unexpected power interruptions, preventing data loss and ensuring safe system operation.`,
             specs: [
                 {
-                    title: "용량",
-                    items: ["내부크기 1080x620x400", "외부크기 1178x718x427", "대용량 공간 260L"]
+                    title: "Built-in UPS Module",
+                    items: ["PW601-2S1P (Supercapacitor-Based Power Stabilization and Power Loss Protection System)",]
                 },
                 {
-                    title: "내용필요",
-                    items: ["내용 필요", "내용 필요"]
+                    title: "Power Input",
+                    items: ["DC 12V / 5A (Adapter Supply and Power Line Stabilization for Vehicle Inverter Applications)",]
                 }
             ]
         },
 
         photos: [
-            "../img/43IG1.png",
-            "../img/43IG2.png",
-            "../img/43IG3.png",
-            "../img/43IG4.png"
+            "../img/hrd2000m-bg3.png",
+            "../img/hrd2000m-bg5.png",
+            "../img/hrd2000m-bg2.png",
+            "../img/hrd2000m-bg4.png"
         ],
 
         rugged: {
-            title: `그 어떤 환경에서도 살아남는,<br>강력한 보호성능`,
+            title: `Optimized Embedded Computer<br> for Extreme Environments`,
             cards: [
                 {
                 icon: "🔒",
-                title: "잠금장치",
-                value: "금속 래치 적용",
-                desc: "금속 래치와 잠금 지원 구조로 운송 중에도 안정적인 보호 성능을 제공합니다."
+                title: "Fanless Passive Cooling Design",
+                value: "Fanless",
+                desc: "Featuring a high-efficiency aluminum heatsink enclosure chassis with a fanless passive cooling design, the system enables 24/7 silent and vibration-free operation without the risk of fan failure, even in harsh in-vehicle environments exposed to dust and debris."
                 },
                 {
                 icon: "☔",
-                title: "방수·방진",
-                value: "IP65",
-                desc: "특수 실팅 구조로 외부의 물과 먼지로부터 장비를 안전하게 보호합니다."
+                title: "Front & Rear Dual Handle Guards",
+                value: "Front & Rear Handle Guards",
+                desc: "Robust handle guards are positioned on both the front and rear of the system, providing exceptional convenience and mechanical protection during frequent transportation, in-vehicle rack installation, and emergency maintenance or removal."
                 },
                 {
                 icon: "✇",
-                title: "자동 압력 조절 밸브",
-                value: "압력 자동 조절",
-                desc: "내부 압력을 자동으로 조절하여 기압 변화시에도 안정적인 상태를 유지합니다."
+                title: "Vehicle Installation and Operation",
+                value: "Recommended Applications",
+                desc: "• Built-in systems for fire and disaster response command vehicles, military command and control vehicles, and police mobile surveillance vehicles<br>• Special-purpose vehicles and heavy-duty equipment operating in harsh environments with constant vibration and impact<br>• Unmanned mobile rack systems requiring safe and reliable power-down protection"
                 }
             ]
         },
@@ -806,17 +802,13 @@ const productData = {
 
 
         specTable: [
-            ["디스플레이", '43" 4k UHD (3840 × 2160)'],
-            ["밝기", "500 nits"],
-            ["시야각", "178° (H) / 178° (V)"],
-            ["입력단자", "HDMI, USB, LAN, 전원 입력"],
-            ["전원", "AC 100~240V"],
-            ["작동온도", "-20°C ~ 60°C"],
-            ["보관온도", "-30°C ~ 70°C"],
-            ["방진방수", "IP65"],
-            ["외부크기", "1178 x 718 x 427 mm"],
-            ["내부크기", "1080 x 620 x 400 mm"],
-            ["증량", "약 24kg"]
+            ["Built-in UPS Module", 'PW601-2S1P (Supercapacitor-Based Power Stabilization and Power Failure Protection System))'],
+            ["Power Input", "DC 12V / 5A (Adapter Supply and Stabilized Power Cabling for Vehicle Inverter Applications)"],
+            ["Network (LAN)", "LAN1 : Intel® 2.5GbE I226-IT Industrial High-Speed Ethernet<br>LAN2 : Intel® 2.5GbE I226-IT Industrial High-Speed Ethernet<br>LAN3 : Waterproof Cap Finishing (NC Process)"],
+            ["Mobile Communication (LTE)", "Support for Custom LTE Wireless Modem Integration (Option) / Equipped with Two Front High-Gain WWAN Antenna Ports"],
+            ["Display Output", "1 x HDMI® High-Definition Digital Video Output Port"],
+            ["Interface Port", "1 x USB 2.0 Port / ront One-Touch Metal Power Switch Button / Red LED Power Status Indicator"],
+            ["Mechanical Design & Cooling", "Fanless Integrated Aluminum Extruded Heatsink Chassis + Front & Rear Dual Heavy-Duty Handle Guards"]
         ]
     },
 
