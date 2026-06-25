@@ -33,7 +33,7 @@ const productData = {
             desc: `넉넉한 내부공간으로 다양한 장비와 액세서리를 효율적으로 수납할 수 있습니다. 맞춤형 품 구성으로 장비를 안전하게 고정하여 운반할 수 있습니다.`,
             specs: [
                 {
-                    title: "용량",
+                    title: "크기및용량",
                     items: ["내부크기 1080x620x400", "외부크기 1178x718x427", "대용량 공간 260L"]
                 },
                 {
@@ -88,7 +88,7 @@ const productData = {
             ["방진방수", "IP65"],
             ["외부크기", "1178 x 718 x 427 mm"],
             ["내부크기", "1080 x 620 x 400 mm"],
-            ["증량", "약 24kg"]
+            ["중량", "약 24kg"]
         ]
     },
 
@@ -111,26 +111,26 @@ const productData = {
         ],
 
         hero: {
-            title: `Protecting Equipment<br> in Extreme Environments`,
-            desc: `대형 장비 및 정밀 기기를 위한 전문 보호 케이스입니다.<br> 충격,습기,온도 변화로부터 장비를 안전하게 보호하고<br> 어떤 환경에서도 안정적인 운용을 지원합니다. `,
+            title: `Protecting Equipment in Extreme Environments`,
+            desc: `A professional protective case designed for large equipment and precision instruments.<br> It safely protects equipment from shock, moisture, and temperature fluctuations,<br> ensuring reliable operation in any environment. `,
             icon: "🔩",
-            specTitle: "강한 내구성",
-            specDesc: "고강도 폴리프로필렌 소재로 충격과진동, 극한 환경에서도<br> 높은 내구성을 자랑합니다.",
+            specTitle: "High Durability",
+            specDesc: "Made from high-strength polypropylene, it offers exceptional durability against impacts, vibrations, and extreme environments.",
             img: "../img/43IG-L.png"
         },
 
         design: {
             img: "../img/43IG-h.png",
-            title: `넓은 내부 공간<br>더 높은 활용성`,
-            desc: `넉넉한 내부공간으로 다양한 장비와 액세서리를 효율적으로 수납할 수 있습니다. 맞춤형 품 구성으로 장비를 안전하게 고정하여 운반할 수 있습니다.`,
+            title: `Spacious Interior, Greater Versatility`,
+            desc: `The spacious interior allows for efficient storage of various equipment and accessories. Customizable foam inserts securely hold equipment in place for safe transportation.`,
             specs: [
                 {
-                    title: "용량",
-                    items: ["내부크기 1080x620x400", "외부크기 1178x718x427", "대용량 공간 260L"]
+                    title: "Dimensions & Capacity",
+                    items: ["Internal Dimensions 1080x620x400", "External Dimensions 1178x718x427", "Large Capacity 260L"]
                 },
                 {
-                    title: "내용필요",
-                    items: ["내용 필요", "내용 필요"]
+                    title: "Mobility",
+                    items: ["4 Wheels", "Equipped with 360° Swivel Casters"]
                 }
             ]
         },
@@ -143,25 +143,25 @@ const productData = {
         ],
 
         rugged: {
-            title: `그 어떤 환경에서도 살아남는,<br>강력한 보호성능`,
+            title: `Powerful Protection That Survives Any Environment`,
             cards: [
                 {
                 icon: "🔒",
-                title: "잠금장치",
-                value: "금속 래치 적용",
-                desc: "금속 래치와 잠금 지원 구조로 운송 중에도 안정적인 보호 성능을 제공합니다."
+                title: "Secure Locking System",
+                value: "Featuring Metal Latches",
+                desc: "Metal latches and a secure locking structure provide reliable protection even during transportation."
                 },
                 {
                 icon: "☔",
-                title: "방수·방진",
+                title: "Waterproof & Dustproof Design",
                 value: "IP65",
-                desc: "특수 실팅 구조로 외부의 물과 먼지로부터 장비를 안전하게 보호합니다."
+                desc: "The specialized sealing structure protects equipment from water and dust, ensuring safe operation in demanding environments."
                 },
                 {
                 icon: "⚙️",
-                title: "자동 압력 조절 밸브",
-                value: "압력 자동 조절",
-                desc: "내부 압력을 자동으로 조절하여 기압 변화시에도 안정적인 상태를 유지합니다."
+                title: "Automatic Pressure Equalization Valve",
+                value: "Automatic Pressure Equalization",
+                desc: "Automatically equalizes internal pressure to maintain stable conditions even during changes in atmospheric pressure."
                 }
             ]
         },
@@ -170,17 +170,17 @@ const productData = {
 
 
         specTable: [
-            ["디스플레이", '43" 4k UHD (3840 × 2160)'],
-            ["밝기", "500 nits"],
-            ["시야각", "178° (H) / 178° (V)"],
-            ["입력단자", "HDMI, USB, LAN, 전원 입력"],
-            ["전원", "AC 100~240V"],
-            ["작동온도", "-20°C ~ 60°C"],
-            ["보관온도", "-30°C ~ 70°C"],
-            ["방진방수", "IP65"],
-            ["외부크기", "1178 x 718 x 427 mm"],
-            ["내부크기", "1080 x 620 x 400 mm"],
-            ["증량", "약 24kg"]
+            ["Display", '43" 4k UHD (3840 × 2160)'],
+            ["Brightness", "500 nits"],
+            ["Viewing Angle", "178° (H) / 178° (V)"],
+            ["Input Port", "HDMI, USB, LAN, 전원 입력"],
+            ["Power", "AC 100~240V"],
+            ["Operating Temperature", "-20°C ~ 60°C"],
+            ["Storage Temperature", "-30°C ~ 70°C"],
+            ["Dustproof & Waterproof", "IP65"],
+            ["External Dimensions", "1178 x 718 x 427 mm"],
+            ["Internal Dimensions", "1080 x 620 x 400 mm"],
+            ["Weight", "Approx. 24 kg"]
         ]
     },
 
