@@ -38,7 +38,7 @@ const productData = {
     "w-series": {
         title: "W-Series",
         desc: "NVDIA GPU AI파워, 세이프가드 케이스로 어디서나 안전하게 <br> 멈추지 않는 고가용성 AI워크스테이션을 가방에 수납하십시오. <br>고충격 방지 하드케이스가 기본 매칭되어, 가장험한 현장에서도 탑티어 AI 성능을 완벽히 보호합니다.",
-        visualImg: "../img/Zetstation-bg.png",
+        visualImg: "../img/w-series-bg.png",
         koLink: "./series.html?series=w-series",
         engLink: "./series-eng.html?series=w-series-eng",
         products: [
