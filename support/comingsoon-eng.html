@@ -1,20 +1,19 @@
 <!DOCTYPE html>
-<html lang="eng">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>NVIS</title>
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/font.css">
-    <link rel="stylesheet" href="./css/zstiaion.css">
-    <link rel="stylesheet" href="../css/eng.css">
+    <link rel="stylesheet" href="../css/company.css">
+    <link rel="stylesheet" href="./css/comingsoon.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <script src="../js/main.js" defer></script>
-    <script src="./js/product.js" defer></script>
-
 </head>
 <body>
+    <main class="nvis-page">
     <header id="header" class="sub-header">
         <h1 class="logo">
             <a href="../eng.html">Zetwell</a>
@@ -50,9 +49,9 @@
                     <li class="gnb-item">
                         <a href="#" class="gnb-link">Accessories</a>
                         <ul class="depth2">
-                            <li><a href="../support/comingsoon-eng.html">PowerlBank</a></li>
-                            <li><a href="../support/comingsoon-eng.html">SolarPanel</a></li>
-                            <li><a href="../support/comingsoon-eng.html">EMP Protection</a></li>
+                            <li><a href="../support/comingsoon.html">PowerlBank</a></li>
+                            <li><a href="../support/comingsoon.html">SolarPanel</a></li>
+                            <li><a href="../support/comingsoon.html">EMP Protection</a></li>
                         </ul>
                     </li>
                     <li class="gnb-item">
@@ -87,86 +86,92 @@
                 <img src="../img/icon-language.png" alt="">
             </button>
             <div class="lang-list">
-                <a id="langKo" href="#">ko</a>
-                <a id="langEng" href="#">eng</a>
+                <a id="langKo" href="./comingsoon.html">ko</a>
+                <a id="langEng" href="./comingsoon-eng.html">eng</a>
             </div>
         </div>
 
         <div class="sub-bg"></div>
     </header>
 
-    <div class="quick-contact" id="quickContact">
-        <div class="quick-popup">
-            <a href="tel:1566-9090">
-                <span class="fa-solid fa-phone"></span>
-                <strong>Sales Inquiry</strong>
-                <em>+82-2-3281-0130</em>
-            </a>
+        <div class="quick-contact" id="quickContact">
+            <div class="quick-popup">
+                <a href="tel:1566-9090">
+                    <span class="fa-solid fa-phone"></span>
+                    <strong>Sales Inquiry</strong>
+                    <em>+82-2-3281-0130</em>
+                </a>
+            </div>
+
+            <button type="button" class="quick-btn" id="quickBtn" aria-label="구매문의 열기">
+                <i class="fa-solid fa-phone phone-icon"></i>
+                <span class="close-icon">×</span>
+            </button>
         </div>
 
-        <button type="button" class="quick-btn" id="quickBtn" aria-label="구매문의 열기">
-            <i class="fa-solid fa-phone phone-icon"></i>
-            <span class="close-icon">×</span>
-        </button>
-    </div>
+        <section class="coming-soon">
+            <div class="coming-inner">
+                <p class="coming-label">COMING SOON</p>
 
-    <section class="sub-visual">
-        <h2 id="seriesTitle">S-Series</h2>
-        <p id="seriesDesc"></p>
-    </section>
-
-    <section class="product-list-section">
-        <div class="inner">
-            <div class="product-grid" id="productGrid"></div>
-        </div>
-    </section>
-
-    <footer class="footer">
-        <div class="footer-inner">
-            <div class="footer-left">
                 <h2>
-                    Built with Korean Technology,<br>
-                    Engineered for Safety and Strength
+                    A New Product Is<br> Coming Soon
                 </h2>
 
-                <a href="./made-in-korea.html" class="footer-btn">
-                    MADE IN KOREA
-                    <img src="../img/flag.png" alt="">
-                </a>
-
-                <p class="copyright">
-                    Copyright © zetwell. All Rights Reserved.
+                <p class="coming-desc">
+                    Detailed product information and specifications are currently being prepared.<br> Please check back soon for updates.
                 </p>
+
+                <a href="../product/series.html?series=w-series" class="coming-btn">View Other Products</a>
             </div>
+        </section>
 
-            <div class="footer-right">
-                <div class="footer-col">
-                    <h3>Social</h3>
-                    <ul>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Facebook</a></li>
-                        <li><a href="#">Instagram</a></li>
-                    </ul>
-                </div>
 
-                <div class="footer-col">
-                    <h3>Contact</h3>
-                    <p>
-                        02-2605-9999<br>
-                        02-2602-2929
+        <footer class="footer">
+            <div class="footer-inner">
+                <div class="footer-left">
+                    <h2>
+                        Built with Korean Technology,<br>
+                        Engineered for Safety and Strength
+                    </h2>
+
+                    <a href="./made-in-korea.html" class="footer-btn">
+                        MADE IN KOREA
+                        <img src="../img/flag.png" alt="">
+                    </a>
+
+                    <p class="copyright">
+                        Copyright © zetwell. All Rights Reserved.
                     </p>
                 </div>
 
-                <div class="footer-col">
-                    <h3>Address</h3>
-                    <p>
-                        Suite 1102, ENC Dream Tower 8<br>
-                        45, Gasan Digital 1-ro<br>
-                        Geumcheon-gu, Seoul, Republic of Korea
-                    </p>
+                <div class="footer-right">
+                    <div class="footer-col">
+                        <h3>Social</h3>
+                        <ul>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Instagram</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h3>Contact</h3>
+                        <p>
+                            02-3281-0130
+                        </p>
+                    </div>
+
+                    <div class="footer-col">
+                        <h3>Address</h3>
+                        <p>
+                            Suite 1102, ENC Dream Tower 8<br>
+                            45, Gasan Digital 1-ro<br>
+                            Geumcheon-gu, Seoul, Republic of Korea
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
+        </footer>
+    </main>
 </body>
 </html>

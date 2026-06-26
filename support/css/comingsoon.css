@@ -45,9 +45,11 @@
 
 .coming-desc {
     margin-bottom: 50px;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 1.8;
     color: rgba(255, 255, 255, 0.72);
+    font-weight: 100;
+    letter-spacing: -0.7px;
 }
 
 .coming-btn {
