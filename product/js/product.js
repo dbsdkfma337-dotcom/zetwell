@@ -513,7 +513,7 @@ subVisual.style.backgroundImage = `url(${currentSeries.visualImg})`;
 
 subVisual.style.backgroundImage = `
 linear-gradient(
-    rgba(0, 22, 42, 0.62),
+    rgba(38, 38, 39, 62%),
     rgba(0, 22, 42, 0.62)
 ),
 url(${currentSeries.visualImg})
