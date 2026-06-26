@@ -115,7 +115,7 @@ const productData = {
             category: "Zetstation-E시리즈",
             name: "EPH10",
             desc: "E-Series 제품 설명이 들어갑니다....",
-            img: "../img/100.png",
+            img: "../img/eph10-1.png",
             alt: "EPH10",
             link: "./Productdetail.html?product=eph10"
             },
@@ -123,7 +123,7 @@ const productData = {
             category: "Zetstation-E시리즈",
             name: "EPH8",
             desc: "E-Series 제품 설명이 들어갑니다....",
-            img: "../img/101.png",
+            img: "../img/eph8-1.png",
             alt: "EPH8",
             link: "./Productdetail.html?product=eph8"
             },
@@ -131,9 +131,9 @@ const productData = {
             category: "Zetstation-E시리즈",
             name: "EPN2000B",
             desc: "E-Series 제품 설명이 들어갑니다....",
-            img: "../img/102.png",
+            img: "../img/epn2000b-1.png",
             alt: "EPN2000B",
-            link: "./Productdetail.html?product=esr001"
+            link: "./Productdetail.html?product=epn2000b"
             },
             {
             category: "Zetstation-E시리즈",
@@ -141,7 +141,7 @@ const productData = {
             desc: "E-Series 제품 설명이 들어갑니다....",
             img: "../img/104.png",
             alt: "IHH10",
-            link: "./Productdetail.html?product=esr001"
+            link: "./Productdetail.html?product=ihh10"
             },
             {
             category: "Zetstation-E시리즈",
@@ -149,7 +149,7 @@ const productData = {
             desc: "E-Series 제품 설명이 들어갑니다....",
             img: "../img/106.png",
             alt: "IHH8",
-            link: "./Productdetail.html?product=esr001"
+            link: "./Productdetail.html?product=ihh8"
             },
             {
             category: "Zetstation-E시리즈",
@@ -157,7 +157,7 @@ const productData = {
             desc: "E-Series 제품 설명이 들어갑니다....",
             img: "../img/107.png",
             alt: "IHN2000B",
-            link: "./Productdetail.html?product=esr001"
+            link: "./Productdetail.html?product=ihn2000b"
             }
         ]
     },
@@ -174,25 +174,25 @@ const productData = {
             category: "Zetstation-E series",
             name: "EPH10",
             desc: "E-Series ....",
-            img: "../img/100.png",
+            img: "../img/eph10-1.png",
             alt: "EPH10",
-            link: "./product-detail.html?product=esr001"
+            link: "./Productdetail-eng.html?product=eph10eng"
             },
             {
             category: "Zetstation-E series",
             name: "EPH8",
             desc: "E-Series ....",
-            img: "../img/101.png",
+            img: "../img/eph8-1.png",
             alt: "EPH8",
-            link: "./product-detail.html?product=esr001"
+            link: "./Productdetail-eng.html?product=eph8eng"
             },
             {
             category: "Zetstation-E series",
             name: "EPN2000B",
             desc: "E-Series ....",
-            img: "../img/102.png",
+            img: "../img/epn2000b-1.png",
             alt: "EPN2000B",
-            link: "./product-detail.html?product=esr001"
+            link: "./Productdetail-eng.html?product=epn2000b"
             },
             {
             category: "Zetstation-E series",
@@ -200,7 +200,7 @@ const productData = {
             desc: "E-Series ....",
             img: "../img/104.png",
             alt: "IHH10",
-            link: "./product-detail.html?product=esr001"
+            link: "./Productdetail-eng.html?product=ihh10eng"
             },
             {
             category: "Zetstation-E series",
@@ -208,7 +208,7 @@ const productData = {
             desc: "E-Series ....",
             img: "../img/106.png",
             alt: "IHH8",
-            link: "./product-detail.html?product=esr001"
+            link: "./Productdetail-eng.html?product=ihh8eng"
             },
             {
             category: "Zetstation-E series",
@@ -216,7 +216,7 @@ const productData = {
             desc: "E-Series ....",
             img: "../img/107.png",
             alt: "IHN2000B",
-            link: "./product-detail.html?product=esr001"
+            link: "./Productdetail-eng.html?product=ihn2000beng"
             }
         ]
     },
@@ -514,7 +514,7 @@ subVisual.style.backgroundImage = `url(${currentSeries.visualImg})`;
 subVisual.style.backgroundImage = `
 linear-gradient(
     rgba(38, 38, 39, 62%),
-    rgba(0, 22, 42, 0.62)
+    rgba(43, 43, 42, 0.62)
 ),
 url(${currentSeries.visualImg})
 `;
