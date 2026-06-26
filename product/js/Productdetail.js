@@ -1845,7 +1845,7 @@ const productData = {
         engLink: "./Productdetail-eng.html?product=eph10",
 
         sliderImages: [
-            "../img/eph10.png",
+            "../img/eph.png",
             "../img/eph10-r.png"
         ],
 
@@ -1855,7 +1855,7 @@ const productData = {
             icon: "⚒",
             specTitle: "13세대 강력한 성능",
             specDesc: "Intel® 13th Gen Raptor Lake-P/U i7 Pentium CPU 기반의 강력한 지령 장치",
-            img: "../img/eph10.png"
+            img: "../img/eph.png"
         },
 
         design: {
@@ -1939,7 +1939,7 @@ const productData = {
         engLink: "./Productdetail-eng.html?product=eph8",
 
         sliderImages: [
-            "../img/eph10.png",
+            "../img/eph.png",
             "../img/eph10-r.png",
         ],
 
@@ -1949,7 +1949,7 @@ const productData = {
             icon: "⚒",
             specTitle: "13세대 강력한 성능",
             specDesc: "Intel® 13th Gen Raptor Lake-P/U i7 Pentium CPU 기반의 강력한 지령 장치",
-            img: "../img/eph10.png"
+            img: "../img/eph.png"
         },
 
         design: {
@@ -2033,7 +2033,7 @@ const productData = {
         engLink: "./Productdetail-eng.html?product=eph10",
 
         sliderImages: [
-            "../img/eph10.png",
+            "../img/eph.png",
             "../img/eph10-r.png",
         ],
 
@@ -2043,7 +2043,7 @@ const productData = {
             icon: "⚒",
             specTitle: "13세대 강력한 성능",
             specDesc: "Intel® 13th Gen Raptor Lake-P/U i7 Pentium CPU 기반의 강력한 지령 장치",
-            img: "../img/eph10.png"
+            img: "../img/eph.png"
         },
 
         design: {
