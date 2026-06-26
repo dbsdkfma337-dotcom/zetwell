@@ -54,7 +54,7 @@ const productData = {
             category: "Zetstation-W시리즈",
             name: "WSR210",
             desc: "W-Series 제품 설명이 들어갑니다....",
-            img: "../img/WSR210-ver2.png",
+            img: "../img/wsr210.png",
             alt: "WSR210",
             link: "./Productdetail.html?product=wsr210"
             },
@@ -62,7 +62,7 @@ const productData = {
             category: "Zetstation-W시리즈",
             name: "WSR209",
             desc: "W-Series 제품 설명이 들어갑니다....",
-            img: "../img/wsr209.png",
+            img: "../img/wsr209-r.png",
             alt: "WSR209",
             link: "./Productdetail.html?product=wsr209"
             }
