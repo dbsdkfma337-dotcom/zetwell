@@ -402,10 +402,10 @@ const productData = {
         },
 
         photos: [
-            "../img/wsr213-bg.png",
-            "../img/wsr213-bg2.png",
-            "../img/wsr213-bg3.png",
-            "../img/wsr213-bg4.png"
+            "../img/wsr209-bg.png",
+            "../img/wsr209-bg2.png",
+            "../img/wsr209-bg3.png",
+            "../img/wsr209-bg4.png"
         ],
 
         rugged: {
