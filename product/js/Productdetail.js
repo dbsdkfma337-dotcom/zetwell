@@ -1846,7 +1846,7 @@ const productData = {
 
         sliderImages: [
             "../img/eph10.png",
-            "../img/eph10-r.png",
+            "../img/eph10-r.png"
         ],
 
         hero: {
