@@ -896,7 +896,10 @@ const productData = {
 
 
         specTable: [
-            ["내장 UPS 모듈", 'PW601-2S1P (슈퍼커패시터 기반 전원 안정화 및 정전 보호 시스템))'],
+            ["지원 운영체제 (OS)", 'Windows® 11 IoT<br>Ubuntu 22.04 이상 (above)<br>Fedora 36 이상 (above)'],
+            ["프로세서 (CPU)", 'Intel® 13th Gen Raptor Lake-P / U 시리즈 (i7 / i5 / i3 / Pentium)<br>Intel® 12th Gen Alder Lake-P / U 시리즈 (i7 / i5 / i3 / Celeron) '],
+            ["시스템 메모리 (RAM)", '1 x DDR5 5200 / 4800 MHz SO-DIMM  최대 32GB 지원'],
+            ["내장 UPS 모듈", 'PW601-2S1P (슈퍼커패시터 기반 전원 안정화 및 정전 보호 시스템)'],
             ["전원 입력 (Power)", "DC 12V / 5A (차량 인버터 대응 어댑터 공급 및 전원 라인 케이블 가공 안정화)"],
             ["네트워크 (LAN)", "LAN1 : Intel® 2.5GbE I226-IT 산업용 초고속 이더넷<br>LAN2 : Intel® 2.5GbE I226-IT 산업용 초고속 이더넷<br>LAN3 : 방수캡 마감 공정 (NC 처리"],
             ["모바일 통신 (LTE)", "LTE 무선 모뎀 커스텀 빌드 지원 (Option) / 전면 고이득 WWAN 안테나 포트 2개 탑재"],
