@@ -88,7 +88,7 @@ const productData = {
             category: "Zetstation-W series",
             name: "WSR210",
             desc: "W-Series ....",
-            img: "../img/wsr210.png",
+            img: "../img/wsr210-f.png",
             alt: "WSR210",
             link: "./Productdetail-eng.html?product=wsr213"
             },
