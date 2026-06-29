@@ -32,6 +32,10 @@
     font-weight: 800;
 }
 
+.quick-popup.eng a {
+    width: 370px;
+}
+
 /* greeting*/
 
 .greeting-section {
