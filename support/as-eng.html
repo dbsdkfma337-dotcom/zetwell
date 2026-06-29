@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/company.css">
     <link rel="stylesheet" href="../css/font.css">
-    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/as.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <script src="../js/main.js" defer></script>
 </head>
@@ -57,9 +57,9 @@
                         <li class="gnb-item">
                             <a href="#" class="gnb-link">support</a>
                             <ul class="depth2">
-                            <li><a href="../support/as-eng.html">A/S Service Request</a></li>
-                            <li><a href="../support/contact-eng.html">Contact Us</a></li>
-                            <li><a href="../support/blog-eng.html">Blog</a></li>
+                            <li><a href="./as-eng.html">A/S Service Request</a></li>
+                            <li><a href="./contact-eng.html">Contact Us</a></li>
+                            <li><a href="./blog-eng.html">Blog</a></li>
                             </ul>
                         </li>
                         <li class="gnb-item">
@@ -86,21 +86,20 @@
                     <img src="../img/icon-language.png" alt="">
                 </button>
                 <div class="lang-list">
-                    <a id="langKo" href="./contact.html">ko</a>
-                    <a id="langEng" href="./contact-eng.html">eng</a>
+                    <a id="langKo" href="./as.html">ko</a>
+                    <a id="langEng" href="./as-eng.html">eng</a>
                 </div>
             </div>
 
             <div class="sub-bg"></div>
         </header>
 
-
         <div class="quick-contact" id="quickContact">
-            <div class="quick-popup">
+            <div class="quick-popup eng">
                 <a href="tel:1566-9090">
                     <span class="fa-solid fa-phone"></span>
-                    <strong>구매문의</strong>
-                    <em>02-3281-0130</em>
+                    <strong>Sales Inquiry</strong>
+                    <em>+82-2-3281-0130</em>
                 </a>
             </div>
 
@@ -110,49 +109,50 @@
             </button>
         </div>
 
-        <section class="sub-visual" id="subVisual">
-            <h2 id="productTitle">Product Inquiry</h2>
+        <section class="sub-visual as-visual" id="subVisual">
+            <h2>Service Request Guide</h2>
         </section>
 
-        <section class="inquiry">
-            <div class="inner">
-                <div class="section-title">
-                    <h2>Inquiry</h2>
-                    <p>Please contact us if you have any questions.</p>
+        <section class="as-contact-section">
+            <div class="as-contact-inner">
+                <div class="as-contact-info">
+                    <span class="section-label">SUPPORT REQUEST</span>
+                    <h3>Leave Us<br>Your Message</h3>
+                    <p>
+                        Please include the product name, issue description, and your contact information<br>
+                        so our team can assist you more quickly.
+                    </p>
+
+                    <ul>
+                        <li>
+                            <strong>Email</strong>
+                            <span>hatisystems@naver.com</span>
+                        </li>
+                        <li>
+                            <strong>Main Phone Number</strong>
+                            <span>02-2605-9999</span>
+                        </li>
+                        <li>
+                            <strong>Business Hours</strong>
+                            <span>Weekdays 09:00 - 18:00</span>
+                        </li>
+                    </ul>
                 </div>
 
-                <form class="inquiry-form">
-                    <div class="form-block">
-                        <h3>Information</h3>
-
-                        <div class="form-list">
-                            <div class="form-row">
-                                <label>Name</label>
-                                <input type="text" placeholder="Please enter your name.">
-                            </div>
-
-                            <div class="form-row">
-                                <label>Email</label>
-                                <input type="text" placeholder="Enter your email address.">
-                            </div>
-
-                        </div>
+                <form class="as-form" id="asForm">
+                    <div class="form-row">
+                        <input type="text" id="asName" name="name" placeholder="Enter your name.">
                     </div>
 
-                    <div class="form-block">
-                        <h3>Message</h3>
-
-                        <div class="form-list">
-                            <div class="form-row">
-                                <label>Message <span>*</span></label>
-                                <textarea placeholder="Please enter the details."></textarea>
-                            </div>
-                        </div>
+                    <div class="form-row">
+                        <input type="email" id="asEmail" name="email" placeholder="Enter your email address.">
                     </div>
 
-                    <div class="butten-block">
-                        <button>send message</button>
+                    <div class="form-row">
+                        <textarea id="asMessage" name="message" placeholder="Please enter the details."></textarea>
                     </div>
+
+                    <button type="submit">SEND MESSAGE</button>
                 </form>
             </div>
         </section>

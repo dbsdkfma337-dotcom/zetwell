@@ -1,6 +1,7 @@
 body {
     font-family: 'Pretendard';
     font-weight: 300;
+    letter-spacing: -0.5px;
 }
 
 .inner {
@@ -309,6 +310,7 @@ body {
     text-align: center;
     font-weight: 500;
     line-height: 1.2;
+    letter-spacing: -1.5px
 }
 
 .maincontent1 > h3 {
@@ -317,6 +319,8 @@ body {
     font-weight: 100;
     text-align: center;
     margin: 30px 0px 150px;
+    line-height: 1.2;
+    letter-spacing: -1px;
 }
 
 .maincontent1-inner {
@@ -426,6 +430,7 @@ body {
     color: rgba(255, 255, 255, 0.68);
     word-break: keep-all;
     font-weight: 100;
+    letter-spacing: -1px;
 }
 
 .ms-card-light .mv-text p {
