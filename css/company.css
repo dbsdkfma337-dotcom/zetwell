@@ -253,6 +253,13 @@
     color: #fff;
     font-size: 50px;
     text-align: center;
+}
+
+.mv-section > h3 {
+    color: #Fff;
+    font-size: 28px;
+    font-weight: 300;
+    text-align: center;
     margin-bottom: 150px;
 }
 
