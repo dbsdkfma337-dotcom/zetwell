@@ -22,7 +22,7 @@ const productVisualData = {
     scanner: {
         title: "43IG",
         bg: "./img/43IG1.png",
-        link: "./product/table.html"
+        link: "./product/Productdetail.html?product=43ig"
     }
 };
 

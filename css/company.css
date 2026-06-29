@@ -280,7 +280,7 @@
 .mv-card {
     position: relative;
     width: 360px;
-    height: 590px;
+    height: 620px;
     padding: 54px 48px;
     box-sizing: border-box;
     border-radius: 28px;
@@ -399,7 +399,7 @@
 }
 
 .mv-card-light .mv-img {
-    bottom: 20px;
+    bottom: 15px;
     width: 63%;
 }
 
