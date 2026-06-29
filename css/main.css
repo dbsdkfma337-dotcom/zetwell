@@ -356,21 +356,17 @@ body {
 }
 
 .ms-card-dark::before {
-    background: linear-gradient(180deg, rgba(209, 221, 255, 0.1) 0%, rgba(0, 0, 0, 0.35) 55%, rgba(81, 107, 145, 0.2) 100%);
+    background: linear-gradient(180deg, rgba(209, 221, 255, 0.1) 0%, rgba(0, 0, 0, 0.35) 55%, rgba(81, 107, 145, 0.3) 100%);
 }
 
 .ms-card-light {
     margin-top: -70px;
-    background:radial-gradient(circle at 65% 35%, rgb(107 255 80 / 8%), transparent 36%), linear-gradient(145deg, #2a350f, #0d1104);
+    background: radial-gradient(circle at 65% 35%, rgba(107, 255, 80, 0.08), transparent 36%), linear-gradient(145deg, rgb(105 117 78), rgb(13, 17, 4));
     color: #fff;
 }
 
 .ms-card-light::before {
-    background: linear-gradient(
-        180deg,
-        rgba(255, 255, 255, 0.08),
-        rgba(48, 255, 134, 0.12)
-    );
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgb(12 22 17 / 12%));
 }
 
 .ms-card {
@@ -380,13 +376,13 @@ body {
 .ms-card:hover {
     transform: translateY(-18px);
     box-shadow: 0 55px 110px rgba(0, 0, 0, 0.45);
-    background:radial-gradient(circle at 70% 30%,rgba(176, 255, 140, 0.18),transparent 42%),linear-gradient(145deg,#456323,    #1c4a16);}
+    background:radial-gradient(circle at 70% 30%,rgba(255, 255, 255, 0.18),transparent 42%),linear-gradient(145deg,#cad4be,    #1c4a16);}
 
 .ms-card:hover::before {
     background: linear-gradient(
         180deg,
         rgba(255, 255, 255, 0.08),
-        rgba(48, 255, 110, 0.12)
+        rgba(14, 59, 28, 0.12)
     );
 }
 
