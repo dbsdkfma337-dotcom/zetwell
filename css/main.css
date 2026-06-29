@@ -293,62 +293,171 @@ body {
     font-weight: 400;
 }
 
+/* mission */
 .maincontent1 {
-    background: url(../img/2main-bg.png) no-repeat right center / cover;
     width: 100%;
-    height: auto;
-    padding: 80px 0 100px;
-    color: #fff;
+    padding: 180px 20px 200px;
+    background:
+        radial-gradient(circle at 30% 20%, rgba(111, 80, 42, 0.28), transparent 35%),
+        #000000;
     box-sizing: border-box;
 }
 
-.maincontent1 .text {
-    padding: 0px 0px 30px;
-    border-bottom: 1px solid #Fff;
-}
-
-.maincontent1 .text > p {
-    font-size: 55px;
-    margin-bottom: 15px;
+.maincontent1 h2 {
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 500;
     line-height: 1.2;
 }
 
-.maincontent1 .text > span {
-    font-size: 20px;
+.maincontent1 > h3 {
+    color: #Fff;
+    font-size: 24px;
+    font-weight: 100;
+    text-align: center;
+    margin: 30px 0px 150px;
 }
 
-.maincontent1 .text-wrap {
+.maincontent1-inner {
+    max-width: 1400px;
+    margin: 0 auto;
     display: flex;
-    flex-direction: column;
-    gap: 50px;
-    align-items: flex-end;
-    margin-top: 50px;
-}
-
-.maincontent1 .text-wrap .text-box{
-    position: relative;
-    width: 40%;
-    display: flex;
-    gap: 50px;
+    justify-content: center;
     align-items: center;
-    padding-bottom: 50px;
-    border-bottom: 1px solid #fff;
+    gap: 64px;
 }
 
-.maincontent1 .text-wrap .text-box .num {
-    font-size: 60px;
-    font-family: 'Pretendard';
+.ms-card {
+    position: relative;
+    width: 360px;
+    height: 620px;
+    padding: 54px 48px;
+    box-sizing: border-box;
+    border-radius: 28px;
+    overflow: hidden;
+    color: #fff;
+    box-shadow: 0 40px 90px rgba(0, 0, 0, 0.35);
+}
+
+.ms-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+}
+
+.ms-card-dark {
+    background: linear-gradient(145deg, #031a06, #040907);
+}
+
+.ms-card-dark::before {
+    background: linear-gradient(180deg, rgba(209, 221, 255, 0.1) 0%, rgba(0, 0, 0, 0.35) 55%, rgba(81, 107, 145, 0.2) 100%);
+}
+
+.ms-card-light {
+    margin-top: -70px;
+    background:radial-gradient(circle at 65% 35%, rgb(107 255 80 / 8%), transparent 36%), linear-gradient(145deg, #2a350f, #0d1104);
+    color: #fff;
+}
+
+.ms-card-light::before {
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.08),
+        rgba(48, 255, 134, 0.12)
+    );
+}
+
+.ms-card {
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.ms-card:hover {
+    transform: translateY(-18px);
+    box-shadow: 0 55px 110px rgba(0, 0, 0, 0.45);
+    background:radial-gradient(circle at 70% 30%,rgba(176, 255, 140, 0.18),transparent 42%),linear-gradient(145deg,#456323,    #1c4a16);}
+
+.ms-card:hover::before {
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.08),
+        rgba(48, 255, 110, 0.12)
+    );
+}
+
+.ms-text {
+    position: relative;
+    z-index: 3;
+}
+
+.ms-text h3 {
+    margin-bottom: 36px;
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: -0.04em;
+}
+
+.ms-text strong {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 22px;
+    font-size: 22px;
     font-weight: 400;
 }
 
-.maincontent1 .text-wrap .text-box > span > span:nth-of-type(1) {
-    font-size: 25px;
+.ms-text strong span {
+    display: inline-flex;
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #f97316;
+    color: #fff;
+    font-size: 12px;
 }
 
-.maincontent1 .text-wrap .text-box > span > span:nth-of-type(2) {
-    color: #b1b1b1;
-    font-size: 14px;
+.ms-text p {
+    font-size: 17px;
+    line-height: 1.8;
+    color: rgba(255, 255, 255, 0.68);
+    word-break: keep-all;
+    font-weight: 100;
 }
+
+.ms-card-light .mv-text p {
+    color: rgba(255, 255, 255, 0.82);
+}
+
+.mv-img {
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    bottom: 0;
+    width: 100%;
+    max-width: 360px;
+    transform: translateX(-50%);
+    pointer-events: none;
+}
+
+.ms-card-dark .mv-img {
+    bottom: -30px;
+    width: 115%;
+}
+
+.ms-card-light .mv-img {
+    bottom: 15px;
+    width: 63%;
+}
+
+.ms-card-navy .mv-img {
+    bottom: 0;
+    width: 100%;
+}
+
 
 .maincontent3 {
     background: url(../img/4main-bg.png) no-repeat center center / cover;
