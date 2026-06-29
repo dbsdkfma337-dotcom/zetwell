@@ -3,20 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NVIS</title>
+    <title>Document</title>
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/font.css">
-    <link rel="stylesheet" href="./css/product.css">
-    <link rel="stylesheet" href="./css/nvis.css">
-    <link rel="stylesheet" href="../css/eng.css">
+    <link rel="stylesheet" href="../css/company.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <script src="../js/main.js" defer></script>
-    <script src="./js/nvis.js" defer></script>
-    <script src="./js/slide.js" defer></script>
 </head>
 <body>
-    <main class="nvis-page">
+    <main class="vision-page">
         <header id="header" class="sub-header">
             <h1 class="logo">
                 <a href="../eng.html">Zetwell</a>
@@ -68,10 +64,10 @@
                         <li class="gnb-item">
                             <a href="#" class="gnb-link">company</a>
                             <ul class="depth2">
-                                <li><a href="./company/greeting.html">CEO Message</a></li>
-                                <li><a href="./company/mission.html">Mission & Vision</a></li>
-                                <li><a href="./company/organization-chart.html">Organization Chart</a></li>
-                                <li><a href="./company/map.html">Directions</a></li>
+                                <li><a href="./greeting-eng.html">CEO Message</a></li>
+                                <li><a href=".//mission.html">Mission & Vision</a></li>
+                                <li><a href=".//organization-chart.html">Organization Chart</a></li>
+                                <li><a href="./map.html">Directions</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -86,17 +82,17 @@
 
             <div class="lang">
                 <button type="button" class="lang-btn" aria-label="언어 선택">
-                    <img src="../../img/icon-language.png" alt="">
+                    <img src="../img/icon-language.png" alt="">
                 </button>
                 <div class="lang-list">
-                    <a href="#">ko</a>
-                    <a href="#">eng</a>
+                    <a href="./mission.html">ko</a>
+                    <a href="./mission-eng.html">eng</a>
                 </div>
             </div>
 
             <div class="sub-bg"></div>
         </header>
-
+        
         <div class="quick-contact" id="quickContact">
             <div class="quick-popup">
                 <a href="tel:1566-9090">
@@ -112,45 +108,50 @@
             </button>
         </div>
 
-        <section class="sub-visual" id="subVisual">
-            <h2 id="productTitle"></h2>
+        <section class="sub-visual vision-visual">
+            <h2>Mission & Vision</h2>
         </section>
 
-        <section class="product-view">
-            <button class="slide-btn prev" type="button">‹</button>
-
-            <div class="product-slider" id="productSlider"></div>
-
-            <button class="slide-btn next" type="button">›</button>
-
-            <div class="slide-bottom">
-                <div class="progress">
-                    <span id="progressBar"></span>
-                </div>
-
-                <div class="count">
-                    <strong id="currentNum">01</strong>
-                    <em>/</em>
-                    <span id="totalNum">00</span>
-                </div>
+        <section class="mv-section">
+            <h2>Mission & Vision</h2>
+        <div class="mv-inner">
+            <article class="mv-card mv-card-dark">
+            <div class="mv-text">
+                <h3>Mission</h3>
+                <strong>Technology for the Field</strong>
+                <p>Based on rugged computing technologies, we provide solutions that ensure reliable operation even in complex operating environments.
+                </p>
             </div>
-        </section>
+            <img src="../img/mission.png" alt="" class="mv-img">
+            </article>
 
-        <section class="feature-section" id="featureSection"></section>
+            <article class="mv-card mv-card-light">
+            <div class="mv-text">
+                <h3>Vision</h3>
+                <strong>Computing for the Future</strong>
+                <p>
+                    We provide future-ready computing platforms that adapt flexibly to the evolving environments of defense and industrial operations, delivering reliability anytime and anywhere.
+                </p>
+            </div>
+            <img src="../img/vision.png" alt="" class="mv-img">
+            </article>
 
-        <section class="spec-section">
-            <h2>Product Information</h2>
-
-            <table class="spec-table">
-                <tbody id="specTableBody"></tbody>
-            </table>
+            <article class="mv-card mv-card-dark">
+            <div class="mv-text">
+                <h3>Values</h3>
+                <strong>Trust & Sustainability</strong>
+                <p>We create computing environments that customers can trust, built on durability, reliability, and a deep understanding of real-world operations.</p>
+            </div>
+            <img src="../img/values.png" alt="" class="mv-img">
+            </article>
+        </div>
         </section>
 
         <footer class="footer">
             <div class="footer-inner">
                 <div class="footer-left">
                     <h2>
-Lightning-Fast Logistics Support<br> and Customized Design Only<br> Possible with a Domestic Manufacturer
+                        Lightning-Fast Logistics Support<br> and Customized Design Only<br> Possible with a Domestic Manufacturer
                     </h2>
 
                     <a href="./made-in-korea.html" class="footer-btn">
