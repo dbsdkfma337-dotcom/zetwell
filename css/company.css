@@ -415,7 +415,7 @@
 .org-title span {
     font-size: 14px;
     font-weight: 700;
-    color: #315fd6;
+    color: #556B2F;
     letter-spacing: 0.18em;
 }
 
@@ -451,7 +451,7 @@
     font-style: normal;
     font-size: 13px;
     font-weight: 700;
-    color: #315fd6;
+    color: #556B2F;
     letter-spacing: 0.12em;
 }
 
@@ -462,7 +462,7 @@
 }
 
 .org-ceo {
-    background: linear-gradient(135deg, #1f3f9f, #4775e6);
+    background: linear-gradient(135deg, #233b32, #3d6657);
 }
 
 .org-ceo em,
@@ -481,7 +481,7 @@
     top: -60px;
     width: 1px;
     height: 60px;
-    background: #b9c5e8;
+    background: #2b2b2b;
 }
 
 .org-team-wrap {
@@ -490,7 +490,7 @@
     width: 100%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 26px;
+    gap: 32px;
 }
 
 .org-team-wrap::before {
@@ -500,7 +500,7 @@
     right: 11.4%;
     top: -45px;
     height: 1px;
-    background: #b9c5e8;
+    background: #2b2b2b;
 }
 
 .org-team::before {
@@ -510,7 +510,7 @@
     top: -45px;
     width: 1px;
     height: 45px;
-    background: #b9c5e8;
+    background: #2b2b2b;
 }
 
 .org-team {
@@ -520,7 +520,6 @@
 }
 
 .org-team:hover {
-    transform: translateY(-8px);
     box-shadow: 0 24px 55px rgba(20, 45, 90, 0.15);
 }
 
