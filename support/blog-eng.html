@@ -3,16 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>NVIS</title>
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="../css/font.css">
     <link rel="stylesheet" href="../css/company.css">
+    <link rel="stylesheet" href="../css/font.css">
+    <link rel="stylesheet" href="./css/blog.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <script src="../js/main.js" defer></script>
+    <script src="./js/news.js" defer></script>
 </head>
 <body>
-    <main>
+    <main class="blog-page">
         <header id="header" class="sub-header">
             <h1 class="logo">
                 <a href="../eng.html">Zetwell</a>
@@ -41,8 +43,8 @@
                         <li class="gnb-item">
                             <a href="#" class="gnb-link">Zetview</a>
                             <ul class="depth2">
-                                <li><a href="./series-eng.html?series=n-series-eng">NVIS Monitor</a></li>
-                                <li><a href="#">Transparent Display</a></li>
+                                <li><a href="../product/series-eng.html?series=n-series-eng">NVIS Monitor</a></li>
+                                <li><a href="">Transparent Display</a></li>
                             </ul>
                         </li>
                         <li class="gnb-item">
@@ -56,18 +58,18 @@
                         <li class="gnb-item">
                             <a href="#" class="gnb-link">support</a>
                             <ul class="depth2">
-                            <li><a href="../support/as.html">A/S Service Request</a></li>
-                            <li><a href="../support/contact-eng.html">Contact Us</a></li>
-                            <li><a href="../support/blog-eng.html">Blog</a></li>
+                            <li><a href="./as.html">A/S Service Request</a></li>
+                            <li><a href="./contact-eng.html">Contact Us</a></li>
+                            <li><a href="./blog-eng.html">Blog</a></li>
                             </ul>
                         </li>
                         <li class="gnb-item">
                             <a href="#" class="gnb-link">company</a>
                             <ul class="depth2">
-                                <li><a href="./greeting-eng.html">CEO Message</a></li>
-                                <li><a href="./mission-eng.html">Mission & Vision</a></li>
-                                <li><a href="./organization-chart-eng.html">Organization Chart</a></li>
-                                <li><a href="./map-eng.html">Directions</a></li>
+                                <li><a href="../company/greeting-eng.html">CEO Message</a></li>
+                                <li><a href="../company/mission-eng.html">Mission & Vision</a></li>
+                                <li><a href="../company/organization-chart.html">Organization Chart</a></li>
+                                <li><a href="../company/map-eng.html">Directions</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -85,8 +87,8 @@
                     <img src="../img/icon-language.png" alt="">
                 </button>
                 <div class="lang-list">
-                    <a href="./map.html">ko</a>
-                    <a href="./map-eng.html">eng</a>
+                    <a id="langKo" href="./comingsoon.html">ko</a>
+                    <a id="langEng" href="./comingsoon-eng.html">eng</a>
                 </div>
             </div>
 
@@ -108,41 +110,20 @@
             </button>
         </div>
 
-        <section class="sub-visual">
-            <h2>Directions</h2>
+        <section class="sub-visual" id="subVisual">
+            <h2 id="productTitle">blog</h2>
         </section>
 
-        <section class="location-section">
-            <div class="inner">
-                <div class="location-card">
-                    <span class="location-label">LOCATION</span>
-                    <h3>ZETWELL</h3>
-                    <p class="location-sub">Directions</p>
+        <section class="news-section">
+            <div class="news-list" id="newsList"></div>
 
-                    <ul class="location-list">
-                        <li>
-                            <strong>TEL</strong>
-                            <span>02-3281-0130</span>
-                        </li>
-                        <li>
-                            <strong>FAX</strong>
-                            <span>02-2602-2929</span>
-                        </li>
-                        <li>
-                            <strong>ADDRESS</strong>
-                            <span>
-                                    Room 1103, E&C Dream Tower 8,<br>
-                                    45, Gasan Digital 1-ro, Geumcheon-gu,<br>
-                                    Seoul, Republic of Korea
-                            </span>
-                        </li>
-                    </ul>
+            <div class="news-pagination">
+                <div class="page-numbers" id="pageNumbers"></div>
 
-                    <a href="https://kko.to/JtERAr7Inu" class="map-btn" target="_blank" rel="noopener noreferrer">View on Kakao Map</a>
-                </div>
-
-                <div class="map-wrap">
-                    <div id="map"></div>
+                <div class="page-status">
+                    <button type="button" id="currentPageBtn">1</button>
+                    <span>/</span>
+                    <em id="totalPageText">9</em>
                 </div>
             </div>
         </section>
@@ -193,7 +174,5 @@
             </div>
         </footer>
     </main>
-<script src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=279572585538095692810eedfd219291&autoload=false"></script>
-<script src="../js/location.js"></script>
 </body>
 </html>

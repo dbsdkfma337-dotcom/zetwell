@@ -1,4 +1,4 @@
-const newsData = [
+const newsDataKo = [
     {
         img: "../img/nvis_.png",
         category: "blog",
@@ -28,6 +28,40 @@ const newsData = [
         link: "./rugged-tablet.html"
     }
 ];
+
+const newsDataEng = [
+    {
+        img: "../img/nvis_.png",
+        category: "blog",
+        title: "What is NVIS?",
+        date: "2026.06.15",
+        link: "./nvis-eng.html"
+    },
+    {
+        img: "../img/trm.png",
+        category: "blog",
+        title: "TPM Computer Chips and Digital Security",
+        date: "2026.06.17",
+        link: "./tpm-eng.html"
+    },
+    {
+        img: "../img/ip.png",
+        category: "blog",
+        title: "IP Rating Guide: Standards for Water and Dust Protection",
+        date: "2026.06.17",
+        link: "./ip-eng.html"
+    },
+    {
+        img: "../img/ru.png",
+        category: "blog",
+        title: "How to Choose a Rugged Computer for Defense Applications",
+        date: "2026.06.15",
+        link: "./rugged-tablet-eng.html"
+    }
+];
+
+const isEng = location.pathname.includes("blog-eng");
+const newsData = isEng ? newsDataEng : newsDataKo;
 
 const newsList = document.getElementById("newsList");
 const pageNumbers = document.getElementById("pageNumbers");
