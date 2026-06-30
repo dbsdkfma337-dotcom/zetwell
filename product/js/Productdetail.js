@@ -341,9 +341,6 @@ const productData = {
             ]
         },
 
-        video: "../img/43IG-video.mp4",
-
-
         specTable: [
             ["디스플레이", '43" 4k UHD (3840 × 2160)'],
             ["밝기", "500 nits"],
@@ -431,9 +428,6 @@ const productData = {
                 }
             ]
         },
-
-        video: "../img/43IG-video.mp4",
-
 
         specTable: [
             ["디스플레이", '43" 4k UHD (3840 × 2160)'],
@@ -523,9 +517,6 @@ const productData = {
             ]
         },
 
-        video: "../img/43IG-video.mp4",
-
-
         specTable: [
             ["디스플레이", '43" 4k UHD (3840 × 2160)'],
             ["밝기", "500 nits"],
@@ -613,9 +604,6 @@ const productData = {
                 }
             ]
         },
-
-        video: "../img/43IG-video.mp4",
-
 
         specTable: [
             ["디스플레이", '43" 4k UHD (3840 × 2160)'],
@@ -706,9 +694,6 @@ const productData = {
             ]
         },
 
-        video: "../img/43IG-video.mp4",
-
-
         specTable: [
             ["디스플레이", '43" 4k UHD (3840 × 2160)'],
             ["밝기", "500 nits"],
@@ -797,9 +782,6 @@ const productData = {
                 }
             ]
         },
-
-        video: "../img/43IG-video.mp4",
-
 
         specTable: [
             ["디스플레이", '43" 4k UHD (3840 × 2160)'],
@@ -1084,9 +1066,6 @@ const productData = {
             ]
         },
 
-        video: "../img/43IG-video.mp4",
-
-
         specTable: [
             ["지원 운영체제 (OS)", 'Windows® 11 IoT<br>Ubuntu 22.04 이상 (above)<br>Fedora 36 이상 (above)'],
             ["프로세서 (CPU)", 'Intel® 13th Gen Raptor Lake-P / U 시리즈 (i7 / i5 / i3 / Pentium)<br>Intel® 12th Gen Alder Lake-P / U 시리즈 (i7 / i5 / i3 / Celeron) '],
@@ -1175,9 +1154,6 @@ const productData = {
             ]
         },
 
-        video: "../img/43IG-video.mp4",
-
-
         specTable: [
             ["Built-in UPS Module", 'PW601-2S1P (Supercapacitor-Based Power Stabilization and Power Failure Protection System))'],
             ["Power Input", "DC 12V / 5A (Adapter Supply and Stabilized Power Cabling for Vehicle Inverter Applications)"],
@@ -1263,9 +1239,6 @@ const productData = {
                 }
             ]
         },
-
-        video: "../img/43IG-video.mp4",
-
 
         specTable: [
             ["디스플레이", '43" 4k UHD (3840 × 2160)'],
@@ -1357,9 +1330,6 @@ const productData = {
             ]
         },
 
-        video: "../img/43IG-video.mp4",
-
-
         specTable: [
             ["디스플레이", '43" 4k UHD (3840 × 2160)'],
             ["밝기", "500 nits"],
@@ -1447,9 +1417,6 @@ const productData = {
                 }
             ]
         },
-
-        video: "../img/43IG-video.mp4",
-
 
         specTable: [
             ["CPU", 'Intel 8th Gen Intel® Coffee Lake-S, i7'],
@@ -1539,9 +1506,6 @@ const productData = {
             ]
         },
 
-        video: "../img/43IG-video.mp4",
-
-
         specTable: [
             ["CPU", 'Intel 8th Gen Intel® Coffee Lake-S, i7'],
             ["MB Chipset", "Intel® Q470"],
@@ -1630,9 +1594,6 @@ const productData = {
                 }
             ]
         },
-
-        video: "../img/43IG-video.mp4",
-
 
         specTable: [
             ["Model", 'S1388 Dispatcher Workstation'],
@@ -1726,9 +1687,6 @@ const productData = {
             ]
         },
 
-        video: "../img/43IG-video.mp4",
-
-
         specTable: [
             ["Model", 'S1388 Dispatcher Workstation'],
             ["CPU", "Intel® 13th Gen Raptor Lake-P/ Raptor Lake-U i7 Pentium CPU"],
@@ -1819,9 +1777,6 @@ const productData = {
             ]
         },
 
-        video: "../img/43IG-video.mp4",
-
-
         specTable: [
             ["Model", 'S1517H / S1519H, S933-M'],
             ["CPU", "15th Gen Intel® Core™ Ultra7 CPU, 15th Gen Intel® Core™ Ultra9 CPU"],
@@ -1911,9 +1866,6 @@ const productData = {
                 }
             ]
         },
-
-        video: "../img/43IG-video.mp4",
-
 
         specTable: [
             ["Model", 'S1517H / S1519H, S933-M'],
@@ -2006,9 +1958,6 @@ const productData = {
             ]
         },
 
-        video: "../img/43IG-video.mp4",
-
-
         specTable: [
             ["Model", 'S1388 Dispatcher Workstation'],
             ["CPU", "Intel® 13th Gen Raptor Lake-P/ Raptor Lake-U i7 Pentium CPU"],
@@ -2099,9 +2048,6 @@ const productData = {
                 }
             ]
         },
-
-        video: "../img/43IG-video.mp4",
-
 
         specTable: [
             ["Model", 'S1388 Dispatcher Workstation'],
@@ -2194,9 +2140,6 @@ const productData = {
             ]
         },
 
-        video: "../img/43IG-video.mp4",
-
-
         specTable: [
             ["Model", 'S1388 Dispatcher Workstation'],
             ["CPU", "Intel® 13th Gen Raptor Lake-P/ Raptor Lake-U i7 Pentium CPU"],
@@ -2287,9 +2230,6 @@ const productData = {
                 }
             ]
         },
-
-        video: "../img/43IG-video.mp4",
-
 
         specTable: [
             ["Model", 'S1388 Dispatcher Workstation'],
@@ -2382,9 +2322,6 @@ const productData = {
             ]
         },
 
-        video: "../img/43IG-video.mp4",
-
-
         specTable: [
             ["Model", 'S1388 Dispatcher Workstation'],
             ["CPU", "Intel® 13th Gen Raptor Lake-P/ Raptor Lake-U i7 Pentium CPU"],
@@ -2476,9 +2413,6 @@ const productData = {
             ]
         },
 
-        video: "../img/43IG-video.mp4",
-
-
         specTable: [
             ["Model", 'S1388 Dispatcher Workstation'],
             ["CPU", "Intel® 13th Gen Raptor Lake-P/ Raptor Lake-U i7 Pentium CPU"],
@@ -2502,6 +2436,13 @@ const productData = {
 const params = new URLSearchParams(window.location.search);
 const productKey = params.get("product") || "43ig";
 const product = productData[productKey];
+
+if (!product) {
+    console.error("해당 제품 데이터가 없습니다:", productKey);
+    throw new Error("Product data not found");
+}
+
+
 const videoSection = document.getElementById("videoSection");
 const productVideo = document.getElementById("productVideo");
 const productVideoSource = document.getElementById("productVideoSource");
@@ -2512,10 +2453,6 @@ if (product.video) {
     productVideo.load();
 } else {
     videoSection.style.display = "none";
-}
-
-if (!product) {
-    console.error("해당 제품 데이터가 없습니다:", productKey);
 }
 
 document.getElementById("subVisualTitle").textContent =
