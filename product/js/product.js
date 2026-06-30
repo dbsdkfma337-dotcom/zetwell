@@ -133,30 +133,6 @@ const productData = {
             img: "../img/epn2000b-1.png",
             alt: "ZEPN2000B",
             link: "./Productdetail.html?product=epn2000b"
-            },
-            {
-            category: "Zetstation-E시리즈",
-            name: "ZIHH10",
-            desc: "E-Series 제품 설명이 들어갑니다....",
-            img: "../img/104.png",
-            alt: "ZIHH10",
-            link: "./Productdetail.html?product=ihh10"
-            },
-            {
-            category: "Zetstation-E시리즈",
-            name: "ZIHH8",
-            desc: "E-Series 제품 설명이 들어갑니다....",
-            img: "../img/106.png",
-            alt: "ZIHH8",
-            link: "./Productdetail.html?product=ihh8"
-            },
-            {
-            category: "Zetstation-E시리즈",
-            name: "ZIHN2000B",
-            desc: "E-Series 제품 설명이 들어갑니다....",
-            img: "../img/107.png",
-            alt: "ZIHN2000B",
-            link: "./Productdetail.html?product=ihn2000b"
             }
         ]
     },
@@ -192,30 +168,6 @@ const productData = {
             img: "../img/epn2000b-1.png",
             alt: "ZEPN2000B",
             link: "./Productdetail-eng.html?product=epn2000b"
-            },
-            {
-            category: "Zetstation-E series",
-            name: "ZIHH10",
-            desc: "E-Series ....",
-            img: "../img/104.png",
-            alt: "ZIHH10",
-            link: "./Productdetail-eng.html?product=ihh10eng"
-            },
-            {
-            category: "Zetstation-E series",
-            name: "ZIHH8",
-            desc: "E-Series ....",
-            img: "../img/106.png",
-            alt: "ZIHH8",
-            link: "./Productdetail-eng.html?product=ihh8eng"
-            },
-            {
-            category: "Zetstation-E series",
-            name: "ZIHN2000B",
-            desc: "E-Series ....",
-            img: "../img/107.png",
-            alt: "ZIHN2000B",
-            link: "./Productdetail-eng.html?product=ihn2000beng"
             }
         ]
     },
