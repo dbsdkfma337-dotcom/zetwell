@@ -19,7 +19,7 @@ const productData = {
     "s-series-eng": {
         title: "S-Series",
         desc: "Tactial Xeon Power. Mobile Tactical Server Mounted in a MIL-SPEC Armored Case<br> Compact PACK Architecture Specially Designed for Tactical Mobility  ",
-        visualImg: "../img/Zetstation-bg.png",
+        visualImg: "../img/sseries-bg.png",
         koLink: "./series.html?series=s-series",
         engLink: "./series-eng.html?series=s-series-eng",
         products: [
@@ -81,7 +81,7 @@ const productData = {
             desc: "W-Series ....",
             img: "../img/WSR213.png",
             alt: "ZWSR213",
-            link: "./Productdetail-eng.html?product=wsr213"
+            link: "./Productdetail-eng.html?product=wsr213eng"
             },
             {
             category: "Zetstation-W series",
@@ -89,7 +89,7 @@ const productData = {
             desc: "W-Series ....",
             img: "../img/wsr210-f.png",
             alt: "ZWSR210",
-            link: "./Productdetail-eng.html?product=wsr213"
+            link: "./Productdetail-eng.html?product=wsr210eng"
             },
             {
             category: "Zetstation-W series",
@@ -97,7 +97,7 @@ const productData = {
             desc: "W-Series ....",
             img: "../img/wsr209-r.png",
             alt: "ZWSR209",
-            link: "./Productdetail-eng.html?product=wsr213"
+            link: "./Productdetail-eng.html?product=wsr209eng"
             }
         ]
     },
@@ -225,6 +225,7 @@ const productData = {
 
     "n-series": {
     title: "NVIS-Series",
+    desc: "NVIS(Night Vision Imaging System, 야간 투시 장비) 모니터 <br> 야간 투시경(NVG)과의 상호 간섭 방지 (빛의 파장 제어)",
     visualImg: "../img/W22L100-bg.png",
     koLink: "./series.html?series=n-series",
     engLink: "./series-eng.html?series=n-series-eng",
@@ -274,6 +275,7 @@ const productData = {
 
     "n-series-eng": {
     title: "NVIS-Series",
+    desc: "NVIS (Night Vision Imaging System) Monitor<br>Prevents Mutual Interference with Night Vision Goggles (NVG)<br>through Controlled Light Wavelength Emission",
     visualImg: "../img/W22L100-bg.png",
     koLink: "./series.html?series=n-series",
     engLink: "./series-eng.html?series=n-series-eng",
