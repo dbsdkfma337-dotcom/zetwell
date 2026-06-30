@@ -890,7 +890,7 @@ const productData = {
             ]
         },
 
-        video: "../img/43IG-video.mp4",
+        video: "../video/uk2000-video.mp4",
 
 
         specTable: [
@@ -987,7 +987,7 @@ const productData = {
             ]
         },
 
-        video: "../img/43IG-video.mp4",
+        video: "../video/uk2000-video.mp4",
 
 
         specTable: [
