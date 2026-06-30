@@ -8,7 +8,7 @@ const productData = {
         products: [
             {
             category: "Zetstation-S시리즈",
-            name: "zs-3020r",
+            name: "ZS-3020R",
             desc: "Mil-spec 아머 케이스에 장착된 이동형 전술 서버",
             img: "../img/s-series.png",
             link: "./Productdetail.html?product=zs-3020r"
@@ -25,7 +25,7 @@ const productData = {
         products: [
             {
             category: "Zetstation-S series",
-            name: "zs-3020r",
+            name: "ZS-3020R",
             desc: "S-Series ....",
             img: "../img/s-series.png",
             alt: "SSR001",
@@ -43,26 +43,26 @@ const productData = {
         products: [
             {
             category: "Zetstation-W시리즈",
-            name: "WSR213",
+            name: "ZWSR213",
             desc: "W-Series 제품 설명이 들어갑니다....",
             img: "../img/WSR213.png",
-            alt: "WSR213",
+            alt: "ZWSR213",
             link: "./Productdetail.html?product=wsr213"
             },
             {
             category: "Zetstation-W시리즈",
-            name: "WSR210",
+            name: "ZWSR210",
             desc: "W-Series 제품 설명이 들어갑니다....",
             img: "../img/wsr210-f.png",
-            alt: "WSR210",
+            alt: "ZWSR210",
             link: "./Productdetail.html?product=wsr210"
             },
             {
             category: "Zetstation-W시리즈",
-            name: "WSR209",
+            name: "ZWSR209",
             desc: "W-Series 제품 설명이 들어갑니다....",
             img: "../img/wsr209-r.png",
-            alt: "WSR209",
+            alt: "ZWSR209",
             link: "./Productdetail.html?product=wsr209"
             }
         ]
@@ -77,26 +77,26 @@ const productData = {
         products: [
             {
             category: "Zetstation-W series",
-            name: "WSR213",
+            name: "ZWSR213",
             desc: "W-Series ....",
             img: "../img/WSR213.png",
-            alt: "WSR213",
+            alt: "ZWSR213",
             link: "./Productdetail-eng.html?product=wsr213"
             },
             {
             category: "Zetstation-W series",
-            name: "WSR210",
+            name: "ZWSR210",
             desc: "W-Series ....",
             img: "../img/wsr210-f.png",
-            alt: "WSR210",
+            alt: "ZWSR210",
             link: "./Productdetail-eng.html?product=wsr213"
             },
             {
             category: "Zetstation-W series",
-            name: "WSR209",
+            name: "ZWSR209",
             desc: "W-Series ....",
             img: "../img/wsr209-r.png",
-            alt: "WSR209",
+            alt: "ZWSR209",
             link: "./Productdetail-eng.html?product=wsr213"
             }
         ]
@@ -112,50 +112,50 @@ const productData = {
     products: [
             {
             category: "Zetstation-E시리즈",
-            name: "EPH10",
+            name: "ZEPH10",
             desc: "E-Series 제품 설명이 들어갑니다....",
             img: "../img/eph10-1.png",
-            alt: "EPH10",
+            alt: "ZEPH10",
             link: "./Productdetail.html?product=eph10"
             },
             {
             category: "Zetstation-E시리즈",
-            name: "EPH8",
+            name: "ZEPH8",
             desc: "E-Series 제품 설명이 들어갑니다....",
             img: "../img/eph8-1.png",
-            alt: "EPH8",
+            alt: "ZEPH8",
             link: "./Productdetail.html?product=eph8"
             },
             {
             category: "Zetstation-E시리즈",
-            name: "EPN2000B",
+            name: "ZEPN2000B",
             desc: "E-Series 제품 설명이 들어갑니다....",
             img: "../img/epn2000b-1.png",
-            alt: "EPN2000B",
+            alt: "ZEPN2000B",
             link: "./Productdetail.html?product=epn2000b"
             },
             {
             category: "Zetstation-E시리즈",
-            name: "IHH10",
+            name: "ZIHH10",
             desc: "E-Series 제품 설명이 들어갑니다....",
             img: "../img/104.png",
-            alt: "IHH10",
+            alt: "ZIHH10",
             link: "./Productdetail.html?product=ihh10"
             },
             {
             category: "Zetstation-E시리즈",
-            name: "IHH8",
+            name: "ZIHH8",
             desc: "E-Series 제품 설명이 들어갑니다....",
             img: "../img/106.png",
-            alt: "IHH8",
+            alt: "ZIHH8",
             link: "./Productdetail.html?product=ihh8"
             },
             {
             category: "Zetstation-E시리즈",
-            name: "IHN2000B",
+            name: "ZIHN2000B",
             desc: "E-Series 제품 설명이 들어갑니다....",
             img: "../img/107.png",
-            alt: "IHN2000B",
+            alt: "ZIHN2000B",
             link: "./Productdetail.html?product=ihn2000b"
             }
         ]
@@ -171,50 +171,50 @@ const productData = {
     products: [
             {
             category: "Zetstation-E series",
-            name: "EPH10",
+            name: "ZPH10",
             desc: "E-Series ....",
             img: "../img/eph10-1.png",
-            alt: "EPH10",
+            alt: "ZEPH10",
             link: "./Productdetail-eng.html?product=eph10eng"
             },
             {
             category: "Zetstation-E series",
-            name: "EPH8",
+            name: "ZEPH8",
             desc: "E-Series ....",
             img: "../img/eph8-1.png",
-            alt: "EPH8",
+            alt: "ZEPH8",
             link: "./Productdetail-eng.html?product=eph8eng"
             },
             {
             category: "Zetstation-E series",
-            name: "EPN2000B",
+            name: "ZEPN2000B",
             desc: "E-Series ....",
             img: "../img/epn2000b-1.png",
-            alt: "EPN2000B",
+            alt: "ZEPN2000B",
             link: "./Productdetail-eng.html?product=epn2000b"
             },
             {
             category: "Zetstation-E series",
-            name: "IHH10",
+            name: "ZIHH10",
             desc: "E-Series ....",
             img: "../img/104.png",
-            alt: "IHH10",
+            alt: "ZIHH10",
             link: "./Productdetail-eng.html?product=ihh10eng"
             },
             {
             category: "Zetstation-E series",
-            name: "IHH8",
+            name: "ZIHH8",
             desc: "E-Series ....",
             img: "../img/106.png",
-            alt: "IHH8",
+            alt: "ZIHH8",
             link: "./Productdetail-eng.html?product=ihh8eng"
             },
             {
             category: "Zetstation-E series",
-            name: "IHN2000B",
+            name: "ZIHN2000B",
             desc: "E-Series ....",
             img: "../img/107.png",
-            alt: "IHN2000B",
+            alt: "ZIHN2000B",
             link: "./Productdetail-eng.html?product=ihn2000beng"
             }
         ]
@@ -229,10 +229,10 @@ const productData = {
     products: [
             {
             category: "Zetstation-M시리즈",
-            name: "UK2000",
+            name: "ZUK2000",
             desc: "하이브리드 케리어 장치",
             img: "../img/UK2000.png",
-            alt: "UK2000",
+            alt: "ZUK2000",
             link: "./Productdetail.html?product=uk2000"
             }
         ]
@@ -247,10 +247,10 @@ const productData = {
     products: [
             {
             category: "Zetstation-M series",
-            name: "UK2000",
+            name: "ZUK2000",
             desc: "Hybrid Carrier System",
             img: "../img/UK2000.png",
-            alt: "UK2000",
+            alt: "ZUK2000",
             link: "./Productdetail-eng.html?product=uk2000eng"
             }
         ]
@@ -265,7 +265,7 @@ const productData = {
             name: "43IG",
             desc: "43IG 제품 설명이 들어갑니다....",
             img: "../img/MODEL-HRD2000M.png",
-            alt: "MODEL-HRD2000M",
+            alt: "43IG",
             link: "./product-detail.html?product=esr001"
             }
         ]
