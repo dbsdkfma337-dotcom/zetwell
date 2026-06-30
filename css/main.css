@@ -445,17 +445,11 @@ body {
 }
 
 .ms-card-dark .mv-img {
-    bottom: -30px;
-    width: 115%;
+    width: 75%;
+    margin: 0 auto;
 }
 
 .ms-card-light .mv-img {
-    bottom: 15px;
-    width: 120%;
-}
-
-.ms-card-navy .mv-img {
-    bottom: 0;
     width: 100%;
 }
 
