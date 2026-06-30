@@ -992,19 +992,19 @@ const productData = {
 
         specTable: [
             ["System Architecture", 'Triple Independent Hardware System(Three Physically Isolated PC Systems with an Independent Operating Architecture)'],
-            ["Computing Core Board", "Three Independently Integrated Industrial Embedded Platforms"]
-            ["Processor (CPU)", "Each mainboard is individually equipped with a high-performance Intel® Core™ 12th/13th Gen-U/-P mobile embedded processor."]
-            ["System Memory", "Each mainboard features 2 × DDR5 SO-DIMM slots, supporting up to 288GB of total system memory for ultra-high-speed, high-capacity buffering."]
-            ["Storage Slot", "Each mainboard features 1 × M.2 2280 NVMe SSD slot with an independent PCIe Gen5 x4 bus interface."]
-            ["Wireless Communication Option", "Supports an integrated high-speed LTE communication modem (optional), with interface connectivity for a front-panel high-gain external LTE antenna."]
-            ["External Enclosure", "Original Pelican™ 1510 Protector Hard Case with a two-stage extendable pull handle and high-durability polyurethane roller wheels."]
+            ["Computing Core Board", "Three Independently Integrated Industrial Embedded Platforms"],
+            ["Processor (CPU)", "Each mainboard is individually equipped with a high-performance Intel® Core™ 12th/13th Gen-U/-P mobile embedded processor."],
+            ["System Memory", 'Each mainboard features 2 × DDR5 SO-DIMM slots <br>supporting up to 288GB of total system memory for ultra-high-speed<br> high-capacity buffering.'],
+            ["Storage Slot", 'Each mainboard features 1 × M.2 2280 NVMe SSD slot with an independent PCIe Gen5 x4 bus interface.'],
+            ["Wireless Communication Option", "Supports an integrated high-speed LTE communication modem (optional)<br> with interface connectivity for a front-panel high-gain external LTE antenna."],
+            ["External Enclosure", "Original Pelican™ 1510 Protector Hard Case with a two-stage extendable pull handle and high-durability polyurethane roller wheels."],
             ["Case External Dimensions", 'Approx. 55.9 × 35.1 × 22.9 cm (22.00" × 13.81" × 9.00" - FAA-compliant carry-on size)'],
             ["Display Specification", '5.0-inch (5" diagonal) premium high-brightness IPS panel / Resolution: 800 × 480 (Wide 16:9 aspect ratio)'],
-            ["Display Brightness", "1,000 nits (center measurement, ultra-high brightness) - Ensures 100% readability under direct sunlight in outdoor daytime environments"],
+            ["Display Brightness", "1,000 nits (center measurement / ultra-high brightness) - Ensures 100% readability under direct sunlight in outdoor daytime environments"],
             ["Touch Screen", "Projected Capacitive Multi-Touch (PCAP) / EETI EXC80W32 controller IC (supports operation with tactical gloves and incorporates moisture false-touch prevention filtering)"],
             ["Switch Hub", "Integrated independent Gigabit Ethernet switching hub backbone (automatic detection and intelligent distribution of 10/100/1000 Mbps data rates)"],
             ["Main SMPS", "MEAN WELL LRS-600 (600W main power supply for the triple computing system) / Industrial-grade 5G vibration resistance and certified for operation at altitudes up to 5,000 m"],
-            ["Auxiliary SMPS", "MEAN WELL RS-15 (15W independent power supply for the display and touch controller) / Equipped with high-reliability, long-life components rated up to 105°C"],
+            ["Auxiliary SMPS", "MEAN WELL RS-15 (15W independent power supply for the display and touch controller) / Equipped with high-reliability / long-life components rated up to 105°C"],
             ["Operating Environment", "Operating temperature: -20°C to 70°C / Storage temperature: -30°C to 80°C (designed for harsh field environments)"],
             ["Supported Operating Systems", "Windows® 10 / 11, Windows® IoT, and Embedded Linux (Ubuntu, Red Hat, and defense tactical embedded operating systems)"]
         ]
