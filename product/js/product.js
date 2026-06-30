@@ -2,17 +2,16 @@ const productData = {
     "s-series": {
         title: "S-Series",
         desc: "Tactial Xeon Power. Mil-spec 아머 케이스에 장착된 이동형 전술 서버<br> 전술기동을 위해 특수 설계된 콤팩트 PACK 아키텍처<br> 미션 성공을 위한 고성능 인텔 제온 서버가 가장 안전하고 견고한 하우징을 입었습니다.",
-        visualImg: "../img/Zetstation-bg.png",
+        visualImg: "../img/sseries-bg.png",
         koLink: "./series.html?series=s-series",
         engLink: "./series-eng.html?series=s-series-eng",
         products: [
             {
             category: "Zetstation-S시리즈",
-            name: "SS-",
-            desc: "S-Series 제품 설명이 들어갑니다....",
+            name: "zs-3020r",
+            desc: "Mil-spec 아머 케이스에 장착된 이동형 전술 서버",
             img: "../img/s-series.png",
-            alt: "SSR001",
-            link: "./Productdetail.html?product=ssr001"
+            link: "./Productdetail.html?product=zs-3020r"
             }
         ]
     },
@@ -26,11 +25,11 @@ const productData = {
         products: [
             {
             category: "Zetstation-S series",
-            name: "SS-",
+            name: "zs-3020r",
             desc: "S-Series ....",
             img: "../img/s-series.png",
             alt: "SSR001",
-            link: "./Productdetail.html?product=ssr001eng"
+            link: "./Productdetail.html?product=zs-3020reng"
             }
         ]
     },

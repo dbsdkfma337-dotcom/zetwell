@@ -268,22 +268,21 @@ const productData = {
         ]
     },
 
-    "43ig": {
+    "zs-3020r": {
         title: "이동형 멀티터치<br> 테이블 디스플레이",
 
         desc: "Built for On-the-Move Operations",
 
-        model: "43IG",
+        model: "zs-3020r",
 
-        visualImg: "../img/43IG-bg.png",
+        visualImg: "../img/zs-3020r-bg.png",
 
-        koLink: "./Productdetail.html?product=43ig",
-        engLink: "./Productdetail-eng.html?product=43igeng",
+        koLink: "./Productdetail.html?product=zs-3020r",
+        engLink: "./Productdetail-eng.html?product=zs-3020reng",
 
         sliderImages: [
-            "../img/43IG-h.png",
-            "../img/43IG-r.png",
-            "../img/43IG.png"
+            "../img/s-series.png",
+            "../img/zs-3020r-2.png"
         ],
 
         hero: {
@@ -292,11 +291,11 @@ const productData = {
             icon: "🔩",
             specTitle: "강한 내구성",
             specDesc: "고강도 폴리프로필렌 소재로 충격과진동, 극한 환경에서도<br> 높은 내구성을 자랑합니다.",
-            img: "../img/43IG-L.png"
+            img: "../img/s-series.png"
         },
 
         design: {
-            img: "../img/43IG-h.png",
+            img: "../img/zs-3020r-2.png",
             title: `넓은 내부 공간<br>더 높은 활용성`,
             desc: `넉넉한 내부공간으로 다양한 장비와 액세서리를 효율적으로 수납할 수 있습니다. 맞춤형 품 구성으로 장비를 안전하게 고정하여 운반할 수 있습니다.`,
             specs: [
@@ -312,10 +311,10 @@ const productData = {
         },
 
         photos: [
-            "../img/43IG1.png",
-            "../img/43IG2.png",
-            "../img/43IG3.png",
-            "../img/43IG4.png"
+            "../img/zs-3020r-bg.png",
+            "../img/zs-3020r-bg2.png",
+            "../img/zs-3020r-bg3.png",
+            "../img/sseries-bg.png"
         ],
 
         rugged: {
