@@ -817,7 +817,7 @@ const productData = {
     },
 
     "uk2000": {
-        title: "등짐형<br> 멀티 워크스테이션",
+        title: "백팩<br> 멀티 워크스테이션",
 
         desc: "Backpack-Mounted Multi Workstation",
 
@@ -835,26 +835,26 @@ const productData = {
         ],
 
         hero: {
-            title: `바로 출동하는<br>올인형 워크스테이션 솔루션`,
-            desc: `대형 장비 및 정밀 기기를 위한 전문 보호 케이스입니다.<br> 충격,습기,온도 변화로부터 장비를 안전하게 보호하고<br> 어떤 환경에서도 안정적인 운용을 지원합니다. `,
-            icon: "⚒",
-            specTitle: "강한 내구성",
-            specDesc: "고강도 폴리프로필렌 소재로 충격과진동, 극한 환경에서도<br> 높은 내구성을 자랑합니다.",
-            img: "../img/UK2000.png"
+            title: `이동형 전술 통제 스테이션`,
+            desc: `본 시스템은 글로벌 군사 및 산업 표준 규격을 만족하는 펠리칸 1510(Pelican™ 1510) 하드 케이스를 인클로저 플랫폼 으로 채택하고, 내부에 고성능 인텔 12/13세대 연산 엔진 하드웨어를 총 3세트 독립 실장한 고신뢰성 이동형 전술 작전 통제 스테이션입니다. 단 한 대의 하드 케이스 전개만으로 물리 망 분리 및 독립된 3대의 PC 시스템을 동시 제어할 수 있 으며, 고시인성 야외용 5인치 1000nits IPS 터치 스크린, 빌트인 기가비트 스위치 허브 및 대용량 민웰(MEAN WELL) 이중 전원 공급 장치(SMPS)가 단일 판넬 내에 통합 가공 되었습니다. 또한 고속 LTE 무선 통신 모뎀 슬롯(옵션)을 지원 하여 인프라가 전무한 험지 야전에서도 광대역 네트워크를 유연하게 확보할 수 있습니다.`,
+            icon: "🛡️",
+            specTitle: "펠리칸 1510 하드 케이스",
+            specDesc: "정품 펠리칸 1510 하우징을 채택하여 외부 압력, 진동, 수분 유입으로부터 핵심 유닛을 완벽히 보호",
+            img: "../img/UK2000-r.png"
         },
 
         design: {
             img: "../img/UK2000-open.png",
-            title: `넓은 내부 공간<br>더 높은 활용성`,
-            desc: `넉넉한 내부공간으로 다양한 장비와 액세서리를 효율적으로 수납할 수 있습니다. 맞춤형 품 구성으로 장비를 안전하게 고정하여 운반할 수 있습니다.`,
+            title: `3개 독립 하드웨어<br> 보드 내장`,
+            desc: `하우징 내부 레이아웃에 메인보드 3개가 개별 분리 실장되어 시스템 자원(CPU, 메모리, 저장장치)이 완벽하게 분할되어 있습 니다. 1호기, 2호기, 3호기 각각 독립적인 운영체제 구동 및 연산이 가능하여, 군 전술 작전망과 상용망의 물리적 망분리 환경 및 다채널 관제·제어를 단일 스테이션에서 완벽히 수행합니다.`,
             specs: [
                 {
-                    title: "용량",
-                    items: ["내부크기 1080x620x400", "외부크기 1178x718x427", "대용량 공간 260L"]
+                    title: "연산 메인보드 코어",
+                    items: ["산업용 임베디드 플랫폼 × 3세트 독립 실장",]
                 },
                 {
-                    title: "내용필요",
-                    items: ["내용 필요", "내용 필요"]
+                    title: "시스템 메모리",
+                    items: ["각 메인보드별 2 x DDR5<br> SO-DIMM 슬롯 장착", "시스템 총합 최대 288GB 초고속 대 용량 버퍼 메모리<br> 확장 가능"]
                 }
             ]
         },
@@ -867,25 +867,25 @@ const productData = {
         ],
 
         rugged: {
-            title: `그 어떤 환경에서도 살아남는,<br>강력한 보호성능`,
+            title: `하나의 플랫폼,<br>세 개의 독립된 임무 수행`,
             cards: [
                 {
-                icon: "🔒",
-                title: "잠금장치",
-                value: "금속 래치 적용",
-                desc: "금속 래치와 잠금 지원 구조로 운송 중에도 안정적인 보호 성능을 제공합니다."
+                icon: "🗃️",
+                title: "3개 독립 하드웨어 보드 내장",
+                value: "물리적 3대 PC 독립 운용",
+                desc: "하우징 내부 레이아웃에 메인보드 3개가 개별 분리 실장되어 시스템 자원(CPU, 메모리, 저장장치)이 완벽하게 분할되어 있습 니다. 1호기, 2호기, 3호기 각각 독립적인 운영체제 구동 및 연산이 가능하여, 군 전술 작전망과 상용망의 물리적 망분리 환경 및 다채널 관제·제어를 단일 스테이션에서 완벽히 수행합니다."
                 },
                 {
-                icon: "☔",
-                title: "방수·방진",
-                value: "IP65",
-                desc: "특수 실팅 구조로 외부의 물과 먼지로부터 장비를 안전하게 보호합니다."
+                icon: "🌐",
+                title: "고속 LTE 무선 통신 모뎀 및 외부 안테나 지원",
+                value: "Option",
+                desc: "유선망 전개가 불가능한 격오지 및 야전 통제 환경에 신속히 대응할 수 있도록 상용 고속 LTE 무선 통신 모뎀을 선택 사양으로 장착할 수 있습니다. 전면 정밀 알루미늄 판넬에 고이득 외부 안테나 연결용 I/O 포트를 배치하여 신속한 광대역 데이터 전송 링 크를 보장합니다."
                 },
                 {
-                icon: "✇",
-                title: "자동 압력 조절 밸브",
-                value: "압력 자동 조절",
-                desc: "내부 압력을 자동으로 조절하여 기압 변화시에도 안정적인 상태를 유지합니다."
+                icon: "🛡️",
+                title: "펠리칸 1510 외장 인클로저 규격",
+                value: "민웰 이중 SMPS",
+                desc: "글로벌 작전 표준을 충족하는 정품 펠리칸 1510 하우징을 채택하여 외부 압력, 진동, 수분 유입으로부터 핵심 유닛을 완벽히 보 호합니다. 전원부에는 민웰(MEAN WELL) 사의 LRS-600 및 RS-15를 효율적으로 분할 내장하여 산업용 5G 내진동 규격을 충족합니다."
                 }
             ]
         },
@@ -894,22 +894,27 @@ const productData = {
 
 
         specTable: [
-            ["디스플레이", '43" 4k UHD (3840 × 2160)'],
-            ["밝기", "500 nits"],
-            ["시야각", "178° (H) / 178° (V)"],
-            ["입력단자", "HDMI, USB, LAN, 전원 입력"],
-            ["전원", "AC 100~240V"],
-            ["작동온도", "-20°C ~ 60°C"],
-            ["보관온도", "-30°C ~ 70°C"],
-            ["방진방수", "IP65"],
-            ["외부크기", "1178 x 718 x 427 mm"],
-            ["내부크기", "1080 x 620 x 400 mm"],
-            ["증량", "약 24kg"]
+            ["시스템 아키텍처", '트리플 독립 하드웨어 시스템 (물리적으로 완벽 분리된 3대 PC 독립 구동 아키텍처)'],
+            ["연산 메인보드 코어", "산업용 임베디드 플랫폼 × 3세트 독립 실장"],
+            ["프로세서 (CPU)", "각 메인보드별 Intel® Core™ 12th / 13th Gen -U / -P 모바일 임베디드 고성능 프로 세서 개별 탑재"],
+            ["시스템 메모리", "각 메인보드별 2 x DDR5 SO-DIMM 슬롯 장착 (시스템 총합 최대 288GB 초고속 대 용량 버퍼 메모리 확장 가능)"],
+            ["스토리지 슬롯", "각 메인보드별 1 x M.2 2280 NVMe SSD 슬롯 (PCIe Gen5 x4 독립 버스 인터페이 스 연동)"],
+            ["무선 통신 옵션", "내장형 고속 LTE 통신 모뎀 장착 지원 (옵션 사양 / 전면 외부 고이득 LTE 안테나 인터 페이스 연동)"],
+            ["외장 인클로저", "Pelican™ 1510 오리지널 프로텍터 하드 케이스 (2단 확장형 풀 캐리 핸들 및 고내구 성 우레탄 롤러 휠 기본 내장)"],
+            ['케이스 외부 사이즈", "약 55.9 x 35.1 x 22.9 cm (22.00" x 13.81" x 9.00" - FAA 규격 기내 반입 가능 사이즈)'],
+            ['디스플레이 규격", "5.0인치 (5" Diagonal) 프리미엄 고휘도 IPS 패널 / 해상도 800 x 480 (Wide 16:9 화각)'],
+            ["화면 휘도 (밝기)", "1,000 nits (Center 기준 초고휘도) - 주간 야외 직사광선 환경 가독성 100% 보장"],
+            ["터치 스크린", "투영형 정전식 멀티 터치 (PCAP) / EETI EXC80W32 제어 IC (전술 장갑 구동 및 수 분 오작동 방지 필터)"],
+            ["스위치 허브", "내장형 독립 기가비트 이더넷 스위칭 허브 백본 (10/100/1000Mbps 데이터 속도 자동 인식 및 스마트 분배)"],
+            ["메인 SMPS", "MEAN WELL LRS-600 (600W 트리플 연산부 메인 공급) / 산업용 5G 진동 내성 및 5,000m 고고도 승인"],
+            ["보조 SMPS", "MEAN WELL RS-15 (15W 디스플레이 및 터치 제어 독립 공급) / 105°C 장수명 고 신뢰성 소자 실장"],
+            ["운용 기후 환경", "운용 동작 온도: -20°C ~ 70°C / 보관 온도: -30°C ~ 80°C (야전 가혹 환경 대응)"],
+            ["지원 운영체제", "Windows® 10 / 11, Windows® IoT, Embedded Linux (Ubuntu, RedHat 및 국방 전술 임베디드 OS)"]
         ]
     },
 
     "uk2000eng": {
-        title: "Backpack-Mounted<br> Multi Workstation",
+        title: "Backpack-Mounted Multi Workstation",
 
         desc: "Backpack-Mounted Multi Workstation",
 
@@ -927,26 +932,26 @@ const productData = {
         ],
 
         hero: {
-            title: `바로 출동하는<br>올인형 워크스테이션 솔루션`,
-            desc: `대형 장비 및 정밀 기기를 위한 전문 보호 케이스입니다.<br> 충격,습기,온도 변화로부터 장비를 안전하게 보호하고<br> 어떤 환경에서도 안정적인 운용을 지원합니다. `,
-            icon: "⚒",
-            specTitle: "강한 내구성",
-            specDesc: "고강도 폴리프로필렌 소재로 충격과진동, 극한 환경에서도<br> 높은 내구성을 자랑합니다.",
-            img: "../img/UK2000.png"
+            title: `Mobile Tactical Command Station`,
+            desc: `recognized Pelican™ 1510 rugged hard case platform, compliant with international military and industrial standards. It integrates three independent sets of high-performance Intel® 12th/13th Generation computing hardware within a single enclosure. With the deployment of a single hard case, the system enables simultaneous operation of three physically isolated and fully independent PC systems. A high-brightness 5-inch, 1000-nit IPS touchscreen optimized for outdoor visibility, a built-in Gigabit Ethernet switch hub, and a high-capacity dual Mean Well (MEAN WELL) SMPS power supply are all integrated into a single control panel. In addition, an optional high-speed LTE wireless communication modem slot allows the system to flexibly establish broadband network connectivity even in remote field environments where communication infrastructure is unavailable.`,
+            icon: "🛡️",
+            specTitle: "Pelican™ 1510 Hard Case",
+            specDesc: "Adopts a genuine Pelican™ 1510 housing to provide complete protection for critical system components against external pressure, vibration, and moisture ingress.",
+            img: "../img/UK2000-r.png"
         },
 
         design: {
             img: "../img/UK2000-open.png",
-            title: `넓은 내부 공간<br>더 높은 활용성`,
-            desc: `넉넉한 내부공간으로 다양한 장비와 액세서리를 효율적으로 수납할 수 있습니다. 맞춤형 품 구성으로 장비를 안전하게 고정하여 운반할 수 있습니다.`,
+            title: `Integrated with Three Independent Hardware Boards`,
+            desc: `The internal layout incorporates three individually isolated motherboard assemblies, completely segregating system resources—including the CPU, memory, and storage devices.Each of the three systems operates with its own independent operating system and computing environment, enabling simultaneous processing and execution without resource interference. This architecture allows a single station to seamlessly support physically separated military tactical networks and commercial networks, while providing multi-channel monitoring and control capabilities..`,
             specs: [
                 {
-                    title: "용량",
-                    items: ["내부크기 1080x620x400", "외부크기 1178x718x427", "대용량 공간 260L"]
+                    title: "Computing Core Board",
+                    items: ["Three Independently Integrated Industrial Embedded Platforms",]
                 },
                 {
-                    title: "내용필요",
-                    items: ["내용 필요", "내용 필요"]
+                    title: "System Memory",
+                    items: ["2 × DDR5 SO-DIMM Slots per Mainboard<br> Expandable up to 288GB of Total System Memory for Ultra-High-Speed, High-Capacity Buffering"]
                 }
             ]
         },
@@ -959,25 +964,25 @@ const productData = {
         ],
 
         rugged: {
-            title: `그 어떤 환경에서도 살아남는,<br>강력한 보호성능`,
+            title: `One Platform,<br>Three Independent Missions`,
             cards: [
                 {
-                icon: "🔒",
-                title: "잠금장치",
-                value: "금속 래치 적용",
-                desc: "금속 래치와 잠금 지원 구조로 운송 중에도 안정적인 보호 성능을 제공합니다."
+                icon: "🗃️",
+                title: "Integrated with Three Independent Hardware Boards",
+                value: "Physically Isolated Operation of Three Independent PC Systems",
+                desc: "The enclosure integrates three individually isolated motherboards, providing complete segregation of system resources, including the CPU, memory, and storage devices. Each of the three systems operates with its own independent operating system and computing environment, enabling simultaneous processing and execution without resource interference. This architecture allows a single station to fully support physically separated military tactical networks and commercial networks, while delivering multi-channel command, monitoring, and control capabilities."
                 },
                 {
-                icon: "☔",
-                title: "방수·방진",
-                value: "IP65",
-                desc: "특수 실팅 구조로 외부의 물과 먼지로부터 장비를 안전하게 보호합니다."
+                icon: "🌐",
+                title: "Supports High-Speed LTE Wireless Communication Modem and External Antenna",
+                value: "Option",
+                desc: "An optional commercial high-speed LTE wireless communication modem can be installed to enable rapid deployment in remote locations and field command environments where wired network infrastructure is unavailable. High-gain external antenna I/O ports are integrated into the precision-machined front aluminum panel, ensuring fast and reliable broadband data communication links."
                 },
                 {
-                icon: "✇",
-                title: "자동 압력 조절 밸브",
-                value: "압력 자동 조절",
-                desc: "내부 압력을 자동으로 조절하여 기압 변화시에도 안정적인 상태를 유지합니다."
+                icon: "🛡️",
+                title: "Pelican™ 1510 External Enclosure Specifications",
+                value: "Dual MEAN WELL SMPS Power Supplies",
+                desc: "The system adopts a genuine Pelican™ 1510 enclosure that meets global operational standards, providing complete protection for mission-critical components against external pressure, vibration, and moisture ingress. The power subsystem incorporates independently configured MEAN WELL LRS-600 and RS-15 power supplies, ensuring compliance with industrial-grade 5G vibration resistance requirements."
                 }
             ]
         },
@@ -986,17 +991,22 @@ const productData = {
 
 
         specTable: [
-            ["디스플레이", '43" 4k UHD (3840 × 2160)'],
-            ["밝기", "500 nits"],
-            ["시야각", "178° (H) / 178° (V)"],
-            ["입력단자", "HDMI, USB, LAN, 전원 입력"],
-            ["전원", "AC 100~240V"],
-            ["작동온도", "-20°C ~ 60°C"],
-            ["보관온도", "-30°C ~ 70°C"],
-            ["방진방수", "IP65"],
-            ["외부크기", "1178 x 718 x 427 mm"],
-            ["내부크기", "1080 x 620 x 400 mm"],
-            ["증량", "약 24kg"]
+            ["System Architecture", 'Triple Independent Hardware System(Three Physically Isolated PC Systems with an Independent Operating Architecture)'],
+            ["Computing Core Board", "Three Independently Integrated Industrial Embedded Platforms"]
+            ["Processor (CPU)", "Each mainboard is individually equipped with a high-performance Intel® Core™ 12th/13th Gen-U/-P mobile embedded processor."]
+            ["System Memory", "Each mainboard features 2 × DDR5 SO-DIMM slots, supporting up to 288GB of total system memory for ultra-high-speed, high-capacity buffering."]
+            ["Storage Slot", "Each mainboard features 1 × M.2 2280 NVMe SSD slot with an independent PCIe Gen5 x4 bus interface."]
+            ["Wireless Communication Option", "Supports an integrated high-speed LTE communication modem (optional), with interface connectivity for a front-panel high-gain external LTE antenna."]
+            ["External Enclosure", "Original Pelican™ 1510 Protector Hard Case with a two-stage extendable pull handle and high-durability polyurethane roller wheels."]
+            ["Case External Dimensions", 'Approx. 55.9 × 35.1 × 22.9 cm (22.00" × 13.81" × 9.00" - FAA-compliant carry-on size)'],
+            ["Display Specification", '5.0-inch (5" diagonal) premium high-brightness IPS panel / Resolution: 800 × 480 (Wide 16:9 aspect ratio)'],
+            ["Display Brightness", "1,000 nits (center measurement, ultra-high brightness) - Ensures 100% readability under direct sunlight in outdoor daytime environments"],
+            ["Touch Screen", "Projected Capacitive Multi-Touch (PCAP) / EETI EXC80W32 controller IC (supports operation with tactical gloves and incorporates moisture false-touch prevention filtering)"],
+            ["Switch Hub", "Integrated independent Gigabit Ethernet switching hub backbone (automatic detection and intelligent distribution of 10/100/1000 Mbps data rates)"],
+            ["Main SMPS", "MEAN WELL LRS-600 (600W main power supply for the triple computing system) / Industrial-grade 5G vibration resistance and certified for operation at altitudes up to 5,000 m"],
+            ["Auxiliary SMPS", "MEAN WELL RS-15 (15W independent power supply for the display and touch controller) / Equipped with high-reliability, long-life components rated up to 105°C"],
+            ["Operating Environment", "Operating temperature: -20°C to 70°C / Storage temperature: -30°C to 80°C (designed for harsh field environments)"],
+            ["Supported Operating Systems", "Windows® 10 / 11, Windows® IoT, and Embedded Linux (Ubuntu, Red Hat, and defense tactical embedded operating systems)"]
         ]
     },
 
