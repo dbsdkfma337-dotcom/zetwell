@@ -860,7 +860,7 @@ const productData = {
         },
 
         photos: [
-            "../img/UK2000-bg3.png",
+            "../img/UK2000-bg6.png",
             "../img/UK2000-bg5.png",
             "../img/UK2000-bg4.png",
             "../img/UK2000-bg.png"
@@ -870,22 +870,22 @@ const productData = {
             title: `하나의 플랫폼,<br>세 개의 독립된 임무 수행`,
             cards: [
                 {
-                icon: "🗃️",
-                title: "3개 독립 하드웨어 보드 내장",
-                value: "물리적 3대 PC 독립 운용",
-                desc: "하우징 내부 레이아웃에 메인보드 3개가 개별 분리 실장되어 시스템 자원(CPU, 메모리, 저장장치)이 완벽하게 분할되어 있습 니다. 1호기, 2호기, 3호기 각각 독립적인 운영체제 구동 및 연산이 가능하여, 군 전술 작전망과 상용망의 물리적 망분리 환경 및 다채널 관제·제어를 단일 스테이션에서 완벽히 수행합니다."
-                },
-                {
                 icon: "🌐",
                 title: "고속 LTE 무선 통신 모뎀 및 외부 안테나 지원",
                 value: "Option",
-                desc: "유선망 전개가 불가능한 격오지 및 야전 통제 환경에 신속히 대응할 수 있도록 상용 고속 LTE 무선 통신 모뎀을 선택 사양으로 장착할 수 있습니다. 전면 정밀 알루미늄 판넬에 고이득 외부 안테나 연결용 I/O 포트를 배치하여 신속한 광대역 데이터 전송 링 크를 보장합니다."
+                desc: "유선망 전개가 불가능한 격오지 및 야전 통제 환경에 신속히 대응할 수 있도록 상용 고속 LTE 무선 통신 모뎀을 선택 사양으로 장착할 수 있습니다. 전면 정밀 알루미늄 판넬에 고이득 외부 안테나 연결용 I/O 포트를 배치하여 신속한 광대역 데이터 전송 링크를 보장합니다."
                 },
                 {
                 icon: "🛡️",
                 title: "펠리칸 1510 외장 인클로저 규격",
                 value: "민웰 이중 SMPS",
-                desc: "글로벌 작전 표준을 충족하는 정품 펠리칸 1510 하우징을 채택하여 외부 압력, 진동, 수분 유입으로부터 핵심 유닛을 완벽히 보 호합니다. 전원부에는 민웰(MEAN WELL) 사의 LRS-600 및 RS-15를 효율적으로 분할 내장하여 산업용 5G 내진동 규격을 충족합니다."
+                desc: "글로벌 작전 표준을 충족하는 정품 펠리칸 1510 하우징을 채택하여 외부 압력, 진동, 수분 유입으로부터 핵심 유닛을 완벽히 보호합니다. 전원부에는 민웰(MEAN WELL) 사의 LRS-600 및 RS-15를 효율적으로 분할 내장하여 산업용 5G 내진동 규격을 충족합니다."
+                },
+                {
+                icon: "💧",
+                title: "방수 방진 구조",
+                value: "IP67 등급",
+                desc: "IP67 등급으로 물, 먼지, 모래 등의 외부환경 으로부터 장비를 완벽하게 보호합니다."
                 }
             ]
         },
@@ -914,7 +914,7 @@ const productData = {
     },
 
     "uk2000eng": {
-        title: "Backpack-Mounted Multi Workstation",
+        title: "Backpack-Mounted<br> Multi Workstation",
 
         desc: "Backpack-Mounted Multi Workstation",
 
@@ -957,7 +957,7 @@ const productData = {
         },
 
         photos: [
-            "../img/UK2000-bg3.png",
+            "../img/UK2000-bg6.png",
             "../img/UK2000-bg5.png",
             "../img/UK2000-bg4.png",
             "../img/UK2000-bg.png"
@@ -966,12 +966,6 @@ const productData = {
         rugged: {
             title: `One Platform,<br>Three Independent Missions`,
             cards: [
-                {
-                icon: "🗃️",
-                title: "Integrated with Three Independent Hardware Boards",
-                value: "Physically Isolated Operation of Three Independent PC Systems",
-                desc: "The enclosure integrates three individually isolated motherboards, providing complete segregation of system resources, including the CPU, memory, and storage devices. Each of the three systems operates with its own independent operating system and computing environment, enabling simultaneous processing and execution without resource interference. This architecture allows a single station to fully support physically separated military tactical networks and commercial networks, while delivering multi-channel command, monitoring, and control capabilities."
-                },
                 {
                 icon: "🌐",
                 title: "Supports High-Speed LTE Wireless Communication Modem and External Antenna",
@@ -983,6 +977,12 @@ const productData = {
                 title: "Pelican™ 1510 External Enclosure Specifications",
                 value: "Dual MEAN WELL SMPS Power Supplies",
                 desc: "The system adopts a genuine Pelican™ 1510 enclosure that meets global operational standards, providing complete protection for mission-critical components against external pressure, vibration, and moisture ingress. The power subsystem incorporates independently configured MEAN WELL LRS-600 and RS-15 power supplies, ensuring compliance with industrial-grade 5G vibration resistance requirements."
+                },
+                {
+                icon: "💧",
+                title: "Waterproof and Dustproof Design",
+                value: "IP67 Rated",
+                desc: "The IP67-rated design provides complete protection against water, dust, sand, and other harsh environmental elements."
                 }
             ]
         },
