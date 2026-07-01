@@ -1302,10 +1302,10 @@ const productData = {
         },
 
         photos: [
-            "../img/43IG1.png",
-            "../img/43IG2.png",
-            "../img/43IG3.png",
-            "../img/43IG4.png"
+            "../img/9000SE-bg.png",
+            "../img/9000SE-bg2.png",
+            "../img/9000SE-bg3.png",
+            "../img/9000SE-bg4.png"
         ],
 
         rugged: {
@@ -1392,7 +1392,7 @@ const productData = {
         },
 
         photos: [
-            "../img/43IG1.png",
+            "../img/9000SE-bg.png",
             "../img/43IG2.png",
             "../img/43IG3.png",
             "../img/43IG4.png"
@@ -1480,7 +1480,7 @@ const productData = {
         },
 
         photos: [
-            "../img/43IG1.png",
+            "../img/s988-bg.png",
             "../img/43IG2.png",
             "../img/43IG3.png",
             "../img/43IG4.png"
@@ -1568,7 +1568,7 @@ const productData = {
         },
 
         photos: [
-            "../img/43IG1.png",
+            "../img/s988-bg.png",
             "../img/43IG2.png",
             "../img/43IG3.png",
             "../img/43IG4.png"
@@ -1657,7 +1657,7 @@ const productData = {
         },
 
         photos: [
-            "../img/43IG1.png",
+            "../img/s1388-bg.png",
             "../img/43IG2.png",
             "../img/43IG3.png",
             "../img/43IG4.png"
@@ -1749,7 +1749,7 @@ const productData = {
         },
 
         photos: [
-            "../img/43IG1.png",
+            "../img/s1388-bg.png",
             "../img/43IG2.png",
             "../img/43IG3.png",
             "../img/43IG4.png"
@@ -1839,7 +1839,7 @@ const productData = {
         },
 
         photos: [
-            "../img/43IG1.png",
+            "../img/S1519H-bg.png",
             "../img/43IG2.png",
             "../img/43IG3.png",
             "../img/43IG4.png"
