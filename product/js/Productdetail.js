@@ -271,7 +271,7 @@ const productData = {
     "zs-3020r": {
         title: "이동형 멀티터치<br> 테이블 디스플레이",
 
-        desc: "Built for On-the-Move Operations",
+        desc: "Intel® Xeon® Scalable Defence Serve",
 
         model: "ZS-3020R",
 
