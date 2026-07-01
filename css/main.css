@@ -18,6 +18,10 @@ body {
     z-index: 100;
 }
 
+#header .logo img {
+    width: 80%;
+}
+
 #header .logo,
 #header .gnb-area,
 #header .lang,
@@ -275,7 +279,7 @@ body {
     background: url(../img/main-bg.png) no-repeat center center / cover;
     width: 100%;
     height: 101vh;
-    margin-top: -75px;
+    margin-top: -103px;
 }
 
 .main-visual p {
