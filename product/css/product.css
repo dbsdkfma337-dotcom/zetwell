@@ -284,6 +284,7 @@
 .spec-item li {
     position: relative;
     font-size: 16px;
+    font-weight: 200;
     line-height: 1.5;
     color: rgba(255, 255, 255, 0.72);
 }
