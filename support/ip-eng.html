@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRM</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/company.css">
+    <link rel="stylesheet" href="../css/font.css">
+    <link rel="stylesheet" href="./css/blog.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <script src="../js/main.js" defer></script>
+    <script src="./js/news.js" defer></script>
+</head>
+<body>
+    <main class="nvis-page">
+        <header id="header" class="sub-header">
+            <h1 class="logo">
+                <a href="../eng.html"><img src="../img/logo-w.png" alt=""></a>
+            </h1>
+
+            <div class="gnb-area">
+                <nav class="gnb" aria-label="주요 메뉴">
+                    <ul class="gnb-list">
+                        <li class="gnb-item">
+                            <a href="#" class="gnb-link">ZETstation</a>
+                            <ul class="depth2">
+                                <li><a href="../product/series-eng.html?series=s-series-eng">S-Series</a></li>
+                                <li><a href="../product/series-eng.html?series=w-series-eng">W-Series</a></li>
+                                <li><a href="../product/series-eng.html?series=e-series-eng">E-Series</a></li>
+                                <li><a href="../product/series-eng.html?series=m-series-eng">M-Series</a></li>
+                                <li><a href="../product/series-eng.html?series=c-series-eng">CSTM-Series</a></li>
+                            </ul>
+                        </li>
+                        <li class="gnb-item">
+                            <a href="#" class="gnb-link">ZETable</a>
+                            <ul class="depth2">
+                                <li><a href="../product/Productdetail-eng.html?product=43igeng">43IG</a></li>
+                                <li><a href="../product/Productdetail-eng.html?product=43mgeng">43MG</a></li>
+                            </ul>
+                        </li>
+                        <li class="gnb-item">
+                            <a href="#" class="gnb-link">Zetview</a>
+                            <ul class="depth2">
+                                <li><a href="../product/series-eng.html?series=n-series-eng">NVIS Monitor</a></li>
+                                <li><a href="">Transparent Display</a></li>
+                            </ul>
+                        </li>
+                        <li class="gnb-item">
+                            <a href="#" class="gnb-link">Accessories</a>
+                            <ul class="depth2">
+                                <li><a href="../support/comingsoon-eng.html">PowerlBank</a></li>
+                                <li><a href="../support/comingsoon-eng.html">SolarPanel</a></li>
+                                <li><a href="../support/comingsoon-eng.html">EMP Protection</a></li>
+                            </ul>
+                        </li>
+                        <li class="gnb-item">
+                            <a href="#" class="gnb-link">support</a>
+                            <ul class="depth2">
+                            <li><a href="./as-eng.html">A/S Service Request</a></li>
+                            <li><a href="./contact-eng.html">Contact Us</a></li>
+                            <li><a href="./blog-eng.html">Blog</a></li>
+                            </ul>
+                        </li>
+                        <li class="gnb-item">
+                            <a href="#" class="gnb-link">company</a>
+                            <ul class="depth2">
+                                <li><a href="../company/greeting-eng.html">CEO Message</a></li>
+                                <li><a href="../company/mission-eng.html">Mission & Vision</a></li>
+                                <li><a href="../company/organization-chart.html">Organization Chart</a></li>
+                                <li><a href="../company/map-eng.html">Directions</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+
+                <button type="button" class="menu-btn" aria-label="메뉴 열기" style="display: none;">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+
+            <div class="lang">
+                <button type="button" class="lang-btn" aria-label="언어 선택">
+                    <img src="../img/icon-language.png" alt="">
+                </button>
+                <div class="lang-list">
+                    <a id="langKo" href="./as.html">ko</a>
+                    <a id="langEng" href="./as-eng.html">eng</a>
+                </div>
+            </div>
+
+            <div class="sub-bg"></div>
+        </header>
+
+        <div class="quick-contact" id="quickContact">
+            <div class="quick-popup eng">
+                <a href="tel:1566-9090">
+                    <span class="fa-solid fa-phone"></span>
+                    <strong>Sales Inquiry</strong>
+                    <em>+82-2-3281-0130</em>
+                </a>
+            </div>
+
+            <button type="button" class="quick-btn" id="quickBtn" aria-label="구매문의 열기">
+                <i class="fa-solid fa-phone phone-icon"></i>
+                <span class="close-icon">×</span>
+            </button>
+        </div>
+
+        <section class="ip-section">
+            <div class="inner">
+                <div class="blog-title">
+                    <span>Technology Insight</span>
+                    <h2>What Are Waterproof and Dustproof Ratings? Understanding IP Ratings</h2>
+                    <p style="white-space: nowrap;">
+                        IP ratings are international protection standards that indicate<br>
+                        the degree to which electrical and electronic equipment is protected<br>
+                        against the intrusion of dust, foreign objects, and water.
+                    </p>
+                </div>
+
+                <div class="ip-content blog-content">
+
+                    <div class="ip-visual">
+                        <img src="../img/ip.png" alt="Concept image of waterproof and dustproof protection">
+                    </div>
+
+                    <article class="ip-card">
+                        <h3>01. What Is an IP Rating?</h3>
+                        <p>
+                            The IP (Ingress Protection) rating is a classification system that indicates
+                            how well a product enclosure protects equipment from solid objects, dust,
+                            accidental contact, and water ingress. Compared to general terms such as
+                            "waterproof" or "water-resistant," IP ratings provide a much clearer and
+                            more objective indication of protection levels.
+                        </p>
+                    </article>
+
+                    <article class="ip-card">
+                        <h3>02. How to Read an IP Code</h3>
+
+                        <div class="ip-table">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Code Character</th>
+                                        <th>First Digit: Protection Against Solid Particles</th>
+                                        <th>Second Digit: Protection Against Liquids</th>
+                                        <th>Third Digit: Resistance to Mechanical Impact</th>
+                                        <th>Additional Letter: Supplementary Protection</th>
+                                        <th>Supplementary Letter: Additional Information</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>IP</td>
+                                        <td>Single digit: 0–6 or X</td>
+                                        <td>Single digit: 0–8 or X</td>
+                                        <td>Single digit: 0–9</td>
+                                        <td>Single letter: A, B, C, D</td>
+                                        <td>Single letter: F, H, M, S</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Required</td>
+                                        <td>Required</td>
+                                        <td>Required</td>
+                                        <td>No Longer Used</td>
+                                        <td>Optional</td>
+                                        <td>Optional</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </article>
+
+                    <article class="ip-card">
+                        <h3>03. First Digit: Dust Protection Ratings</h3>
+
+                        <div class="ip-table">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Rating</th>
+                                        <th>Protection Level</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>0</td>
+                                        <td>No protection</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Protected against solid objects larger than 50 mm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Protected against objects larger than 12.5 mm, including finger contact</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Protected against tools or thick wires larger than 2.5 mm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>Protected against wires, screws, and small foreign objects larger than 1 mm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>Dust ingress is limited to a level that does not interfere with equipment operation</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>Completely dust-tight enclosure</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </article>
+
+                    <article class="ip-card">
+                        <h3>04. Second Digit: Water Protection Ratings</h3>
+
+                        <div class="ip-table">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Rating</th>
+                                        <th>Protection Level</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>0</td>
+                                        <td>No protection</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Protected against vertically falling water drops</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Protected against water drops falling at an angle</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Protected against sprayed water</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>Protected against splashing water from any direction</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>Protected against low-pressure water jets from any direction</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>Protected against powerful water jets</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>Protected against immersion up to a depth of 1 meter</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>Protected against continuous immersion beyond 1 meter; test depth and duration are specified by the manufacturer</td>
+                                    </tr>
+                                    <tr>
+                                        <td>9K</td>
+                                        <td>Protected against high-pressure water jets at temperatures up to 80°C (176°F)</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </article>
+
+                    <article class="ip-card">
+                        <h3>05. Which IP Rating Do You Need?</h3>
+
+                        <div class="feature-grid">
+                            <div class="feature-item">
+                                <h4>Indoor Environments</h4>
+                                <p>
+                                    In environments such as offices and indoor facilities where exposure
+                                    to water and dust is minimal, relatively low IP ratings are often sufficient.
+                                </p>
+                            </div>
+
+                            <div class="feature-item">
+                                <h4>Outdoor Environments</h4>
+                                <p>
+                                    Higher levels of dust and water protection are required in outdoor areas,
+                                    coastal regions, factories, and warehouses where equipment may be exposed
+                                    to dust, moisture, and rain.
+                                </p>
+                            </div>
+
+                            <div class="feature-item">
+                                <h4>Industrial Sites</h4>
+                                <p>
+                                    In environments where equipment is cleaned using water jets or high-pressure
+                                    washing systems, higher protection ratings such as IP65, IP66, or IP69K
+                                    should be considered.
+                                </p>
+                            </div>
+
+                            <div class="feature-item">
+                                <h4>Product Selection Criteria</h4>
+                                <p>
+                                    When selecting an IP rating, it is important to consider the installation
+                                    environment, the level of exposure to water and dust, cleaning methods,
+                                    and the intended application of the equipment.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="ip-card ip-summary">
+                        <h3>Summary</h3>
+                        <p>
+                            IP ratings are an essential standard for objectively evaluating the dustproof
+                            and waterproof performance of a product. In demanding environments such as
+                            industrial equipment, defense systems, and outdoor installations, IP ratings
+                            serve as a key indicator of product reliability and operational stability.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-inner">
+                <div class="footer-left">
+                    <h2>
+                        Tailored Solutions Designed<br> for Defense Operations
+                    </h2>
+
+                    <a href="./made-in-korea.html" class="footer-btn">
+                        MADE IN KOREA
+                        <img src="../img/flag.png" alt="">
+                    </a>
+
+                    <p class="copyright">
+                        Copyright © zetwell. All Rights Reserved.
+                    </p>
+                </div>
+
+                <div class="footer-right">
+                    <div class="footer-col">
+                        <h3>Social</h3>
+                        <ul>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Instagram</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h3>Contact</h3>
+                        <p>
+                            02-3281-0130
+                        </p>
+                    </div>
+
+                    <div class="footer-col">
+                        <h3>Address</h3>
+                        <p>
+                            Suite 1102, ENC Dream Tower 8<br>
+                            45, Gasan Digital 1-ro<br>
+                            Geumcheon-gu, Seoul, Republic of Korea
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
