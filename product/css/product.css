@@ -275,7 +275,6 @@
 }
 
 .spec-item ul {
-    position: relative;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -283,6 +282,7 @@
 }
 
 .spec-item li {
+    position: relative;
     font-size: 16px;
     line-height: 1.5;
     color: rgba(255, 255, 255, 0.72);
@@ -291,7 +291,7 @@
 .spec-item li::before {
     content: "• ";
     position: absolute;
-    right: 202px;
+    left: -10px;
 }
 
 .spec-section {
