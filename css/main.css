@@ -441,15 +441,7 @@ body {
     width: 100%;
     max-width: 300px;
     pointer-events: none;
-}
-
-.ms-card-dark .mv-img {
-    width: 75%;
-    margin: 0 auto;
-}
-
-.ms-card-light .mv-img {
-    width: 100%;
+    margin-bottom: 30px;
 }
 
 .box-area {
