@@ -891,7 +891,7 @@ const productData = {
 
         desc: "Backpack-Mounted Multi Workstation",
 
-        model: "UK2000",
+        model: "ZUK2000",
 
         visualImg: "../img/UK2000-bg2.png",
 
@@ -988,7 +988,7 @@ const productData = {
 
         desc: "Backpack-Mounted Multi Workstation",
 
-        model: "UK2000",
+        model: "ZUK2000",
 
         visualImg: "../img/UK2000-bg2.png",
 
@@ -1982,7 +1982,7 @@ const productData = {
 
         desc: "내용필요",
 
-        model: "EPH10",
+        model: "ZEPH10",
 
         visualImg: "../img/eph-bg.png",
 
@@ -2073,7 +2073,7 @@ const productData = {
 
         desc: "내용필요",
 
-        model: "EPH8",
+        model: "ZEPH8",
 
         visualImg: "../img/eph-bg.png",
 
@@ -2164,7 +2164,7 @@ const productData = {
 
         desc: "내용필요",
 
-        model: "EPN2000B",
+        model: "ZEPN2000B",
 
         visualImg: "../img/eph-bg.png",
 
