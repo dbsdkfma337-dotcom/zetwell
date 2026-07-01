@@ -1154,6 +1154,8 @@ const productData = {
             ]
         },
 
+        video: "../video/hrd2000m-video.mp4",
+
         specTable: [
             ["지원 운영체제 (OS)", 'Windows® 11 IoT<br>Ubuntu 22.04 이상 (above)<br>Fedora 36 이상 (above)'],
             ["프로세서 (CPU)", 'Intel® 13th Gen Raptor Lake-P / U 시리즈 (i7 / i5 / i3 / Pentium)<br>Intel® 12th Gen Alder Lake-P / U 시리즈 (i7 / i5 / i3 / Celeron) '],
@@ -1241,6 +1243,8 @@ const productData = {
                 }
             ]
         },
+
+        video: "../video/hrd2000m-video.mp4",
 
         specTable: [
             ["Built-in UPS Module", 'PW601-2S1P (Supercapacitor-Based Power Stabilization and Power Failure Protection System))'],
