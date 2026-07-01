@@ -1481,9 +1481,9 @@ const productData = {
 
         photos: [
             "../img/s988-bg.png",
-            "../img/43IG2.png",
-            "../img/43IG3.png",
-            "../img/43IG4.png"
+            "../img/s988-bg2.png",
+            "../img/s988-bg3.png",
+            "../img/s988-bg4.png"
         ],
 
         rugged: {
@@ -1658,9 +1658,9 @@ const productData = {
 
         photos: [
             "../img/s1388-bg.png",
-            "../img/43IG2.png",
-            "../img/43IG3.png",
-            "../img/43IG4.png"
+            "../img/s1388-bg2.png",
+            "../img/s1388-bg3.png",
+            "../img/s1388-bg4.png"
         ],
 
         rugged: {
@@ -1840,9 +1840,9 @@ const productData = {
 
         photos: [
             "../img/S1519H-bg.png",
-            "../img/43IG2.png",
-            "../img/43IG3.png",
-            "../img/43IG4.png"
+            "../img/s1519h-bg2.png",
+            "../img/s1519h-bg3.png",
+            "../img/s1519h-bg4.png"
         ],
 
         rugged: {
@@ -1929,10 +1929,10 @@ const productData = {
         },
 
         photos: [
-            "../img/43IG1.png",
-            "../img/43IG2.png",
-            "../img/43IG3.png",
-            "../img/43IG4.png"
+            "../img/S1519H-bg.png",
+            "../img/s1519h-bg2.png",
+            "../img/s1519h-bg3.png",
+            "../img/s1519h-bg4.png"
         ],
 
         rugged: {
