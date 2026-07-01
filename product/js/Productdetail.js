@@ -190,7 +190,7 @@ const productData = {
 
         desc: "Built for On-the-Move Operations",
 
-        model: "43IG",
+        model: "43MG",
 
         visualImg: "../img/bg11.png",
 
@@ -273,7 +273,7 @@ const productData = {
 
         desc: "Built for On-the-Move Operations",
 
-        model: "zs-3020r",
+        model: "ZS-3020R",
 
         visualImg: "../img/zs-3020r-bg.png",
 
@@ -361,7 +361,7 @@ const productData = {
 
         desc: "Intel® Core™ Ultra with Intel® W880/Q870 chipset<br>NVIDIA RTX PRO 4000 Blackwell",
 
-        model: "wsr213",
+        model: "ZWSR213",
 
         visualImg: "../img/wsr213-bg4.png",
 
@@ -449,7 +449,7 @@ const productData = {
 
         desc: "Intel® Core™ Ultra with Intel® W880/Q870 chipset<br>NVIDIA RTX PRO 4000 Blackwell",
 
-        model: "wsr213",
+        model: "ZWSR213",
 
         visualImg: "../img/wsr213-bg4.png",
 
@@ -537,7 +537,7 @@ const productData = {
 
         desc: "내용필요",
 
-        model: "wsr210",
+        model: "ZWSR210",
 
         visualImg: "../img/wsr210-bg2.png",
 
@@ -625,7 +625,7 @@ const productData = {
 
         desc: "내용필요",
 
-        model: "wsr209",
+        model: "ZWSR209",
 
         visualImg: "../img/wsr209-bg3.png",
 
@@ -1085,7 +1085,7 @@ const productData = {
 
         desc: "Embedded Computer for Command Vehicles",
 
-        model: "hrd2000m",
+        model: "HRD2000M",
 
         visualImg: "../img/HRD2000M-bg.png",
 
@@ -1175,7 +1175,7 @@ const productData = {
 
         desc: "Embedded Computer for Command Vehicles",
 
-        model: "hrd2000m",
+        model: "HRD2000M",
 
         visualImg: "../img/HRD2000M-bg.png",
 
@@ -1262,7 +1262,7 @@ const productData = {
 
         desc: "Anti-Vibration Kit & Mounting Kit",
 
-        model: "9000se",
+        model: "9000SE",
 
         visualImg: "../img/9000SE-bg.png",
 
@@ -1352,7 +1352,7 @@ const productData = {
 
         desc: "Anti-Vibration Kit & Mounting Kit",
 
-        model: "9000se",
+        model: "9000SE",
 
         visualImg: "../img/9000SE-bg.png",
 
@@ -1442,7 +1442,7 @@ const productData = {
 
         desc: "Silent Command Workstation",
 
-        model: "s988",
+        model: "S988",
 
         visualImg: "../img/s988-bg.png",
 
@@ -1530,7 +1530,7 @@ const productData = {
 
         desc: "Silent Command Workstation",
 
-        model: "s988",
+        model: "S988",
 
         visualImg: "../img/s988-bg.png",
 
@@ -1618,7 +1618,7 @@ const productData = {
 
         desc: "Efficient Dispatcher Workstation for Command Centers",
 
-        model: "s1388",
+        model: "S1388",
 
         visualImg: "../img/s1388-bg.png",
 
@@ -1710,7 +1710,7 @@ const productData = {
 
         desc: "Efficient Dispatcher Workstation for Command Centers",
 
-        model: "s1388",
+        model: "S1388",
 
         visualImg: "../img/s1388-bg.png",
 
@@ -1802,7 +1802,7 @@ const productData = {
 
         desc: " Dispatcher Workstation",
 
-        model: "s1519h",
+        model: "S1519H",
 
         visualImg: "../img/S1519H-bg.png",
 
@@ -1892,7 +1892,7 @@ const productData = {
 
         desc: " Dispatcher Workstation",
 
-        model: "s1519h",
+        model: "S1519H",
 
         visualImg: "../img/HRD2000M-bg.png",
 
@@ -1982,7 +1982,7 @@ const productData = {
 
         desc: "내용필요",
 
-        model: "eph10",
+        model: "EPH10",
 
         visualImg: "../img/eph-bg.png",
 
@@ -2073,7 +2073,7 @@ const productData = {
 
         desc: "내용필요",
 
-        model: "eph8",
+        model: "EPH8",
 
         visualImg: "../img/eph-bg.png",
 
@@ -2164,7 +2164,7 @@ const productData = {
 
         desc: "내용필요",
 
-        model: "epn2000b",
+        model: "EPN2000B",
 
         visualImg: "../img/eph-bg.png",
 
@@ -2255,7 +2255,7 @@ const productData = {
 
         desc: "내용필요",
 
-        model: "ihh10",
+        model: "IHH10",
 
         visualImg: "../img/ihh10-bg.png",
 
@@ -2346,7 +2346,7 @@ const productData = {
 
         desc: "내용필요",
 
-        model: "ihh8",
+        model: "IHH8",
 
         visualImg: "../img/ihh10-bg.png",
 
@@ -2437,7 +2437,7 @@ const productData = {
 
         desc: "내용필요",
 
-        model: "ihn2000b",
+        model: "IHN2000B",
 
         visualImg: "../img/ihh10-bg.png",
 
