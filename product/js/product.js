@@ -147,10 +147,10 @@ const productData = {
     products: [
             {
             category: "Zetstation-E series",
-            name: "ZPH10",
-            desc: "E-Series ....",
+            name: "ZW5000M",
+            desc: "Equipped with a High-Performance MXM GPU Module for Edge AI",
             img: "../img/eph10-1.png",
-            alt: "ZEPH10",
+            alt: "ZW5000M",
             link: "./Productdetail-eng.html?product=eph10eng"
             },
             {
