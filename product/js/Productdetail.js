@@ -2098,9 +2098,9 @@ const productData = {
         },
 
         design: {
-            img: "../img/eph10-2.png",
-            title: `맞춤형 <br>사운드장치 솔루션`,
-            desc: `물리적 연동 (USB, 시리얼, IP통신을 이용하지 않는 GPIO 접점)을 통해 상호 교차 보안 위반을 제거하며 헤드셋을 구현합니다. 헤드셋 제어장치와 통합 제어 장치 간의 물리적 연동 및 MCU 콘트롤을 통해 헤드셋의 분리/통합을 자유롭게 운용할 수 있습니다. 분리형 미디어 장치를 통한 사운드 제어 기능과 별도 부착용 8W 스피커 장치 4대까지 확장이 가능합니다.`,
+            img: "../img/eph-1.png",
+            title: `<div class="title-sm">고성능 x86 CPU의 연산력과 유연한 하드웨어<br> AI 가속 성능을 결합한 AI엣지 컴퓨팅의 최적 솔루션</div>`,
+            desc: `<div class="desc-item"><strong>최대 64GB DDR5 시스템 메모리 지원</strong> : GPU VRAM이 부족할 때, 오디오 스트리밍 데이터 처리나 덜 빈번하게 쓰이는 RAG(검색 증강 생성)용 벡터 데이터베이스, TTS 음원 DB 등을 고속 DDR5 시스템 메모리에 상주시켜 메인 CPU와 GPU 간의 데이터 병목을 줄여줍니다.</div><div class="desc-item"><strong>강력한 x86 호스트 CPU (최대 125W TDP)</strong> : GPU가 LLM에 집중하는 동안 인텔 CPU의 iGPU(Intel UHD 770)나 CPU 코어 자체 연산력을 활용해 STT/TTS 오디오 전처리를 분담할 수 있습니다.</div><div class="desc-item"><strong>다중 LAN 포트 (5x 2.5G RJ45)</strong> : 네트워크 병목이나 패킷 손실 없이 안정적으로 수신하고 제어 신호를 분리하기에 물리적으로 매우 유리합니다.</div>`,
             specs: [
                 {
                     title: "주요 특징",
@@ -2130,10 +2130,10 @@ const productData = {
                 desc: "맞춤형 발열 구조를 갖춰 지령 환경에 최적화된 무소음 워크스테이션."
                 },
                 {
-                icon: "☔",
-                title: "다중 모니터 지원",
-                value: "3대",
-                desc: "최대 3대의 모니터 연결 포트 제공."
+                icon: "🛡️",
+                title: "염무,곰팡이,습도,먼지",
+                value: "외부환경에 보호",
+                desc: "메인보드 절연 파괴 현상이 방지."
                 },
                 {
                 icon: "✇",
@@ -2177,6 +2177,7 @@ const productData = {
         sliderImages: [
             "../img/eph.png",
             "../img/eph10-r.png",
+            "../img/eph-1.png",
         ],
 
         hero: {
@@ -2189,9 +2190,9 @@ const productData = {
         },
 
         design: {
-            img: "../img/eph8-2.png",
-            title: `맞춤형 <br>사운드장치 솔루션`,
-            desc: `물리적 연동 (USB, 시리얼, IP통신을 이용하지 않는 GPIO 접점)을 통해 상호 교차 보안 위반을 제거하며 헤드셋을 구현합니다. 헤드셋 제어장치와 통합 제어 장치 간의 물리적 연동 및 MCU 콘트롤을 통해 헤드셋의 분리/통합을 자유롭게 운용할 수 있습니다. 분리형 미디어 장치를 통한 사운드 제어 기능과 별도 부착용 8W 스피커 장치 4대까지 확장이 가능합니다.`,
+            img: "../img/eph-1.png",
+            title: `<div class="title-sm">고성능 x86 CPU의 연산력과 유연한 하드웨어<br> AI 가속 성능을 결합한 AI엣지 컴퓨팅의 최적 솔루션</div>`,
+            desc: `<div class="desc-item"><strong>최대 64GB DDR5 시스템 메모리 지원</strong> : GPU VRAM이 부족할 때, 오디오 스트리밍 데이터 처리나 덜 빈번하게 쓰이는 RAG(검색 증강 생성)용 벡터 데이터베이스, TTS 음원 DB 등을 고속 DDR5 시스템 메모리에 상주시켜 메인 CPU와 GPU 간의 데이터 병목을 줄여줍니다.</div><div class="desc-item"><strong>강력한 x86 호스트 CPU (최대 125W TDP)</strong> : GPU가 LLM에 집중하는 동안 인텔 CPU의 iGPU(Intel UHD 770)나 CPU 코어 자체 연산력을 활용해 STT/TTS 오디오 전처리를 분담할 수 있습니다.</div><div class="desc-item"><strong>다중 LAN 포트 (5x 2.5G RJ45)</strong> : 네트워크 병목이나 패킷 손실 없이 안정적으로 수신하고 제어 신호를 분리하기에 물리적으로 매우 유리합니다.</div>`,
             specs: [
                 {
                     title: "주요 특징",
@@ -2221,10 +2222,10 @@ const productData = {
                 desc: "맞춤형 발열 구조를 갖춰 지령 환경에 최적화된 무소음 워크스테이션."
                 },
                 {
-                icon: "☔",
-                title: "다중 모니터 지원",
-                value: "3대",
-                desc: "최대 3대의 모니터 연결 포트 제공."
+                icon: "🛡️",
+                title: "염무,곰팡이,습도,먼지",
+                value: "외부환경에 보호",
+                desc: "메인보드 절연 파괴 현상이 방지."
                 },
                 {
                 icon: "✇",
@@ -2280,9 +2281,9 @@ const productData = {
         },
 
         design: {
-            img: "../img/epn2000b-2.png",
-            title: `맞춤형 <br>사운드장치 솔루션`,
-            desc: `물리적 연동 (USB, 시리얼, IP통신을 이용하지 않는 GPIO 접점)을 통해 상호 교차 보안 위반을 제거하며 헤드셋을 구현합니다. 헤드셋 제어장치와 통합 제어 장치 간의 물리적 연동 및 MCU 콘트롤을 통해 헤드셋의 분리/통합을 자유롭게 운용할 수 있습니다. 분리형 미디어 장치를 통한 사운드 제어 기능과 별도 부착용 8W 스피커 장치 4대까지 확장이 가능합니다.`,
+            img: "../img/eph-1.png",
+            title: `<div class="title-sm">고성능 x86 CPU의 연산력과 유연한 하드웨어<br> AI 가속 성능을 결합한 AI엣지 컴퓨팅의 최적 솔루션</div>`,
+            desc: `<div class="desc-item"><strong>최대 64GB DDR5 시스템 메모리 지원</strong> : GPU VRAM이 부족할 때, 오디오 스트리밍 데이터 처리나 덜 빈번하게 쓰이는 RAG(검색 증강 생성)용 벡터 데이터베이스, TTS 음원 DB 등을 고속 DDR5 시스템 메모리에 상주시켜 메인 CPU와 GPU 간의 데이터 병목을 줄여줍니다.</div><div class="desc-item"><strong>강력한 x86 호스트 CPU (최대 125W TDP)</strong> : GPU가 LLM에 집중하는 동안 인텔 CPU의 iGPU(Intel UHD 770)나 CPU 코어 자체 연산력을 활용해 STT/TTS 오디오 전처리를 분담할 수 있습니다.</div><div class="desc-item"><strong>다중 LAN 포트 (5x 2.5G RJ45)</strong> : 네트워크 병목이나 패킷 손실 없이 안정적으로 수신하고 제어 신호를 분리하기에 물리적으로 매우 유리합니다.</div>`,
             specs: [
                 {
                     title: "주요 특징",
@@ -2312,10 +2313,10 @@ const productData = {
                 desc: "맞춤형 발열 구조를 갖춰 지령 환경에 최적화된 무소음 워크스테이션."
                 },
                 {
-                icon: "☔",
-                title: "다중 모니터 지원",
-                value: "3대",
-                desc: "최대 3대의 모니터 연결 포트 제공."
+                icon: "🛡️",
+                title: "염무,곰팡이,습도,먼지",
+                value: "외부환경에 보호",
+                desc: "메인보드 절연 파괴 현상이 방지."
                 },
                 {
                 icon: "✇",

@@ -236,21 +236,30 @@
 
 .info-box h2 {
     margin-bottom: 46px;
-    font-size: 56px;
+    font-size: 52px;
     font-weight: 500;
     line-height: 1.32;
     color: #fff;
     letter-spacing: -1.5px;
 }
 
+.title-sm {
+    font-size: 45px;
+}
+
 .info-box p {
     max-width: 620px;
     margin-bottom: 90px;
     font-size: 18px;
-    font-weight: 200;
+    font-weight: 100;
     line-height: 1.9;
     color: rgba(255, 255, 255, 0.58);
     word-break: keep-all;
+}
+
+.info-box .desc-item {
+    margin-bottom: 15px;
+    line-height: 1.6;
 }
 
 .spec-list {
