@@ -325,6 +325,7 @@ const productData = {
 
     "c-series": {
     title: "CSTM-Series",
+    desc: "Customized for Excellence. (탁월함을 위한 맞춤 설계)<br>맞춤 설계(Custom Design)'는 기성 제품(Off-the-shelf)으로는 대응할 수 없는 특수한 환경, 규격, 성능 요구사항을 충족",
     visualImg: "../img/sub01_1.jpg",
     koLink: "./series.html?series=c-series",
     engLink: "./series-eng.html?series=c-series-eng",
