@@ -375,6 +375,7 @@ const productData = {
 
     "c-series-eng": {
     title: "CSTM-Series",
+    desc: "Customized for Excellence.<br>Custom design addresses specialized environments, <br>specifications, and performance requirements that cannot be met by off-the-shelf products.",
     visualImg: "../img/sub01_1.jpg",
     koLink: "./series.html?series=c-series",
     engLink: "./series-eng.html?series=c-series-eng",
