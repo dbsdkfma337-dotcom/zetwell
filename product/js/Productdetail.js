@@ -74,7 +74,7 @@ const productData = {
             ]
         },
 
-        video: "../img/43IG-video.mp4",
+        video: "../video/43IG-video.mp4",
 
 
         specTable: [
@@ -166,7 +166,7 @@ const productData = {
             ]
         },
 
-        video: "../img/43IG-video.mp4",
+        video: "../video/43IG-video.mp4",
 
 
         specTable: [
@@ -286,26 +286,26 @@ const productData = {
         ],
 
         hero: {
-            title: `극한 환경에서<br>장비를 보호하다`,
-            desc: `대형 장비 및 정밀 기기를 위한 전문 보호 케이스입니다.<br> 충격,습기,온도 변화로부터 장비를 안전하게 보호하고<br> 어떤 환경에서도 안정적인 운용을 지원합니다. `,
+            title: `서버 룸 환경에<br> 최적화된 성능`,
+            desc: `수직 서버 랙에 장착할 수 있도록 설계된 윈메이트 2U 랙 서버는 혁신과 성능을 갖추고 있어 까다로운 애플리케이션이 있는 데이터 센터에 바로 구축할 수 있습니다. 인텔 vPro, AMT 11 원격 관리를 지원합니다.`,
             icon: "🔩",
-            specTitle: "강한 내구성",
-            specDesc: "고강도 폴리프로필렌 소재로 충격과진동, 극한 환경에서도<br> 높은 내구성을 자랑합니다.",
+            specTitle: "데이터 센터 환경에 즉시 적용 가능",
+            specDesc: "Intel® 3세대 Xeon® 확장 가능 프로세서, 방어 랙 서버",
             img: "../img/s-series.png"
         },
 
         design: {
             img: "../img/zs-3020r-2.png",
-            title: `넓은 내부 공간<br>더 높은 활용성`,
-            desc: `넉넉한 내부공간으로 다양한 장비와 액세서리를 효율적으로 수납할 수 있습니다. 맞춤형 품 구성으로 장비를 안전하게 고정하여 운반할 수 있습니다.`,
+            title: `신뢰 플랫폼 모듈(TPM)<br> 통한 클라우드 보안`,
+            desc: `사용자 인증, 원격 액세스, 데이터 보호 등의 업무와 관련된 서버에 추가 보안 기능을 제공하는 TPM(Trusted Platform Module) 기능을 지원합니다.`,
             specs: [
                 {
-                    title: "크기및용량",
-                    items: ["내부크기 1080x620x400", "외부크기 1178x718x427", "대용량 공간 260L"]
+                    title: "주요 기능",
+                    items: ["중복 PSU 지원", "전원 입력 및 모든 I/O용 방위 등급 커넥터(MIL-DTL38999)", "전면에 지원 정보 디스플레이"]
                 },
                 {
-                    title: "이동편의성",
-                    items: ["4 Wheels", "360° 회전 캐스터 적용"]
+                    title: "주요 기능",
+                    items: ["DVD RW 지원", "탈착식 2.5인치 HDD 지원", "MILSTD 810G/ MILSTD 461E 준수", "2U 랙 기계 설계" ]
                 }
             ]
         },
@@ -321,38 +321,41 @@ const productData = {
             title: `그 어떤 환경에서도 살아남는,<br>강력한 보호성능`,
             cards: [
                 {
-                icon: "🔒",
-                title: "견고한 잠금 장치",
-                value: "금속 래치 적용",
-                desc: "금속 래치와 잠금 지원 구조로 운송 중에도 안정적인 보호 성능을 제공합니다."
+                icon: "❄️",
+                title: "고성능, 효율적인 열 방출",
+                value: "고성능·고효율 냉각",
+                desc: "2U 랙 서버는 최신 인텔 프로세서의 높은 성능, 효율적인 방열 및 에너지 효율성, 전반적인 안정성을 결합한 즉시 통합 가능한 솔루션입니다."
                 },
                 {
-                icon: "☔",
-                title: "방수·방진 구조",
-                value: "IP65",
-                desc: "특수 실팅 구조로 외부의 물과 먼지로부터 장비를 안전하게 보호합니다."
+                icon: "🔄",
+                title: "주변기기 연결",
+                value: "연결성",
+                desc: "2U 랙 서버는 거의 모든 용도로 사용할 수 있으며 유연성과 확장성이 뛰어납니다. 주변 장치 연결성 측면에서 USB 2.0, RS232 직렬 통신, MIL-DTL-38999 커넥터가 있는 기가 LAN이 특징입니다"
                 },
                 {
-                icon: "⚙️",
-                title: "자동 압력 조절 밸브",
-                value: "압력 자동 조절",
-                desc: "내부 압력을 자동으로 조절하여 기압 변화시에도 안정적인 상태를 유지합니다."
+                icon: "🛡️",
+                title: "EMI/ITO 메시 솔루션으로 MIL-STD-461F 요구 사항 충족",
+                value: "EMI/ITO 솔루션",
+                desc: "MIL-STD-461F는 하위 시스템 및 장비의 전자기 간섭 특성을 제어하기 위한 요구 사항입니다. EMI 솔루션을 사용하면 MIL-STD-461F 인증이 필요한 애플리케이션에 대해 MIL-STD-461F를 준수할 수 있습니다."
                 }
             ]
         },
 
         specTable: [
-            ["디스플레이", '43" 4k UHD (3840 × 2160)'],
-            ["밝기", "500 nits"],
-            ["시야각", "178° (H) / 178° (V)"],
-            ["입력단자", "HDMI, USB, LAN, 전원 입력"],
-            ["전원", "AC 100~240V"],
-            ["작동온도", "-20°C ~ 60°C"],
-            ["보관온도", "-30°C ~ 70°C"],
-            ["방진방수", "IP65"],
-            ["외부크기", "1178 x 718 x 427 mm"],
-            ["내부크기", "1080 x 620 x 400 mm"],
-            ["중량", "약 24kg"]
+            ["프로세서", 'Intel® 3rd Gen Xeon® Scalable Processor'],
+            ["메모리", "8x RDIMM DDR4-3200"],
+            ["저장장치", "Removable HDD"],
+            ["운영체제", "RedHat EL 7.3 Linux 64-bit"],
+            ["메인보드", "Supermicro® MBD-X12SPW(single-socket Server)"],
+            ["사이즈", "4.3 inches"],
+            ["USB 포트", "2x USB2.0"],
+            ["시리얼 포트", "1 x RS­232 (MIL connector)"],
+            ["LAN 포트", "2 x RJ45­10/100/1000 Mbps LAN with MIL connector"],
+            ["비디오", "1 x VGA (MIL connector) / 1 x DVI(MIL connector) / 1 x HDMI (MIL connector)"],
+            ["크기", "482 x 522 x 88 mm"],
+            ["장착 방식:", "2U Rack Mounting"],
+            ["냉각 시스템", "Fan design"],
+            ["전원 공급 장치 (PSU)", "Redundant PSU 600W"]
         ]
     },
 
