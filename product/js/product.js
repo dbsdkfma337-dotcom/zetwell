@@ -112,11 +112,11 @@ const productData = {
     products: [
             {
             category: "Zetstation-E시리즈",
-            name: "ZEPH10",
-            desc: "E-Series 제품 설명이 들어갑니다....",
+            name: "ZW5000M",
+            desc: "엣지 AI를 위한 고성능 MXM GPU 모듈 탑재",
             img: "../img/eph10-1.png",
-            alt: "ZEPH10",
-            link: "./Productdetail.html?product=eph10"
+            alt: "ZW5000M",
+            link: "./Productdetail.html?product=zw5000m"
             },
             {
             category: "Zetstation-E시리즈",

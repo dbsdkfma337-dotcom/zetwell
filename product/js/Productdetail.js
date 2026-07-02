@@ -2071,17 +2071,17 @@ const productData = {
         ]
     },
 
-    "eph10": {
+    "zw5000m": {
         title: "내용필요",
 
         desc: "내용필요",
 
-        model: "ZEPH10",
+        model: "ZW5000M",
 
         visualImg: "../img/eph-bg.png",
 
-        koLink: "./Productdetail.html?product=eph10",
-        engLink: "./Productdetail-eng.html?product=eph10",
+        koLink: "./Productdetail.html?product=zw5000m",
+        engLink: "./Productdetail-eng.html?product=zw5000m",
 
         sliderImages: [
             "../img/eph.png",
