@@ -122,7 +122,7 @@ const productData = {
             category: "Zetstation-E시리즈",
             name: "ZEPH8",
             desc: "E-Series 제품 설명이 들어갑니다....",
-            img: "../img/eph8-1.png",
+            img: "../img/eph-1.png",
             alt: "ZEPH8",
             link: "./Productdetail.html?product=eph8"
             },
