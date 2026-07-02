@@ -44,7 +44,7 @@ const productData = {
             {
             category: "Zetstation-W시리즈",
             name: "ZW5000N",
-            desc: "W-Series 제품 설명이 들어갑니다....",
+            desc: "NVDIA RTX PRO 5000 Bladkwell 탑재",
             img: "../img/WSR213.png",
             alt: "ZW5000N",
             link: "./Productdetail.html?product=zw5000n"
@@ -52,7 +52,7 @@ const productData = {
             {
             category: "Zetstation-W시리즈",
             name: "ZW4000N",
-            desc: "W-Series 제품 설명이 들어갑니다....",
+            desc: "NVDIA RTX PRO 4000 Bladkwell 탑재",
             img: "../img/wsr210-f.png",
             alt: "ZW4000N",
             link: "./Productdetail.html?product=zw4000n"
@@ -60,7 +60,7 @@ const productData = {
             {
             category: "Zetstation-W시리즈",
             name: "ZW2000N",
-            desc: "W-Series 제품 설명이 들어갑니다....",
+            desc: "NVDIA RTX PRO 2000 Bladkwell 탑재",
             img: "../img/wsr209-r.png",
             alt: "ZW2000N",
             link: "./Productdetail.html?product=zw2000n"
@@ -78,7 +78,7 @@ const productData = {
             {
             category: "Zetstation-W series",
             name: "ZW5000N",
-            desc: "W-Series ....",
+            desc: "Powered by the NVIDIA RTX PRO 5000 Blackwell",
             img: "../img/WSR213.png",
             alt: "ZW5000N",
             link: "./Productdetail-eng.html?product=zw5000neng"
@@ -86,7 +86,7 @@ const productData = {
             {
             category: "Zetstation-W series",
             name: "ZW4000N",
-            desc: "W-Series ....",
+            desc: "Powered by the NVIDIA RTX PRO 4000 Blackwell",
             img: "../img/wsr210-f.png",
             alt: "ZW4000N",
             link: "./Productdetail-eng.html?product=zw4000neng"
@@ -94,7 +94,7 @@ const productData = {
             {
             category: "Zetstation-W series",
             name: "ZW2000N",
-            desc: "W-Series ....",
+            desc: "Powered by the NVIDIA RTX PRO 2000 Blackwell",
             img: "../img/wsr209-r.png",
             alt: "ZW2000N",
             link: "./Productdetail-eng.html?product=zw2000neng"
