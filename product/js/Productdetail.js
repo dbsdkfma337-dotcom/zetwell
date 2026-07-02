@@ -2098,7 +2098,7 @@ const productData = {
         },
 
         design: {
-            img: "../img/eph-1.png",
+            img: "../img/zw5000m.png",
             title: `<div class="title-sm">고성능 x86 CPU의 연산력과 유연한 하드웨어<br> AI 가속 성능을 결합한 AI엣지 컴퓨팅의 최적 솔루션</div>`,
             desc: `<div class="desc-item"><strong>최대 64GB DDR5 시스템 메모리 지원</strong> : GPU VRAM이 부족할 때, 오디오 스트리밍 데이터 처리나 덜 빈번하게 쓰이는 RAG(검색 증강 생성)용 벡터 데이터베이스, TTS 음원 DB 등을 고속 DDR5 시스템 메모리에 상주시켜 메인 CPU와 GPU 간의 데이터 병목을 줄여줍니다.</div><div class="desc-item"><strong>강력한 x86 호스트 CPU (최대 125W TDP)</strong> : GPU가 LLM에 집중하는 동안 인텔 CPU의 iGPU(Intel UHD 770)나 CPU 코어 자체 연산력을 활용해 STT/TTS 오디오 전처리를 분담할 수 있습니다.</div><div class="desc-item"><strong>다중 LAN 포트 (5x 2.5G RJ45)</strong> : 네트워크 병목이나 패킷 손실 없이 안정적으로 수신하고 제어 신호를 분리하기에 물리적으로 매우 유리합니다.</div>`,
             specs: [

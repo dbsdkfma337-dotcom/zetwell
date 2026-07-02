@@ -114,7 +114,7 @@ const productData = {
             category: "Zetstation-E시리즈",
             name: "ZW5000M",
             desc: "엣지 AI를 위한 고성능 MXM GPU 모듈 탑재",
-            img: "../img/eph10-1.png",
+            img: "../img/zw5000m.png",
             alt: "ZW5000M",
             link: "./Productdetail.html?product=zw5000m"
             },
