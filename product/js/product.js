@@ -112,27 +112,27 @@ const productData = {
     products: [
             {
             category: "Zetstation-E시리즈",
-            name: "ZW5000M",
+            name: "ZE5000M",
             desc: "엣지 AI를 위한 고성능 MXM GPU 모듈 탑재",
             img: "../img/zw5000m.png",
-            alt: "ZW5000M",
-            link: "./Productdetail.html?product=zw5000m"
+            alt: "ZE5000M",
+            link: "./Productdetail.html?product=ze5000m"
             },
             {
             category: "Zetstation-E시리즈",
-            name: "ZEPH8",
-            desc: "E-Series 제품 설명이 들어갑니다....",
+            name: "ZE4000M",
+            desc: "엣지 AI를 위한 고성능 MXM GPU 모듈 탑재",
             img: "../img/eph-1.png",
-            alt: "ZEPH8",
-            link: "./Productdetail.html?product=eph8"
+            alt: "ZE4000M",
+            link: "./Productdetail.html?product=ze4000m"
             },
             {
             category: "Zetstation-E시리즈",
-            name: "ZEPN2000B",
-            desc: "E-Series 제품 설명이 들어갑니다....",
+            name: "ZE2000M",
+            desc: "엣지 AI를 위한 고성능 MXM GPU 모듈 탑재",
             img: "../img/epn2000b-1.png",
-            alt: "ZEPN2000B",
-            link: "./Productdetail.html?product=epn2000b"
+            alt: "ZE2000M",
+            link: "./Productdetail.html?product=ze2000m"
             }
         ]
     },
@@ -147,27 +147,27 @@ const productData = {
     products: [
             {
             category: "Zetstation-E series",
-            name: "ZW5000M",
+            name: "ZE5000M",
             desc: "Equipped with a High-Performance MXM GPU Module for Edge AI",
             img: "../img/eph10-1.png",
-            alt: "ZW5000M",
-            link: "./Productdetail-eng.html?product=eph10eng"
+            alt: "ZE5000M",
+            link: "./Productdetail-eng.html?product=ze5000meng"
             },
             {
             category: "Zetstation-E series",
-            name: "ZEPH8",
+            name: "ZE4000M",
             desc: "E-Series ....",
             img: "../img/eph8-1.png",
-            alt: "ZEPH8",
-            link: "./Productdetail-eng.html?product=eph8eng"
+            alt: "ZE4000M",
+            link: "./Productdetail-eng.html?product=ze4000meng"
             },
             {
             category: "Zetstation-E series",
-            name: "ZEPN2000B",
+            name: "ZE2000M",
             desc: "E-Series ....",
             img: "../img/epn2000b-1.png",
-            alt: "ZEPN2000B",
-            link: "./Productdetail-eng.html?product=epn2000b"
+            alt: "ZE2000M",
+            link: "./Productdetail-eng.html?product=ze2000meng"
             }
         ]
     },
@@ -421,7 +421,24 @@ const productData = {
             link: "./Productdetail-eng.html?product=s1519heng"
             }
         ]
-    }
+    },
+
+    "t-series": {
+        title: "투명 디스플레이",
+        desc: "공간의 한계를 깨다. 투명 LED 관제 모니터",
+        visualImg: "../img/t-series-bg.png",
+        koLink: "./series.html?series=s-series",
+        engLink: "./series-eng.html?series=s-series-eng",
+        products: [
+            {
+            category: "투명 디스플레이",
+            name: "t",
+            desc: "설명란",
+            img: "../img/ss.png",
+            link: "./Productdetail.html?product=tserise"
+            }
+        ]
+    },
 };
 
 const params = new URLSearchParams(window.location.search);

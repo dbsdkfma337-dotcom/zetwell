@@ -2071,12 +2071,12 @@ const productData = {
         ]
     },
 
-    "zw5000m": {
+    "ze5000m": {
         title: "내용필요",
 
         desc: "내용필요",
 
-        model: "ZW5000M",
+        model: "ZE5000M",
 
         visualImg: "../img/eph-bg.png",
 
@@ -2162,12 +2162,12 @@ const productData = {
         ]
     },
 
-    "eph8": {
+    "ze4000m": {
         title: "내용필요",
 
         desc: "내용필요",
 
-        model: "ZEPH8",
+        model: "ZE4000M",
 
         visualImg: "../img/eph-bg.png",
 
@@ -2254,12 +2254,12 @@ const productData = {
         ]
     },
 
-    "epn2000b": {
+    "ze2000m": {
         title: "내용필요",
 
         desc: "내용필요",
 
-        model: "ZEPN2000B",
+        model: "ZE2000M",
 
         visualImg: "../img/eph-bg.png",
 
@@ -2617,6 +2617,97 @@ const productData = {
             ["보관 온도", "-40°C ~ 70°C"]
         ]
     },
+
+    "tserise": {
+        title: "내용필요",
+
+        desc: "공간의 한계를 깨다<br>투명 led 관제모니터",
+
+        model: "투명 디스플레이",
+
+        visualImg: "../img/t-series-bg2.png",
+
+        koLink: "./Productdetail.html?product=ihh10",
+        engLink: "./Productdetail-eng.html?product=ihh10",
+
+        sliderImages: [
+            "../img/.png",
+            "../img/.png",
+        ],
+
+        hero: {
+            title: `공간의 한계를 깨다<br>투명 led 관제모니터`,
+            desc: `시각적 개방성과 기능성을 동시에 만족시키는 혁신적 공간 설계본 설계는 협소한 관제 테이블 환경에서 발생할 수 있는 시각적 폐쇄감을 최소화하는 데 집중했습니다.테이블 측면에 고투과율 투명 LED 디스플레이를 배치함으로써, 정보 전달이라는 본연의 기능은 유지한 채 주변 공간과의 유기적인 연결성을 확보했습니다. 측면 공간의 개방성을 극대화하여 작업자에게 최적의 시야와 쾌적한 관제 환경을 제공합니다.`,
+            icon: "",
+            specTitle: "혁신적 공간 설계",
+            specDesc: "최적의 시야와 쾌적한 관제 환경을 제공",
+            img: "../img/.png"
+        },
+
+        design: {
+            img: "../img/ihn2000b-2.png",
+            title: `맞춤형 <br>사운드장치 솔루션`,
+            desc: `물리적 연동 (USB, 시리얼, IP통신을 이용하지 않는 GPIO 접점)을 통해 상호 교차 보안 위반을 제거하며 헤드셋을 구현합니다. 헤드셋 제어장치와 통합 제어 장치 간의 물리적 연동 및 MCU 콘트롤을 통해 헤드셋의 분리/통합을 자유롭게 운용할 수 있습니다. 분리형 미디어 장치를 통한 사운드 제어 기능과 별도 부착용 8W 스피커 장치 4대까지 확장이 가능합니다.`,
+            specs: [
+                {
+                    title: "주요 특징",
+                    items: ["무소음 냉각", "전원 및 회선 이중화","다중 모니터 지원"]
+                },
+                {
+                    title: "주요 특징",
+                    items: ["통합 음성 통신", "디지털 공청","정확한 제어"]
+                }
+            ]
+        },
+
+        photos: [
+            "../img/eph-bg.png",
+            "../img/eph-bg2.png",
+            "../img/eph-bg3.png",
+            "../img/E-seriesbg.png"
+        ],
+
+        rugged: {
+            title: `그 어떤 환경에서도 살아남는,<br>강력한 보호성능`,
+            cards: [
+                {
+                icon: "🔒",
+                title: "무소음 냉각",
+                value: "팬리스 형태",
+                desc: "맞춤형 발열 구조를 갖춰 지령 환경에 최적화된 무소음 워크스테이션."
+                },
+                {
+                icon: "☔",
+                title: "다중 모니터 지원",
+                value: "3대",
+                desc: "최대 3대의 모니터 연결 포트 제공."
+                },
+                {
+                icon: "✇",
+                title: "극한 환경 대응",
+                value: "-40°C - 70°",
+                desc: "-40°C ~ 70°C의 운용 온도를 지원하는 산업용 적용 (KOLAS 시험성적서 기반 -20°C ~ 60°C)."
+                }
+            ]
+        },
+
+        specTable: [
+            ["Model", 'S1388 Dispatcher Workstation'],
+            ["CPU", "Intel® 13th Gen Raptor Lake-P/ Raptor Lake-U i7 Pentium CPU"],
+            ["그래픽", "Intel Iris Xe Graphics"],
+            ["메모리", "2 x DDR5 4800 MHz SODIMM, Max 64GB"],
+            ["저장장치", "1 x M.2 B key Type 3042 (SATA) 512GB"],
+            ["BIOS", "AMI UEFI BIOS"],
+            ["디스플레이", "2 x HDMI, 1 x RGB"],
+            ["LAN", "5 x Intel 2.5GbE I226-IT (external)"],
+            ["운용 OS", "구름 3.0 이상 (신뢰부팅 제공)"],
+            ["전원 이중화", "전원 이중화 (기본제공)"],
+            ["전원", "DC IN +9~36V (84W Power Adapter, 12V/7A)"],
+            ["운용 온도", "-40°C ~ 70°C (-20°C ~ 60°C KOLAS 시험성적서)"],
+            ["크기", "236W x 172.6D x 82H mm"],
+            ["보관 온도", "-40°C ~ 70°C"]
+        ]
+    }
 
 };
 
