@@ -287,7 +287,7 @@ const productData = {
 
         hero: {
             title: `서버 룸 환경에<br> 최적화된 성능`,
-            desc: `수직 서버 랙에 장착할 수 있도록 설계된 윈메이트 2U 랙 서버는 혁신과 성능을 갖추고 있어 까다로운 애플리케이션이 있는 데이터 센터에 바로 구축할 수 있습니다. 인텔 vPro, AMT 11 원격 관리를 지원합니다.`,
+            desc: `수직 서버 랙에 장착할 수 있도록 설계된 2U 랙 서버는 혁신과 성능을 갖추고 있어 까다로운 애플리케이션이 있는 데이터 센터에 바로 구축할 수 있습니다. 인텔 vPro, AMT 11 원격 관리를 지원합니다.`,
             icon: "🔩",
             specTitle: "데이터 센터 환경에 즉시 적용 가능",
             specDesc: "Intel® 3세대 Xeon® 확장 가능 프로세서, 방어 랙 서버",
@@ -378,7 +378,7 @@ const productData = {
 
         hero: {
             title: `Optimized Performance for Server Room Environments`,
-            desc: `Designed for installation in standard server racks, the Winmate 2U Rack Server delivers innovation and high performance, enabling immediate deployment in data centers running demanding applications. It also supports Intel® vPro™ and AMT 11 for remote management.`,
+            desc: `Designed for installation in standard server racks, 2U Rack Server delivers innovation and high performance, enabling immediate deployment in data centers running demanding applications. It also supports Intel® vPro™ and AMT 11 for remote management.`,
             icon: "🔩",
             specTitle: "Ready for Immediate Deployment in Data Center Environments",
             specDesc: "Defense Rack Server Powered by 3rd Gen Intel® Xeon® Scalable Processors",
