@@ -450,12 +450,12 @@ const productData = {
         ]
     },
 
-    "wsr213": {
+    "zw5000n": {
         title: "Advanced Edge AI for Diverse",
 
         desc: "Intel® Core™ Ultra with Intel® W880/Q870 chipset<br>NVIDIA RTX PRO 4000 Blackwell",
 
-        model: "ZWSR213",
+        model: "ZW5000N",
 
         visualImg: "../img/wsr213-bg4.png",
 
@@ -538,12 +538,12 @@ const productData = {
         ]
     },
 
-    "wsr213eng": {
+    "zw5000neng": {
         title: "Advanced Edge AI for Diverse",
 
         desc: "Intel® Core™ Ultra with Intel® W880/Q870 chipset<br>NVIDIA RTX PRO 4000 Blackwell",
 
-        model: "ZWSR213",
+        model: "ZW5000N",
 
         visualImg: "../img/wsr213-bg4.png",
 
@@ -626,12 +626,12 @@ const productData = {
         ]
     },
 
-    "wsr210": {
+    "zw4000n": {
         title: "내용필요",
 
         desc: "내용필요",
 
-        model: "ZWSR210",
+        model: "ZW4000N",
 
         visualImg: "../img/wsr210-bg2.png",
 
@@ -714,12 +714,12 @@ const productData = {
         ]
     },
 
-    "wsr209": {
+    "zw2000n": {
         title: "내용필요",
 
         desc: "내용필요",
 
-        model: "ZWSR209",
+        model: "ZW2000N",
 
         visualImg: "../img/wsr209-bg3.png",
 

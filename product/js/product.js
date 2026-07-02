@@ -43,27 +43,27 @@ const productData = {
         products: [
             {
             category: "Zetstation-W시리즈",
-            name: "ZWSR213",
+            name: "ZW5000N",
             desc: "W-Series 제품 설명이 들어갑니다....",
             img: "../img/WSR213.png",
-            alt: "ZWSR213",
-            link: "./Productdetail.html?product=wsr213"
+            alt: "ZW5000N",
+            link: "./Productdetail.html?product=zw5000n"
             },
             {
             category: "Zetstation-W시리즈",
-            name: "ZWSR210",
+            name: "ZW4000N",
             desc: "W-Series 제품 설명이 들어갑니다....",
             img: "../img/wsr210-f.png",
-            alt: "ZWSR210",
-            link: "./Productdetail.html?product=wsr210"
+            alt: "ZW4000N",
+            link: "./Productdetail.html?product=zw4000n"
             },
             {
             category: "Zetstation-W시리즈",
-            name: "ZWSR209",
+            name: "ZW2000N",
             desc: "W-Series 제품 설명이 들어갑니다....",
             img: "../img/wsr209-r.png",
-            alt: "ZWSR209",
-            link: "./Productdetail.html?product=wsr209"
+            alt: "ZW2000N",
+            link: "./Productdetail.html?product=zw2000n"
             }
         ]
     },
@@ -77,27 +77,27 @@ const productData = {
         products: [
             {
             category: "Zetstation-W series",
-            name: "ZWSR213",
+            name: "ZW5000N",
             desc: "W-Series ....",
             img: "../img/WSR213.png",
-            alt: "ZWSR213",
-            link: "./Productdetail-eng.html?product=wsr213eng"
+            alt: "ZW5000N",
+            link: "./Productdetail-eng.html?product=zw5000neng"
             },
             {
             category: "Zetstation-W series",
-            name: "ZWSR210",
+            name: "ZW4000N",
             desc: "W-Series ....",
             img: "../img/wsr210-f.png",
-            alt: "ZWSR210",
-            link: "./Productdetail-eng.html?product=wsr210eng"
+            alt: "ZW4000N",
+            link: "./Productdetail-eng.html?product=zw4000neng"
             },
             {
             category: "Zetstation-W series",
-            name: "ZWSR209",
+            name: "ZW2000N",
             desc: "W-Series ....",
             img: "../img/wsr209-r.png",
-            alt: "ZWSR209",
-            link: "./Productdetail-eng.html?product=wsr209eng"
+            alt: "ZW2000N",
+            link: "./Productdetail-eng.html?product=zw2000neng"
             }
         ]
     },
