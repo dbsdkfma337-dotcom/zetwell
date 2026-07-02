@@ -318,7 +318,7 @@ const productData = {
         ],
 
         rugged: {
-            title: `그 어떤 환경에서도 살아남는,<br>강력한 보호성능`,
+            title: `안정적인 시스템 운영을 위한 <br>핵심 설계`,
             cards: [
                 {
                 icon: "❄️",
@@ -360,7 +360,7 @@ const productData = {
     },
 
     "zs-3020reng": {
-        title: "이동형 멀티터치<br> 테이블 디스플레이",
+        title: "Optimized for Server Room Environments",
 
         desc: "Intel® Xeon® Scalable Defence Serve",
 
@@ -377,26 +377,26 @@ const productData = {
         ],
 
         hero: {
-            title: `서버 룸 환경에<br> 최적화된 성능`,
-            desc: `수직 서버 랙에 장착할 수 있도록 설계된 윈메이트 2U 랙 서버는 혁신과 성능을 갖추고 있어 까다로운 애플리케이션이 있는 데이터 센터에 바로 구축할 수 있습니다. 인텔 vPro, AMT 11 원격 관리를 지원합니다.`,
+            title: `Optimized Performance for Server Room Environments`,
+            desc: `Designed for installation in standard server racks, the Winmate 2U Rack Server delivers innovation and high performance, enabling immediate deployment in data centers running demanding applications. It also supports Intel® vPro™ and AMT 11 for remote management.`,
             icon: "🔩",
-            specTitle: "데이터 센터 환경에 즉시 적용 가능",
-            specDesc: "Intel® 3세대 Xeon® 확장 가능 프로세서, 방어 랙 서버",
+            specTitle: "Ready for Immediate Deployment in Data Center Environments",
+            specDesc: "Defense Rack Server Powered by 3rd Gen Intel® Xeon® Scalable Processors",
             img: "../img/s-series.png"
         },
 
         design: {
             img: "../img/zs-3020r-2.png",
-            title: `신뢰 플랫폼 모듈(TPM)<br> 통한 클라우드 보안`,
-            desc: `사용자 인증, 원격 액세스, 데이터 보호 등의 업무와 관련된 서버에 추가 보안 기능을 제공하는 TPM(Trusted Platform Module) 기능을 지원합니다.`,
+            title: `Cloud Security with Trusted Platform Module (TPM)`,
+            desc: `Supports Trusted Platform Module (TPM) functionality, providing enhanced security features for servers handling user authentication, remote access, data protection, and other security-critical operations.`,
             specs: [
                 {
-                    title: "주요 기능",
-                    items: ["중복 PSU 지원", "전원 입력 및 모든 I/O용 방위 등급 커넥터(MIL-DTL38999)", "전면에 지원 정보 디스플레이"]
+                    title: "Key Features",
+                    items: ["Redundant PSU Support", "Defense-Grade Connectors for Power Input and All I/O(MIL-DTL38999)", "Front Information Display"]
                 },
                 {
-                    title: "주요 기능",
-                    items: ["DVD RW 지원", "탈착식 2.5인치 HDD 지원", "MILSTD 810G/ MILSTD 461E 준수", "2U 랙 기계 설계" ]
+                    title: "Key Features",
+                    items: ["DVD-RW Support", 'Support for Removable 2.5" HDDs', "MILSTD-810G / MIL-STD-461E Compliant", "2U Rack Mechanical Design" ]
                 }
             ]
         },
@@ -409,44 +409,44 @@ const productData = {
         ],
 
         rugged: {
-            title: `그 어떤 환경에서도 살아남는,<br>강력한 보호성능`,
+            title: `Core Design for<br>Reliable System Operation`,
             cards: [
                 {
                 icon: "❄️",
-                title: "고성능, 효율적인 열 방출",
-                value: "고성능·고효율 냉각",
-                desc: "2U 랙 서버는 최신 인텔 프로세서의 높은 성능, 효율적인 방열 및 에너지 효율성, 전반적인 안정성을 결합한 즉시 통합 가능한 솔루션입니다."
+                title: "High Performance and Efficient Heat Dissipation",
+                value: "High-Performance Cooling",
+                desc: "The 2U Rack Server is an immediately deployable solution that combines the high performance of the latest Intel® processors with efficient heat dissipation, energy efficiency, and overall system reliability."
                 },
                 {
                 icon: "🔄",
-                title: "주변기기 연결",
-                value: "연결성",
-                desc: "2U 랙 서버는 거의 모든 용도로 사용할 수 있으며 유연성과 확장성이 뛰어납니다. 주변 장치 연결성 측면에서 USB 2.0, RS232 직렬 통신, MIL-DTL-38999 커넥터가 있는 기가 LAN이 특징입니다"
+                title: "Peripheral Connectivity",
+                value: "Connectivity",
+                desc: "The 2U rack server is suitable for virtually any application, offering exceptional flexibility and scalability. In terms of peripheral connectivity, it features USB 2.0, RS232 serial communication, and Gigabit LAN interfaces equipped with MIL-DTL-38999 connectors."
                 },
                 {
                 icon: "🛡️",
-                title: "EMI/ITO 메시 솔루션으로 MIL-STD-461F 요구 사항 충족",
-                value: "EMI/ITO 솔루션",
-                desc: "MIL-STD-461F는 하위 시스템 및 장비의 전자기 간섭 특성을 제어하기 위한 요구 사항입니다. EMI 솔루션을 사용하면 MIL-STD-461F 인증이 필요한 애플리케이션에 대해 MIL-STD-461F를 준수할 수 있습니다."
+                title: "Meets MIL-STD-461F Requirements with EMI/ITO Mesh Solutions",
+                value: "EMI/ITO Solution",
+                desc: "MIL-STD-461F specifies the requirements for controlling electromagnetic interference (EMI) characteristics in subsystems and equipment. Our EMI solution enables compliance with MIL-STD-461F for applications requiring MIL-STD-461F certification."
                 }
             ]
         },
 
         specTable: [
-            ["프로세서", 'Intel® 3rd Gen Xeon® Scalable Processor'],
-            ["메모리", "8x RDIMM DDR4-3200"],
-            ["저장장치", "Removable HDD"],
-            ["운영체제", "RedHat EL 7.3 Linux 64-bit"],
-            ["메인보드", "Supermicro® MBD-X12SPW(single-socket Server)"],
-            ["사이즈", "4.3 inches"],
-            ["USB 포트", "2x USB2.0"],
-            ["시리얼 포트", "1 x RS­232 (MIL connector)"],
-            ["LAN 포트", "2 x RJ45­10/100/1000 Mbps LAN with MIL connector"],
-            ["비디오", "1 x VGA (MIL connector) / 1 x DVI(MIL connector) / 1 x HDMI (MIL connector)"],
-            ["크기", "482 x 522 x 88 mm"],
-            ["장착 방식:", "2U Rack Mounting"],
-            ["냉각 시스템", "Fan design"],
-            ["전원 공급 장치 (PSU)", "Redundant PSU 600W"]
+            ["Processor", 'Intel® 3rd Gen Xeon® Scalable Processor'],
+            ["Memory", "8x RDIMM DDR4-3200"],
+            ["Storage", "Removable HDD"],
+            ["Operating System", "RedHat EL 7.3 Linux 64-bit"],
+            ["mother board", "Supermicro® MBD-X12SPW(single-socket Server)"],
+            ["Size", "4.3 inches"],
+            ["USB Port", "2x USB2.0"],
+            ["Serial Port", "1 x RS­232 (MIL connector)"],
+            ["LAN", "2 x RJ45­10/100/1000 Mbps LAN with MIL connector"],
+            ["Video", "1 x VGA (MIL connector) / 1 x DVI(MIL connector) / 1 x HDMI (MIL connector)"],
+            ["Dimension", "482 x 522 x 88 mm"],
+            ["Mounting", "2U Rack Mounting"],
+            ["Cooling System", "Fan design"],
+            ["PSU", "Redundant PSU 600W"]
         ]
     },
 
