@@ -2618,21 +2618,21 @@ const productData = {
         ]
     },
 
-    "tserise": {
-        title: "내용필요",
+    "zv30ta1": {
+        title: "투명 디스플레이",
 
-        desc: "공간의 한계를 깨다<br>투명 led 관제모니터",
+        desc: "공간의 한계를 깬 투명 led 관제모니터",
 
-        model: "투명 디스플레이",
+        model: "ZV30T-A1",
 
-        visualImg: "../img/t-series-bg.png",
+        visualImg: "../img/t-series-bg.jpg",
 
         koLink: "./Productdetail.html?product=ihh10",
         engLink: "./Productdetail-eng.html?product=ihh10",
 
         sliderImages: [
-            "../img/.png",
-            "../img/.png",
+            "../img/t-series-f.png",
+            "../img/t-series.png",
         ],
 
         hero: {
@@ -2641,13 +2641,13 @@ const productData = {
             icon: "🪟",
             specTitle: "혁신적 공간 설계",
             specDesc: "최적의 시야와 쾌적한 관제 환경을 제공",
-            img: "../img/.png"
+            img: "../img/t-series-f.png"
         },
 
         design: {
-            img: "../img/.png",
-            title: `국방 작전 지원을 위한 통합 전술 상황 분석 솔루션`,
-            desc: `<div class="desc-item"><strong>1. 실시간 데이터 융합 및 시각화 전장에 대한 완전한 이해를 제공합니다</strong> 다기종 드론 라이브 피드 통합, 고해상도 지형및 위성 영상 스캔, 아군 및 적군 유닛 실시간 위치 및 활동 추적  </div><div class="desc-item"><strong>2. 지능형 AI 기반 상황 예측 선제적 의사결정을 지원합니다.</strong><br> AI 기반 예상 도달시간(ETA) 및 최적 경로 분석, 적대적 의사결정 모델링 및 예측, 작전 상황투영 시뮬레이션</div> <div class="desc-item"><strong>3.상호 운용성 및 원활한 협업 지휘통제 효율성을 극대화합니다.</strong><br> 지휘관 및 상황실 요원 간실시간 상황공유, 투명 디스플레이및 대형스크린 최적화 인터페이스, 한국군 및 연합 작전 시스템과의 완벽한 호환 </div>`,
+            img: "../img/t-series-r.png",
+            title: `정보 전달에 최적화된<br> 모니터 구성 `,
+            desc: `관제센터의 지령대 모니터와 같이 시각적인 집중도보다는<br> 정보전달에 필요한 모니터배치를 효과적으로 배치할 수 있습니다.`,
             specs: [
                 {
                     title: "주요 특징",
@@ -2661,10 +2661,101 @@ const productData = {
         },
 
         photos: [
-            "../img/eph-bg.png",
-            "../img/eph-bg2.png",
-            "../img/eph-bg3.png",
-            "../img/E-seriesbg.png"
+            "../img/t-series-bg.jpg",
+            "../img/zv30T-a1bg.png",
+            "../img/zv30T-a1bg2.png",
+            "../img/zv30T-a1bg3.png"
+        ],
+
+        rugged: {
+            title: `개방감과 기능성을 동시에 실현한<br>차세대 관제 환경`,
+            cards: [
+                {
+                icon: "🔲",
+                title: "고투명 솔루션",
+                value: "43% 투명도",
+                desc: "최대 43%의 높은 투명도를 자랑하며, 디스플레이 뒤에 있는 사물의 상세한 디테일이나 텍스트까지 선명 하게 읽을 수 있습니다."
+                },
+                {
+                icon: "↔️ ↕️",
+                title: "모듈러 및 확장형 디자인",
+                value: "확장성",
+                desc: "스탠드얼론(독립형) 또는 타일형(멀티) 구성이 가능하며, 세로·가로·천장형 등 다양한 방식으로 설치할 수 있습니다."
+                },
+                {
+                icon: "🎨",
+                title: "독보적인 화질",
+                value: "디테일까지 선명하게",
+                desc: "넓은 시야각과 빠른 응답 속도를 바탕으로 왜곡 없는 정확하고 일관된 색상을 재현합니다."
+                }
+            ]
+        },
+
+        specTable: [
+            ["제품 크기", '30 인치 (30 inch)'],
+            ["스크린 타입", "OLED 스크린, AM-OLED"],
+            ["재생률", "120 Hz"],
+            ["디스플레이 영역", "664.29 mm(H) × 373.48 mm(V)"],
+            ["저패널 외곽 사이즈", "676.09 × 387.48 × 1.72 mm (H × V × D)"],
+            ["해상도", "1366 × 768"],
+            ["밝기 (Brightness)", "600 ~ 200 cd/m²"],
+            ["명암비", "135,000 : 1 / Contrast Ratio"],
+            ["응답 속도", "0.1ms (G to G, Typ.) / 8ms (MPRT, Typ.)"],
+            ["색상 깊이", "1.07B (10bit) / Color Depth "],
+            ["투명도", "43% (Typ.) / Transparency"],
+            ["화면 비율", "16:9 / Aspect Ratio"],
+            ["시야각", "상/하/좌/우 178° 이상 (Min.) / Viewing Angle"],
+            ["보관 온도", "-40°C ~ 70°C"]
+        ]
+    },
+
+    "zv50ta1": {
+        title: "투명 디스플레이",
+
+        desc: "공간의 한계를 깬 투명 led 관제모니터",
+
+        model: "ZV50T-A1",
+
+        visualImg: "../img/t-series-bg.jpg",
+
+        koLink: "./Productdetail.html?product=ihh10",
+        engLink: "./Productdetail-eng.html?product=ihh10",
+
+        sliderImages: [
+            "../img/t-series-f.png",
+            "../img/t-series.png",
+        ],
+
+        hero: {
+            title: `공간의 한계를 깨다<br>투명 led 관제모니터`,
+            desc: `시각적 개방성과 기능성을 동시에 만족시키는 혁신적 공간 설계본 설계는 협소한 관제 테이블 환경에서 발생할 수 있는 시각적 폐쇄감을 최소화하는 데 집중했습니다.테이블 측면에 고투과율 투명 LED 디스플레이를 배치함으로써, 정보 전달이라는 본연의 기능은 유지한 채 주변 공간과의 유기적인 연결성을 확보했습니다. 측면 공간의 개방성을 극대화하여 작업자에게 최적의 시야와 쾌적한 관제 환경을 제공합니다.`,
+            icon: "🪟",
+            specTitle: "혁신적 공간 설계",
+            specDesc: "최적의 시야와 쾌적한 관제 환경을 제공",
+            img: "../img/t-series-f.png"
+        },
+
+        design: {
+            img: "../img/t-series-r.png",
+            title: `국방 작전 지원을 위한 통합 전술 상황 분석 솔루션`,
+            desc: `<div class="desc-item"><strong>1. 실시간 데이터 융합 및 시각화 전장에 대한 완전한 이해를 제공합니다.</strong> 다기종 드론 라이브 피드 통합, 고해상도 지형및 위성 영상 스캔, 아군 및 적군 유닛 실시간 위치 및 활동 추적  </div><div class="desc-item"><strong>2. 지능형 AI 기반 상황 예측 선제적 의사결정을 지원합니다.</strong><br> AI 기반 예상 도달시간(ETA) 및 최적 경로 분석, 적대적 의사결정 모델링 및 예측, 작전 상황투영 시뮬레이션</div> <div class="desc-item"><strong>3.상호 운용성 및 원활한 협업 지휘통제 효율성을 극대화합니다.</strong><br> 지휘관 및 상황실 요원 간실시간 상황공유, 투명 디스플레이및 대형스크린 최적화 인터페이스, 한국군 및 연합 작전 시스템과의 완벽한 호환 </div>`,
+            specs: [
+                {
+                    title: "주요 특징",
+                    items: ["지형및 영상 스캔", "실시간 위치 활동 추적","예상 도달 시간, 최적 경로 분석"]
+                },
+                {
+                    title: "주요 특징",
+                    items: ["대형 스크린 최적화 인터페이스", "작전상황 투영 시뮬레이션","의사결정 모델링 및 예측"]
+                }
+            ]
+        },
+
+        photos: [
+            "../img/t-series-bg.jpg",
+            "../img/zv30T-a1bg.png",
+            "../img/zv30T-a1bg2.png",
+            "../img/zv30T-a1bg3.png"
         ],
 
         rugged: {

@@ -426,47 +426,47 @@ const productData = {
     "t-series": {
         title: "투명 디스플레이",
         desc: "공간의 한계를 깨다. 투명 LED 관제 모니터",
-        visualImg: "../img/t-series-bg.png",
-        koLink: "./series.html?series=s-series",
-        engLink: "./series-eng.html?series=s-series-eng",
+        visualImg: "../img/t-series-bg.jpg",
+        koLink: "./series.html?series=t-series",
+        engLink: "./series-eng.html?series=t-series-eng",
         products: [
             {
             category: "투명 디스플레이",
-            name: "t",
-            desc: "설명란",
-            img: "../img/ss.png",
-            link: "./Productdetail.html?product=tserise"
+            name: "ZV30T-A1",
+            desc: "투명 LED 관제 모니터",
+            img: "../img/t-series-f.png",
+            link: "./Productdetail.html?product=zv30ta1"
             },
             {
             category: "투명 디스플레이",
-            name: "t",
-            desc: "설명란",
-            img: "../img/ss.png",
-            link: "./Productdetail.html?product=tserise"
-            },
-            {
-            category: "투명 디스플레이",
-            name: "t",
-            desc: "설명란",
-            img: "../img/ss.png",
-            link: "./Productdetail.html?product=tserise"
+            name: "ZV50T-A1",
+            desc: "투명 LED 관제 모니터",
+            img: "../img/t-series-f.png",
+            link: "./Productdetail.html?product=zv50ta1"
             }
         ]
     },
 
     "t-serieseng": {
-        title: "투명 디스플레이",
-        desc: "공간의 한계를 깨다. 투명 LED 관제 모니터",
-        visualImg: "../img/t-series-bg.png",
-        koLink: "./series.html?series=s-series",
-        engLink: "./series-eng.html?series=s-series-eng",
+        title: "Transparent Display",
+        desc: "Breaking the Limits of Space Transparent LED Control Monitor",
+        visualImg: "../img/t-series-bg.jpg",
+        koLink: "./series.html?series=t-series",
+        engLink: "./series-eng.html?series=t-series-eng",
         products: [
             {
-            category: "투명 디스플레이",
-            name: "t",
-            desc: "설명란",
-            img: "../img/ss.png",
-            link: "./Productdetail.html?product=tserise"
+            category: "Transparent Display",
+            name: "ZV30T-A1",
+            desc: "Transparent LED Control Monitor",
+            img: "../img/t-series-f.png",
+            link: "./Productdetail.html?product=zv30ta1eng"
+            },
+            {
+            category: "Transparent Display",
+            name: "ZV50T-A1",
+            desc: "Transparent LED Control Monitor",
+            img: "../img/t-series-f.png",
+            link: "./Productdetail.html?product=zv50ta1eng"
             }
         ]
     },
