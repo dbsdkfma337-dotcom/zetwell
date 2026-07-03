@@ -454,3 +454,16 @@
     max-width: 100%;
     object-fit: contain;
 }
+
+.product-info-title{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    border-bottom:1px solid #111;
+}
+
+.product-badge{
+    width:200px;
+    height:auto;
+    object-fit:contain;
+}

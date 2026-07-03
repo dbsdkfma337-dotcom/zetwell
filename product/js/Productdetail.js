@@ -1926,8 +1926,8 @@ const productData = {
                     items: ["음향 에코 제거(AEC)", "소음 억제","적응형 다중 빔포머", "자동 이득 제어(AGC)"]
                 },
                 {
-                    title: "적용 분야 및 기능 확장",
-                    items: ["적용 분야: P5G 내 POC PTT 기능", "PTT 서비스: 기본 기능 제공","GIS/GPS 서비스: GPS On/Off 기능 제공","영상 PTT 기능: 실시간 영상 전송 기능"]
+                    title: "적용 분야",
+                    items: ["재난안전통신망 (PS-LTE) 지령대, 철도 및 도시철도 관제 센터 (LTE-R)관제조작반, 항공 및 항만 관제 지령대 ",]
                 }
             ]
         },
@@ -1951,17 +1951,19 @@ const productData = {
                 {
                 icon: "⚙️🧠",
                 title: "온디바이스 엣지 AI GPU 탑재",
-                value: "",
+                value: "AI GPU 탑재",
                 desc: "지령장치 단말 자체에 탑재된 GPU에서 AI 연산을 처리"
                 },
                 {
                 icon: "🖥️⚡",
                 title: "AI STT (Speech-to-Text) 기반의 지능형 관제",
-                value: "",
+                value: "AI STT",
                 desc: "메신저처럼 실시간 텍스트 로그로 확인하고 검색"
                 }
             ]
         },
+
+        badgeImg: "../img/samsung-sticker.png",
 
         specTable: [
             ["Model", 'S1517H / S1519H'],
@@ -3044,4 +3046,12 @@ const langEng = document.querySelector("#langEng");
 if(langKo && langEng){
     langKo.href = product.koLink;
     langEng.href = product.engLink;
+}
+
+const infoTitle = document.querySelector(".product-info-title");
+
+if (product.badgeImg) {
+    infoTitle.insertAdjacentHTML("beforeend", `
+        <img class="product-badge" src="${product.badgeImg}" alt="">
+    `);
 }
