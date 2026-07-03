@@ -1940,7 +1940,7 @@ const productData = {
         ],
 
         rugged: {
-            title: `그 어떤 환경에서도 살아남는,<br>강력한 보호성능`,
+            title: `AI STT와 엣지 GPU로 진화한,<br>차세대 지령 장치`,
             cards: [
                 {
                 icon: "🌀",
@@ -1949,22 +1949,22 @@ const productData = {
                 desc: "내부 온도룰 감지하여 팬의 회전수(RPM)를 제어."
                 },
                 {
-                icon: "",
-                title: "",
+                icon: "⚙️🧠",
+                title: "온디바이스 엣지 AI GPU 탑재",
                 value: "",
-                desc: ""
+                desc: "지령장치 단말 자체에 탑재된 GPU에서 AI 연산을 처리"
                 },
                 {
-                icon: "",
-                title: "",
+                icon: "🖥️⚡",
+                title: "AI STT (Speech-to-Text) 기반의 지능형 관제",
                 value: "",
-                desc: ""
+                desc: "메신저처럼 실시간 텍스트 로그로 확인하고 검색"
                 }
             ]
         },
 
         specTable: [
-            ["Model", 'S1517H / S1519H, S933-M'],
+            ["Model", 'S1517H / S1519H'],
             ["CPU", "15th Gen Intel® Core™ Ultra7 CPU, 15th Gen Intel® Core™ Ultra9 CPU"],
             ["운영체계", "Windows 11 Pro 64bit"],
             ["그래픽", "NVIDIA RTX 2000 Ada Generation D6 16GB (AI)"],
@@ -2033,28 +2033,28 @@ const productData = {
             title: `내용필요`,
             cards: [
                 {
-                icon: "🌀",
-                title: "Smart Cooling System",
-                value: "Automatic Temperature Control Cooling System",
-                desc: "Automatically detects the internal temperature and controls the fan speed (RPM)."
+                icon: "🔒",
+                title: "Intelligent Cooling System",
+                value: "Intel® Core™ Ultra 기반",
+                desc: "NPU가 탑재된 Intel® Core™ Ultra 기반으로 엣지 AI 추론 수행."
                 },
                 {
-                icon: "",
-                title: "",
-                value: "",
-                desc: ""
+                icon: "🖥️",
+                title: "다중 모니터 지원",
+                value: "3대",
+                desc: "최대 3대의 모니터 연결 포트 제공."
                 },
                 {
-                icon: "",
-                title: "",
-                value: "°",
-                desc: ""
+                icon: "🌡️",
+                title: "극한 환경 대응",
+                value: "-40°C - 70°",
+                desc: "-40°C ~ 70°C의 운용 온도를 지원하는 산업용 적용 (KOLAS 시험성적서 기반 -20°C ~ 60°C)."
                 }
             ]
         },
 
         specTable: [
-            ["Model", 'S1517H / S1519H, S933-M'],
+            ["Model", 'S1517H / S1519H'],
             ["CPU", "15th Gen Intel® Core™ Ultra7 CPU, 15th Gen Intel® Core™ Ultra9 CPU"],
             ["운영체계", "Windows 11 Pro 64bit"],
             ["그래픽", "NVIDIA RTX 2000 Ada Generation D6 16GB (AI)"],
