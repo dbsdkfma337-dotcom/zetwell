@@ -714,7 +714,7 @@ const productData = {
         ]
     },
 
-    "zw2000n": {
+    "zw2000M": {
         title: "내용필요",
 
         desc: "내용필요",
@@ -2072,9 +2072,9 @@ const productData = {
     },
 
     "ze5000m": {
-        title: "내용필요",
+        title: "엣지 AI를 위한 고성능<br> MXM GPU 모듈 탑재",
 
-        desc: "내용필요",
+        desc: " NVDIA RTX PRO 5000 / Blackwell Generation / Embedded GPU - Type B ",
 
         model: "ZE5000M",
 
