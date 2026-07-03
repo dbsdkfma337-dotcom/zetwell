@@ -1915,7 +1915,7 @@ const productData = {
         ],
 
         hero: {
-            title: `강력한 AI 처리 성능 (GPU / NPU 탑재)`,
+            title: `강력한 AI 처리 성능<br> (GPU / NPU 탑재)`,
             desc: `GPU를 탑재하여 LLM(대규모 언어 모델)을 포함한 복잡한 AI 연산을 효율적으로 수행합니다. NPU 장치의 경우 병렬로 구성하여 더욱 빠른 속도를 체감할 수 있습니다. NVIDIA RTX 2000 Ada Generation D6 16GB부터 시작하며, 더 높은 사양의 GPU까지 옵션으로 지원하여 요구되는 AI 워크로드에 완벽하게 대응합니다. 또한 Hailo-10H AI Accelerator를 통해 탁월한 AI 가속을 제공합니다.`,
             icon: "🧠",
             specTitle: "NPU가 탑재된 Intel® Core™ Ultra 기반으로<br>엣지 AI 추론 수행",
@@ -1925,7 +1925,7 @@ const productData = {
 
         design: {
             img: "../img/S1519H.png",
-            title: `고품질 오디오 및 음성 처리 `,
+            title: `고품질 오디오 및 <br>음성 처리 `,
             desc: `고성능 AI DSP 칩셋을 장착하여 주변 잡음과 지령 운영 상태에 따라 잡음과 에코 기능을 억제하여 고품질 오디오를 제공합니다.`,
             specs: [
                 {
