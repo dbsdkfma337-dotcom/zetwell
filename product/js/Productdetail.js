@@ -1943,22 +1943,22 @@ const productData = {
             title: `그 어떤 환경에서도 살아남는,<br>강력한 보호성능`,
             cards: [
                 {
-                icon: "🔒",
-                title: "무소음 냉각",
-                value: "팬리스 형태",
-                desc: "맞춤형 발열 구조를 갖춰 지령 환경에 최적화된 무소음 워크스테이션."
+                icon: "🌀",
+                title: "스마트 쿨링 시스템",
+                value: "자동 온도 제어 냉각 시스템",
+                desc: "내부 온도룰 감지하여 팬의 회전수(RPM)를 제어."
                 },
                 {
-                icon: "☔",
-                title: "다중 모니터 지원",
-                value: "3대",
-                desc: "최대 3대의 모니터 연결 포트 제공."
+                icon: "",
+                title: "",
+                value: "",
+                desc: ""
                 },
                 {
-                icon: "✇",
-                title: "극한 환경 대응",
-                value: "-40°C - 70°",
-                desc: "-40°C ~ 70°C의 운용 온도를 지원하는 산업용 적용 (KOLAS 시험성적서 기반 -20°C ~ 60°C)."
+                icon: "",
+                title: "",
+                value: "",
+                desc: ""
                 }
             ]
         },
@@ -2033,22 +2033,22 @@ const productData = {
             title: `내용필요`,
             cards: [
                 {
-                icon: "🔒",
-                title: "Intel® Core™ Ultra",
-                value: "Intel® Core™ Ultra 기반",
-                desc: "NPU가 탑재된 Intel® Core™ Ultra 기반으로 엣지 AI 추론 수행."
+                icon: "🌀",
+                title: "Smart Cooling System",
+                value: "Automatic Temperature Control Cooling System",
+                desc: "Automatically detects the internal temperature and controls the fan speed (RPM)."
                 },
                 {
-                icon: "☔",
-                title: "다중 모니터 지원",
-                value: "3대",
-                desc: "최대 3대의 모니터 연결 포트 제공."
+                icon: "",
+                title: "",
+                value: "",
+                desc: ""
                 },
                 {
-                icon: "✇",
-                title: "극한 환경 대응",
-                value: "-40°C - 70°",
-                desc: "-40°C ~ 70°C의 운용 온도를 지원하는 산업용 적용 (KOLAS 시험성적서 기반 -20°C ~ 60°C)."
+                icon: "",
+                title: "",
+                value: "°",
+                desc: ""
                 }
             ]
         },
