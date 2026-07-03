@@ -436,6 +436,20 @@ const productData = {
             desc: "설명란",
             img: "../img/ss.png",
             link: "./Productdetail.html?product=tserise"
+            },
+            {
+            category: "투명 디스플레이",
+            name: "t",
+            desc: "설명란",
+            img: "../img/ss.png",
+            link: "./Productdetail.html?product=tserise"
+            },
+            {
+            category: "투명 디스플레이",
+            name: "t",
+            desc: "설명란",
+            img: "../img/ss.png",
+            link: "./Productdetail.html?product=tserise"
             }
         ]
     },
