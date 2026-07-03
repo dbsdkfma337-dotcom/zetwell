@@ -2625,7 +2625,7 @@ const productData = {
 
         model: "투명 디스플레이",
 
-        visualImg: "../img/t-series-bg2.png",
+        visualImg: "../img/t-series-bg.png",
 
         koLink: "./Productdetail.html?product=ihh10",
         engLink: "./Productdetail-eng.html?product=ihh10",
@@ -2645,17 +2645,108 @@ const productData = {
         },
 
         design: {
-            img: "../img/ihn2000b-2.png",
-            title: `맞춤형 <br>사운드장치 솔루션`,
-            desc: `물리적 연동 (USB, 시리얼, IP통신을 이용하지 않는 GPIO 접점)을 통해 상호 교차 보안 위반을 제거하며 헤드셋을 구현합니다. 헤드셋 제어장치와 통합 제어 장치 간의 물리적 연동 및 MCU 콘트롤을 통해 헤드셋의 분리/통합을 자유롭게 운용할 수 있습니다. 분리형 미디어 장치를 통한 사운드 제어 기능과 별도 부착용 8W 스피커 장치 4대까지 확장이 가능합니다.`,
+            img: "../img/.png",
+            title: `국방 작전 지원을 위한 통합 전술 상황 분석 솔루션`,
+            desc: `<div class="desc-item"><strong>1. 실시간 데이터 융합 및 시각화 전장에 대한 완전한 이해를 제공합니다</strong> 다기종 드론 라이브 피드 통합, 고해상도 지형및 위성 영상 스캔, 아군 및 적군 유닛 실시간 위치 및 활동 추적  </div><div class="desc-item"><strong>2. 지능형 AI 기반 상황 예측 선제적 의사결정을 지원합니다.</strong><br> AI 기반 예상 도달시간(ETA) 및 최적 경로 분석, 적대적 의사결정 모델링 및 예측, 작전 상황투영 시뮬레이션</div> <div class="desc-item"><strong>3.상호 운용성 및 원활한 협업 지휘통제 효율성을 극대화합니다.</strong><br> 지휘관 및 상황실 요원 간실시간 상황공유, 투명 디스플레이및 대형스크린 최적화 인터페이스, 한국군 및 연합 작전 시스템과의 완벽한 호환 </div>`,
             specs: [
                 {
                     title: "주요 특징",
-                    items: ["무소음 냉각", "전원 및 회선 이중화","다중 모니터 지원"]
+                    items: ["지형및 영상 스캔", "실시간 위치 활동 추적","예상 도달 시간, 최적 경로 분석"]
                 },
                 {
                     title: "주요 특징",
-                    items: ["통합 음성 통신", "디지털 공청","정확한 제어"]
+                    items: ["대형 스크린 최적화 인터페이스", "작전상황 투영 시뮬레이션","의사결정 모델링 및 예측"]
+                }
+            ]
+        },
+
+        photos: [
+            "../img/eph-bg.png",
+            "../img/eph-bg2.png",
+            "../img/eph-bg3.png",
+            "../img/E-seriesbg.png"
+        ],
+
+        rugged: {
+            title: `그 어떤 환경에서도 살아남는,<br>강력한 보호성능`,
+            cards: [
+                {
+                icon: "🔒",
+                title: "무소음 냉각",
+                value: "팬리스 형태",
+                desc: "맞춤형 발열 구조를 갖춰 지령 환경에 최적화된 무소음 워크스테이션."
+                },
+                {
+                icon: "☔",
+                title: "다중 모니터 지원",
+                value: "3대",
+                desc: "최대 3대의 모니터 연결 포트 제공."
+                },
+                {
+                icon: "✇",
+                title: "극한 환경 대응",
+                value: "-40°C - 70°",
+                desc: "-40°C ~ 70°C의 운용 온도를 지원하는 산업용 적용 (KOLAS 시험성적서 기반 -20°C ~ 60°C)."
+                }
+            ]
+        },
+
+        specTable: [
+            ["Model", 'S1388 Dispatcher Workstation'],
+            ["CPU", "Intel® 13th Gen Raptor Lake-P/ Raptor Lake-U i7 Pentium CPU"],
+            ["그래픽", "Intel Iris Xe Graphics"],
+            ["메모리", "2 x DDR5 4800 MHz SODIMM, Max 64GB"],
+            ["저장장치", "1 x M.2 B key Type 3042 (SATA) 512GB"],
+            ["BIOS", "AMI UEFI BIOS"],
+            ["디스플레이", "2 x HDMI, 1 x RGB"],
+            ["LAN", "5 x Intel 2.5GbE I226-IT (external)"],
+            ["운용 OS", "구름 3.0 이상 (신뢰부팅 제공)"],
+            ["전원 이중화", "전원 이중화 (기본제공)"],
+            ["전원", "DC IN +9~36V (84W Power Adapter, 12V/7A)"],
+            ["운용 온도", "-40°C ~ 70°C (-20°C ~ 60°C KOLAS 시험성적서)"],
+            ["크기", "236W x 172.6D x 82H mm"],
+            ["보관 온도", "-40°C ~ 70°C"]
+        ]
+    },
+
+    "tseriseeng": {
+        title: "내용필요",
+
+        desc: "Break the Limits of Space<br>Transparent LED Control Monitor",
+
+        model: "Transparent Display",
+
+        visualImg: "../img/t-series-bg.png",
+
+        koLink: "./Productdetail.html?product=ihh10",
+        engLink: "./Productdetail-eng.html?product=ihh10",
+
+        sliderImages: [
+            "../img/.png",
+            "../img/.png",
+        ],
+
+        hero: {
+            title: `Break the Limits of Space<br>Transparent LED Control Monitor`,
+            desc: `시각적 개방성과 기능성을 동시에 만족시키는 혁신적 공간 설계본 설계는 협소한 관제 테이블 환경에서 발생할 수 있는 시각적 폐쇄감을 최소화하는 데 집중했습니다.테이블 측면에 고투과율 투명 LED 디스플레이를 배치함으로써, 정보 전달이라는 본연의 기능은 유지한 채 주변 공간과의 유기적인 연결성을 확보했습니다. 측면 공간의 개방성을 극대화하여 작업자에게 최적의 시야와 쾌적한 관제 환경을 제공합니다.`,
+            icon: "",
+            specTitle: "혁신적 공간 설계",
+            specDesc: "최적의 시야와 쾌적한 관제 환경을 제공",
+            img: "../img/.png"
+        },
+
+        design: {
+            img: "../img/.png",
+            title: `국방 작전 지원을 위한 통합 전술 상황 분석 솔루션`,
+            desc: `<div class="desc-item"><strong>1. 실시간 데이터 융합 및 시각화 전장에 대한 완전한 이해를 제공합니다</strong> 다기종 드론 라이브 피드 통합, 고해상도 지형및 위성 영상 스캔, 아군 및 적군 유닛 실시간 위치 및 활동 추적  </div><div class="desc-item"><strong>2. 지능형 AI 기반 상황 예측 선제적 의사결정을 지원합니다.</strong><br> AI 기반 예상 도달시간(ETA) 및 최적 경로 분석, 적대적 의사결정 모델링 및 예측, 작전 상황투영 시뮬레이션</div> <div class="desc-item"><strong>3.상호 운용성 및 원활한 협업 지휘통제 효율성을 극대화합니다.</strong><br> 지휘관 및 상황실 요원 간실시간 상황공유, 투명 디스플레이및 대형스크린 최적화 인터페이스, 한국군 및 연합 작전 시스템과의 완벽한 호환 </div>`,
+            specs: [
+                {
+                    title: "주요 특징",
+                    items: ["지형및 영상 스캔", "실시간 위치 활동 추적","예상 도달 시간, 최적 경로 분석"]
+                },
+                {
+                    title: "주요 특징",
+                    items: ["대형 스크린 최적화 인터페이스", "작전상황 투영 시뮬레이션","의사결정 모델링 및 예측"]
                 }
             ]
         },

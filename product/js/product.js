@@ -439,6 +439,23 @@ const productData = {
             }
         ]
     },
+
+    "t-serieseng": {
+        title: "투명 디스플레이",
+        desc: "공간의 한계를 깨다. 투명 LED 관제 모니터",
+        visualImg: "../img/t-series-bg.png",
+        koLink: "./series.html?series=s-series",
+        engLink: "./series-eng.html?series=s-series-eng",
+        products: [
+            {
+            category: "투명 디스플레이",
+            name: "t",
+            desc: "설명란",
+            img: "../img/ss.png",
+            link: "./Productdetail.html?product=tserise"
+            }
+        ]
+    },
 };
 
 const params = new URLSearchParams(window.location.search);
