@@ -1907,8 +1907,8 @@ const productData = {
 
         visualImg: "../img/S1519H-bg.png",
 
-        koLink: "./Productdetail.html?product=S1388",
-        engLink: "./Productdetail-eng.html?product=S1388eng",
+        koLink: "./Productdetail.html?product=S1519h",
+        engLink: "./Productdetail-eng.html?product=S1519heng",
 
         sliderImages: [
             "../img/S1519H.png",
@@ -1917,7 +1917,7 @@ const productData = {
         hero: {
             title: `강력한 AI 처리 성능 (GPU / NPU 탑재)`,
             desc: `GPU를 탑재하여 LLM(대규모 언어 모델)을 포함한 복잡한 AI 연산을 효율적으로 수행합니다. NPU 장치의 경우 병렬로 구성하여 더욱 빠른 속도를 체감할 수 있습니다. NVIDIA RTX 2000 Ada Generation D6 16GB부터 시작하며, 더 높은 사양의 GPU까지 옵션으로 지원하여 요구되는 AI 워크로드에 완벽하게 대응합니다. 또한 Hailo-10H AI Accelerator를 통해 탁월한 AI 가속을 제공합니다.`,
-            icon: "⚒",
+            icon: "🧠",
             specTitle: "NPU가 탑재된 Intel® Core™ Ultra 기반으로<br>엣지 AI 추론 수행",
             specDesc: "S1517H / 1519H는 NPU가 탑재된 Intel® Core™ Ultra 기반으로 엣지에서 직접 AI 추론을 수행하며, 선택 사양인 NVIDIA® 개별 PCIe GPU를 통해 머신 비전, 지령AI 등에서 연산 성능을 확장할 수 있는 고성능 AI 관제 시스템입니다.",
             img: "../img/S1519H.png"
@@ -1997,10 +1997,10 @@ const productData = {
 
         model: "S1519H",
 
-        visualImg: "../img/HRD2000M-bg.png",
+        visualImg: "../img/S1519H-bg.png",
 
-        koLink: "./Productdetail.html?product=S1388",
-        engLink: "./Productdetail-eng.html?product=S1388eng",
+        koLink: "./Productdetail.html?product=S1519h",
+        engLink: "./Productdetail-eng.html?product=S1519heng",
 
         sliderImages: [
             "../img/S1519H.png",
@@ -2008,25 +2008,25 @@ const productData = {
 
         hero: {
             title: `Powerful AI Processing Performance (Equipped with GPU / NPU)`,
-            desc: `GPU를 탑재하여 LLM(대규모 언어 모델)을 포함한 복잡한 AI 연산을 효율적으로 수행합니다. NPU 장치의 경우 병렬로 구성하여 더욱 빠른 속도를 체감할 수 있습니다. NVIDIA RTX 2000 Ada Generation D6 16GB부터 시작하며, 더 높은 사양의 GPU까지 옵션으로 지원하여 요구되는 AI 워크로드에 완벽하게 대응합니다. 또한 Hailo-10H AI Accelerator를 통해 탁월한 AI 가속을 제공합니다.`,
-            icon: "⚒",
-            specTitle: "NPU가 탑재된 Intel® Core™ Ultra 기반으로<br>엣지 AI 추론 수행",
-            specDesc: "S1517H / 1519H는 NPU가 탑재된 Intel® Core™ Ultra 기반으로 엣지에서 직접 AI 추론을 수행하며, 선택 사양인 NVIDIA® 개별 PCIe GPU를 통해 머신 비전, 지령AI 등에서 연산 성능을 확장할 수 있는 고성능 AI 관제 시스템입니다.",
+            desc: `Equipped with a GPU, the system efficiently handles complex AI computations, including Large Language Models (LLMs). For even greater performance, NPUs can be configured in parallel to deliver significantly faster processing speeds. Starting with the NVIDIA RTX 2000 Ada Generation D6 16GB and supporting higher-end GPU options, the platform is fully scalable to meet demanding AI workloads. In addition, the Hailo-10H AI Accelerator provides exceptional AI acceleration performance.`,
+            icon: "🧠",
+            specTitle: "Edge AI Inference Powered by Intel® Core™ Ultra with Integrated NPU",
+            specDesc: "The S1517H and S1519H are high-performance AI command and control systems based on Intel® Core™ Ultra processors with integrated NPUs, enabling edge AI inference directly on the device. With an optional NVIDIA® discrete PCIe GPU, they can further expand computing performance for applications such as machine vision and AI-powered command and control.",
             img: "../img/S1519H.png"
         },
 
         design: {
             img: "../img/S1519H.png",
             title: `High-Quality Audio and Voice Processing`,
-            desc: `고성능 AI DSP 칩셋을 장착하여 주변 잡음과 지령 운영 상태에 따라 잡음과 에코 기능을 억제하여 고품질 오디오를 제공합니다.`,
+            desc: `Equipped with a high-performance AI DSP chipset, the system delivers high-quality audio by suppressing noise and echo based on surrounding noise levels and command center operating conditions.`,
             specs: [
                 {
-                    title: "주요 특징",
-                    items: ["음향 에코 제거(AEC)", "소음 억제","적응형 다중 빔포머", "자동 이득 제어(AGC)"]
+                    title: "Key Features",
+                    items: ["Acoustic Echo Cancellation (AEC)", "Noise Suppression", "Adaptive Multi-Beamformer", "Automatic Gain Control (AGC)"]
                 },
                 {
-                    title: "적용 분야 및 기능 확장",
-                    items: ["적용 분야: P5G 내 POC PTT 기능", "PTT 서비스: 기본 기능 제공","GIS/GPS 서비스: GPS On/Off 기능 제공","영상 PTT 기능: 실시간 영상 전송 기능"]
+                    title: "Applications",
+                    items: ["Public Safety LTE (PS-LTE) Dispatch Console", "Railway and Urban Railway Control Center (LTE-R) Control Console", "Air Traffic and Port Control Dispatch Console"]
                 }
             ]
         },
@@ -2039,28 +2039,30 @@ const productData = {
         ],
 
         rugged: {
-            title: `내용필요`,
+            title: `The Next-Generation Dispatch System Powered by AI STT and Edge GPU`,
             cards: [
                 {
-                icon: "🔒",
-                title: "Intelligent Cooling System",
-                value: "Intel® Core™ Ultra 기반",
-                desc: "NPU가 탑재된 Intel® Core™ Ultra 기반으로 엣지 AI 추론 수행."
+                icon: "🌀",
+                title: "스마트 쿨링 시스템",
+                value: "자동 온도 제어 냉각 시스템",
+                desc: "내부 온도룰 감지하여 팬의 회전수(RPM)를 제어."
                 },
                 {
-                icon: "🖥️",
-                title: "다중 모니터 지원",
-                value: "3대",
-                desc: "최대 3대의 모니터 연결 포트 제공."
+                icon: "⚙️🧠",
+                title: "온디바이스 엣지 AI GPU 탑재",
+                value: "AI GPU 탑재",
+                desc: "지령장치 단말 자체에 탑재된 GPU에서 AI 연산을 처리"
                 },
                 {
-                icon: "🌡️",
-                title: "극한 환경 대응",
-                value: "-40°C - 70°",
-                desc: "-40°C ~ 70°C의 운용 온도를 지원하는 산업용 적용 (KOLAS 시험성적서 기반 -20°C ~ 60°C)."
+                icon: "🖥️⚡",
+                title: "AI STT (Speech-to-Text) 기반의 지능형 관제",
+                value: "AI STT",
+                desc: "메신저처럼 실시간 텍스트 로그로 확인하고 검색"
                 }
             ]
         },
+
+        badgeImg: "../img/samsung-sticker.png",
 
         specTable: [
             ["Model", 'S1517H / S1519H'],
