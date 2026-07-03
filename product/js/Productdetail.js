@@ -1532,7 +1532,7 @@ const productData = {
     },
 
     "s988": {
-        title: "무소음 지령 워크스테이션",
+        title: "4채널 사운드 개별 처리 & 최대 8W 고출력 오디오",
 
         desc: "Silent Command Workstation",
 
