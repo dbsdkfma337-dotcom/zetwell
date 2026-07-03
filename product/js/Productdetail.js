@@ -714,7 +714,7 @@ const productData = {
         ]
     },
 
-    "zw2000M": {
+    "zw2000n": {
         title: "내용필요",
 
         desc: "내용필요",
