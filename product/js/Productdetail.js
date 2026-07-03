@@ -2750,7 +2750,7 @@ const productData = {
         },
 
         design: {
-            img: "../img/t-series-r.png",
+            img: "../img/zv50ta1-bg.png",
             title: `국방 작전 지원을 위한<br> 통합 전술 상황 분석<br> 솔루션`,
             desc: `<div class="desc-item"><strong>1. 실시간 데이터 융합 및 시각화 전장에 대한 완전한 이해를 제공합니다.</strong> 다기종 드론 라이브 피드 통합, 고해상도 지형및 위성 영상 스캔, 아군 및 적군 유닛 실시간 위치 및 활동 추적  </div><div class="desc-item"><strong>2. 지능형 AI 기반 상황 예측 선제적 의사결정을 지원합니다.</strong><br> AI 기반 예상 도달시간(ETA) 및 최적 경로 분석, 적대적 의사결정 모델링 및 예측, 작전 상황투영 시뮬레이션</div> <div class="desc-item"><strong>3.상호 운용성 및 원활한 협업 지휘통제 효율성을 극대화합니다.</strong><br> 지휘관 및 상황실 요원 간실시간 상황공유, 투명 디스플레이및 대형스크린 최적화 인터페이스, 한국군 및 연합 작전 시스템과의 완벽한 호환 </div>`,
             specs: [
