@@ -1707,9 +1707,9 @@ const productData = {
     },
 
     "s1388": {
-        title: "지령대의 효율적인 디스패쳐 워크스테이션",
+        title: "구름 플랫폼 전용 컴퓨터",
 
-        desc: "Efficient Dispatcher Workstation for Command Centers",
+        desc: "Gooroom Desktop",
 
         model: "S1388",
 
@@ -1727,7 +1727,7 @@ const productData = {
         hero: {
             title: `지령대의 효율적인<br>디스패쳐 워크스테이션`,
             desc: `S1388 (H9 Dispatcher Workstation)은 모든 상황실에 이상적인 고성능 산업용 워크스테이션입니다. 비디오 방송과 같은 CPU 집약적인 근무 환경에서도 최고 사양을 발휘할 수 있도록 설계되었으며, 13세대 Intel® Core™ 프로세서 기반의 강력하고 무소음 냉각 시스템으로 지령 환경에 최적화된 견고한 솔루션을 제공합니다. `,
-            icon: "⚒",
+            icon: "🚀",
             specTitle: "13세대 강력한 성능",
             specDesc: "Intel® 13th Gen Raptor Lake-P/U i7 Pentium CPU 기반의 강력한 지령 장치",
             img: "../img/S1388.png"
@@ -1735,8 +1735,8 @@ const productData = {
 
         design: {
             img: "../img/S1388-r.png",
-            title: `맞춤형 <br>사운드장치 솔루션`,
-            desc: `물리적 연동 (USB, 시리얼, IP통신을 이용하지 않는 GPIO 접점)을 통해 상호 교차 보안 위반을 제거하며 헤드셋을 구현합니다. 헤드셋 제어장치와 통합 제어 장치 간의 물리적 연동 및 MCU 콘트롤을 통해 헤드셋의 분리/통합을 자유롭게 운용할 수 있습니다. 분리형 미디어 장치를 통한 사운드 제어 기능과 별도 부착용 8W 스피커 장치 4대까지 확장이 가능합니다.`,
+            title: `구름 OS`,
+            desc: `데비안 기반 개방형 운영체제로 안전한 업무환경을 위한 구름 플랫폼 운용 기반을 제공합니다. 공격면 제거(클라우드 업무환경에 필요한 SW 선별) 구름 플랫폼(보안프레임워크 탑재 및 구름 중앙관리) 연계 기반`,
             specs: [
                 {
                     title: "주요 특징",
@@ -1757,28 +1757,36 @@ const productData = {
         ],
 
         rugged: {
-            title: `그 어떤 환경에서도 살아남는,<br>강력한 보호성능`,
+            title: `4단계 보안 기술을<br>(신뢰부팅, 운영체제 보호, 실행파일 보호, 브라우저 보호)<br>이용한 보안성을 제공`,
             cards: [
                 {
                 icon: "🔒",
-                title: "무소음 냉각",
-                value: "팬리스 형태",
-                desc: "맞춤형 발열 구조를 갖춰 지령 환경에 최적화된 무소음 워크스테이션."
+                title: "신뢰 부팅",
+                value: "안전",
+                desc: "부트로더 및 커널에 대한 무결성 검증 수행으로, 해커에 의해 시스템이 변조되었을 경우 구름 플랫폼의 부팅을 차단합니다."
                 },
                 {
-                icon: "☔",
-                title: "다중 모니터 지원",
-                value: "3대",
-                desc: "최대 3대의 모니터 연결 포트 제공."
+                icon: "🛡️",
+                title: "운영체제 보호",
+                value: "보안",
+                desc: "동적 커널 보호 기술로서, 악성코드가 실행중인 커널을 변조할 때, 커널보다 높은 수준(하이퍼바이저)에서 악성행위를 탐지합니다."
                 },
                 {
-                icon: "✇",
-                title: "극한 환경 대응",
-                value: "-40°C - 70°",
-                desc: "-40°C ~ 70°C의 운용 온도를 지원하는 산업용 적용 (KOLAS 시험성적서 기반 -20°C ~ 60°C)."
+                icon: "🔒",
+                title: "실행파일 보호",
+                value: "",
+                desc: "실행파일에 대한 무결성 검증 수행으로, 악성 프로그램이 단말에 유입되었을 경우에도 근본적인 실행을 차단합니다."
+                },
+                {
+                icon: "🛡️",
+                title: "브라우저 보호",
+                value: "",
+                desc: "접속처에 따라 신뢰브라우저와 비신뢰브라우저로 격리된 브라우징 환경을 제공하고 차등화된 보안정책을 적용할 수 있습니다."
                 }
             ]
         },
+
+        badgeImg: "../img/samsung-sticker.png",
 
         specTable: [
             ["Model", 'S1388 Dispatcher Workstation'],
