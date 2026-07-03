@@ -353,7 +353,7 @@ const productData = {
             ["LAN 포트", "2 x RJ45­10/100/1000 Mbps LAN with MIL connector"],
             ["비디오", "1 x VGA (MIL connector) / 1 x DVI(MIL connector) / 1 x HDMI (MIL connector)"],
             ["크기", "482 x 522 x 88 mm"],
-            ["장착 방식:", "2U Rack Mounting"],
+            ["장착 방식", "2U Rack Mounting"],
             ["냉각 시스템", "Fan design"],
             ["전원 공급 장치 (PSU)", "Redundant PSU 600W"]
         ]
