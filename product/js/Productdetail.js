@@ -2165,7 +2165,7 @@ const productData = {
     "ze4000m": {
         title: "엣지 AI를 위한 고성능<br> MXM GPU 모듈 탑재",
 
-        desc: " NVDIA RTX PRO 5000 / Blackwell Generation / Embedded GPU - Type B ",
+        desc: " NVDIA RTX PRO 4000 / Blackwell Generation / Embedded GPU - Type B ",
 
         model: "ZE4000M",
 
@@ -2257,7 +2257,7 @@ const productData = {
     "ze2000m": {
         title: "엣지 AI를 위한 고성능<br> MXM GPU 모듈 탑재",
 
-        desc: " NVDIA RTX PRO 5000 / Blackwell Generation / Embedded GPU - Type B ",
+        desc: " NVDIA RTX PRO 2000 / Blackwell Generation / Embedded GPU - Type B ",
 
         model: "ZE2000M",
 
