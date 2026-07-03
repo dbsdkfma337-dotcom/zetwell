@@ -149,22 +149,22 @@ const productData = {
             category: "Zetstation-E series",
             name: "ZE5000M",
             desc: "Equipped with a High-Performance MXM GPU Module for Edge AI",
-            img: "../img/eph10-1.png",
+            img: "../img/zw5000m.png",
             alt: "ZE5000M",
             link: "./Productdetail-eng.html?product=ze5000meng"
             },
             {
             category: "Zetstation-E series",
             name: "ZE4000M",
-            desc: "E-Series ....",
-            img: "../img/eph8-1.png",
+            desc: "Equipped with a High-Performance MXM GPU Module for Edge AI",
+            img: "../img/eph-1.png",
             alt: "ZE4000M",
             link: "./Productdetail-eng.html?product=ze4000meng"
             },
             {
             category: "Zetstation-E series",
             name: "ZE2000M",
-            desc: "E-Series ....",
+            desc: "Equipped with a High-Performance MXM GPU Module for Edge AI",
             img: "../img/epn2000b-1.png",
             alt: "ZE2000M",
             link: "./Productdetail-eng.html?product=ze2000meng"
