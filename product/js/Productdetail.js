@@ -2729,7 +2729,7 @@ const productData = {
 
         model: "ZV50T-A1",
 
-        visualImg: "../img/zv50ta1-bg.jpg",
+        visualImg: "../img/zv50ta1-bg.png",
 
         koLink: "./Productdetail.html?product=ihh10",
         engLink: "./Productdetail-eng.html?product=ihh10",
@@ -2773,44 +2773,57 @@ const productData = {
         ],
 
         rugged: {
-            title: `그 어떤 환경에서도 살아남는,<br>강력한 보호성능`,
+            title: `개방감과 기능성을 동시에 실현한<br>차세대 관제 환경`,
             cards: [
                 {
-                icon: "🔒",
-                title: "무소음 냉각",
-                value: "팬리스 형태",
-                desc: "맞춤형 발열 구조를 갖춰 지령 환경에 최적화된 무소음 워크스테이션."
+                icon: "🔲",
+                title: "고투명 솔루션",
+                value: "43% 투명도",
+                desc: "최대 43%의 높은 투명도를 자랑하며, 디스플레이 뒤에 있는 사물의 상세한 디테일이나 텍스트까지 선명 하게 읽을 수 있습니다."
                 },
                 {
-                icon: "☔",
-                title: "다중 모니터 지원",
-                value: "3대",
-                desc: "최대 3대의 모니터 연결 포트 제공."
+                icon: "↔️ ↕️",
+                title: "모듈러 및 확장형 디자인",
+                value: "확장성",
+                desc: "스탠드얼론(독립형) 또는 타일형(멀티) 구성이 가능하며, 세로·가로·천장형 등 다양한 방식으로 설치할 수 있습니다."
                 },
                 {
-                icon: "✇",
-                title: "극한 환경 대응",
-                value: "-40°C - 70°",
-                desc: "-40°C ~ 70°C의 운용 온도를 지원하는 산업용 적용 (KOLAS 시험성적서 기반 -20°C ~ 60°C)."
+                icon: "🎨",
+                title: "독보적인 화질",
+                value: "디테일까지 선명하게",
+                desc: "넓은 시야각과 빠른 응답 속도를 바탕으로 왜곡 없는 정확하고 일관된 색상을 재현합니다."
                 }
             ]
         },
 
         specTable: [
-            ["Model", 'S1388 Dispatcher Workstation'],
-            ["CPU", "Intel® 13th Gen Raptor Lake-P/ Raptor Lake-U i7 Pentium CPU"],
-            ["그래픽", "Intel Iris Xe Graphics"],
-            ["메모리", "2 x DDR5 4800 MHz SODIMM, Max 64GB"],
-            ["저장장치", "1 x M.2 B key Type 3042 (SATA) 512GB"],
-            ["BIOS", "AMI UEFI BIOS"],
-            ["디스플레이", "2 x HDMI, 1 x RGB"],
-            ["LAN", "5 x Intel 2.5GbE I226-IT (external)"],
-            ["운용 OS", "구름 3.0 이상 (신뢰부팅 제공)"],
-            ["전원 이중화", "전원 이중화 (기본제공)"],
-            ["전원", "DC IN +9~36V (84W Power Adapter, 12V/7A)"],
-            ["운용 온도", "-40°C ~ 70°C (-20°C ~ 60°C KOLAS 시험성적서)"],
-            ["크기", "236W x 172.6D x 82H mm"],
-            ["보관 온도", "-40°C ~ 70°C"]
+            ["제품 크기", '50 인치 (50 inch)'],
+            ["스크린 타입", "OLED 스크린, AM-OLED"],
+            ["재생률", "120 Hz"],
+            ["디스플레이 영역", "664.29 mm(H) × 373.48 mm(V)"],
+            ["저패널 외곽 사이즈", "676.09 × 387.48 × 1.72 mm (H × V × D)"],
+            ["해상도", "1366 × 768"],
+            ["밝기 (Brightness)", "600 ~ 200 cd/m²"],
+            ["명암비", "135,000 : 1 / Contrast Ratio"],
+            ["응답 속도", "0.1ms (G to G, Typ.) / 8ms (MPRT, Typ.)"],
+            ["색상 깊이", "1.07B (10bit) / Color Depth "],
+            ["투명도", "43% (Typ.) / Transparency"],
+            ["화면 비율", "16:9 / Aspect Ratio"],
+            ["시야각", "상/하/좌/우 178° 이상 (Min.) / Viewing Angle"],
+            ["터치 스크린 방식", "투사형 정전식 터치 스크린 (G+F+F구조) / Projected Capacitive"],
+            ["멀티터치 포인트", "10 포인트 이상 (≥ 10 points)"],
+            ["터치 호환 OS", "Windows 7 / 8 / 10, Android, Linux"],
+            ["하우징 소재 / 색상", "판금 (Sheet metal) / 화이트 (White)"],
+            ["제품 형태", "올인원 (All-in-one)"],
+            ["전체 크기 (L × W × H)", "698 × 250 × 511 mm"],
+            ["설치 방식", "데스크톱 (Desktop)"],
+            ["입력 전압", "AC 110V ~ 250V @ 60Hz/50Hz"],
+            ["최대 소비 전력", "80W (Max.)"],
+            ["대기 소비 전력", "0.5W 미만 (<0.5W)"],
+            ["스피커 출력", "5W × 2 채널"],
+            ["사용 환경", "실내용 (Indoor)"],
+            ["작동 온도 / 습도", "0℃ ~ 45℃ / 10% ~ 90% (결로 현상 없을 것)"],
+            ["보관 온도 / 습도", "-20℃ ~ 60℃ / 10% ~ 90% (결로 현상 없을 것)"]
         ]
     },
 
