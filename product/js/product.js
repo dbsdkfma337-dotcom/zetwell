@@ -333,7 +333,7 @@ const productData = {
             {
             category: "Zetstation-CSTM시리즈",
             name: "HRD<br>2000M",
-            desc: "차량용(이동형) 서버",
+            desc: "차량용 특수 컴퓨터",
             img: "../img/HRD2000M.png",
             alt: "HRD2000M",
             link: "./Productdetail.html?product=hrd2000m"
@@ -341,7 +341,7 @@ const productData = {
             {
             category: "Zetstation-CSTM시리즈",
             name: "9000SE",
-            desc: "이중화 서버/워크스테이션",
+            desc: "망 분리 특수 컴퓨터",
             img: "../img/9000SE.png",
             alt: "9000SE",
             link: "./Productdetail.html?product=9000se"
@@ -349,7 +349,7 @@ const productData = {
             {
             category: "Zetstation-CSTM시리즈",
             name: "S988",
-            desc: "8세대 Intel® Core™ i7 프로세서를 탑재한 고성능 워크스테이션",
+            desc: "지령대용 워크스테이션",
             img: "../img/S988.png",
             alt: "S988",
             link: "./Productdetail.html?product=s988"
@@ -357,7 +357,7 @@ const productData = {
             {
             category: "Zetstation-CSTM시리즈",
             name: "S1388",
-            desc: "연결성, 보안성 및 사용자 편의성을 극대화한 지능형 관제 시스템",
+            desc: "구름 OS 특수 컴퓨터",
             img: "../img/S1388.png",
             alt: "S1388",
             link: "./Productdetail.html?product=s1388"
