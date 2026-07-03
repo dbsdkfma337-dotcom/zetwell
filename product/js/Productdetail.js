@@ -2729,7 +2729,7 @@ const productData = {
 
         model: "ZV50T-A1",
 
-        visualImg: "../img/t-series-bg.jpg",
+        visualImg: "../img/zv50ta1-bg.jpg",
 
         koLink: "./Productdetail.html?product=ihh10",
         engLink: "./Productdetail-eng.html?product=ihh10",
@@ -2744,8 +2744,8 @@ const productData = {
             desc: `<strong>특수 선박의 함교(조타실)</strong> 전면 유리창을 대형 투명 디스플레이로 구축하고, 선박 자동 식별 장치(AIS), 레이더(RADAR), 전자해도(ENC)와 연동합니다. <br> <strong>충돌 사고 예방 및 안전성 향상</strong>: 해상에서는 레이더 화면과 실제 바다를 번갈아 보다가 착시나 인지 지연으로 충돌 사고가 발생하는 경우가 많습니다. 투명 디스플레이는 레이더 정보와 실제 선박을 일치시켜 주므로 오판 확률을 획기적으로 줄입니다.<br><strong>야간 및 악천후 항해 혁신</strong>: 저조도 카메라 및 열화상 카메라와 연동하면, 칠흑 같은 밤바다에서도 레이저로 그린 듯한 선명한 전방 지형과 타 선박의 위치를 볼 수 있어 항해 피로도가 극도로 감소합니다.
 `,
             icon: "🪟",
-            specTitle: "혁신적 공간 설계",
-            specDesc: "최적의 시야와 쾌적한 관제 환경을 제공",
+            specTitle: "직관적 항해 지원",
+            specDesc: "실시간 정보와 실제 시야를 하나로",
             img: "../img/t-series-bg2.png"
         },
 
@@ -2768,8 +2768,8 @@ const productData = {
         photos: [
             "../img/t-series-bg2.png",
             "../img/zv50ta1-bg.png",
-            "../img/zv30T-a1bg2.png",
-            "../img/zv30T-a1bg3.png"
+            "../img/zv50ta1-bg.png",
+            "../img/zv50ta1-bg.png"
         ],
 
         rugged: {
