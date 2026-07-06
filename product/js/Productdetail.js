@@ -192,7 +192,7 @@ const productData = {
 
         model: "43MG",
 
-        visualImg: "../img/bg11.png",
+        visualImg: "../img/43MG-bg.png",
 
         sliderImages: [
             "../img/43IG-h.png",
@@ -203,27 +203,33 @@ const productData = {
         hero: {
             title: `극한 환경에서<br>장비를 보호하다`,
             desc: `대형 장비 및 정밀 기기를 위한 전문 보호 케이스입니다.<br> 충격,습기,온도 변화로부터 장비를 안전하게 보호하고<br> 어떤 환경에서도 안정적인 운용을 지원합니다. `,
-            icon: "⚒",
+            icon: "🔩",
             specTitle: "강한 내구성",
             specDesc: "고강도 폴리프로필렌 소재로 충격과진동, 극한 환경에서도<br> 높은 내구성을 자랑합니다.",
             img: "../img/43IG-L.png"
         },
 
         design: {
-            img: "../img/43IG-open.png",
+            img: "../img/43IG-h.png",
             title: `넓은 내부 공간<br>더 높은 활용성`,
             desc: `넉넉한 내부공간으로 다양한 장비와 액세서리를 효율적으로 수납할 수 있습니다. 맞춤형 품 구성으로 장비를 안전하게 고정하여 운반할 수 있습니다.`,
             specs: [
-                { icon: "▣", text: "260L 의 대용량공간" },
-                { icon: "↔", text: "4개의 휠로 이동지원" }
+                {
+                    title: "크기및용량",
+                    items: ["내부크기 1080x620x400", "외부크기 1178x718x427", "대용량 공간 260L"]
+                },
+                {
+                    title: "이동편의성",
+                    items: ["4 Wheels", "360° 회전 캐스터 적용"]
+                }
             ]
         },
 
         photos: [
-            "../img/43IG1.png",
-            "../img/43IG2.png",
-            "../img/43IG3.png",
-            "../img/43IG4.png"
+            "../img/43MG1.png",
+            "../img/43MG2.png",
+            "../img/43MG3.png",
+            "../img/43MG4.png"
         ],
 
         rugged: {
@@ -231,18 +237,108 @@ const productData = {
             cards: [
                 {
                 icon: "🔒",
-                title: "잠금장치",
+                title: "견고한 잠금 장치",
                 value: "금속 래치 적용",
                 desc: "금속 래치와 잠금 지원 구조로 운송 중에도 안정적인 보호 성능을 제공합니다."
                 },
                 {
                 icon: "☔",
-                title: "방수·방진",
+                title: "방수·방진 구조",
                 value: "IP65",
                 desc: "특수 실팅 구조로 외부의 물과 먼지로부터 장비를 안전하게 보호합니다."
                 },
                 {
-                icon: "✇",
+                icon: "⚙️",
+                title: "자동 압력 조절 밸브",
+                value: "압력 자동 조절",
+                desc: "내부 압력을 자동으로 조절하여 기압 변화시에도 안정적인 상태를 유지합니다."
+                }
+            ]
+        },
+
+        video: "../video/43IG-video2.mp4",
+
+
+        specTable: [
+            ["디스플레이", '43" 4k UHD (3840 × 2160)'],
+            ["밝기", "500 nits"],
+            ["시야각", "178° (H) / 178° (V)"],
+            ["입력단자", "HDMI, USB, LAN, 전원 입력"],
+            ["전원", "AC 100~240V"],
+            ["작동온도", "-20°C ~ 60°C"],
+            ["보관온도", "-30°C ~ 70°C"],
+            ["방진방수", "IP65"],
+            ["외부크기", "1178 x 718 x 427 mm"],
+            ["내부크기", "1080 x 620 x 400 mm"],
+            ["증량", "약 24kg"]
+        ]
+    },
+
+    "43mgeng": {
+
+        title: "이동형 멀티터치<br> 테이블 디스플레이",
+
+        desc: "Built for On-the-Move Operations",
+
+        model: "43MG",
+
+        visualImg: "../img/43MG-bg.png",
+
+        sliderImages: [
+            "../img/43IG-h.png",
+            "../img/43IG-r.png",
+            "../img/43IG.png"
+        ],
+
+        hero: {
+            title: `극한 환경에서<br>장비를 보호하다`,
+            desc: `대형 장비 및 정밀 기기를 위한 전문 보호 케이스입니다.<br> 충격,습기,온도 변화로부터 장비를 안전하게 보호하고<br> 어떤 환경에서도 안정적인 운용을 지원합니다. `,
+            icon: "🔩",
+            specTitle: "강한 내구성",
+            specDesc: "고강도 폴리프로필렌 소재로 충격과진동, 극한 환경에서도<br> 높은 내구성을 자랑합니다.",
+            img: "../img/43IG-L.png"
+        },
+
+        design: {
+            img: "../img/43IG-h.png",
+            title: `넓은 내부 공간<br>더 높은 활용성`,
+            desc: `넉넉한 내부공간으로 다양한 장비와 액세서리를 효율적으로 수납할 수 있습니다. 맞춤형 품 구성으로 장비를 안전하게 고정하여 운반할 수 있습니다.`,
+            specs: [
+                {
+                    title: "크기및용량",
+                    items: ["내부크기 1080x620x400", "외부크기 1178x718x427", "대용량 공간 260L"]
+                },
+                {
+                    title: "이동편의성",
+                    items: ["4 Wheels", "360° 회전 캐스터 적용"]
+                }
+            ]
+        },
+
+        photos: [
+            "../img/43MG1.png",
+            "../img/43MG2.png",
+            "../img/43MG3.png",
+            "../img/43MG4.png"
+        ],
+
+        rugged: {
+            title: `그 어떤 환경에서도 살아남는,<br>강력한 보호성능`,
+            cards: [
+                {
+                icon: "🔒",
+                title: "견고한 잠금 장치",
+                value: "금속 래치 적용",
+                desc: "금속 래치와 잠금 지원 구조로 운송 중에도 안정적인 보호 성능을 제공합니다."
+                },
+                {
+                icon: "☔",
+                title: "방수·방진 구조",
+                value: "IP65",
+                desc: "특수 실팅 구조로 외부의 물과 먼지로부터 장비를 안전하게 보호합니다."
+                },
+                {
+                icon: "⚙️",
                 title: "자동 압력 조절 밸브",
                 value: "압력 자동 조절",
                 desc: "내부 압력을 자동으로 조절하여 기압 변화시에도 안정적인 상태를 유지합니다."
@@ -1352,9 +1448,9 @@ const productData = {
     },
 
     "9000se": {
-        title: "이중화 서버<br>워크스테이션",
+        title: "물리적 안전함과 논리적 편리함의 만남<br> 완벽한 보안의 시작",
 
-        desc: "Anti-Vibration Kit & Mounting Kit",
+        desc: "Physical Security, Logical Ease.<br>The Ultimate Start to Absolute Protection.",
 
         model: "9000SE",
 
@@ -1371,26 +1467,36 @@ const productData = {
         ],
 
         hero: {
-            title: `극한 환경에서<br>장비를 보호하다`,
-            desc: `대형 장비 및 정밀 기기를 위한 전문 보호 케이스입니다.<br> 충격,습기,온도 변화로부터 장비를 안전하게 보호하고<br> 어떤 환경에서도 안정적인 운용을 지원합니다. `,
-            icon: "⚒",
-            specTitle: "강한 내구성",
-            specDesc: "고강도 폴리프로필렌 소재로 충격과진동, 극한 환경에서도<br> 높은 내구성을 자랑합니다.",
+            title: `물리적 보안과 논리적 보안의 완벽한 조화`,
+            desc: `주요 도입 분야 (Target Markets)<br>
+                <strong>*금융 (Finance)</strong>
+                은행, 증권, 보험사 본점 및 대규모 고객·콜센터 <br>
+                <strong>*공공·국방 (Public & Defense)</strong>
+                정부 부처, 지자체, 군 기관 및 국책 연구소<br>
+                <strong>*국가 기반시설 (Infrastructure) </strong>
+                발전소, 에너지 공기업, 종합 관제 센터(교통·항만·철도)<br>
+                <strong>*의료 (Healthcare)</strong>
+                종합병원 진료실 및 의료정보(EMR) 시스템 운영 부서
+                <strong>*첨단 기술·제조 (Enterprise)</strong>
+                대기업 연구소, 방산 기업, 소스코드 보안이 필수적인 IT 개발사`,
+            icon: "🛡️",
+            specTitle: "논리적 보안",
+            specDesc: "암호화 및 접근 제어 기반의 보안 체계를 통해 데이터와 시스템을 안전하게 보호합니다.",
             img: "../img/9000SE.png"
         },
 
         design: {
             img: "../img/9000SE-l.png",
             title: `넓은 내부 공간<br>더 높은 활용성`,
-            desc: `넉넉한 내부공간으로 다양한 장비와 액세서리를 효율적으로 수납할 수 있습니다. 맞춤형 품 구성으로 장비를 안전하게 고정하여 운반할 수 있습니다.`,
+            desc: `<strong>2U 단일 섀시, 독립형 듀얼 보드</strong>2U 랙 사이즈 하나에 전원 및 시스템이 독립된 2대의 보드를 장착하여, 하드웨어 레벨의 완벽한 격리와 이중화를 동시에 달성합니다.<strong>획기적인 공간 및 비용 절감 (High Density)</strong>기존 랙 공간 차지율을 50% 이상 줄여 전산실 및 관제 센터의 랙 상단 공간 활용도를 극대화합니다.<strong>단일 장애점(SPOF) 제로</strong>한쪽 보드나 네트워크에 장애가 발생해도, 독립된 다른 한쪽 보드가 중단 없는 업무 연속성(Business Continuity)을 유지합니다.<strong>고밀도 미션 크리티컬 설계</strong>발열과 전력 효율을 극대화한 산업용 설계로 365일 24시간 가동되는 종합 관제 및 재난 대응 환경에 최적화되어 있습니다.`,
             specs: [
                 {
-                    title: "용량",
-                    items: ["내부크기 1080x620x400", "외부크기 1178x718x427", "대용량 공간 260L"]
+                    title: "특징",
+                    items: ["2U 단일 섀시, 독립형 듀얼 보드", "획기적인 공간 및 비용 절감"]
                 },
                 {
-                    title: "내용필요",
-                    items: ["내용 필요", "내용 필요"]
+                    title: "특징",
+                    items: ["단일 장애점(SPOF) 제로", "고밀도 미션 크리티컬 설계"]
                 }
             ]
         },
@@ -1427,8 +1533,8 @@ const productData = {
         },
 
         specTable: [
-            ["디스플레이", '43" 4k UHD (3840 × 2160)'],
-            ["밝기", "500 nits"],
+            ["MODEL", 'CI870AW'],
+            ["CPU", "Intel® Core™ Ultra 7/5 Series (Arrow Lake-S) processors"],
             ["시야각", "178° (H) / 178° (V)"],
             ["입력단자", "HDMI, USB, LAN, 전원 입력"],
             ["전원", "AC 100~240V"],
