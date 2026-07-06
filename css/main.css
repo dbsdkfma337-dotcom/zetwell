@@ -191,6 +191,151 @@ body {
     text-align: center;
 }
 
+/* 반응형 */
+
+/* 햄버거 버튼 기본 숨김 */
+#header .menu-btn {
+    display: none;
+    width: 34px;
+    height: 28px;
+    background: none;
+    border: 0;
+    cursor: pointer;
+    padding: 0;
+}
+
+#header .menu-btn span {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    margin: 7px 0;
+    transition: 0.3s;
+}
+
+/* 모바일 / 태블릿 */
+@media (max-width: 1024px) {
+    #header {
+        padding: 16px 24px;
+    }
+
+    #header .logo img {
+        width: 130px;
+    }
+
+    #header .gnb-area {
+        gap: 0;
+        margin-left: auto;
+    }
+
+    #header .menu-btn {
+        display: block;
+        z-index: 1001;
+    }
+
+    #header .gnb {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 78%;
+        max-width: 360px;
+        height: 100vh;
+        background: rgba(22, 22, 22, 0.98);
+        padding: 90px 28px 40px;
+        transition: right 0.35s ease;
+        z-index: 1000;
+        overflow-y: auto;
+    }
+
+    #header.mobile-open .gnb {
+        right: 0;
+    }
+
+    #header .gnb-list {
+        display: block;
+        text-align: left;
+    }
+
+    #header .gnb-item {
+        min-width: auto;
+        border-bottom: 1px solid rgba(255,255,255,0.18);
+    }
+
+    #header .gnb-item > a {
+        display: block;
+        padding: 18px 0;
+        font-size: 18px;
+    }
+
+    #header .depth2 {
+        position: static;
+        width: 100%;
+        padding: 0 0 14px 12px;
+        opacity: 1;
+        visibility: visible;
+        transform: none;
+        display: none;
+        transition: none;
+    }
+
+    #header .gnb-item.active .depth2 {
+        display: block;
+    }
+
+    #header .depth2 a {
+        display: block;
+        text-align: left;
+        font-size: 15px;
+        padding: 8px 0;
+        color: rgba(255,255,255,0.8);
+    }
+
+    #header .sub-bg {
+        display: none;
+    }
+
+    #header.open .depth2 {
+        opacity: 1;
+        visibility: visible;
+        transform: none;
+    }
+
+    #header:hover {
+        background: transparent;
+    }
+
+    #header.mobile-open {
+        background: rgba(22, 22, 22, 0.95);
+    }
+
+    .lang {
+        margin-left: 18px;
+    }
+
+    .lang .lang-btn img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .lang .lang-list {
+        top: 38px;
+        right: 0;
+    }
+
+    /* 햄버거 X 모양 */
+    #header.mobile-open .menu-btn span:nth-child(1) {
+        transform: translateY(9px) rotate(45deg);
+    }
+
+    #header.mobile-open .menu-btn span:nth-child(2) {
+        opacity: 0;
+    }
+
+    #header.mobile-open .menu-btn span:nth-child(3) {
+        transform: translateY(-9px) rotate(-45deg);
+    }
+}
+
 .quick-contact {
     position: fixed;
     right: 50px;
@@ -298,7 +443,77 @@ body {
     font-weight: 400;
 }
 
-/* mission */
+/* 상품 5개 hover */
+.product-visual {
+    position: relative;
+    height: 100vh;
+    min-height: 720px;
+    background-image: url("../img/UK2000-bg.png");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    overflow: hidden;
+    transition: none;
+}
+
+.product-visual::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,.45);
+    z-index: 1;
+}
+
+.product-copy {
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index: 2;
+}
+
+.product-copy span {
+    display: block;
+    margin-bottom: 16px;
+    color: #e60012;
+    font-weight: 700;
+}
+
+.product-copy h2 {
+    font-size: 56px;
+    font-weight: 800;
+}
+
+.product-menu {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.product-menu li {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255,255,255,.35);
+    font-size: 20px;
+    font-weight: 700;
+    border-left: 1px solid rgba(255,255,255,.15);
+    cursor: pointer;
+    transition: .1s;
+}
+
+.product-menu li:hover,
+.product-menu li.active {
+    color: #fff;
+}
+
+/* 카드3개 */
 .maincontent1 {
     width: 100%;
     padding: 180px 20px 200px;
@@ -436,7 +651,7 @@ body {
     letter-spacing: -1px;
 }
 
-.ms-card-light .mv-text p {
+.ms-card-light .ms-text p {
     color: rgba(255, 255, 255, 0.82);
 }
 
@@ -470,73 +685,161 @@ body {
     font-size: 15px;
 }
 
-.product-visual {
-    position: relative;
-    height: 100vh;
-    min-height: 720px;
-    background-image: url("../img/tablet-bg.jpg");
-    background-size: cover;
-    background-position: center;
-    color: #fff;
-    overflow: hidden;
-    transition: none;
+/* maincontent1 responsive */
+@media (max-width: 1280px) {
+    .maincontent1 {
+        padding: 140px 24px 160px;
+    }
+
+    .maincontent1-inner {
+        gap: 32px;
+    }
+
+    .ms-card {
+        width: 32%;
+        padding: 50px 34px;
+    }
+
+    .ms-text h3 {
+        font-size: 28px;
+    }
+
+    .ms-text strong {
+        font-size: 20px;
+    }
+
+    .ms-text p {
+        font-size: 16px;
+    }
 }
 
-.product-visual::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(0,0,0,.45);
-    z-index: 1;
+@media (max-width: 1024px) {
+    .maincontent1 {
+        padding: 120px 24px 140px;
+    }
+
+    .maincontent1 h2 {
+        font-size: 40px;
+    }
+
+    .maincontent1 > h3 {
+        font-size: 18px;
+        margin: 16px 0 90px;
+    }
+
+    .maincontent1-inner {
+        flex-wrap: wrap;
+        align-items: stretch;
+        gap: 28px;
+    }
+
+    .ms-card {
+        width: calc(50% - 14px);
+    }
+
+    .ms-card-light {
+        margin-top: 0;
+    }
+
+    .mv-img {
+        max-width: 100%;
+    }
 }
 
-.product-copy {
-    position: absolute;
-    top: 18%;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-    z-index: 2;
+@media (max-width: 768px) {
+    .maincontent1 {
+        padding: 90px 18px 100px;
+    }
+
+    .maincontent1 h2 {
+        font-size: 32px;
+        letter-spacing: -1px;
+    }
+
+    .maincontent1 > h3 {
+        font-size: 16px;
+        margin: 14px 0 60px;
+    }
+
+    .maincontent1 > h3 br {
+        display: none;
+    }
+
+    .maincontent1-inner {
+        display: block;
+    }
+
+    .ms-card {
+        width: 100%;
+        max-width: 420px;
+        margin: 0 auto 28px;
+        padding: 44px 30px;
+        border-radius: 24px;
+    }
+
+    .ms-card-light {
+        margin-top: 0;
+    }
+
+    .ms-text h3 {
+        font-size: 28px;
+    }
+
+    .ms-text strong {
+        font-size: 19px;
+        margin-bottom: 18px;
+    }
+
+    .ms-text p {
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+    .box-area {
+        gap: 14px;
+    }
+
+    .box-area .mini-box {
+        width: 50%;
+    }
 }
 
-.product-copy span {
-    display: block;
-    margin-bottom: 16px;
-    color: #e60012;
-    font-weight: 700;
-}
+@media (max-width: 480px) {
+    .maincontent1 {
+        padding: 70px 25px 80px;
+    }
 
-.product-copy h2 {
-    font-size: 56px;
-    font-weight: 800;
-}
+    .maincontent1 h2 {
+        font-size: 27px;
+    }
 
-.product-menu {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    z-index: 2;
-    display: flex;
-    width: 100%;
-    height: 100%;
-}
+    .maincontent1 > h3 {
+        font-size: 15px;
+    }
 
-.product-menu li {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgba(255,255,255,.35);
-    font-size: 20px;
-    font-weight: 700;
-    border-left: 1px solid rgba(255,255,255,.15);
-    cursor: pointer;
-    transition: .1s;
-}
+    .ms-card {
+        padding: 36px 24px;
+    }
 
-.product-menu li:hover,
-.product-menu li.active {
-    color: #fff;
+    .ms-text h3 {
+        font-size: 25px;
+    }
+
+    .ms-text strong {
+        font-size: 17px;
+    }
+
+    .ms-text p {
+        font-size: 15px;
+    }
+
+    .box-area {
+        flex-direction: column;
+    }
+
+    .box-area .mini-box {
+        width: 100%;
+    }
 }
 
 .footer {

@@ -1807,9 +1807,9 @@ const productData = {
     },
 
     "s1388eng": {
-        title: "지령대의 효율적인 디스패쳐 워크스테이션",
+        title: "Gooroom Platform Dedicated Computer",
 
-        desc: "Efficient Dispatcher Workstation for Command Centers",
+        desc: "Gooroom Desktop",
 
         model: "S1388",
 
@@ -1825,76 +1825,84 @@ const productData = {
         ],
 
         hero: {
-            title: `지령대의 효율적인<br>디스패쳐 워크스테이션`,
-            desc: `S1388 (H9 Dispatcher Workstation)은 모든 상황실에 이상적인 고성능 산업용 워크스테이션입니다. 비디오 방송과 같은 CPU 집약적인 근무 환경에서도 최고 사양을 발휘할 수 있도록 설계되었으며, 13세대 Intel® Core™ 프로세서 기반의 강력하고 무소음 냉각 시스템으로 지령 환경에 최적화된 견고한 솔루션을 제공합니다. `,
-            icon: "⚒",
-            specTitle: "13세대 강력한 성능",
-            specDesc: "Intel® 13th Gen Raptor Lake-P/U i7 Pentium CPU 기반의 강력한 지령 장치",
+            title: `An Efficient Dispatcher Workstation<br>for Command & Control Centers`,
+            desc: `The S1388 (H9 Dispatcher Workstation) is a high-performance industrial workstation designed for all types of command and control centers. Built to deliver outstanding performance even in CPU-intensive environments such as video broadcasting, it is powered by a 13th Gen Intel® Core™ processor and features a powerful, ultra-quiet cooling system. Optimized for dispatcher operations, it provides a robust and reliable solution for mission-critical command and control environments.`,
+            icon: "🚀",
+            specTitle: "13th Gen Performance",
+            specDesc: "Powerful Dispatcher Workstation Powered by Intel® 13th Gen Raptor Lake-P/U i7 & Pentium Processors",
             img: "../img/S1388.png"
         },
 
         design: {
             img: "../img/S1388-r.png",
-            title: `맞춤형 <br>사운드장치 솔루션`,
-            desc: `물리적 연동 (USB, 시리얼, IP통신을 이용하지 않는 GPIO 접점)을 통해 상호 교차 보안 위반을 제거하며 헤드셋을 구현합니다. 헤드셋 제어장치와 통합 제어 장치 간의 물리적 연동 및 MCU 콘트롤을 통해 헤드셋의 분리/통합을 자유롭게 운용할 수 있습니다. 분리형 미디어 장치를 통한 사운드 제어 기능과 별도 부착용 8W 스피커 장치 4대까지 확장이 가능합니다.`,
+            title: `Gooroom OS`,
+            desc: `Based on the Debian open-source operating system, it provides the foundation for the Gooroom Platform, enabling a secure computing environment. It minimizes the attack surface by including only essential software required for cloud-based operations and supports integration with the Gooroom Platform, featuring a built-in security framework and centralized Gooroom management.`,
             specs: [
                 {
-                    title: "주요 특징",
-                    items: ["무소음 냉각", "전원 및 회선 이중화","다중 모니터 지원"]
+                    title: "Key Features",
+                    items: ["Silent Cooling", "Power & Line Redundancy","Multi-Monitor Support"]
                 },
                 {
-                    title: "주요 특징",
-                    items: ["통합 음성 통신", "디지털 공청","정확한 제어"]
+                    title: "Key Features",
+                    items: ["Integrated Voice Communication", "Digital Public Address (PA)","Precise Control"]
                 }
             ]
         },
 
         photos: [
             "../img/s1388-bg.png",
-            "../img/43IG2.png",
-            "../img/43IG3.png",
-            "../img/43IG4.png"
+            "../img/s1388-bg2.png",
+            "../img/s1388-bg3.png",
+            "../img/s1388-bg4.png"
         ],
 
         rugged: {
-            title: `그 어떤 환경에서도 살아남는,<br>강력한 보호성능`,
+            title: `4-Layer Security Protection<br>Provides enhanced security through four-layer protection<br> Secure Boot, Operating System Protection, Executable File Protection, and Browser Protection.`,
             cards: [
                 {
                 icon: "🔒",
-                title: "무소음 냉각",
-                value: "팬리스 형태",
-                desc: "맞춤형 발열 구조를 갖춰 지령 환경에 최적화된 무소음 워크스테이션."
+                title: "Secure Boot",
+                value: "Security",
+                desc: "Performs integrity verification of the bootloader and kernel, blocking the Gooroom Platform from booting if the system has been tampered with by malicious attacks."
                 },
                 {
-                icon: "☔",
-                title: "다중 모니터 지원",
-                value: "3대",
-                desc: "최대 3대의 모니터 연결 포트 제공."
+                icon: "🛡️",
+                title: "Operating System Protection",
+                value: "Security",
+                desc: "Dynamic kernel protection technology detects malicious attempts to modify the running kernel from a higher privilege level (hypervisor)."
                 },
                 {
-                icon: "✇",
-                title: "극한 환경 대응",
-                value: "-40°C - 70°",
-                desc: "-40°C ~ 70°C의 운용 온도를 지원하는 산업용 적용 (KOLAS 시험성적서 기반 -20°C ~ 60°C)."
+                icon: "🔒",
+                title: "Executable File Protection",
+                value: "Integrity Verification",
+                desc: "Performs integrity verification of executable files to prevent unauthorized or malicious programs from running, even if they are introduced into the system."
+                },
+                {
+                icon: "🛡️",
+                title: "Browser Protection",
+                value: "Security Policy Enforcement",
+                desc: "Provides isolated trusted and untrusted browser environments based on the access destination, enabling differentiated security policies for enhanced protection."
                 }
             ]
         },
 
+        badgeImg: "../img/samsung-sticker.png",
+
         specTable: [
             ["Model", 'S1388 Dispatcher Workstation'],
             ["CPU", "Intel® 13th Gen Raptor Lake-P/ Raptor Lake-U i7 Pentium CPU"],
-            ["그래픽", "Intel Iris Xe Graphics"],
-            ["메모리", "2 x DDR5 4800 MHz SODIMM, Max 64GB"],
-            ["저장장치", "1 x M.2 B key Type 3042 (SATA) 512GB"],
+            ["Graphics", "Intel Iris Xe Graphics"],
+            ["Memory", "2 x DDR5 4800 MHz SODIMM, Max 64GB"],
+            ["Storage", "1 x M.2 B key Type 3042 (SATA) 512GB"],
             ["BIOS", "AMI UEFI BIOS"],
-            ["디스플레이", "2 x HDMI, 1 x RGB"],
+            ["Display", "2 x HDMI, 1 x RGB"],
             ["LAN", "5 x Intel 2.5GbE I226-IT (external)"],
-            ["운용 OS", "구름 3.0 이상 (신뢰부팅 제공)"],
-            ["전원 이중화", "전원 이중화 (기본제공)"],
-            ["전원", "DC IN +9~36V (84W Power Adapter, 12V/7A)"],
-            ["운용 온도", "-40°C ~ 70°C (-20°C ~ 60°C KOLAS 시험성적서)"],
-            ["크기", "236W x 172.6D x 82H mm"],
-            ["보관 온도", "-40°C ~ 70°C"]
+            ["Operating OS", "Gooroom 3.0 or Later (Supports Secure Boot)"],
+            ["Power Redundancy", "Power Redundancy (Standard)"],
+            ["Power", "DC IN +9~36V (84W Power Adapter, 12V/7A)"],
+            ["Operating Temperature", "-40°C ~ 70°C (-20°C ~ 60°C KOLAS Test Report)"],
+            ["Dimensions", "236W x 172.6D x 82H mm"],
+            ["Storage Temperature", "-40°C ~ 70°C"]
         ]
     },
 
