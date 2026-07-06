@@ -195,9 +195,9 @@ const productData = {
         visualImg: "../img/43MG-bg.png",
 
         sliderImages: [
-            "../img/43IG-h.png",
-            "../img/43IG-r.png",
-            "../img/43IG.png"
+            "../img/43MG-h.png",
+            "../img/43MG-r.png",
+            "../img/43MG.png"
         ],
 
         hero: {
@@ -206,11 +206,11 @@ const productData = {
             icon: "🔩",
             specTitle: "강한 내구성",
             specDesc: "고강도 폴리프로필렌 소재로 충격과진동, 극한 환경에서도<br> 높은 내구성을 자랑합니다.",
-            img: "../img/43IG-L.png"
+            img: "../img/43MG-L.png"
         },
 
         design: {
-            img: "../img/43IG-h.png",
+            img: "../img/43MG-h.png",
             title: `넓은 내부 공간<br>더 높은 활용성`,
             desc: `넉넉한 내부공간으로 다양한 장비와 액세서리를 효율적으로 수납할 수 있습니다. 맞춤형 품 구성으로 장비를 안전하게 고정하여 운반할 수 있습니다.`,
             specs: [
