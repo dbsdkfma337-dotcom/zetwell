@@ -549,7 +549,7 @@ const productData = {
     "zw5000n": {
         title: "Advanced Edge AI for Diverse",
 
-        desc: "Intel® Core™ Ultra with Intel® W880/Q870 chipset<br>NVIDIA RTX PRO 4000 Blackwell",
+        desc: "Intel® Core™ Ultra with Intel® W880/Q870 chipset<br>NVIDIA RTX PRO 5000 Blackwell",
 
         model: "ZW5000N",
 
@@ -569,7 +569,7 @@ const productData = {
             icon: "🧠",
             specTitle: "AI 프로세서 지원",
             specDesc: "Intel® Core™ Ultra와 NPU 기반의 고성능 AI 연산 및 저전력 처리",
-            img: "../img/WSR213-r2.png"
+            img: "../img/zw5000-nvid.png"
         },
 
         design: {
@@ -620,7 +620,7 @@ const productData = {
         },
 
         specTable: [
-            ["MODEL", '3I140DW'],
+            ["MODEL", 'ZW5000N'],
             ["CPU", "Intel® Core™ Ultra 7/5 Series processors (Meteor Lake-U/H) (Arrow Lake-U/H)"],
             ["Chipset", "Intel® Arc™ graphics ; Intel® UHD Graphics"],
             ["System Memory", "2 x DDR5 SODIMM, Max 64GB"],
@@ -663,7 +663,7 @@ const productData = {
             icon: "🧠",
             specTitle: "AI 프로세서 지원",
             specDesc: "Intel® Core™ Ultra와 NPU 기반의 고성능 AI 연산 및 저전력 처리",
-            img: "../img/WSR213-r2.png"
+            img: "../img/zw5000-nvid.png"
         },
 
         design: {
@@ -714,7 +714,7 @@ const productData = {
         },
 
         specTable: [
-            ["MODEL", '3I140DW'],
+            ["MODEL", 'ZW5000N'],
             ["CPU", "Intel® Core™ Ultra 7/5 Series processors (Meteor Lake-U/H) (Arrow Lake-U/H)"],
             ["Chipset", "Intel® Arc™ graphics ; Intel® UHD Graphics"],
             ["System Memory", "2 x DDR5 SODIMM, Max 64GB"],
@@ -757,7 +757,7 @@ const productData = {
             icon: "🧠",
             specTitle: "AI 프로세서 지원",
             specDesc: "Intel® Core™ Ultra와 NPU 기반의 고성능 AI 연산 및 저전력 처리",
-            img: "../img/WSR213-r2.png"
+            img: "../img/zw4000-nvid.png"
         },
 
         design: {
@@ -808,7 +808,7 @@ const productData = {
         },
 
         specTable: [
-            ["MODEL", '3I140DW'],
+            ["MODEL", 'ZW4000N'],
             ["CPU", "Intel® Core™ Ultra 7/5 Series processors (Meteor Lake-U/H) (Arrow Lake-U/H)"],
             ["Chipset", "Intel® Arc™ graphics ; Intel® UHD Graphics"],
             ["System Memory", "2 x DDR5 SODIMM, Max 64GB"],
@@ -851,7 +851,7 @@ const productData = {
             icon: "🧠",
             specTitle: "AI 프로세서 지원",
             specDesc: "Intel® Core™ Ultra와 NPU 기반의 고성능 AI 연산 및 저전력 처리",
-            img: "../img/WSR213-r2.png"
+            img: "../img/zw2000-nvid.png"
         },
 
         design: {
@@ -902,7 +902,7 @@ const productData = {
         },
 
         specTable: [
-            ["MODEL", '3I140DW'],
+            ["MODEL", 'ZW2000N'],
             ["CPU", "Intel® Core™ Ultra 7/5 Series processors (Meteor Lake-U/H) (Arrow Lake-U/H)"],
             ["Chipset", "Intel® Arc™ graphics ; Intel® UHD Graphics"],
             ["System Memory", "2 x DDR5 SODIMM, Max 64GB"],
@@ -1557,7 +1557,7 @@ const productData = {
         },
 
         specTable: [
-            ["MODEL", 'CI870AW'],
+            ["MODEL", '9000SE'],
             ["CPU", "Intel® Core™ Ultra 7/5 Series (Arrow Lake-S) processors"],
             ["MB Chipset", "Intel® Q870"],
             ["Graphics", "Intel® UHD Graphics"],
@@ -1664,7 +1664,7 @@ const productData = {
         },
 
         specTable: [
-            ["MODEL", 'CI870AW'],
+            ["MODEL", '9000SE'],
             ["CPU", "Intel® Core™ Ultra 7/5 Series (Arrow Lake-S) processors"],
             ["MB Chipset", "Intel® Q870"],
             ["Graphics", "Intel® UHD Graphics"],
@@ -2060,7 +2060,7 @@ const productData = {
     },
 
     "s1519h": {
-        title: "AI 추론을 수행하는 시스템",
+        title: "듣는 무전에서 보는 무전으로 <br> AI 기반 무전교신 자동 텍스트 변환(STT)",
 
         desc: " Dispatcher Workstation",
 
@@ -2079,7 +2079,7 @@ const productData = {
 
         hero: {
             title: `강력한 AI 처리 성능<br> (GPU / NPU 탑재)`,
-            desc: `GPU를 탑재하여 LLM(대규모 언어 모델)을 포함한 복잡한 AI 연산을 효율적으로 수행합니다. NPU 장치의 경우 병렬로 구성하여 더욱 빠른 속도를 체감할 수 있습니다. NVIDIA RTX 2000 Ada Generation D6 16GB부터 시작하며, 더 높은 사양의 GPU까지 옵션으로 지원하여 요구되는 AI 워크로드에 완벽하게 대응합니다. 또한 Hailo-10H AI Accelerator를 통해 탁월한 AI 가속을 제공합니다.`,
+            desc: `GPU를 탑재하여 LLM(대규모 언어 모델)을 포함한 복잡한 AI 연산을 효율적으로 수행합니다. NPU 장치의 경우 병렬로 구성하여 더욱 빠른 속도를 체감할 수 있습니다. NVIDIA RTX 2000 Ada Generation D6 16GB부터 시작하며, 더 높은 사양의 GPU까지 옵션으로 지원하여 요구되는 AI 워크로드에 완벽하게 대응합니다. 또한 Hailo-10H AI Accelerator를 통해 탁월한 AI 가속을 제공합니다.(선택옵션)`,
             icon: "",
             specTitle: "NPU가 탑재된 Intel® Core™ Ultra 기반으로<br>엣지 AI 추론 수행",
             specDesc: "S1517H / 1519H는 NPU가 탑재된 Intel® Core™ Ultra 기반으로 엣지에서 직접 AI 추론을 수행하며, 선택 사양인 NVIDIA® 개별 PCIe GPU를 통해 머신 비전, 지령AI 등에서 연산 성능을 확장할 수 있는 고성능 AI 관제 시스템입니다.",
@@ -2256,12 +2256,13 @@ const productData = {
 
         visualImg: "../img/eph-bg.png",
 
-        koLink: "./Productdetail.html?product=zw5000m",
-        engLink: "./Productdetail-eng.html?product=zw5000m",
+        koLink: "./Productdetail.html?product=ze5000m",
+        engLink: "./Productdetail-eng.html?product=ze5000m",
 
         sliderImages: [
             "../img/eph.png",
-            "../img/eph10-r.png"
+            "../img/eph10-r.png",
+            "../img/eph-1.png",
         ],
 
         hero: {
@@ -2274,7 +2275,7 @@ const productData = {
         },
 
         design: {
-            img: "../img/zw5000m.png",
+            img: "../img/eph-1.png",
             title: `<div class="title-sm">고성능 x86 CPU의 연산력과 유연한 하드웨어<br> AI 가속 성능을 결합한 AI엣지 컴퓨팅의 최적 솔루션</div>`,
             desc: `<div class="desc-item"><strong>최대 64GB DDR5 시스템 메모리 지원</strong> : GPU VRAM이 부족할 때, 오디오 스트리밍 데이터 처리나 덜 빈번하게 쓰이는 RAG(검색 증강 생성)용 벡터 데이터베이스, TTS 음원 DB 등을 고속 DDR5 시스템 메모리에 상주시켜 메인 CPU와 GPU 간의 데이터 병목을 줄여줍니다.</div><div class="desc-item"><strong>강력한 x86 호스트 CPU (최대 125W TDP)</strong> : GPU가 LLM에 집중하는 동안 인텔 CPU의 iGPU(Intel UHD 770)나 CPU 코어 자체 연산력을 활용해 STT/TTS 오디오 전처리를 분담할 수 있습니다.</div><div class="desc-item"><strong>다중 LAN 포트 (5x 2.5G RJ45)</strong> : 네트워크 병목이나 패킷 손실 없이 안정적으로 수신하고 제어 신호를 분리하기에 물리적으로 매우 유리합니다.</div>`,
             specs: [
@@ -2356,7 +2357,7 @@ const productData = {
             icon: "📟",
             specTitle: "MXM-GPU",
             specDesc: "산업용 보드/모듈 NVIDIA RTX PRO 4000 Blackwell Generation Embedded GPU/Type B",
-            img: "../img/ze5000m.png"
+            img: "../img/ze4000m.png"
         },
 
         design: {
@@ -2407,6 +2408,11 @@ const productData = {
         },
 
         specTable: [
+            ["CPU", 'Intel LGA1700 Socket Alder Lake-S processors Support up to 125W processor'],
+            ["Chipset", 'Intel® Q670E Chipset'],
+            ["GPU Card (Optional)", 'NVIDIA Blackwell'],
+            ["System Memory", 'DDR5 SO-DIMM up to 32GB / Per DIMM, up to 4800MHz / 64G'],
+            ["Graphics", 'Controller: Intel UHD Graphics 770 driven by Xe Architecture'],
             ["GPU Architecture", 'NVIDIA Blackwell'],
             ["Graphics Processing Unit", "NVIDIA RTX PRO™ 5000 Blackwell Generation Embedded GPU"],
             ["NVIDIA CUDA Cores", "Intel Iris Xe Graphics"],
@@ -2441,11 +2447,11 @@ const productData = {
             icon: "📟",
             specTitle: "MXM-GPU",
             specDesc: "산업용 보드/모듈 NVIDIA RTX PRO 2000 Blackwell Generation Embedded GPU/Type B",
-            img: "../img/ze5000m.png"
+            img: "../img/ze2000m.png"
         },
 
         design: {
-            img: "../img/zw5000m.png",
+            img: "../img/eph-1.png",
             title: `<div class="title-sm">고성능 x86 CPU의 연산력과 유연한 하드웨어<br> AI 가속 성능을 결합한 AI엣지 컴퓨팅의 최적 솔루션</div>`,
             desc: `<div class="desc-item"><strong>최대 64GB DDR5 시스템 메모리 지원</strong> : GPU VRAM이 부족할 때, 오디오 스트리밍 데이터 처리나 덜 빈번하게 쓰이는 RAG(검색 증강 생성)용 벡터 데이터베이스, TTS 음원 DB 등을 고속 DDR5 시스템 메모리에 상주시켜 메인 CPU와 GPU 간의 데이터 병목을 줄여줍니다.</div><div class="desc-item"><strong>강력한 x86 호스트 CPU (최대 125W TDP)</strong> : GPU가 LLM에 집중하는 동안 인텔 CPU의 iGPU(Intel UHD 770)나 CPU 코어 자체 연산력을 활용해 STT/TTS 오디오 전처리를 분담할 수 있습니다.</div><div class="desc-item"><strong>다중 LAN 포트 (5x 2.5G RJ45)</strong> : 네트워크 병목이나 패킷 손실 없이 안정적으로 수신하고 제어 신호를 분리하기에 물리적으로 매우 유리합니다.</div>`,
             specs: [
@@ -2492,6 +2498,11 @@ const productData = {
         },
 
         specTable: [
+            ["CPU", 'Intel LGA1700 Socket Alder Lake-S processors Support up to 125W processor'],
+            ["Chipset", 'Intel® Q670E Chipset'],
+            ["GPU Card (Optional)", 'NVIDIA Blackwell'],
+            ["System Memory", 'DDR5 SO-DIMM up to 32GB / Per DIMM, up to 4800MHz / 64G'],
+            ["Graphics", 'Controller: Intel UHD Graphics 770 driven by Xe Architecture'],
             ["GPU Architecture", 'NVIDIA Blackwell'],
             ["Graphics Processing Unit", "NVIDIA RTX PRO™ 5000 Blackwell Generation Embedded GPU"],
             ["NVIDIA CUDA Cores", "Intel Iris Xe Graphics"],

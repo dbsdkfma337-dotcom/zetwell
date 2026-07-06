@@ -365,7 +365,7 @@ const productData = {
             {
             category: "Zetstation-CSTM시리즈",
             name: "S1519H",
-            desc: "엣지에서 직접 AI 추론을 수행하는 시스템",
+            desc: "지령대용 AI 워크스테이션",
             img: "../img/S1519H.png",
             alt: "S1519H",
             link: "./Productdetail.html?product=s1519h"
