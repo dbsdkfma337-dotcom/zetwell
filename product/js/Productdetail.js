@@ -285,32 +285,32 @@ const productData = {
         visualImg: "../img/43MG-bg.png",
 
         sliderImages: [
-            "../img/43IG-h.png",
-            "../img/43IG-r.png",
-            "../img/43IG.png"
+            "../img/43MG-h.png",
+            "../img/43MG-r.png",
+            "../img/43MG.png"
         ],
 
         hero: {
-            title: `극한 환경에서<br>장비를 보호하다`,
-            desc: `대형 장비 및 정밀 기기를 위한 전문 보호 케이스입니다.<br> 충격,습기,온도 변화로부터 장비를 안전하게 보호하고<br> 어떤 환경에서도 안정적인 운용을 지원합니다. `,
+            title: `Protecting Equipment in Extreme Environments`,
+            desc: `A professional protective case designed for large equipment and precision instruments.<br> It safely protects equipment from shock, moisture, and temperature fluctuations,<br> ensuring reliable operation in any environment. `,
             icon: "🔩",
-            specTitle: "강한 내구성",
-            specDesc: "고강도 폴리프로필렌 소재로 충격과진동, 극한 환경에서도<br> 높은 내구성을 자랑합니다.",
-            img: "../img/43IG-L.png"
+            specTitle: "High Durability",
+            specDesc: "Made from high-strength polypropylene, it offers exceptional durability against impacts, vibrations, and extreme environments.",
+            img: "../img/43MG-L.png"
         },
 
         design: {
-            img: "../img/43IG-h.png",
-            title: `넓은 내부 공간<br>더 높은 활용성`,
-            desc: `넉넉한 내부공간으로 다양한 장비와 액세서리를 효율적으로 수납할 수 있습니다. 맞춤형 품 구성으로 장비를 안전하게 고정하여 운반할 수 있습니다.`,
+            img: "../img/43MG-h.png",
+            title: `Spacious Interior, Greater Versatility`,
+            desc: `The spacious interior allows for efficient storage of various equipment and accessories. Customizable foam inserts securely hold equipment in place for safe transportation.`,
             specs: [
                 {
-                    title: "크기및용량",
-                    items: ["내부크기 1080x620x400", "외부크기 1178x718x427", "대용량 공간 260L"]
+                    title: "Dimensions & Capacity",
+                    items: ["Internal Dimensions 1080x620x400", "External Dimensions 1178x718x427", "Large Capacity 260L"]
                 },
                 {
-                    title: "이동편의성",
-                    items: ["4 Wheels", "360° 회전 캐스터 적용"]
+                    title: "Mobility",
+                    items: ["4 Wheels", "Equipped with 360° Swivel Casters"]
                 }
             ]
         },
@@ -856,7 +856,7 @@ const productData = {
             icon: "🧠",
             specTitle: "AI Processor Support",
             specDesc: "High-Performance AI Computing and Low-Power Processing Powered by Intel® Core™ Ultra and Integrated NPU",
-            img: "../img/zw5000-nvid.png"
+            img: "../img/zw4000-nvid.png"
         },
 
         design: {
@@ -1046,7 +1046,7 @@ const productData = {
             icon: "🧠",
             specTitle: "AI Processor Support",
             specDesc: "High-Performance AI Computing and Low-Power Processing Powered by Intel® Core™ Ultra and Integrated NPU",
-            img: "../img/zw5000-nvid.png"
+            img: "../img/zw2000-nvid.png"
         },
 
         design: {
@@ -1114,184 +1114,6 @@ const productData = {
             ["Power Input", "Wide Range DC IN +9~36V"],
             ["Operation Temperature<br>(100 % CPU Usage)", "-40°C~70°C(under specific environmental & CPU power consumption conditions)"],
             ["Operation Humidity", "5~95%, non-condensing"]
-        ]
-    },
-
-    "ssr001": {
-        title: "내용필요",
-
-        desc: "내용필요",
-
-        model: "SSR001",
-
-        visualImg: "../img/43IG-bg.png",
-
-        koLink: "./Productdetail.html?product=ssr001",
-        engLink: "./Productdetail-eng.html?product=ssr001",
-
-        sliderImages: [
-            "../img/43IG-h.png",
-            "../img/43IG-r.png",
-            "../img/43IG.png"
-        ],
-
-        hero: {
-            title: `극한 환경에서<br>장비를 보호하다`,
-            desc: `대형 장비 및 정밀 기기를 위한 전문 보호 케이스입니다.<br> 충격,습기,온도 변화로부터 장비를 안전하게 보호하고<br> 어떤 환경에서도 안정적인 운용을 지원합니다. `,
-            icon: "⚒",
-            specTitle: "강한 내구성",
-            specDesc: "고강도 폴리프로필렌 소재로 충격과진동, 극한 환경에서도<br> 높은 내구성을 자랑합니다.",
-            img: "../img/43IG-L.png"
-        },
-
-        design: {
-            img: "../img/43IG-h.png",
-            title: `넓은 내부 공간<br>더 높은 활용성`,
-            desc: `넉넉한 내부공간으로 다양한 장비와 액세서리를 효율적으로 수납할 수 있습니다. 맞춤형 품 구성으로 장비를 안전하게 고정하여 운반할 수 있습니다.`,
-            specs: [
-                {
-                    title: "용량",
-                    items: ["내부크기 1080x620x400", "외부크기 1178x718x427", "대용량 공간 260L"]
-                },
-                {
-                    title: "내용필요",
-                    items: ["내용 필요", "내용 필요"]
-                }
-            ]
-        },
-
-        photos: [
-            "../img/43IG1.png",
-            "../img/43IG2.png",
-            "../img/43IG3.png",
-            "../img/43IG4.png"
-        ],
-
-        rugged: {
-            title: `그 어떤 환경에서도 살아남는,<br>강력한 보호성능`,
-            cards: [
-                {
-                icon: "🔒",
-                title: "잠금장치",
-                value: "금속 래치 적용",
-                desc: "금속 래치와 잠금 지원 구조로 운송 중에도 안정적인 보호 성능을 제공합니다."
-                },
-                {
-                icon: "☔",
-                title: "방수·방진",
-                value: "IP65",
-                desc: "특수 실팅 구조로 외부의 물과 먼지로부터 장비를 안전하게 보호합니다."
-                },
-                {
-                icon: "✇",
-                title: "자동 압력 조절 밸브",
-                value: "압력 자동 조절",
-                desc: "내부 압력을 자동으로 조절하여 기압 변화시에도 안정적인 상태를 유지합니다."
-                }
-            ]
-        },
-
-        specTable: [
-            ["디스플레이", '43" 4k UHD (3840 × 2160)'],
-            ["밝기", "500 nits"],
-            ["시야각", "178° (H) / 178° (V)"],
-            ["입력단자", "HDMI, USB, LAN, 전원 입력"],
-            ["전원", "AC 100~240V"],
-            ["작동온도", "-20°C ~ 60°C"],
-            ["보관온도", "-30°C ~ 70°C"],
-            ["방진방수", "IP65"],
-            ["외부크기", "1178 x 718 x 427 mm"],
-            ["내부크기", "1080 x 620 x 400 mm"],
-            ["증량", "약 24kg"]
-        ]
-    },
-
-    "ssr001eng": {
-        title: "내용필요",
-
-        desc: "내용필요",
-
-        model: "SSR001",
-
-        visualImg: "../img/43IG-bg.png",
-
-        koLink: "./Productdetail.html?product=ssr001",
-        engLink: "./Productdetail-eng.html?product=ssr001",
-
-        sliderImages: [
-            "../img/43IG-h.png",
-            "../img/43IG-r.png",
-            "../img/43IG.png"
-        ],
-
-        hero: {
-            title: `극한 환경에서<br>장비를 보호하다`,
-            desc: `대형 장비 및 정밀 기기를 위한 전문 보호 케이스입니다.<br> 충격,습기,온도 변화로부터 장비를 안전하게 보호하고<br> 어떤 환경에서도 안정적인 운용을 지원합니다. `,
-            icon: "⚒",
-            specTitle: "강한 내구성",
-            specDesc: "고강도 폴리프로필렌 소재로 충격과진동, 극한 환경에서도<br> 높은 내구성을 자랑합니다.",
-            img: "../img/43IG-L.png"
-        },
-
-        design: {
-            img: "../img/43IG-h.png",
-            title: `넓은 내부 공간<br>더 높은 활용성`,
-            desc: `넉넉한 내부공간으로 다양한 장비와 액세서리를 효율적으로 수납할 수 있습니다. 맞춤형 품 구성으로 장비를 안전하게 고정하여 운반할 수 있습니다.`,
-            specs: [
-                {
-                    title: "용량",
-                    items: ["내부크기 1080x620x400", "외부크기 1178x718x427", "대용량 공간 260L"]
-                },
-                {
-                    title: "내용필요",
-                    items: ["내용 필요", "내용 필요"]
-                }
-            ]
-        },
-
-        photos: [
-            "../img/43IG1.png",
-            "../img/43IG2.png",
-            "../img/43IG3.png",
-            "../img/43IG4.png"
-        ],
-
-        rugged: {
-            title: `그 어떤 환경에서도 살아남는,<br>강력한 보호성능`,
-            cards: [
-                {
-                icon: "🔒",
-                title: "잠금장치",
-                value: "금속 래치 적용",
-                desc: "금속 래치와 잠금 지원 구조로 운송 중에도 안정적인 보호 성능을 제공합니다."
-                },
-                {
-                icon: "☔",
-                title: "방수·방진",
-                value: "IP65",
-                desc: "특수 실팅 구조로 외부의 물과 먼지로부터 장비를 안전하게 보호합니다."
-                },
-                {
-                icon: "✇",
-                title: "자동 압력 조절 밸브",
-                value: "압력 자동 조절",
-                desc: "내부 압력을 자동으로 조절하여 기압 변화시에도 안정적인 상태를 유지합니다."
-                }
-            ]
-        },
-
-        specTable: [
-            ["디스플레이", '43" 4k UHD (3840 × 2160)'],
-            ["밝기", "500 nits"],
-            ["시야각", "178° (H) / 178° (V)"],
-            ["입력단자", "HDMI, USB, LAN, 전원 입력"],
-            ["전원", "AC 100~240V"],
-            ["작동온도", "-20°C ~ 60°C"],
-            ["보관온도", "-30°C ~ 70°C"],
-            ["방진방수", "IP65"],
-            ["외부크기", "1178 x 718 x 427 mm"],
-            ["내부크기", "1080 x 620 x 400 mm"],
-            ["증량", "약 24kg"]
         ]
     },
 
@@ -1793,36 +1615,36 @@ const productData = {
         ],
 
         hero: {
-            title: `물리적 보안과 논리적 보안의 완벽한 조화`,
-            desc: `주요 도입 분야 (Target Markets)<br>
-                <strong>*금융 (Finance)</strong>
-                은행, 증권, 보험사 본점 및 대규모 고객·콜센터 <br>
-                <strong>*공공·국방 (Public & Defense)</strong>
-                정부 부처, 지자체, 군 기관 및 국책 연구소<br>
-                <strong>*국가 기반시설 (Infrastructure) </strong>
-                발전소, 에너지 공기업, 종합 관제 센터(교통·항만·철도)<br>
-                <strong>*의료 (Healthcare)</strong>
-                종합병원 진료실 및 의료정보(EMR) 시스템 운영 부서
-                <strong>*첨단 기술·제조 (Enterprise)</strong>
-                대기업 연구소, 방산 기업, 소스코드 보안이 필수적인 IT 개발사`,
+            title: `The Perfect Harmony of Physical and Logical Security`,
+            desc: `Target Markets<br>
+                    <strong>*Finance</strong>
+                    Banks, securities firms, insurance company headquarters, and large-scale customer service & call centers<br>
+                    <strong>*Public & Defense</strong>
+                    Government agencies, local governments, military organizations, and national research institutes<br>
+                    <strong>*Infrastructure</strong>
+                    Power plants, public energy corporations, and integrated control centers (Transportation · Ports · Railways)<br>
+                    <strong>*Healthcare</strong>
+                    Hospital examination rooms and medical information (EMR) system operations departments<br>
+                    <strong>*Enterprise</strong>
+                    Corporate R&D centers, defense companies, and IT development firms where source code security is essential`,
             icon: "🛡️",
-            specTitle: "논리적 보안",
-            specDesc: "암호화 및 접근 제어 기반의 보안 체계를 통해 데이터와 시스템을 안전하게 보호합니다.",
+            specTitle: "Logical Security",
+            specDesc: "Protects data and systems with an encryption- and access control-based security framework.",
             img: "../img/9000SE.png"
         },
 
         design: {
             img: "../img/9000SE-l.png",
-            title: `넓은 내부 공간<br>더 높은 활용성`,
-            desc: `<strong>2U 단일 섀시, 독립형 듀얼 보드</strong>2U 랙 사이즈 하나에 전원 및 시스템이 독립된 2대의 보드를 장착하여, 하드웨어 레벨의 완벽한 격리와 이중화를 동시에 달성합니다.<strong>획기적인 공간 및 비용 절감 (High Density)</strong>기존 랙 공간 차지율을 50% 이상 줄여 전산실 및 관제 센터의 랙 상단 공간 활용도를 극대화합니다.<strong>단일 장애점(SPOF) 제로</strong>한쪽 보드나 네트워크에 장애가 발생해도, 독립된 다른 한쪽 보드가 중단 없는 업무 연속성(Business Continuity)을 유지합니다.<strong>고밀도 미션 크리티컬 설계</strong>발열과 전력 효율을 극대화한 산업용 설계로 365일 24시간 가동되는 종합 관제 및 재난 대응 환경에 최적화되어 있습니다.`,
+            title: `Spacious Interior<br>Greater Flexibility`,
+            desc: `<strong>2U Single Chassis with Independent Dual Boards</strong>Two independent boards, each with its own power and system, are integrated into a single 2U rack chassis, providing complete hardware-level isolation and redundancy.<strong>Maximized Space & Cost Efficiency (High Density)</strong>Reduces rack space usage by more than 50%, maximizing rack utilization in data centers and control rooms.<strong>Zero Single Point of Failure (SPOF)</strong>Even if one board or network fails, the other independent board continues operating without interruption, ensuring business continuity.<strong>High-Density Mission-Critical Design</strong>Optimized for industrial environments with enhanced thermal efficiency and power optimization, delivering reliable 24/7 operation for integrated control centers and emergency response systems.`,
             specs: [
                 {
-                    title: "특징",
-                    items: ["2U 단일 섀시, 독립형 듀얼 보드", "획기적인 공간 및 비용 절감"]
+                    title: "Features",
+                    items: ["2U Single Chassis with Independent Dual Boards", "Maximized Space & Cost Efficiency"]
                 },
                 {
-                    title: "특징",
-                    items: ["단일 장애점(SPOF) 제로", "고밀도 미션 크리티컬 설계"]
+                    title: "Features",
+                    items: ["Zero Single Point of Failure (SPOF)", "High-Density Mission-Critical Design"]
                 }
             ]
         },
@@ -1835,25 +1657,25 @@ const productData = {
         ],
 
         rugged: {
-            title: `그 어떤 환경에서도 살아남는,<br>강력한 보호성능`,
+            title: `Built to Survive Any Environment<br>Rugged Protection`,
             cards: [
                 {
                 icon: "🔒",
-                title: "잠금장치",
-                value: "금속 래치 적용",
-                desc: "금속 래치와 잠금 지원 구조로 운송 중에도 안정적인 보호 성능을 제공합니다."
+                title: "Secure Locking System",
+                value: "Metal Latches",
+                desc: "Heavy-duty metal latches and a lockable design provide reliable protection during transportation."
                 },
                 {
                 icon: "☔",
-                title: "방수·방진",
-                value: "IP65",
-                desc: "특수 실팅 구조로 외부의 물과 먼지로부터 장비를 안전하게 보호합니다."
+                title: "Waterproof & Dustproof",
+                value: "IP65 Rated",
+                desc: "A specialized sealing structure protects equipment from water and dust, ensuring reliable performance in demanding environments."
                 },
                 {
                 icon: "✇",
-                title: "자동 압력 조절 밸브",
-                value: "압력 자동 조절",
-                desc: "내부 압력을 자동으로 조절하여 기압 변화시에도 안정적인 상태를 유지합니다."
+                title: "Automatic Pressure Equalization Valve",
+                value: "Automatic Pressure Equalization",
+                desc: "Automatically equalizes internal pressure to maintain stable protection during changes in atmospheric pressure."
                 }
             ]
         },
@@ -1930,7 +1752,7 @@ const productData = {
         ],
 
         rugged: {
-            title: `그 어떤 환경에서도 살아남는,<br>강력한 보호성능`,
+            title: `4채널 사운드 개별 처리 <br> 최대 8W 고출력 오디오`,
             cards: [
                 {
                 icon: "🔇",
@@ -1968,7 +1790,7 @@ const productData = {
     },
 
     "s988eng": {
-        title: "4채널 사운드 개별 처리 <br> 최대 8W 고출력 오디오",
+        title: "4-Channel Independent Audio Processing<br>Up to 8W High-Power Audio Output",
 
         desc: "Quad-Channel Independent Audio",
 
@@ -1985,26 +1807,26 @@ const productData = {
         ],
 
         hero: {
-            title: `예민한 환경에서<br>자유로운 설치 가능`,
-            desc: `<strong>공간적 음향 분리 (Spatial Separation)</strong>: 좌/우/전면 등 물리적으로 분산된 4개의 스피커에 서로 다른 무전 채널(예: 소방망, 경찰망, 지자체망, 내부 인터컴)을 각각 독립적으로 할당합니다.<br><strong>직관적인 상황 인지</strong>: 소리가 들려오는 방향만으로 어느 기관, 어느 구역의 무전인지 직관적으로 파악할 수 있어 관제사의 판단 속도를 획기적으로 높입니다.<br><strong>멀티태스킹 관제 최적화</strong>: 동시다발적인 교신 상황에서도 음성이 뭉개지거나 중첩되지 않아 오독과 오청을 완벽하게 방지합니다.`,
+            title: `Flexible Installation<br>for Noise-Sensitive Environments`,
+            desc: `<strong>Spatial Audio Separation</strong>: Four physically separated speakers (left, right, front, etc.) independently assign different communication channels, such as fire, police, local government, and internal intercom networks.<br><strong>Intuitive Situational Awareness</strong>: Operators can instantly identify the source of communication based solely on the direction of the sound, significantly improving response and decision-making speed.<br><strong>Optimized for Multi-Channel Dispatch Operations</strong>: Even during simultaneous communications, voice channels remain clearly separated without overlap, minimizing miscommunication and ensuring accurate monitoring.`,
             icon: "",
-            specTitle: "직관적 상황 인지",
-            specDesc: "채널별 음성을 공간적으로 분리해 직관적인 상황 인지와 신속한 의사결정을 지원",
+            specTitle: "Intuitive Situational Awareness",
+            specDesc: "Spatially separates audio by channel to enable intuitive situational awareness and faster decision-making.",
             img: "../img/S988.png"
         },
 
         design: {
             img: "../img/S988-top.png",
-            title: `현장을 압도하는 최대 8W 고출력 사운드`,
-            desc: `<strong>소음 환경을 뚫고 나오는 명확함</strong>: 소음이 심한 대규모 관제실이나 비상 상황으로 어수선한 현장 지휘소에서도 뭉개짐 없이 웅장하고 또렷한 음성 출력을 보장합니다. <br><strong>저왜곡 디지털 앰프 설계</strong>: 출력을 최대(8W)로 높여도 찢어지는 소리나 노이즈 없이 원음 그대로의 맑고 깨끗한 오디오를 전달하여 장시간 근무하는 관제사의 청각 피로도를 최소화합니다.`,
+            title: `Up to 8W High-Power Audio<br>for Any Environment`,
+            desc: `<strong>Clear Voice Output in Noisy Environments</strong>: Provides powerful and intelligible audio even in large-scale control rooms and emergency command centers with high ambient noise.<br><strong>Low-Distortion Digital Amplifier</strong>: Delivers clean, high-fidelity sound without distortion or noise, even at up to 8W output, reducing operator fatigue during prolonged operation.`,
             specs: [
                 {
-                    title: "특징",
-                    items: ["8세대 Intel® Core™ i7<br> 프로세서 탑재", "무소음 쿨링 시스템"]
+                    title: "Key Features",
+                    items: ["8th Gen Intel® Core™ i7<br>Processor", "Fanless Cooling System"]
                 },
                 {
-                    title: "특징",
-                    items: ["스탠드 및 Rack type 설치<br> 지원", "고효율 전원 관리 시스템"]
+                    title: "Key Features",
+                    items: ["Stand & Rack-Mount<br>Support", "High-Efficiency Power Management System"]
                 }
             ]
         },
@@ -2017,25 +1839,25 @@ const productData = {
         ],
 
         rugged: {
-            title: `그 어떤 환경에서도 살아남는,<br>강력한 보호성능`,
+            title: `4-Channel Independent Audio Processing<br>Up to 8W High-Power Audio Output`,
             cards: [
                 {
                 icon: "🔇",
-                title: "무소음 패시브<br> 쿨링 시스템",
-                value: "완벽한 몰입 완성",
-                desc: "긴박한 교신이 오가는 관제실에서 장비의 팬(Fan) 소음은 관제사의 집중력을 흐리는 적입니다. 본 워크스테이션은 회전하는 냉각팬을 완전히 제거한 혁신적인 무소음 설계로, 오직 현장의 소리에만 온전히 집중할 수 있는 무결점 관제 환경을 제공합니다."
+                title: "Fanless Passive<br>Cooling System",
+                value: "Designed for Maximum Focus",
+                desc: "In mission-critical control rooms, cooling fan noise can interfere with operator concentration. This workstation features a completely fanless passive cooling design, delivering a silent operating environment that allows operators to focus entirely on critical communications."
                 },
                 {
                 icon: "⚡⚡",
-                title: "핫스왑(Hot-Swap)<br>지원 상시 전원 이중화 설계",
-                value: "핫스왑 지원",
-                desc: "어떠한 극한의 상황에서도 지령 시스템은 살아남아야 합니다. 본 워크스테이션은 독립된 두 개의 전원 공급 장치(PSU)가 동시에 가동되는 이중화 구조를 채택하여, 한쪽 전원에 문제가 발생하더라도 시스템 재부팅이나 데이터 손실 없이 100% 무중단 관제를 유지합니다."
+                title: "Hot-Swap Support<br>Redundant Power Supply Design",
+                value: "Hot-Swap Support",
+                desc: "Mission-critical dispatch systems must remain operational under any circumstances. This workstation features dual independent power supply units (PSUs) operating in a redundant configuration, ensuring 100% uninterrupted operation without system reboot or data loss, even if one power supply fails."
                 },
                 {
                 icon: "🛡️💾",
-                title: "산업용 고신뢰성 RAM <br>산업용 MLC SSD 탑재",
-                value: "RAM & MLC SSD 탑재",
-                desc: "실시간으로 쏟아지는 대용량 무전 음성과 STT 데이터, 관제 로그는 단 1초의 누락도 용납되지 않습니다. 본 워크스테이션은 수명과 내구성이 검증된 산업용 메모리와 MLC 플래시 기반의 SSD를 적용하여, 가혹한 연속 쓰기 환경에서도 데이터 손실이나 병목 현상 없는 완벽한 저장 신뢰성을 보장합니다."
+                title: "Industrial-Grade RAM<br>Industrial-Grade MLC SSD",
+                value: "Industrial RAM & MLC SSD",
+                desc: "Mission-critical radio communications, STT data, and control logs require uncompromising reliability. Equipped with industrial-grade memory and MLC flash-based SSD storage, this workstation delivers exceptional durability and dependable data integrity, ensuring stable performance without data loss or bottlenecks even under continuous write-intensive workloads."
                 }
             ]
         },
@@ -2044,13 +1866,13 @@ const productData = {
             ["CPU", 'Intel 8th Gen Intel® Coffee Lake-S, i7'],
             ["MB Chipset", "Intel® Q470"],
             ["OS", "Windows 10 Pro / 11 Pro (64 bit)"],
-            ["주파수 클럭", "Base Freq. 3.2GHz Max Freq. 최대 6.0GHz"],
+            ["Clock Speed", "Base Freq. 3.2GHz Max Freq. Up to 6.0 GHz"],
             ["RAM", "2 × DDR4-2666MHz 32GB SO-DIMM 64GB"],
-            ["저장장치", "2.5″ SATA SSD MLC (512GB)"],
-            ["공청보드", "전화공청, 방송용공청 (공청버튼 제공)"],
-            ["부속품", "헤드셋(PTT), 구즈넥 PTT마이크, 웹캠"],
-            ["운용온도", "-20℃ ~ +60℃"],
-            ["크기", "436.8(W) × 270(D) × 88(H) mm"]
+            ["Storage", "2.5″ SATA SSD MLC (512GB)"],
+            ["Audio Monitoring Board", "Telephone Audio Monitoring, Broadcast Audio Monitoring (Dedicated Monitoring Buttons)"],
+            ["Accessories", "PTT Headset, Gooseneck PTT Microphone, Webcam"],
+            ["Operating Temperature", "-20℃ ~ +60℃"],
+            ["Dimensions", "436.8(W) × 270(D) × 88(H) mm"]
         ]
     },
 
@@ -2063,8 +1885,8 @@ const productData = {
 
         visualImg: "../img/s1388-bg.png",
 
-        koLink: "./Productdetail.html?product=S1388",
-        engLink: "./Productdetail-eng.html?product=S1388eng",
+        koLink: "./Productdetail.html?product=s1388",
+        engLink: "./Productdetail-eng.html?product=s1388eng",
 
         sliderImages: [
             "../img/S1388.png",
@@ -2163,8 +1985,8 @@ const productData = {
 
         visualImg: "../img/s1388-bg.png",
 
-        koLink: "./Productdetail.html?product=S1388",
-        engLink: "./Productdetail-eng.html?product=S1388eng",
+        koLink: "./Productdetail.html?product=s1388",
+        engLink: "./Productdetail-eng.html?product=s1388eng",
 
         sliderImages: [
             "../img/S1388.png",
@@ -2263,8 +2085,8 @@ const productData = {
 
         visualImg: "../img/S1519H-bg.png",
 
-        koLink: "./Productdetail.html?product=S1519h",
-        engLink: "./Productdetail-eng.html?product=S1519heng",
+        koLink: "./Productdetail.html?product=s1519h",
+        engLink: "./Productdetail-eng.html?product=s1519heng",
 
         sliderImages: [
             "../img/S1519H.png",
@@ -2357,8 +2179,8 @@ const productData = {
 
         visualImg: "../img/S1519H-bg.png",
 
-        koLink: "./Productdetail.html?product=S1519h",
-        engLink: "./Productdetail-eng.html?product=S1519heng",
+        koLink: "./Productdetail.html?product=s1519h",
+        engLink: "./Productdetail-eng.html?product=s1519heng",
 
         sliderImages: [
             "../img/S1519H.png",
@@ -2533,6 +2355,97 @@ const productData = {
         ]
     },
 
+    "ze5000meng": {
+        title: "High-Performance<br>MXM GPU Module for Edge AI",
+
+        desc: " NVDIA RTX PRO 5000 / Blackwell Generation / Embedded GPU - Type B ",
+
+        model: "ZE5000M",
+
+        visualImg: "../img/eph-bg.png",
+
+        koLink: "./Productdetail.html?product=ze5000m",
+        engLink: "./Productdetail-eng.html?product=ze5000m",
+
+        sliderImages: [
+            "../img/eph.png",
+            "../img/eph10-r.png",
+            "../img/eph-1.png",
+        ],
+
+        hero: {
+            title: `Field-Optimized Form Factor:<br>High-Reliability Portable Pelican Case`,
+            desc: `<strong>Exceptional Mobility & Durability (Pelican Rugged Design)</strong>Built into a high-strength Pelican hard case that meets military-grade specifications, the system provides outstanding protection for the internal Blackwell MXM GPU platform against severe vibration, shock, water ingress, and dust encountered during transport in remote and harsh environments.<br><strong>Battery Pack Option for Off-Grid Operation (Seamless Power Supply)</strong>An optional high-capacity integrated battery pack enables uninterrupted real-time Edge AI computing and tactical mission execution, even in environments where generators are unavailable or power supply is unstable.`,
+            icon: "📟",
+            specTitle: "MXM-GPU",
+            specDesc: "Industrial Boards & Modules NVIDIA RTX PRO 5000 Blackwell Generation Embedded GPU/Type B",
+            img: "../img/ze5000m.png"
+        },
+
+        design: {
+            img: "../img/eph-1.png",
+            title: `<div class="title-sm">The Ultimate Edge AI Computing Solution Combining<br>High-Performance x86 Processing and Flexible AI Acceleration</div>`,
+            desc: `<div class="desc-item"><strong>Supports Up to 64GB DDR5 System Memory</strong> : When GPU VRAM is fully utilized, high-speed DDR5 system memory can be used to store audio streaming data, RAG (Retrieval-Augmented Generation) vector databases, and TTS audio databases, reducing data bottlenecks between the CPU and GPU.</div><div class="desc-item"><strong>High-Performance x86 Host CPU (Up to 125W TDP)</strong> : While the GPU handles LLM workloads, the Intel® CPU and its integrated Intel® UHD 770 graphics can offload STT/TTS audio preprocessing, improving overall AI processing efficiency.</div><div class="desc-item"><strong>Multiple LAN Ports (5 × 2.5GbE RJ45)</strong> : Five high-speed 2.5GbE RJ45 LAN ports provide reliable network connectivity, minimizing bottlenecks and packet loss while enabling efficient separation of communication and control signals.</div>`,
+            specs: [
+                {
+                    title: "Key Features",
+                    items: ["Fanless Cooling", "Redundant Power & Network", "Multi-Monitor Support"]
+                },
+                {
+                    title: "Key Features",
+                    items: ["Integrated Voice Communication", "Digital Audio Monitoring", "Precision Control"]
+                }
+            ]
+        },
+
+        photos: [
+            "../img/eph-bg.png",
+            "../img/eph-bg2.png",
+            "../img/eph-bg3.png",
+            "../img/E-seriesbg.png"
+        ],
+
+        rugged: {
+            title: `Built to Survive the Harshest Environments,<br>Rugged Protection`,
+            cards: [
+                {
+                icon: "🔇",
+                title: "Fanless Cooling",
+                value: "Fanless Design",
+                desc: "A fanless workstation optimized for mission-critical environments with a customized thermal management design."
+                },
+                {
+                icon: "🛡️",
+                title: "Salt Spray, Mold,<br>Humidity & Dust",
+                value: "Environmental Protection",
+                desc: "Protects the motherboard from insulation degradation caused by harsh environmental conditions."
+                },
+                {
+                icon: "❄️",
+                title: "Extreme Environment Support",
+                value: "-40°C to 70°C",
+                desc: "Designed for industrial applications with an operating temperature range of -40°C to 70°C (KOLAS-certified: -20°C to 60°C)."
+                }
+            ]
+        },
+
+        specTable: [
+            ["CPU", 'Intel LGA1700 Socket Alder Lake-S processors Support up to 125W processor'],
+            ["Chipset", 'Intel® Q670E Chipset'],
+            ["GPU Card (Optional)", 'NVIDIA Blackwell'],
+            ["System Memory", 'DDR5 SO-DIMM up to 32GB / Per DIMM, up to 4800MHz / 64G'],
+            ["Graphics", 'Controller: Intel UHD Graphics 770 driven by Xe Architecture'],
+            ["GPU Architecture", 'NVIDIA Blackwell'],
+            ["Graphics Processing Unit", "NVIDIA RTX PRO™ 5000 Blackwell Generation Embedded GPU"],
+            ["NVIDIA CUDA Cores", "Intel Iris Xe Graphics"],
+            ["Tensor Cores", '10,496'],
+            ["Storage", "320"],
+            ["RT Cores", "80"],
+            ["Graphics Clock (MHz)", "Base = 1402 / Boost = 1935"],
+            ["Floating Point", "40.62 FP32 TFLOPS"]
+        ]
+    },
+
     "ze4000m": {
         title: "엣지 AI를 위한 고성능<br> MXM GPU 모듈 탑재",
 
@@ -2618,6 +2531,97 @@ const productData = {
             ["NVIDIA CUDA Cores", "Intel Iris Xe Graphics"],
             ["Tensor Cores", '10,496'],
             ["저장장치", "320"],
+            ["RT Cores", "80"],
+            ["Graphics Clock (MHz)", "Base = 1402 / Boost = 1935"],
+            ["Floating Point", "40.62 FP32 TFLOPS"]
+        ]
+    },
+
+    "ze4000meng": {
+        title: "High-Performance<br>MXM GPU Module for Edge AI",
+
+        desc: " NVDIA RTX PRO 4000 / Blackwell Generation / Embedded GPU - Type B ",
+
+        model: "ZE4000M",
+
+        visualImg: "../img/eph-bg.png",
+
+        koLink: "./Productdetail.html?product=ze4000m",
+        engLink: "./Productdetail-eng.html?product=ze4000m",
+
+        sliderImages: [
+            "../img/eph.png",
+            "../img/eph10-r.png",
+            "../img/eph-1.png",
+        ],
+
+        hero: {
+            title: `Field-Optimized Form Factor:<br>High-Reliability Portable Pelican Case`,
+            desc: `<strong>Exceptional Mobility & Durability (Pelican Rugged Design)</strong>Built into a high-strength Pelican hard case that meets military-grade specifications, the system provides outstanding protection for the internal Blackwell MXM GPU platform against severe vibration, shock, water ingress, and dust encountered during transport in remote and harsh environments.<br><strong>Battery Pack Option for Off-Grid Operation (Seamless Power Supply)</strong>An optional high-capacity integrated battery pack enables uninterrupted real-time Edge AI computing and tactical mission execution, even in environments where generators are unavailable or power supply is unstable.`,
+            icon: "📟",
+            specTitle: "MXM-GPU",
+            specDesc: "Industrial Boards & Modules NVIDIA RTX PRO 4000 Blackwell Generation Embedded GPU/Type B",
+            img: "../img/ze4000m.png"
+        },
+
+        design: {
+            img: "../img/eph-1.png",
+            title: `<div class="title-sm">The Ultimate Edge AI Computing Solution Combining<br>High-Performance x86 Processing and Flexible AI Acceleration</div>`,
+            desc: `<div class="desc-item"><strong>Supports Up to 64GB DDR5 System Memory</strong> : When GPU VRAM is fully utilized, high-speed DDR5 system memory can be used to store audio streaming data, RAG (Retrieval-Augmented Generation) vector databases, and TTS audio databases, reducing data bottlenecks between the CPU and GPU.</div><div class="desc-item"><strong>High-Performance x86 Host CPU (Up to 125W TDP)</strong> : While the GPU handles LLM workloads, the Intel® CPU and its integrated Intel® UHD 770 graphics can offload STT/TTS audio preprocessing, improving overall AI processing efficiency.</div><div class="desc-item"><strong>Multiple LAN Ports (5 × 2.5GbE RJ45)</strong> : Five high-speed 2.5GbE RJ45 LAN ports provide reliable network connectivity, minimizing bottlenecks and packet loss while enabling efficient separation of communication and control signals.</div>`,
+            specs: [
+                {
+                    title: "Key Features",
+                    items: ["Fanless Cooling", "Redundant Power & Network", "Multi-Monitor Support"]
+                },
+                {
+                    title: "Key Features",
+                    items: ["Integrated Voice Communication", "Digital Audio Monitoring", "Precision Control"]
+                }
+            ]
+        },
+
+        photos: [
+            "../img/eph-bg.png",
+            "../img/eph-bg2.png",
+            "../img/eph-bg3.png",
+            "../img/E-seriesbg.png"
+        ],
+
+        rugged: {
+            title: `Built to Survive the Harshest Environments,<br>Rugged Protection`,
+            cards: [
+                {
+                icon: "🔇",
+                title: "Fanless Cooling",
+                value: "Fanless Design",
+                desc: "A fanless workstation optimized for mission-critical environments with a customized thermal management design."
+                },
+                {
+                icon: "🛡️",
+                title: "Salt Spray, Mold,<br>Humidity & Dust",
+                value: "Environmental Protection",
+                desc: "Protects the motherboard from insulation degradation caused by harsh environmental conditions."
+                },
+                {
+                icon: "❄️",
+                title: "Extreme Environment Support",
+                value: "-40°C to 70°C",
+                desc: "Designed for industrial applications with an operating temperature range of -40°C to 70°C (KOLAS-certified: -20°C to 60°C)."
+                }
+            ]
+        },
+
+        specTable: [
+            ["CPU", 'Intel LGA1700 Socket Alder Lake-S processors Support up to 125W processor'],
+            ["Chipset", 'Intel® Q670E Chipset'],
+            ["GPU Card (Optional)", 'NVIDIA Blackwell'],
+            ["System Memory", 'DDR5 SO-DIMM up to 32GB / Per DIMM, up to 4800MHz / 64G'],
+            ["Graphics", 'Controller: Intel UHD Graphics 770 driven by Xe Architecture'],
+            ["GPU Architecture", 'NVIDIA Blackwell'],
+            ["Graphics Processing Unit", "NVIDIA RTX PRO™ 5000 Blackwell Generation Embedded GPU"],
+            ["NVIDIA CUDA Cores", "Intel Iris Xe Graphics"],
+            ["Tensor Cores", '10,496'],
+            ["Storage", "320"],
             ["RT Cores", "80"],
             ["Graphics Clock (MHz)", "Base = 1402 / Boost = 1935"],
             ["Floating Point", "40.62 FP32 TFLOPS"]
@@ -2714,44 +2718,44 @@ const productData = {
         ]
     },
 
-    "ihh10": {
-        title: "내용필요",
+    "ze2000meng": {
+        title: "High-Performance<br>MXM GPU Module for Edge AI",
 
-        desc: "내용필요",
+        desc: " NVDIA RTX PRO 2000 / Blackwell Generation / Embedded GPU - Type B ",
 
-        model: "IHH10",
+        model: "ZE2000M",
 
-        visualImg: "../img/ihh10-bg.png",
+        visualImg: "../img/eph-bg.png",
 
-        koLink: "./Productdetail.html?product=ihh10",
-        engLink: "./Productdetail-eng.html?product=ihh10",
+        koLink: "./Productdetail.html?product=ze2000m",
+        engLink: "./Productdetail-eng.html?product=ze2000m",
 
         sliderImages: [
-            "../img/ihh10-1.png",
-            "../img/ihh10-r.png",
+            "../img/eph.png",
+            "../img/eph10-r.png",
         ],
 
         hero: {
-            title: `지령대의 효율적인<br>디스패쳐 워크스테이션`,
-            desc: `S1388 (H9 Dispatcher Workstation)은 모든 상황실에 이상적인 고성능 산업용 워크스테이션입니다. 비디오 방송과 같은 CPU 집약적인 근무 환경에서도 최고 사양을 발휘할 수 있도록 설계되었으며, 13세대 Intel® Core™ 프로세서 기반의 강력하고 무소음 냉각 시스템으로 지령 환경에 최적화된 견고한 솔루션을 제공합니다. `,
-            icon: "⚒",
-            specTitle: "13세대 강력한 성능",
-            specDesc: "Intel® 13th Gen Raptor Lake-P/U i7 Pentium CPU 기반의 강력한 지령 장치",
-            img: "../img/ihh10-1.png"
+            title: `Field-Optimized Form Factor:<br>High-Reliability Portable Pelican Case`,
+            desc: `<strong>Exceptional Mobility & Durability (Pelican Rugged Design)</strong>Built into a high-strength Pelican hard case that meets military-grade specifications, the system provides outstanding protection for the internal Blackwell MXM GPU platform against severe vibration, shock, water ingress, and dust encountered during transport in remote and harsh environments.<br><strong>Battery Pack Option for Off-Grid Operation (Seamless Power Supply)</strong>An optional high-capacity integrated battery pack enables uninterrupted real-time Edge AI computing and tactical mission execution, even in environments where generators are unavailable or power supply is unstable.`,
+            icon: "📟",
+            specTitle: "MXM-GPU",
+            specDesc: "Industrial Boards & Modules NVIDIA RTX PRO 2000 Blackwell Generation Embedded GPU/Type B",
+            img: "../img/ze2000m.png"
         },
 
         design: {
-            img: "../img/ihh10-2.png",
-            title: `맞춤형 <br>사운드장치 솔루션`,
-            desc: `물리적 연동 (USB, 시리얼, IP통신을 이용하지 않는 GPIO 접점)을 통해 상호 교차 보안 위반을 제거하며 헤드셋을 구현합니다. 헤드셋 제어장치와 통합 제어 장치 간의 물리적 연동 및 MCU 콘트롤을 통해 헤드셋의 분리/통합을 자유롭게 운용할 수 있습니다. 분리형 미디어 장치를 통한 사운드 제어 기능과 별도 부착용 8W 스피커 장치 4대까지 확장이 가능합니다.`,
+            img: "../img/eph-1.png",
+            title: `<div class="title-sm">The Ultimate Edge AI Computing Solution Combining<br>High-Performance x86 Processing and Flexible AI Acceleration</div>`,
+            desc: `<div class="desc-item"><strong>Supports Up to 64GB DDR5 System Memory</strong> : When GPU VRAM is fully utilized, high-speed DDR5 system memory can be used to store audio streaming data, RAG (Retrieval-Augmented Generation) vector databases, and TTS audio databases, reducing data bottlenecks between the CPU and GPU.</div><div class="desc-item"><strong>High-Performance x86 Host CPU (Up to 125W TDP)</strong> : While the GPU handles LLM workloads, the Intel® CPU and its integrated Intel® UHD 770 graphics can offload STT/TTS audio preprocessing, improving overall AI processing efficiency.</div><div class="desc-item"><strong>Multiple LAN Ports (5 × 2.5GbE RJ45)</strong> : Five high-speed 2.5GbE RJ45 LAN ports provide reliable network connectivity, minimizing bottlenecks and packet loss while enabling efficient separation of communication and control signals.</div>`,
             specs: [
                 {
-                    title: "주요 특징",
-                    items: ["무소음 냉각", "전원 및 회선 이중화","다중 모니터 지원"]
+                    title: "Key Features",
+                    items: ["Fanless Cooling", "Redundant Power & Network", "Multi-Monitor Support"]
                 },
                 {
-                    title: "주요 특징",
-                    items: ["통합 음성 통신", "디지털 공청","정확한 제어"]
+                    title: "Key Features",
+                    items: ["Integrated Voice Communication", "Digital Audio Monitoring", "Precision Control"]
                 }
             ]
         },
@@ -2764,226 +2768,43 @@ const productData = {
         ],
 
         rugged: {
-            title: `그 어떤 환경에서도 살아남는,<br>강력한 보호성능`,
+            title: `Built to Survive the Harshest Environments,<br>Rugged Protection`,
             cards: [
                 {
-                icon: "🔒",
-                title: "무소음 냉각",
-                value: "팬리스 형태",
-                desc: "맞춤형 발열 구조를 갖춰 지령 환경에 최적화된 무소음 워크스테이션."
+                icon: "🔇",
+                title: "Fanless Cooling",
+                value: "Fanless Design",
+                desc: "A fanless workstation optimized for mission-critical environments with a customized thermal management design."
                 },
                 {
-                icon: "☔",
-                title: "다중 모니터 지원",
-                value: "3대",
-                desc: "최대 3대의 모니터 연결 포트 제공."
+                icon: "🛡️",
+                title: "Salt Spray, Mold,<br>Humidity & Dust",
+                value: "Environmental Protection",
+                desc: "Protects the motherboard from insulation degradation caused by harsh environmental conditions."
                 },
                 {
-                icon: "✇",
-                title: "극한 환경 대응",
-                value: "-40°C - 70°",
-                desc: "-40°C ~ 70°C의 운용 온도를 지원하는 산업용 적용 (KOLAS 시험성적서 기반 -20°C ~ 60°C)."
+                icon: "❄️",
+                title: "Extreme Environment Support",
+                value: "-40°C to 70°C",
+                desc: "Designed for industrial applications with an operating temperature range of -40°C to 70°C (KOLAS-certified: -20°C to 60°C)."
                 }
             ]
         },
 
         specTable: [
-            ["Model", 'S1388 Dispatcher Workstation'],
-            ["CPU", "Intel® 13th Gen Raptor Lake-P/ Raptor Lake-U i7 Pentium CPU"],
-            ["그래픽", "Intel Iris Xe Graphics"],
-            ["메모리", "2 x DDR5 4800 MHz SODIMM, Max 64GB"],
-            ["저장장치", "1 x M.2 B key Type 3042 (SATA) 512GB"],
-            ["BIOS", "AMI UEFI BIOS"],
-            ["디스플레이", "2 x HDMI, 1 x RGB"],
-            ["LAN", "5 x Intel 2.5GbE I226-IT (external)"],
-            ["운용 OS", "구름 3.0 이상 (신뢰부팅 제공)"],
-            ["전원 이중화", "전원 이중화 (기본제공)"],
-            ["전원", "DC IN +9~36V (84W Power Adapter, 12V/7A)"],
-            ["운용 온도", "-40°C ~ 70°C (-20°C ~ 60°C KOLAS 시험성적서)"],
-            ["크기", "236W x 172.6D x 82H mm"],
-            ["보관 온도", "-40°C ~ 70°C"]
-        ]
-    },
-
-    "ihh8": {
-        title: "내용필요",
-
-        desc: "내용필요",
-
-        model: "IHH8",
-
-        visualImg: "../img/ihh10-bg.png",
-
-        koLink: "./Productdetail.html?product=ihh10",
-        engLink: "./Productdetail-eng.html?product=ihh10",
-
-        sliderImages: [
-            "../img/ihh10-1.png",
-            "../img/ihh10-r.png",
-        ],
-
-        hero: {
-            title: `지령대의 효율적인<br>디스패쳐 워크스테이션`,
-            desc: `S1388 (H9 Dispatcher Workstation)은 모든 상황실에 이상적인 고성능 산업용 워크스테이션입니다. 비디오 방송과 같은 CPU 집약적인 근무 환경에서도 최고 사양을 발휘할 수 있도록 설계되었으며, 13세대 Intel® Core™ 프로세서 기반의 강력하고 무소음 냉각 시스템으로 지령 환경에 최적화된 견고한 솔루션을 제공합니다. `,
-            icon: "⚒",
-            specTitle: "13세대 강력한 성능",
-            specDesc: "Intel® 13th Gen Raptor Lake-P/U i7 Pentium CPU 기반의 강력한 지령 장치",
-            img: "../img/ihh10-1.png"
-        },
-
-        design: {
-            img: "../img/ihh8-2.png",
-            title: `맞춤형 <br>사운드장치 솔루션`,
-            desc: `물리적 연동 (USB, 시리얼, IP통신을 이용하지 않는 GPIO 접점)을 통해 상호 교차 보안 위반을 제거하며 헤드셋을 구현합니다. 헤드셋 제어장치와 통합 제어 장치 간의 물리적 연동 및 MCU 콘트롤을 통해 헤드셋의 분리/통합을 자유롭게 운용할 수 있습니다. 분리형 미디어 장치를 통한 사운드 제어 기능과 별도 부착용 8W 스피커 장치 4대까지 확장이 가능합니다.`,
-            specs: [
-                {
-                    title: "주요 특징",
-                    items: ["무소음 냉각", "전원 및 회선 이중화","다중 모니터 지원"]
-                },
-                {
-                    title: "주요 특징",
-                    items: ["통합 음성 통신", "디지털 공청","정확한 제어"]
-                }
-            ]
-        },
-
-        photos: [
-            "../img/eph-bg.png",
-            "../img/eph-bg2.png",
-            "../img/eph-bg3.png",
-            "../img/E-seriesbg.png"
-        ],
-
-        rugged: {
-            title: `그 어떤 환경에서도 살아남는,<br>강력한 보호성능`,
-            cards: [
-                {
-                icon: "🔒",
-                title: "무소음 냉각",
-                value: "팬리스 형태",
-                desc: "맞춤형 발열 구조를 갖춰 지령 환경에 최적화된 무소음 워크스테이션."
-                },
-                {
-                icon: "☔",
-                title: "다중 모니터 지원",
-                value: "3대",
-                desc: "최대 3대의 모니터 연결 포트 제공."
-                },
-                {
-                icon: "✇",
-                title: "극한 환경 대응",
-                value: "-40°C - 70°",
-                desc: "-40°C ~ 70°C의 운용 온도를 지원하는 산업용 적용 (KOLAS 시험성적서 기반 -20°C ~ 60°C)."
-                }
-            ]
-        },
-
-        specTable: [
-            ["Model", 'S1388 Dispatcher Workstation'],
-            ["CPU", "Intel® 13th Gen Raptor Lake-P/ Raptor Lake-U i7 Pentium CPU"],
-            ["그래픽", "Intel Iris Xe Graphics"],
-            ["메모리", "2 x DDR5 4800 MHz SODIMM, Max 64GB"],
-            ["저장장치", "1 x M.2 B key Type 3042 (SATA) 512GB"],
-            ["BIOS", "AMI UEFI BIOS"],
-            ["디스플레이", "2 x HDMI, 1 x RGB"],
-            ["LAN", "5 x Intel 2.5GbE I226-IT (external)"],
-            ["운용 OS", "구름 3.0 이상 (신뢰부팅 제공)"],
-            ["전원 이중화", "전원 이중화 (기본제공)"],
-            ["전원", "DC IN +9~36V (84W Power Adapter, 12V/7A)"],
-            ["운용 온도", "-40°C ~ 70°C (-20°C ~ 60°C KOLAS 시험성적서)"],
-            ["크기", "236W x 172.6D x 82H mm"],
-            ["보관 온도", "-40°C ~ 70°C"]
-        ]
-    },
-
-    "ihn2000b": {
-        title: "내용필요",
-
-        desc: "내용필요",
-
-        model: "IHN2000B",
-
-        visualImg: "../img/ihh10-bg.png",
-
-        koLink: "./Productdetail.html?product=ihh10",
-        engLink: "./Productdetail-eng.html?product=ihh10",
-
-        sliderImages: [
-            "../img/ihh10-1.png",
-            "../img/ihh10-r.png",
-        ],
-
-        hero: {
-            title: `지령대의 효율적인<br>디스패쳐 워크스테이션`,
-            desc: `S1388 (H9 Dispatcher Workstation)은 모든 상황실에 이상적인 고성능 산업용 워크스테이션입니다. 비디오 방송과 같은 CPU 집약적인 근무 환경에서도 최고 사양을 발휘할 수 있도록 설계되었으며, 13세대 Intel® Core™ 프로세서 기반의 강력하고 무소음 냉각 시스템으로 지령 환경에 최적화된 견고한 솔루션을 제공합니다. `,
-            icon: "⚒",
-            specTitle: "13세대 강력한 성능",
-            specDesc: "Intel® 13th Gen Raptor Lake-P/U i7 Pentium CPU 기반의 강력한 지령 장치",
-            img: "../img/ihh10-1.png"
-        },
-
-        design: {
-            img: "../img/ihn2000b-2.png",
-            title: `맞춤형 <br>사운드장치 솔루션`,
-            desc: `물리적 연동 (USB, 시리얼, IP통신을 이용하지 않는 GPIO 접점)을 통해 상호 교차 보안 위반을 제거하며 헤드셋을 구현합니다. 헤드셋 제어장치와 통합 제어 장치 간의 물리적 연동 및 MCU 콘트롤을 통해 헤드셋의 분리/통합을 자유롭게 운용할 수 있습니다. 분리형 미디어 장치를 통한 사운드 제어 기능과 별도 부착용 8W 스피커 장치 4대까지 확장이 가능합니다.`,
-            specs: [
-                {
-                    title: "주요 특징",
-                    items: ["무소음 냉각", "전원 및 회선 이중화","다중 모니터 지원"]
-                },
-                {
-                    title: "주요 특징",
-                    items: ["통합 음성 통신", "디지털 공청","정확한 제어"]
-                }
-            ]
-        },
-
-        photos: [
-            "../img/eph-bg.png",
-            "../img/eph-bg2.png",
-            "../img/eph-bg3.png",
-            "../img/E-seriesbg.png"
-        ],
-
-        rugged: {
-            title: `그 어떤 환경에서도 살아남는,<br>강력한 보호성능`,
-            cards: [
-                {
-                icon: "🔒",
-                title: "무소음 냉각",
-                value: "팬리스 형태",
-                desc: "맞춤형 발열 구조를 갖춰 지령 환경에 최적화된 무소음 워크스테이션."
-                },
-                {
-                icon: "☔",
-                title: "다중 모니터 지원",
-                value: "3대",
-                desc: "최대 3대의 모니터 연결 포트 제공."
-                },
-                {
-                icon: "✇",
-                title: "극한 환경 대응",
-                value: "-40°C - 70°",
-                desc: "-40°C ~ 70°C의 운용 온도를 지원하는 산업용 적용 (KOLAS 시험성적서 기반 -20°C ~ 60°C)."
-                }
-            ]
-        },
-
-        specTable: [
-            ["Model", 'S1388 Dispatcher Workstation'],
-            ["CPU", "Intel® 13th Gen Raptor Lake-P/ Raptor Lake-U i7 Pentium CPU"],
-            ["그래픽", "Intel Iris Xe Graphics"],
-            ["메모리", "2 x DDR5 4800 MHz SODIMM, Max 64GB"],
-            ["저장장치", "1 x M.2 B key Type 3042 (SATA) 512GB"],
-            ["BIOS", "AMI UEFI BIOS"],
-            ["디스플레이", "2 x HDMI, 1 x RGB"],
-            ["LAN", "5 x Intel 2.5GbE I226-IT (external)"],
-            ["운용 OS", "구름 3.0 이상 (신뢰부팅 제공)"],
-            ["전원 이중화", "전원 이중화 (기본제공)"],
-            ["전원", "DC IN +9~36V (84W Power Adapter, 12V/7A)"],
-            ["운용 온도", "-40°C ~ 70°C (-20°C ~ 60°C KOLAS 시험성적서)"],
-            ["크기", "236W x 172.6D x 82H mm"],
-            ["보관 온도", "-40°C ~ 70°C"]
+            ["CPU", 'Intel LGA1700 Socket Alder Lake-S processors Support up to 125W processor'],
+            ["Chipset", 'Intel® Q670E Chipset'],
+            ["GPU Card (Optional)", 'NVIDIA Blackwell'],
+            ["System Memory", 'DDR5 SO-DIMM up to 32GB / Per DIMM, up to 4800MHz / 64G'],
+            ["Graphics", 'Controller: Intel UHD Graphics 770 driven by Xe Architecture'],
+            ["GPU Architecture", 'NVIDIA Blackwell'],
+            ["Graphics Processing Unit", "NVIDIA RTX PRO™ 5000 Blackwell Generation Embedded GPU"],
+            ["NVIDIA CUDA Cores", "Intel Iris Xe Graphics"],
+            ["Tensor Cores", '10,496'],
+            ["Storage", "320"],
+            ["RT Cores", "80"],
+            ["Graphics Clock (MHz)", "Base = 1402 / Boost = 1935"],
+            ["Floating Point", "40.62 FP32 TFLOPS"]
         ]
     },
 
@@ -3094,6 +2915,120 @@ const productData = {
         ]
     },
 
+    "zv30ta1eng": {
+        title: "Transparent Display",
+
+        desc: "Transparent LED Control Display<br>That Redefines Spatial Limits",
+
+        model: "ZV30T-A1",
+
+        visualImg: "../img/t-series-bg.jpg",
+
+        koLink: "./Productdetail.html?product=ihh10",
+        engLink: "./Productdetail-eng.html?product=ihh10",
+
+        sliderImages: [
+            "../img/t-series-f.png",
+            "../img/t-series.png",
+        ],
+
+        hero: {
+            title: `Breaking the Limits of Space<br>Transparent LED Control Display`,
+            desc: `An innovative design that combines visual openness with functional efficiency. Developed to minimize the sense of enclosure often found in compact control room workstations, the high-transparency LED display is seamlessly integrated into the side of the console, maintaining clear information delivery while preserving visual connectivity with the surrounding environment. By maximizing openness, it provides operators with an optimal field of view and a more comfortable control room experience.`,
+            icon: "🪟",
+            specTitle: "Openness & Functionality",
+            specDesc: "Provides an optimal field of view and a more comfortable control room environment.",
+            img: "../img/t-series-f.png"
+        },
+
+        design: {
+            img: "../img/t-series-r.png",
+            title: `Optimized Display Configuration<br>for Information Delivery`,
+            desc: `Designed to optimize monitor layouts for efficient information delivery rather than visual immersion, making it ideal for command and control center workstations.`,
+            specs: [
+                {
+                    title: "Driver Board Specifications",
+                    items: [
+                        "High-Resolution Input: Supports 3-channel HDMI 2.0 input, up to 3840 × 2160 @ 60Hz",
+                        "Wireless Control Module: Built-in wireless control module",
+                        "System Architecture: Pure hardware-based architecture"
+                    ]
+                },
+                {
+                    title: "Driver Board Specifications",
+                    items: [
+                        "Display Rotation: Supports 180° image rotation",
+                        "Power & Circuit Management: Closed-loop circuit design"
+                    ]
+                }
+            ]
+        },
+
+        photos: [
+            "../img/t-series-bg.jpg",
+            "../img/zv30T-a1bg.png",
+            "../img/zv30T-a1bg2.png",
+            "../img/zv30T-a1bg3.png"
+        ],
+
+        rugged: {
+            title: `Next-Generation Control Room Environment<br>Combining Openness & Functionality`,
+            cards: [
+                {
+                icon: "🔲",
+                title: "High-Transparency Solution",
+                value: "43% Transparency",
+                desc: "Delivers up to 43% transparency, allowing clear visibility of objects, fine details, and even text behind the display."
+                },
+                {
+                icon: "↔️ ↕️",
+                title: "Modular & Scalable Design",
+                value: "Scalability",
+                desc: "Supports standalone or tiled configurations, with flexible installation options including landscape, portrait, and ceiling-mounted layouts."
+                },
+                {
+                icon: "🎨",
+                title: "Exceptional Image Quality",
+                value: "Crystal-Clear Details",
+                desc: "Wide viewing angles and fast response times ensure accurate, consistent colors with outstanding clarity and minimal distortion."
+                }
+            ]
+        },
+
+        video: "../video/zv30T-a1.mp4",
+
+        specTable: [
+            ["Product Size", "30-inch"],
+            ["Screen Type", "OLED Screen, AM-OLED"],
+            ["Refresh Rate", "120 Hz"],
+            ["Display Area", "664.29 mm (H) × 373.48 mm (V)"],
+            ["Panel Dimensions", "676.09 × 387.48 × 1.72 mm (H × V × D)"],
+            ["Resolution", "1366 × 768"],
+            ["Maximum Input Resolution", "3840 × 2160 @ 60Hz (4K Supported)"],
+            ["Brightness", "600 ~ 200 cd/m²"],
+            ["Contrast Ratio", "135,000 : 1"],
+            ["Response Time", "0.1 ms (GtG, Typ.) / 8 ms (MPRT, Typ.)"],
+            ["Color Depth", "1.07 Billion Colors (10-bit)"],
+            ["Transparency", "43% (Typ.)"],
+            ["Aspect Ratio", "16:9"],
+            ["Viewing Angle", "178° (Min.) (H/V)"],
+            ["Touch Technology", "Projected Capacitive Touch (G+F+F Structure)"],
+            ["Multi-Touch", "10-Point Touch or More"],
+            ["Supported Operating Systems", "Windows 7 / 8 / 10 / 11, Android, Linux"],
+            ["Housing Material / Color", "Sheet Metal / White"],
+            ["Product Type", "All-in-One"],
+            ["Overall Dimensions (L × W × H)", "698 × 250 × 511 mm"],
+            ["Installation", "Desktop"],
+            ["Input Voltage", "AC 110V ~ 250V, 50/60Hz"],
+            ["Maximum Power Consumption", "80W (Max.)"],
+            ["Standby Power Consumption", "< 0.5W"],
+            ["Speaker Output", "5W × 2 Channels"],
+            ["Operating Environment", "Indoor"],
+            ["Operating Temperature / Humidity", "0°C ~ 45°C / 10% ~ 90% (Non-Condensing)"],
+            ["Storage Temperature / Humidity", "-20°C ~ 60°C / 10% ~ 90% (Non-Condensing)"]
+        ]
+    },
+
     "zv50ta1": {
         title: "투명 디스플레이",
 
@@ -3200,96 +3135,118 @@ const productData = {
         ]
     },
 
-    "tseriseeng": {
-        title: "내용필요",
+    "zv50ta1eng": {
+        title: "Transparent Display",
 
-        desc: "Break the Limits of Space<br>Transparent LED Control Monitor",
+        desc: "Transparent LED Control Display<br>That Redefines Spatial Limits",
 
-        model: "Transparent Display",
+        model: "ZV50T-A1",
 
-        visualImg: "../img/t-series-bg.png",
+        visualImg: "../img/zv50ta1-bg.png",
 
         koLink: "./Productdetail.html?product=ihh10",
         engLink: "./Productdetail-eng.html?product=ihh10",
 
         sliderImages: [
-            "../img/.png",
-            "../img/.png",
+            "../img/t-series-f.png",
+            "../img/t-series.png",
         ],
 
         hero: {
-            title: `Break the Limits of Space<br>Transparent LED Control Monitor`,
-            desc: `시각적 개방성과 기능성을 동시에 만족시키는 혁신적 공간 설계본 설계는 협소한 관제 테이블 환경에서 발생할 수 있는 시각적 폐쇄감을 최소화하는 데 집중했습니다.테이블 측면에 고투과율 투명 LED 디스플레이를 배치함으로써, 정보 전달이라는 본연의 기능은 유지한 채 주변 공간과의 유기적인 연결성을 확보했습니다. 측면 공간의 개방성을 극대화하여 작업자에게 최적의 시야와 쾌적한 관제 환경을 제공합니다.`,
-            icon: "",
-            specTitle: "혁신적 공간 설계",
-            specDesc: "최적의 시야와 쾌적한 관제 환경을 제공",
-            img: "../img/.png"
+            title: `Transparent OLED Display`,
+            desc: `<strong>Smart Bridge Solution for Specialized Vessels</strong>: The bridge (wheelhouse) windshield can be transformed into a large transparent display integrated with AIS (Automatic Identification System), RADAR, and ENC (Electronic Navigational Chart) systems.<br><strong>Enhanced Safety & Collision Prevention</strong>: Conventional navigation requires operators to alternate between radar displays and the actual sea, increasing the risk of visual distraction and delayed recognition. The transparent display overlays navigation data directly onto the real-world view, significantly reducing the risk of misjudgment and collision.<br><strong>Revolutionized Night & Adverse Weather Navigation</strong>: When integrated with low-light and thermal imaging cameras, the system provides a clear view of surrounding terrain and nearby vessels, even in complete darkness or severe weather, reducing operator fatigue and improving navigational safety.`,
+            icon: "🪟",
+            specTitle: "Intuitive Navigation Support",
+            specDesc: "Combines real-time navigation data with the operator's field of view.",
+            img: "../img/t-series-bg2.png"
         },
 
         design: {
-            img: "../img/.png",
-            title: `국방 작전 지원을 위한 통합 전술 상황 분석 솔루션`,
-            desc: `<div class="desc-item"><strong>1. 실시간 데이터 융합 및 시각화 전장에 대한 완전한 이해를 제공합니다</strong> 다기종 드론 라이브 피드 통합, 고해상도 지형및 위성 영상 스캔, 아군 및 적군 유닛 실시간 위치 및 활동 추적  </div><div class="desc-item"><strong>2. 지능형 AI 기반 상황 예측 선제적 의사결정을 지원합니다.</strong><br> AI 기반 예상 도달시간(ETA) 및 최적 경로 분석, 적대적 의사결정 모델링 및 예측, 작전 상황투영 시뮬레이션</div> <div class="desc-item"><strong>3.상호 운용성 및 원활한 협업 지휘통제 효율성을 극대화합니다.</strong><br> 지휘관 및 상황실 요원 간실시간 상황공유, 투명 디스플레이및 대형스크린 최적화 인터페이스, 한국군 및 연합 작전 시스템과의 완벽한 호환 </div>`,
+            img: "../img/zv50ta1-bg.png",
+            title: `Integrated Tactical Situation Analysis<br>Solution for Defense Operations`,
+            desc: `<div class="desc-item"><strong>1. Real-Time Data Fusion & Visualization for Complete Battlefield Awareness</strong> Integrates live feeds from multiple drone platforms, high-resolution terrain and satellite imagery, and provides real-time tracking of friendly and hostile units.</div><div class="desc-item"><strong>2. AI-Powered Situational Prediction for Proactive Decision-Making</strong><br>Supports AI-based Estimated Time of Arrival (ETA) analysis, optimal route planning, adversarial decision modeling, and operational scenario simulation.</div><div class="desc-item"><strong>3. Interoperability & Seamless Collaboration for Enhanced Command Efficiency</strong><br>Enables real-time information sharing between commanders and control room personnel, provides an interface optimized for transparent displays and large-format screens, and ensures full compatibility with ROK Armed Forces and allied command systems.</div>`,
             specs: [
                 {
-                    title: "주요 특징",
-                    items: ["지형및 영상 스캔", "실시간 위치 활동 추적","예상 도달 시간, 최적 경로 분석"]
+                    title: "Key Features",
+                    items: [
+                        "Terrain & Imagery Analysis",
+                        "Real-Time Position & Activity Tracking",
+                        "ETA & Optimal Route Analysis"
+                    ]
                 },
                 {
-                    title: "주요 특징",
-                    items: ["대형 스크린 최적화 인터페이스", "작전상황 투영 시뮬레이션","의사결정 모델링 및 예측"]
+                    title: "Key Features",
+                    items: [
+                        "Large-Screen Optimized Interface",
+                        "Operational Scenario Simulation",
+                        "Decision Modeling & Prediction"
+                    ]
                 }
             ]
         },
 
         photos: [
-            "../img/eph-bg.png",
-            "../img/eph-bg2.png",
-            "../img/eph-bg3.png",
-            "../img/E-seriesbg.png"
+            "../img/t-series-bg2.png",
+            "../img/zv50ta1-bg.png",
+            "../img/zv50ta1-bg.png",
+            "../img/zv50ta1-bg.png"
         ],
 
         rugged: {
-            title: `그 어떤 환경에서도 살아남는,<br>강력한 보호성능`,
+            title: `Next-Generation Control Room Environment<br>Combining Openness & Functionality`,
             cards: [
                 {
-                icon: "🔒",
-                title: "무소음 냉각",
-                value: "팬리스 형태",
-                desc: "맞춤형 발열 구조를 갖춰 지령 환경에 최적화된 무소음 워크스테이션."
+                icon: "🔲",
+                title: "High-Transparency Solution",
+                value: "43% Transparency",
+                desc: "Delivers up to 43% transparency, allowing clear visibility of objects, fine details, and even text behind the display."
                 },
                 {
-                icon: "☔",
-                title: "다중 모니터 지원",
-                value: "3대",
-                desc: "최대 3대의 모니터 연결 포트 제공."
+                icon: "↔️ ↕️",
+                title: "Modular & Expandable Design",
+                value: "Scalability",
+                desc: "Supports standalone or tiled configurations with flexible installation options, including landscape, portrait, and ceiling-mounted layouts."
                 },
                 {
-                icon: "✇",
-                title: "극한 환경 대응",
-                value: "-40°C - 70°",
-                desc: "-40°C ~ 70°C의 운용 온도를 지원하는 산업용 적용 (KOLAS 시험성적서 기반 -20°C ~ 60°C)."
+                icon: "🎨",
+                title: "Exceptional Image Quality",
+                value: "Crystal-Clear Details",
+                desc: "Wide viewing angles and fast response times deliver accurate, consistent colors with outstanding clarity and minimal distortion."
                 }
             ]
         },
 
         specTable: [
-            ["Model", 'S1388 Dispatcher Workstation'],
-            ["CPU", "Intel® 13th Gen Raptor Lake-P/ Raptor Lake-U i7 Pentium CPU"],
-            ["그래픽", "Intel Iris Xe Graphics"],
-            ["메모리", "2 x DDR5 4800 MHz SODIMM, Max 64GB"],
-            ["저장장치", "1 x M.2 B key Type 3042 (SATA) 512GB"],
-            ["BIOS", "AMI UEFI BIOS"],
-            ["디스플레이", "2 x HDMI, 1 x RGB"],
-            ["LAN", "5 x Intel 2.5GbE I226-IT (external)"],
-            ["운용 OS", "구름 3.0 이상 (신뢰부팅 제공)"],
-            ["전원 이중화", "전원 이중화 (기본제공)"],
-            ["전원", "DC IN +9~36V (84W Power Adapter, 12V/7A)"],
-            ["운용 온도", "-40°C ~ 70°C (-20°C ~ 60°C KOLAS 시험성적서)"],
-            ["크기", "236W x 172.6D x 82H mm"],
-            ["보관 온도", "-40°C ~ 70°C"]
+            ["Product Size", "50-inch"],
+            ["Screen Type", "OLED Screen, AM-OLED"],
+            ["Refresh Rate", "120 Hz"],
+            ["Display Area", "664.29 mm (H) × 373.48 mm (V)"],
+            ["Panel Dimensions", "1225.50 × 687.00 × 1.72 mm (H × V × D)"],
+            ["Resolution", "1366 × 768"],
+            ["Maximum Input Resolution", "3840 × 2160 @ 60Hz (4K Supported)"],
+            ["Brightness", "600 ~ 200 cd/m²"],
+            ["Contrast Ratio", "135,000 : 1"],
+            ["Response Time", "0.1 ms (GtG, Typ.) / 8 ms (MPRT, Typ.)"],
+            ["Color Depth", "1.07 Billion Colors (10-bit)"],
+            ["Transparency", "43% (Typ.)"],
+            ["Aspect Ratio", "16:9"],
+            ["Viewing Angle", "178° (Min.) (H/V)"],
+            ["Touch Technology", "Projected Capacitive Touch (G+F+F Structure)"],
+            ["Multi-Touch", "10-Point Touch or More"],
+            ["Supported Operating Systems", "Windows 7 / 8 / 10 / 11, Android, Linux"],
+            ["Housing Material / Color", "Sheet Metal / White"],
+            ["Product Type", "All-in-One"],
+            ["Overall Dimensions (L × W × H)", "1234.00 × 250.00 × 772.00 mm"],
+            ["Installation", "Desktop"],
+            ["Input Voltage", "AC 110V ~ 250V, 50/60Hz"],
+            ["Maximum Power Consumption", "80W (Max.)"],
+            ["Standby Power Consumption", "< 0.5W"],
+            ["Speaker Output", "5W × 2 Channels"],
+            ["Operating Environment", "Indoor"],
+            ["Operating Temperature / Humidity", "0°C ~ 45°C / 10% ~ 90% (Non-Condensing)"],
+            ["Storage Temperature / Humidity", "-20°C ~ 60°C / 10% ~ 90% (Non-Condensing)"]
         ]
-    }
+    },
 
 };
 
