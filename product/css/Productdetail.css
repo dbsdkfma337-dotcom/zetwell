@@ -117,6 +117,7 @@
     font-size: 24px;
     font-weight: 800;
     color: #d90000;
+    word-break: keep-all;
 }
 
 .rugged-card strong {
@@ -125,6 +126,7 @@
     font-size: 32px;
     font-weight: 800;
     color: #000;
+    word-break: keep-all;
 }
 
 .rugged-card p {

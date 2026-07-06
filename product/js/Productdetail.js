@@ -1912,12 +1912,14 @@ const productData = {
 
         sliderImages: [
             "../img/S1519H.png",
+            "../img/s1519h-monitor.png",
+            "../img/s1519h-monitor2.png"
         ],
 
         hero: {
             title: `강력한 AI 처리 성능<br> (GPU / NPU 탑재)`,
             desc: `GPU를 탑재하여 LLM(대규모 언어 모델)을 포함한 복잡한 AI 연산을 효율적으로 수행합니다. NPU 장치의 경우 병렬로 구성하여 더욱 빠른 속도를 체감할 수 있습니다. NVIDIA RTX 2000 Ada Generation D6 16GB부터 시작하며, 더 높은 사양의 GPU까지 옵션으로 지원하여 요구되는 AI 워크로드에 완벽하게 대응합니다. 또한 Hailo-10H AI Accelerator를 통해 탁월한 AI 가속을 제공합니다.`,
-            icon: "🧠",
+            icon: "",
             specTitle: "NPU가 탑재된 Intel® Core™ Ultra 기반으로<br>엣지 AI 추론 수행",
             specDesc: "S1517H / 1519H는 NPU가 탑재된 Intel® Core™ Ultra 기반으로 엣지에서 직접 AI 추론을 수행하며, 선택 사양인 NVIDIA® 개별 PCIe GPU를 통해 머신 비전, 지령AI 등에서 연산 성능을 확장할 수 있는 고성능 AI 관제 시스템입니다.",
             img: "../img/S1519H.png"
@@ -2004,12 +2006,14 @@ const productData = {
 
         sliderImages: [
             "../img/S1519H.png",
+            "../img/s1519h-monitor.png",
+            "../img/s1519h-monitor2.png"
         ],
 
         hero: {
             title: `Powerful AI Processing Performance (Equipped with GPU / NPU)`,
             desc: `Equipped with a GPU, the system efficiently handles complex AI computations, including Large Language Models (LLMs). For even greater performance, NPUs can be configured in parallel to deliver significantly faster processing speeds. Starting with the NVIDIA RTX 2000 Ada Generation D6 16GB and supporting higher-end GPU options, the platform is fully scalable to meet demanding AI workloads. In addition, the Hailo-10H AI Accelerator provides exceptional AI acceleration performance.`,
-            icon: "🧠",
+            icon: "",
             specTitle: "Edge AI Inference Powered by Intel® Core™ Ultra with Integrated NPU",
             specDesc: "The S1517H and S1519H are high-performance AI command and control systems based on Intel® Core™ Ultra processors with integrated NPUs, enabling edge AI inference directly on the device. With an optional NVIDIA® discrete PCIe GPU, they can further expand computing performance for applications such as machine vision and AI-powered command and control.",
             img: "../img/S1519H.png"
@@ -2043,21 +2047,21 @@ const productData = {
             cards: [
                 {
                 icon: "🌀",
-                title: "스마트 쿨링 시스템",
-                value: "자동 온도 제어 냉각 시스템",
-                desc: "내부 온도룰 감지하여 팬의 회전수(RPM)를 제어."
+                title: "Smart Cooling System",
+                value: "Automatic Temperature-Controlled Cooling System",
+                desc: "Automatically detects the internal temperature and adjusts the fan speed (RPM)"
                 },
                 {
                 icon: "⚙️🧠",
-                title: "온디바이스 엣지 AI GPU 탑재",
-                value: "AI GPU 탑재",
-                desc: "지령장치 단말 자체에 탑재된 GPU에서 AI 연산을 처리"
+                title: "Built-in On-Device Edge AI GPU",
+                value: "Built-in AI GPU",
+                desc: "Processes AI workloads on the GPU integrated into the dispatcher terminal itself."
                 },
                 {
                 icon: "🖥️⚡",
-                title: "AI STT (Speech-to-Text) 기반의 지능형 관제",
+                title: "AI STT (Speech-to-Text)-Based Intelligent Command & Control",
                 value: "AI STT",
-                desc: "메신저처럼 실시간 텍스트 로그로 확인하고 검색"
+                desc: "View and search real-time text logs in a messenger-style interface."
                 }
             ]
         },
@@ -2067,18 +2071,18 @@ const productData = {
         specTable: [
             ["Model", 'S1517H / S1519H'],
             ["CPU", "15th Gen Intel® Core™ Ultra7 CPU, 15th Gen Intel® Core™ Ultra9 CPU"],
-            ["운영체계", "Windows 11 Pro 64bit"],
-            ["그래픽", "NVIDIA RTX 2000 Ada Generation D6 16GB (AI)"],
-            ["메모리", "2 x DDR5 SODIMM, 최대 64GB, -40℃ ~ +85℃"],
+            ["Operating System (OS)", "Windows 11 Pro 64bit"],
+            ["Graphics", "NVIDIA RTX 2000 Ada Generation D6 16GB (AI)"],
+            ["Memory", "2 x DDR5 SODIMM, 최대 64GB, -40℃ ~ +85℃"],
             ["mSATA", "mSATA SSD INNODISK (1TB), -40℃ ~ +85℃ (mSATA 3MV2-P)"],
-            ["마이크", "LED 램프형 구즈넥 마이크 (콘덴서형)"],
-            ["유선 LAN", "5 x Intel 2.5 GbE I226-IT"],
-            ["공청", "1회선 (JABRA 증폭기 최적화)"],
-            ["회선 이중화", "TIMING 지원"],
-            ["전원 이중화", "전기안전인증 필수 아답터 사용, 이중화 지원"],
-            ["디스플레이", "1 x mDP 1.4 HDR 5120 x 2880 @ 60Hz (30-bit color) x 4"],
-            ["USB", "전면 사운드 2.0, 4 x USB 3.1 Gen 1 (외부), 7 x USB 2.0 (내부)"],
-            ["GPIO & WDT", "하드웨어 디지털 입력/출력 (DI/DO), 하드웨어 워치독 타이머(0~255초), 경광등 램프용 GPIO 기본 제공 및 기타 IO 기능용 GPIO"]
+            ["Microphone", "LED Gooseneck Condenser Microphone"],
+            ["Wired LAN", "5 x Intel 2.5 GbE I226-IT"],
+            ["Public Address (PA)", "1 Channel (Optimized for Jabra Amplifier)"],
+            ["Line Redundancy", "TIMING Support"],
+            ["Power Redundancy", "Supports power redundancy using certified safety adapters."],
+            ["Display", "1 x mDP 1.4 HDR 5120 x 2880 @ 60Hz (30-bit color) x 4"],
+            ["USB", "Front Audio 2.0, 4 × USB 3.1 Gen 1 (External), 7 × USB 2.0 (Internal)"],
+            ["GPIO & WDT", "Features hardware digital I/O (DI/DO), a hardware watchdog timer (0–255 seconds), and built-in GPIO for warning beacon lamps and additional I/O functions."]
         ]
     },
 
@@ -2702,13 +2706,16 @@ const productData = {
             ]
         },
 
+        video: "../video/zv30T-a1.mp4",
+
         specTable: [
             ["제품 크기", '30 인치 (30 inch)'],
             ["스크린 타입", "OLED 스크린, AM-OLED"],
             ["재생률", "120 Hz"],
             ["디스플레이 영역", "664.29 mm(H) × 373.48 mm(V)"],
-            ["저패널 외곽 사이즈", "676.09 × 387.48 × 1.72 mm (H × V × D)"],
-            ["해상도", "1366 × 768"],
+            ["패널 외곽 사이즈", "676.09 × 387.48 × 1.72 mm (H × V × D)"],
+            ["화면 해상도", "1366 × 768"],
+            ["최대 입력 해상도", "3840 × 2160 / 60Hz 4k지원"],
             ["밝기 (Brightness)", "600 ~ 200 cd/m²"],
             ["명암비", "135,000 : 1 / Contrast Ratio"],
             ["응답 속도", "0.1ms (G to G, Typ.) / 8ms (MPRT, Typ.)"],
@@ -2812,8 +2819,9 @@ const productData = {
             ["스크린 타입", "OLED 스크린, AM-OLED"],
             ["재생률", "120 Hz"],
             ["디스플레이 영역", "664.29 mm(H) × 373.48 mm(V)"],
-            ["저패널 외곽 사이즈", "676.09 × 387.48 × 1.72 mm (H × V × D)"],
-            ["해상도", "1366 × 768"],
+            ["패널 외곽 사이즈", "1225.50mm(H)  x 687.00mm(V) x 1.72mm(D)"],
+            ["화면 해상도", "1366 × 768"],
+            ["최대 입력 해상도", "3840 × 2160 / 60Hz 4k지원"],
             ["밝기 (Brightness)", "600 ~ 200 cd/m²"],
             ["명암비", "135,000 : 1 / Contrast Ratio"],
             ["응답 속도", "0.1ms (G to G, Typ.) / 8ms (MPRT, Typ.)"],
@@ -2826,7 +2834,7 @@ const productData = {
             ["터치 호환 OS", "Windows 7 / 8 / 10, Android, Linux"],
             ["하우징 소재 / 색상", "판금 (Sheet metal) / 화이트 (White)"],
             ["제품 형태", "올인원 (All-in-one)"],
-            ["전체 크기 (L × W × H)", "698 × 250 × 511 mm"],
+            ["전체 크기 (L × W × H)", "1234.00 x 250.00 x 772.00mm"],
             ["설치 방식", "데스크톱 (Desktop)"],
             ["입력 전압", "AC 110V ~ 250V @ 60Hz/50Hz"],
             ["최대 소비 전력", "80W (Max.)"],
