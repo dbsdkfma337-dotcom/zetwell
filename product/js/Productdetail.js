@@ -564,26 +564,26 @@ const productData = {
         ],
 
         hero: {
-            title: `극한 환경에서<br>장비를 보호하다`,
-            desc: `대형 장비 및 정밀 기기를 위한 전문 보호 케이스입니다.<br> 충격,습기,온도 변화로부터 장비를 안전하게 보호하고<br> 어떤 환경에서도 안정적인 운용을 지원합니다. `,
-            icon: "🔩",
-            specTitle: "강한 내구성",
-            specDesc: "고강도 폴리프로필렌 소재로 충격과진동, 극한 환경에서도<br> 높은 내구성을 자랑합니다.",
+            title: `차세대 Edge AI를 위한 Intel® Core™ Ultra 플랫폼`,
+            desc: `<strong>차세대 AI 프로세서 완벽 지원 (Intel® Core™ Ultra 7/5)</strong><br>최신 고효율 하이브리드 아키텍처 기반의 Meteor Lake 및 Arrow Lake (U/H 시리즈) 프로세서를 탑재하여 성능과 전력 효율성을 동시에 달성했습니다. 특히 CPU, GPU와 더불어 내장된 통합 NPU(Neural Processing Unit)를 통해 에지 단에서의 AI 인프라 워크로드를 저전력으로 상시 분산 처리합니다.<br><strong>산업용 등급의 안정성 및 고속 입출력(I/O) 설계</strong><br>24시간 상시 가동되는 미션 크리티컬 환경에 최적화된 산업용 고신뢰성 설계가 적용되었습니다. 고대역폭 데이터 전송을 위한 다중 인터페이스를 지원하여, 대용량 센서 데이터 및 다채널 카메라 피드를 병목 현상 없이 메인 시스템으로 신속하게 전달합니다.`,
+            icon: "🧠",
+            specTitle: "AI 프로세서 지원",
+            specDesc: "Intel® Core™ Ultra와 NPU 기반의 고성능 AI 연산 및 저전력 처리",
             img: "../img/WSR213-r2.png"
         },
 
         design: {
             img: "../img/WSR213.png",
-            title: `넓은 내부 공간<br>더 높은 활용성`,
-            desc: `넉넉한 내부공간으로 다양한 장비와 액세서리를 효율적으로 수납할 수 있습니다. 맞춤형 품 구성으로 장비를 안전하게 고정하여 운반할 수 있습니다.`,
+            title: `3U iSeries Injection Molded Fly Rack (13") 케이스 적용`,
+            desc: `<strong>완벽한 수납 및 항공 이동 편의성</strong>: 군용 등급의 고강도 사출 성형 하드케이스와 내부 3U 알루미늄 랙 부품이 결합된 하이브리드 구조입니다. 13인치 콤팩트 깊이로 보관 및 적재가 매우 용이하며, 필요 시 내부 랙만 신속하게 분리하여 탁상형으로 전환할 수 있습니다.<br><strong>이동식 하드케이스 스타일 디자인</strong>: 캐리어 형태의 부드러운 인라인 휠과 개폐식 풀 핸들이 내장되어 가혹한 험지나 격오지에서도 혼자서 손쉽게 장비를 운반할 수 있습니다.<br><strong>철저한 환경 차단 (IP67)</strong>: 방수·방진 및 충격 흡수 성능이 뛰어나, 이동 및 보관 중 발생할 수 있는 내부 장비의 파손을 완벽히 방지합니다.`,
             specs: [
                 {
-                    title: "크기및용량",
-                    items: ["내부크기 1080x620x400", "외부크기 1178x718x427", "대용량 공간 260L"]
+                    title: "특징",
+                    items: ["완벽한 수납", "이동 편의성", "하이브리드 구조"]
                 },
                 {
-                    title: "이동편의성",
-                    items: ["4 Wheels", "360° 회전 캐스터 적용"]
+                    title: "특징",
+                    items: ["혼자서 손쉽게 장비 운반 가능", "방수·방진 및 충격 흡수 성능"]
                 }
             ]
         },
@@ -620,17 +620,23 @@ const productData = {
         },
 
         specTable: [
-            ["디스플레이", '43" 4k UHD (3840 × 2160)'],
-            ["밝기", "500 nits"],
-            ["시야각", "178° (H) / 178° (V)"],
-            ["입력단자", "HDMI, USB, LAN, 전원 입력"],
-            ["전원", "AC 100~240V"],
-            ["작동온도", "-20°C ~ 60°C"],
-            ["보관온도", "-30°C ~ 70°C"],
-            ["방진방수", "IP65"],
-            ["외부크기", "1178 x 718 x 427 mm"],
-            ["내부크기", "1080 x 620 x 400 mm"],
-            ["중량", "약 24kg"]
+            ["MODEL", '3I140DW'],
+            ["CPU", "Intel® Core™ Ultra 7/5 Series processors (Meteor Lake-U/H) (Arrow Lake-U/H)"],
+            ["Chipset", "Intel® Arc™ graphics ; Intel® UHD Graphics"],
+            ["System Memory", "2 x DDR5 SODIMM, Max 64GB"],
+            ["Storage", "1 x SATA ports 3.0 Data transfer rates up to 6.0 Gb/s (600 MB/s)<br>1 x M.2 M key Type 2280 (PCIe x4), Support NVMe"],
+            ["BIOS", "AMI UEFI BIOS"],
+            ["Display", "1 x HDMI® ; 1 x DP ; 1 x Type C DP ALT Mode, 1 x LVDS or eDP (BIOS)"],
+            ["TPM", "Hardware TPM 2.0 ; OEM Optional to Firmware TPM 2.0"],
+            ["LAN", "5 x Intel 2.5GbE I226-IT (external)"],
+            ["Serial IO", "	4 x RS232 / 422 / 485 (internal) eSPI<br> *COM1~COM4 pin9 5V / 12V (Option)"],
+            ["CANBus", "2 x CANBus"],
+            ["SMBus / I2C / I2S", "1 x SMBus ; 1 x 12C ; 1 x I2S"],
+            ["GPIO", "Hardware digital Input & Output, 4 x DI / 4 x DO"],
+            ["WDT", "Hardware Watch Dog Timer, 0~255 sec programmable"],
+            ["Power Input", "Wide Range DC IN +9~36V"],
+            ["Operation Temperature<br>(100 % CPU Usage)", "-40°C~70°C(under specific environmental & CPU power consumption conditions)"],
+            ["Operation Humidity", "5~95%, non-condensing"]
         ]
     },
 
@@ -652,26 +658,26 @@ const productData = {
         ],
 
         hero: {
-            title: `극한 환경에서<br>장비를 보호하다`,
-            desc: `대형 장비 및 정밀 기기를 위한 전문 보호 케이스입니다.<br> 충격,습기,온도 변화로부터 장비를 안전하게 보호하고<br> 어떤 환경에서도 안정적인 운용을 지원합니다. `,
-            icon: "🔩",
-            specTitle: "강한 내구성",
-            specDesc: "고강도 폴리프로필렌 소재로 충격과진동, 극한 환경에서도<br> 높은 내구성을 자랑합니다.",
+            title: `차세대 Edge AI를 위한 Intel® Core™ Ultra 플랫폼`,
+            desc: `<strong>차세대 AI 프로세서 완벽 지원 (Intel® Core™ Ultra 7/5)</strong><br>최신 고효율 하이브리드 아키텍처 기반의 Meteor Lake 및 Arrow Lake (U/H 시리즈) 프로세서를 탑재하여 성능과 전력 효율성을 동시에 달성했습니다. 특히 CPU, GPU와 더불어 내장된 통합 NPU(Neural Processing Unit)를 통해 에지 단에서의 AI 인프라 워크로드를 저전력으로 상시 분산 처리합니다.<br><strong>산업용 등급의 안정성 및 고속 입출력(I/O) 설계</strong><br>24시간 상시 가동되는 미션 크리티컬 환경에 최적화된 산업용 고신뢰성 설계가 적용되었습니다. 고대역폭 데이터 전송을 위한 다중 인터페이스를 지원하여, 대용량 센서 데이터 및 다채널 카메라 피드를 병목 현상 없이 메인 시스템으로 신속하게 전달합니다.`,
+            icon: "🧠",
+            specTitle: "AI 프로세서 지원",
+            specDesc: "Intel® Core™ Ultra와 NPU 기반의 고성능 AI 연산 및 저전력 처리",
             img: "../img/WSR213-r2.png"
         },
 
         design: {
             img: "../img/WSR213.png",
-            title: `넓은 내부 공간<br>더 높은 활용성`,
-            desc: `넉넉한 내부공간으로 다양한 장비와 액세서리를 효율적으로 수납할 수 있습니다. 맞춤형 품 구성으로 장비를 안전하게 고정하여 운반할 수 있습니다.`,
+            title: `3U iSeries Injection Molded Fly Rack (13") 케이스 적용`,
+            desc: `<strong>완벽한 수납 및 항공 이동 편의성</strong>: 군용 등급의 고강도 사출 성형 하드케이스와 내부 3U 알루미늄 랙 부품이 결합된 하이브리드 구조입니다. 13인치 콤팩트 깊이로 보관 및 적재가 매우 용이하며, 필요 시 내부 랙만 신속하게 분리하여 탁상형으로 전환할 수 있습니다.<br><strong>이동식 하드케이스 스타일 디자인</strong>: 캐리어 형태의 부드러운 인라인 휠과 개폐식 풀 핸들이 내장되어 가혹한 험지나 격오지에서도 혼자서 손쉽게 장비를 운반할 수 있습니다.<br><strong>철저한 환경 차단 (IP67)</strong>: 방수·방진 및 충격 흡수 성능이 뛰어나, 이동 및 보관 중 발생할 수 있는 내부 장비의 파손을 완벽히 방지합니다.`,
             specs: [
                 {
-                    title: "크기및용량",
-                    items: ["내부크기 1080x620x400", "외부크기 1178x718x427", "대용량 공간 260L"]
+                    title: "특징",
+                    items: ["완벽한 수납", "이동 편의성", "하이브리드 구조"]
                 },
                 {
-                    title: "이동편의성",
-                    items: ["4 Wheels", "360° 회전 캐스터 적용"]
+                    title: "특징",
+                    items: ["혼자서 손쉽게 장비 운반 가능", "방수·방진 및 충격 흡수 성능"]
                 }
             ]
         },
@@ -708,17 +714,23 @@ const productData = {
         },
 
         specTable: [
-            ["디스플레이", '43" 4k UHD (3840 × 2160)'],
-            ["밝기", "500 nits"],
-            ["시야각", "178° (H) / 178° (V)"],
-            ["입력단자", "HDMI, USB, LAN, 전원 입력"],
-            ["전원", "AC 100~240V"],
-            ["작동온도", "-20°C ~ 60°C"],
-            ["보관온도", "-30°C ~ 70°C"],
-            ["방진방수", "IP65"],
-            ["외부크기", "1178 x 718 x 427 mm"],
-            ["내부크기", "1080 x 620 x 400 mm"],
-            ["중량", "약 24kg"]
+            ["MODEL", '3I140DW'],
+            ["CPU", "Intel® Core™ Ultra 7/5 Series processors (Meteor Lake-U/H) (Arrow Lake-U/H)"],
+            ["Chipset", "Intel® Arc™ graphics ; Intel® UHD Graphics"],
+            ["System Memory", "2 x DDR5 SODIMM, Max 64GB"],
+            ["Storage", "1 x SATA ports 3.0 Data transfer rates up to 6.0 Gb/s (600 MB/s)<br>1 x M.2 M key Type 2280 (PCIe x4), Support NVMe"],
+            ["BIOS", "AMI UEFI BIOS"],
+            ["Display", "1 x HDMI® ; 1 x DP ; 1 x Type C DP ALT Mode, 1 x LVDS or eDP (BIOS)"],
+            ["TPM", "Hardware TPM 2.0 ; OEM Optional to Firmware TPM 2.0"],
+            ["LAN", "5 x Intel 2.5GbE I226-IT (external)"],
+            ["Serial IO", "	4 x RS232 / 422 / 485 (internal) eSPI<br> *COM1~COM4 pin9 5V / 12V (Option)"],
+            ["CANBus", "2 x CANBus"],
+            ["SMBus / I2C / I2S", "1 x SMBus ; 1 x 12C ; 1 x I2S"],
+            ["GPIO", "Hardware digital Input & Output, 4 x DI / 4 x DO"],
+            ["WDT", "Hardware Watch Dog Timer, 0~255 sec programmable"],
+            ["Power Input", "Wide Range DC IN +9~36V"],
+            ["Operation Temperature<br>(100 % CPU Usage)", "-40°C~70°C(under specific environmental & CPU power consumption conditions)"],
+            ["Operation Humidity", "5~95%, non-condensing"]
         ]
     },
 
@@ -740,26 +752,26 @@ const productData = {
         ],
 
         hero: {
-            title: `극한 환경에서<br>장비를 보호하다`,
-            desc: `대형 장비 및 정밀 기기를 위한 전문 보호 케이스입니다.<br> 충격,습기,온도 변화로부터 장비를 안전하게 보호하고<br> 어떤 환경에서도 안정적인 운용을 지원합니다. `,
-            icon: "🔩",
-            specTitle: "강한 내구성",
-            specDesc: "고강도 폴리프로필렌 소재로 충격과진동, 극한 환경에서도<br> 높은 내구성을 자랑합니다.",
-            img: "../img/wsr210-r.png"
+            title: `차세대 Edge AI를 위한 Intel® Core™ Ultra 플랫폼`,
+            desc: `<strong>차세대 AI 프로세서 완벽 지원 (Intel® Core™ Ultra 7/5)</strong><br>최신 고효율 하이브리드 아키텍처 기반의 Meteor Lake 및 Arrow Lake (U/H 시리즈) 프로세서를 탑재하여 성능과 전력 효율성을 동시에 달성했습니다. 특히 CPU, GPU와 더불어 내장된 통합 NPU(Neural Processing Unit)를 통해 에지 단에서의 AI 인프라 워크로드를 저전력으로 상시 분산 처리합니다.<br><strong>산업용 등급의 안정성 및 고속 입출력(I/O) 설계</strong><br>24시간 상시 가동되는 미션 크리티컬 환경에 최적화된 산업용 고신뢰성 설계가 적용되었습니다. 고대역폭 데이터 전송을 위한 다중 인터페이스를 지원하여, 대용량 센서 데이터 및 다채널 카메라 피드를 병목 현상 없이 메인 시스템으로 신속하게 전달합니다.`,
+            icon: "🧠",
+            specTitle: "AI 프로세서 지원",
+            specDesc: "Intel® Core™ Ultra와 NPU 기반의 고성능 AI 연산 및 저전력 처리",
+            img: "../img/WSR213-r2.png"
         },
 
         design: {
-            img: "../img/wsr210-f.png",
-            title: `넓은 내부 공간<br>더 높은 활용성`,
-            desc: `넉넉한 내부공간으로 다양한 장비와 액세서리를 효율적으로 수납할 수 있습니다. 맞춤형 품 구성으로 장비를 안전하게 고정하여 운반할 수 있습니다.`,
+            img: "../img/WSR213.png",
+            title: `3U iSeries Injection Molded Fly Rack (13") 케이스 적용`,
+            desc: `<strong>완벽한 수납 및 항공 이동 편의성</strong>: 군용 등급의 고강도 사출 성형 하드케이스와 내부 3U 알루미늄 랙 부품이 결합된 하이브리드 구조입니다. 13인치 콤팩트 깊이로 보관 및 적재가 매우 용이하며, 필요 시 내부 랙만 신속하게 분리하여 탁상형으로 전환할 수 있습니다.<br><strong>이동식 하드케이스 스타일 디자인</strong>: 캐리어 형태의 부드러운 인라인 휠과 개폐식 풀 핸들이 내장되어 가혹한 험지나 격오지에서도 혼자서 손쉽게 장비를 운반할 수 있습니다.<br><strong>철저한 환경 차단 (IP67)</strong>: 방수·방진 및 충격 흡수 성능이 뛰어나, 이동 및 보관 중 발생할 수 있는 내부 장비의 파손을 완벽히 방지합니다.`,
             specs: [
                 {
-                    title: "크기및용량",
-                    items: ["내부크기 1080x620x400", "외부크기 1178x718x427", "대용량 공간 260L"]
+                    title: "특징",
+                    items: ["완벽한 수납", "이동 편의성", "하이브리드 구조"]
                 },
                 {
-                    title: "이동편의성",
-                    items: ["4 Wheels", "360° 회전 캐스터 적용"]
+                    title: "특징",
+                    items: ["혼자서 손쉽게 장비 운반 가능", "방수·방진 및 충격 흡수 성능"]
                 }
             ]
         },
@@ -796,17 +808,23 @@ const productData = {
         },
 
         specTable: [
-            ["디스플레이", '43" 4k UHD (3840 × 2160)'],
-            ["밝기", "500 nits"],
-            ["시야각", "178° (H) / 178° (V)"],
-            ["입력단자", "HDMI, USB, LAN, 전원 입력"],
-            ["전원", "AC 100~240V"],
-            ["작동온도", "-20°C ~ 60°C"],
-            ["보관온도", "-30°C ~ 70°C"],
-            ["방진방수", "IP65"],
-            ["외부크기", "1178 x 718 x 427 mm"],
-            ["내부크기", "1080 x 620 x 400 mm"],
-            ["중량", "약 24kg"]
+            ["MODEL", '3I140DW'],
+            ["CPU", "Intel® Core™ Ultra 7/5 Series processors (Meteor Lake-U/H) (Arrow Lake-U/H)"],
+            ["Chipset", "Intel® Arc™ graphics ; Intel® UHD Graphics"],
+            ["System Memory", "2 x DDR5 SODIMM, Max 64GB"],
+            ["Storage", "1 x SATA ports 3.0 Data transfer rates up to 6.0 Gb/s (600 MB/s)<br>1 x M.2 M key Type 2280 (PCIe x4), Support NVMe"],
+            ["BIOS", "AMI UEFI BIOS"],
+            ["Display", "1 x HDMI® ; 1 x DP ; 1 x Type C DP ALT Mode, 1 x LVDS or eDP (BIOS)"],
+            ["TPM", "Hardware TPM 2.0 ; OEM Optional to Firmware TPM 2.0"],
+            ["LAN", "5 x Intel 2.5GbE I226-IT (external)"],
+            ["Serial IO", "	4 x RS232 / 422 / 485 (internal) eSPI<br> *COM1~COM4 pin9 5V / 12V (Option)"],
+            ["CANBus", "2 x CANBus"],
+            ["SMBus / I2C / I2S", "1 x SMBus ; 1 x 12C ; 1 x I2S"],
+            ["GPIO", "Hardware digital Input & Output, 4 x DI / 4 x DO"],
+            ["WDT", "Hardware Watch Dog Timer, 0~255 sec programmable"],
+            ["Power Input", "Wide Range DC IN +9~36V"],
+            ["Operation Temperature<br>(100 % CPU Usage)", "-40°C~70°C(under specific environmental & CPU power consumption conditions)"],
+            ["Operation Humidity", "5~95%, non-condensing"]
         ]
     },
 
@@ -828,26 +846,26 @@ const productData = {
         ],
 
         hero: {
-            title: `극한 환경에서<br>장비를 보호하다`,
-            desc: `대형 장비 및 정밀 기기를 위한 전문 보호 케이스입니다.<br> 충격,습기,온도 변화로부터 장비를 안전하게 보호하고<br> 어떤 환경에서도 안정적인 운용을 지원합니다. `,
-            icon: "🔩",
-            specTitle: "강한 내구성",
-            specDesc: "고강도 폴리프로필렌 소재로 충격과진동, 극한 환경에서도<br> 높은 내구성을 자랑합니다.",
-            img: "../img/wsr209.png"
+            title: `차세대 Edge AI를 위한 Intel® Core™ Ultra 플랫폼`,
+            desc: `<strong>차세대 AI 프로세서 완벽 지원 (Intel® Core™ Ultra 7/5)</strong><br>최신 고효율 하이브리드 아키텍처 기반의 Meteor Lake 및 Arrow Lake (U/H 시리즈) 프로세서를 탑재하여 성능과 전력 효율성을 동시에 달성했습니다. 특히 CPU, GPU와 더불어 내장된 통합 NPU(Neural Processing Unit)를 통해 에지 단에서의 AI 인프라 워크로드를 저전력으로 상시 분산 처리합니다.<br><strong>산업용 등급의 안정성 및 고속 입출력(I/O) 설계</strong><br>24시간 상시 가동되는 미션 크리티컬 환경에 최적화된 산업용 고신뢰성 설계가 적용되었습니다. 고대역폭 데이터 전송을 위한 다중 인터페이스를 지원하여, 대용량 센서 데이터 및 다채널 카메라 피드를 병목 현상 없이 메인 시스템으로 신속하게 전달합니다.`,
+            icon: "🧠",
+            specTitle: "AI 프로세서 지원",
+            specDesc: "Intel® Core™ Ultra와 NPU 기반의 고성능 AI 연산 및 저전력 처리",
+            img: "../img/WSR213-r2.png"
         },
 
         design: {
-            img: "../img/wsr209-r.png",
-            title: `넓은 내부 공간<br>더 높은 활용성`,
-            desc: `넉넉한 내부공간으로 다양한 장비와 액세서리를 효율적으로 수납할 수 있습니다. 맞춤형 품 구성으로 장비를 안전하게 고정하여 운반할 수 있습니다.`,
+            img: "../img/WSR213.png",
+            title: `3U iSeries Injection Molded Fly Rack (13") 케이스 적용`,
+            desc: `<strong>완벽한 수납 및 항공 이동 편의성</strong>: 군용 등급의 고강도 사출 성형 하드케이스와 내부 3U 알루미늄 랙 부품이 결합된 하이브리드 구조입니다. 13인치 콤팩트 깊이로 보관 및 적재가 매우 용이하며, 필요 시 내부 랙만 신속하게 분리하여 탁상형으로 전환할 수 있습니다.<br><strong>이동식 하드케이스 스타일 디자인</strong>: 캐리어 형태의 부드러운 인라인 휠과 개폐식 풀 핸들이 내장되어 가혹한 험지나 격오지에서도 혼자서 손쉽게 장비를 운반할 수 있습니다.<br><strong>철저한 환경 차단 (IP67)</strong>: 방수·방진 및 충격 흡수 성능이 뛰어나, 이동 및 보관 중 발생할 수 있는 내부 장비의 파손을 완벽히 방지합니다.`,
             specs: [
                 {
-                    title: "크기및용량",
-                    items: ["내부크기 1080x620x400", "외부크기 1178x718x427", "대용량 공간 260L"]
+                    title: "특징",
+                    items: ["완벽한 수납", "이동 편의성", "하이브리드 구조"]
                 },
                 {
-                    title: "이동편의성",
-                    items: ["4 Wheels", "360° 회전 캐스터 적용"]
+                    title: "특징",
+                    items: ["혼자서 손쉽게 장비 운반 가능", "방수·방진 및 충격 흡수 성능"]
                 }
             ]
         },
@@ -884,17 +902,23 @@ const productData = {
         },
 
         specTable: [
-            ["디스플레이", '43" 4k UHD (3840 × 2160)'],
-            ["밝기", "500 nits"],
-            ["시야각", "178° (H) / 178° (V)"],
-            ["입력단자", "HDMI, USB, LAN, 전원 입력"],
-            ["전원", "AC 100~240V"],
-            ["작동온도", "-20°C ~ 60°C"],
-            ["보관온도", "-30°C ~ 70°C"],
-            ["방진방수", "IP65"],
-            ["외부크기", "1178 x 718 x 427 mm"],
-            ["내부크기", "1080 x 620 x 400 mm"],
-            ["중량", "약 24kg"]
+            ["MODEL", '3I140DW'],
+            ["CPU", "Intel® Core™ Ultra 7/5 Series processors (Meteor Lake-U/H) (Arrow Lake-U/H)"],
+            ["Chipset", "Intel® Arc™ graphics ; Intel® UHD Graphics"],
+            ["System Memory", "2 x DDR5 SODIMM, Max 64GB"],
+            ["Storage", "1 x SATA ports 3.0 Data transfer rates up to 6.0 Gb/s (600 MB/s)<br>1 x M.2 M key Type 2280 (PCIe x4), Support NVMe"],
+            ["BIOS", "AMI UEFI BIOS"],
+            ["Display", "1 x HDMI® ; 1 x DP ; 1 x Type C DP ALT Mode, 1 x LVDS or eDP (BIOS)"],
+            ["TPM", "Hardware TPM 2.0 ; OEM Optional to Firmware TPM 2.0"],
+            ["LAN", "5 x Intel 2.5GbE I226-IT (external)"],
+            ["Serial IO", "	4 x RS232 / 422 / 485 (internal) eSPI<br> *COM1~COM4 pin9 5V / 12V (Option)"],
+            ["CANBus", "2 x CANBus"],
+            ["SMBus / I2C / I2S", "1 x SMBus ; 1 x 12C ; 1 x I2S"],
+            ["GPIO", "Hardware digital Input & Output, 4 x DI / 4 x DO"],
+            ["WDT", "Hardware Watch Dog Timer, 0~255 sec programmable"],
+            ["Power Input", "Wide Range DC IN +9~36V"],
+            ["Operation Temperature<br>(100 % CPU Usage)", "-40°C~70°C(under specific environmental & CPU power consumption conditions)"],
+            ["Operation Humidity", "5~95%, non-condensing"]
         ]
     },
 
@@ -2241,12 +2265,12 @@ const productData = {
         ],
 
         hero: {
-            title: `지령대의 효율적인<br>디스패쳐 워크스테이션`,
-            desc: `S1388 (H9 Dispatcher Workstation)은 모든 상황실에 이상적인 고성능 산업용 워크스테이션입니다. 비디오 방송과 같은 CPU 집약적인 근무 환경에서도 최고 사양을 발휘할 수 있도록 설계되었으며, 13세대 Intel® Core™ 프로세서 기반의 강력하고 무소음 냉각 시스템으로 지령 환경에 최적화된 견고한 솔루션을 제공합니다. `,
-            icon: "⚒",
-            specTitle: "13세대 강력한 성능",
-            specDesc: "Intel® 13th Gen Raptor Lake-P/U i7 Pentium CPU 기반의 강력한 지령 장치",
-            img: "../img/eph.png"
+            title: `야전 최적화 폼팩터: <br>고신뢰성 이동형 펠리칸 케이스`,
+            desc: `<strong>독보적인 이동성 및 내구성 (Pelican Rugged Design)</strong>군용 스펙을 충족하는 고강도 펠리칸 하드케이스 일체형으로 제작되어, 격오지 및 험지 이동 시 발생할 수 있는 극심한 진동, 충격, 침수, 먼지로부터 내부의 Blackwell MXM GPU 시스템을 완벽하게 보호합니다.<br><strong>무전원 환경을 위한 배터리 팩 옵션 (Seamless Power Supply)</strong>고용량 내장형 배터리 장착 옵션을 지원하여, 발전기 가동이 불가능하거나 전원 공급이 불안정한 이동 중에도 끊김 없는(Uninterrupted) 실시간 엣지 AI 연산 및 전술 임무 수행이 가능합니다.`,
+            icon: "📟",
+            specTitle: "MXM-GPU",
+            specDesc: "산업용 보드/모듈 NVIDIA RTX PRO 5000 Blackwell Generation Embedded GPU/Type B",
+            img: "../img/ze5000m.png"
         },
 
         design: {
@@ -2276,7 +2300,7 @@ const productData = {
             title: `그 어떤 환경에서도 살아남는,<br>강력한 보호성능`,
             cards: [
                 {
-                icon: "🔒",
+                icon: "🔇",
                 title: "무소음 냉각",
                 value: "팬리스 형태",
                 desc: "맞춤형 발열 구조를 갖춰 지령 환경에 최적화된 무소음 워크스테이션."
@@ -2288,7 +2312,7 @@ const productData = {
                 desc: "메인보드 절연 파괴 현상이 방지."
                 },
                 {
-                icon: "✇",
+                icon: "❄️",
                 title: "극한 환경 대응",
                 value: "-40°C - 70°",
                 desc: "-40°C ~ 70°C의 운용 온도를 지원하는 산업용 적용 (KOLAS 시험성적서 기반 -20°C ~ 60°C)."
@@ -2297,20 +2321,14 @@ const productData = {
         },
 
         specTable: [
-            ["Model", 'S1388 Dispatcher Workstation'],
-            ["CPU", "Intel® 13th Gen Raptor Lake-P/ Raptor Lake-U i7 Pentium CPU"],
-            ["그래픽", "Intel Iris Xe Graphics"],
-            ["메모리", "2 x DDR5 4800 MHz SODIMM, Max 64GB"],
-            ["저장장치", "1 x M.2 B key Type 3042 (SATA) 512GB"],
-            ["BIOS", "AMI UEFI BIOS"],
-            ["디스플레이", "2 x HDMI, 1 x RGB"],
-            ["LAN", "5 x Intel 2.5GbE I226-IT (external)"],
-            ["운용 OS", "구름 3.0 이상 (신뢰부팅 제공)"],
-            ["전원 이중화", "전원 이중화 (기본제공)"],
-            ["전원", "DC IN +9~36V (84W Power Adapter, 12V/7A)"],
-            ["운용 온도", "-40°C ~ 70°C (-20°C ~ 60°C KOLAS 시험성적서)"],
-            ["크기", "236W x 172.6D x 82H mm"],
-            ["보관 온도", "-40°C ~ 70°C"]
+            ["GPU Architecture", 'NVIDIA Blackwell'],
+            ["Graphics Processing Unit", "NVIDIA RTX PRO™ 5000 Blackwell Generation Embedded GPU"],
+            ["NVIDIA CUDA Cores", "Intel Iris Xe Graphics"],
+            ["Tensor Cores", '10,496'],
+            ["저장장치", "320"],
+            ["RT Cores", "80"],
+            ["Graphics Clock (MHz)", "Base = 1402 / Boost = 1935"],
+            ["Floating Point", "40.62 FP32 TFLOPS"]
         ]
     },
 
@@ -2333,16 +2351,16 @@ const productData = {
         ],
 
         hero: {
-            title: `지령대의 효율적인<br>디스패쳐 워크스테이션`,
-            desc: `S1388 (H9 Dispatcher Workstation)은 모든 상황실에 이상적인 고성능 산업용 워크스테이션입니다. 비디오 방송과 같은 CPU 집약적인 근무 환경에서도 최고 사양을 발휘할 수 있도록 설계되었으며, 13세대 Intel® Core™ 프로세서 기반의 강력하고 무소음 냉각 시스템으로 지령 환경에 최적화된 견고한 솔루션을 제공합니다. `,
-            icon: "⚒",
-            specTitle: "13세대 강력한 성능",
-            specDesc: "Intel® 13th Gen Raptor Lake-P/U i7 Pentium CPU 기반의 강력한 지령 장치",
-            img: "../img/eph.png"
+            title: `야전 최적화 폼팩터: <br>고신뢰성 이동형 펠리칸 케이스`,
+            desc: `<strong>독보적인 이동성 및 내구성 (Pelican Rugged Design)</strong>군용 스펙을 충족하는 고강도 펠리칸 하드케이스 일체형으로 제작되어, 격오지 및 험지 이동 시 발생할 수 있는 극심한 진동, 충격, 침수, 먼지로부터 내부의 Blackwell MXM GPU 시스템을 완벽하게 보호합니다.<br><strong>무전원 환경을 위한 배터리 팩 옵션 (Seamless Power Supply)</strong>고용량 내장형 배터리 장착 옵션을 지원하여, 발전기 가동이 불가능하거나 전원 공급이 불안정한 이동 중에도 끊김 없는(Uninterrupted) 실시간 엣지 AI 연산 및 전술 임무 수행이 가능합니다.`,
+            icon: "📟",
+            specTitle: "MXM-GPU",
+            specDesc: "산업용 보드/모듈 NVIDIA RTX PRO 5000 Blackwell Generation Embedded GPU/Type B",
+            img: "../img/ze5000m.png"
         },
 
         design: {
-            img: "../img/eph-1.png",
+            img: "../img/zw5000m.png",
             title: `<div class="title-sm">고성능 x86 CPU의 연산력과 유연한 하드웨어<br> AI 가속 성능을 결합한 AI엣지 컴퓨팅의 최적 솔루션</div>`,
             desc: `<div class="desc-item"><strong>최대 64GB DDR5 시스템 메모리 지원</strong> : GPU VRAM이 부족할 때, 오디오 스트리밍 데이터 처리나 덜 빈번하게 쓰이는 RAG(검색 증강 생성)용 벡터 데이터베이스, TTS 음원 DB 등을 고속 DDR5 시스템 메모리에 상주시켜 메인 CPU와 GPU 간의 데이터 병목을 줄여줍니다.</div><div class="desc-item"><strong>강력한 x86 호스트 CPU (최대 125W TDP)</strong> : GPU가 LLM에 집중하는 동안 인텔 CPU의 iGPU(Intel UHD 770)나 CPU 코어 자체 연산력을 활용해 STT/TTS 오디오 전처리를 분담할 수 있습니다.</div><div class="desc-item"><strong>다중 LAN 포트 (5x 2.5G RJ45)</strong> : 네트워크 병목이나 패킷 손실 없이 안정적으로 수신하고 제어 신호를 분리하기에 물리적으로 매우 유리합니다.</div>`,
             specs: [
@@ -2368,7 +2386,7 @@ const productData = {
             title: `그 어떤 환경에서도 살아남는,<br>강력한 보호성능`,
             cards: [
                 {
-                icon: "🔒",
+                icon: "🔇",
                 title: "무소음 냉각",
                 value: "팬리스 형태",
                 desc: "맞춤형 발열 구조를 갖춰 지령 환경에 최적화된 무소음 워크스테이션."
@@ -2380,7 +2398,7 @@ const productData = {
                 desc: "메인보드 절연 파괴 현상이 방지."
                 },
                 {
-                icon: "✇",
+                icon: "❄️",
                 title: "극한 환경 대응",
                 value: "-40°C - 70°",
                 desc: "-40°C ~ 70°C의 운용 온도를 지원하는 산업용 적용 (KOLAS 시험성적서 기반 -20°C ~ 60°C)."
@@ -2389,20 +2407,14 @@ const productData = {
         },
 
         specTable: [
-            ["Model", 'S1388 Dispatcher Workstation'],
-            ["CPU", "Intel® 13th Gen Raptor Lake-P/ Raptor Lake-U i7 Pentium CPU"],
-            ["그래픽", "Intel Iris Xe Graphics"],
-            ["메모리", "2 x DDR5 4800 MHz SODIMM, Max 64GB"],
-            ["저장장치", "1 x M.2 B key Type 3042 (SATA) 512GB"],
-            ["BIOS", "AMI UEFI BIOS"],
-            ["디스플레이", "2 x HDMI, 1 x RGB"],
-            ["LAN", "5 x Intel 2.5GbE I226-IT (external)"],
-            ["운용 OS", "구름 3.0 이상 (신뢰부팅 제공)"],
-            ["전원 이중화", "전원 이중화 (기본제공)"],
-            ["전원", "DC IN +9~36V (84W Power Adapter, 12V/7A)"],
-            ["운용 온도", "-40°C ~ 70°C (-20°C ~ 60°C KOLAS 시험성적서)"],
-            ["크기", "236W x 172.6D x 82H mm"],
-            ["보관 온도", "-40°C ~ 70°C"]
+            ["GPU Architecture", 'NVIDIA Blackwell'],
+            ["Graphics Processing Unit", "NVIDIA RTX PRO™ 5000 Blackwell Generation Embedded GPU"],
+            ["NVIDIA CUDA Cores", "Intel Iris Xe Graphics"],
+            ["Tensor Cores", '10,496'],
+            ["저장장치", "320"],
+            ["RT Cores", "80"],
+            ["Graphics Clock (MHz)", "Base = 1402 / Boost = 1935"],
+            ["Floating Point", "40.62 FP32 TFLOPS"]
         ]
     },
 
@@ -2424,16 +2436,16 @@ const productData = {
         ],
 
         hero: {
-            title: `지령대의 효율적인<br>디스패쳐 워크스테이션`,
-            desc: `S1388 (H9 Dispatcher Workstation)은 모든 상황실에 이상적인 고성능 산업용 워크스테이션입니다. 비디오 방송과 같은 CPU 집약적인 근무 환경에서도 최고 사양을 발휘할 수 있도록 설계되었으며, 13세대 Intel® Core™ 프로세서 기반의 강력하고 무소음 냉각 시스템으로 지령 환경에 최적화된 견고한 솔루션을 제공합니다. `,
-            icon: "⚒",
-            specTitle: "13세대 강력한 성능",
-            specDesc: "Intel® 13th Gen Raptor Lake-P/U i7 Pentium CPU 기반의 강력한 지령 장치",
-            img: "../img/eph.png"
+            title: `야전 최적화 폼팩터: <br>고신뢰성 이동형 펠리칸 케이스`,
+            desc: `<strong>독보적인 이동성 및 내구성 (Pelican Rugged Design)</strong>군용 스펙을 충족하는 고강도 펠리칸 하드케이스 일체형으로 제작되어, 격오지 및 험지 이동 시 발생할 수 있는 극심한 진동, 충격, 침수, 먼지로부터 내부의 Blackwell MXM GPU 시스템을 완벽하게 보호합니다.<br><strong>무전원 환경을 위한 배터리 팩 옵션 (Seamless Power Supply)</strong>고용량 내장형 배터리 장착 옵션을 지원하여, 발전기 가동이 불가능하거나 전원 공급이 불안정한 이동 중에도 끊김 없는(Uninterrupted) 실시간 엣지 AI 연산 및 전술 임무 수행이 가능합니다.`,
+            icon: "📟",
+            specTitle: "MXM-GPU",
+            specDesc: "산업용 보드/모듈 NVIDIA RTX PRO 5000 Blackwell Generation Embedded GPU/Type B",
+            img: "../img/ze5000m.png"
         },
 
         design: {
-            img: "../img/eph-1.png",
+            img: "../img/zw5000m.png",
             title: `<div class="title-sm">고성능 x86 CPU의 연산력과 유연한 하드웨어<br> AI 가속 성능을 결합한 AI엣지 컴퓨팅의 최적 솔루션</div>`,
             desc: `<div class="desc-item"><strong>최대 64GB DDR5 시스템 메모리 지원</strong> : GPU VRAM이 부족할 때, 오디오 스트리밍 데이터 처리나 덜 빈번하게 쓰이는 RAG(검색 증강 생성)용 벡터 데이터베이스, TTS 음원 DB 등을 고속 DDR5 시스템 메모리에 상주시켜 메인 CPU와 GPU 간의 데이터 병목을 줄여줍니다.</div><div class="desc-item"><strong>강력한 x86 호스트 CPU (최대 125W TDP)</strong> : GPU가 LLM에 집중하는 동안 인텔 CPU의 iGPU(Intel UHD 770)나 CPU 코어 자체 연산력을 활용해 STT/TTS 오디오 전처리를 분담할 수 있습니다.</div><div class="desc-item"><strong>다중 LAN 포트 (5x 2.5G RJ45)</strong> : 네트워크 병목이나 패킷 손실 없이 안정적으로 수신하고 제어 신호를 분리하기에 물리적으로 매우 유리합니다.</div>`,
             specs: [
@@ -2459,7 +2471,7 @@ const productData = {
             title: `그 어떤 환경에서도 살아남는,<br>강력한 보호성능`,
             cards: [
                 {
-                icon: "🔒",
+                icon: "🔇",
                 title: "무소음 냉각",
                 value: "팬리스 형태",
                 desc: "맞춤형 발열 구조를 갖춰 지령 환경에 최적화된 무소음 워크스테이션."
@@ -2471,7 +2483,7 @@ const productData = {
                 desc: "메인보드 절연 파괴 현상이 방지."
                 },
                 {
-                icon: "✇",
+                icon: "❄️",
                 title: "극한 환경 대응",
                 value: "-40°C - 70°",
                 desc: "-40°C ~ 70°C의 운용 온도를 지원하는 산업용 적용 (KOLAS 시험성적서 기반 -20°C ~ 60°C)."
@@ -2480,20 +2492,14 @@ const productData = {
         },
 
         specTable: [
-            ["Model", 'S1388 Dispatcher Workstation'],
-            ["CPU", "Intel® 13th Gen Raptor Lake-P/ Raptor Lake-U i7 Pentium CPU"],
-            ["그래픽", "Intel Iris Xe Graphics"],
-            ["메모리", "2 x DDR5 4800 MHz SODIMM, Max 64GB"],
-            ["저장장치", "1 x M.2 B key Type 3042 (SATA) 512GB"],
-            ["BIOS", "AMI UEFI BIOS"],
-            ["디스플레이", "2 x HDMI, 1 x RGB"],
-            ["LAN", "5 x Intel 2.5GbE I226-IT (external)"],
-            ["운용 OS", "구름 3.0 이상 (신뢰부팅 제공)"],
-            ["전원 이중화", "전원 이중화 (기본제공)"],
-            ["전원", "DC IN +9~36V (84W Power Adapter, 12V/7A)"],
-            ["운용 온도", "-40°C ~ 70°C (-20°C ~ 60°C KOLAS 시험성적서)"],
-            ["크기", "236W x 172.6D x 82H mm"],
-            ["보관 온도", "-40°C ~ 70°C"]
+            ["GPU Architecture", 'NVIDIA Blackwell'],
+            ["Graphics Processing Unit", "NVIDIA RTX PRO™ 5000 Blackwell Generation Embedded GPU"],
+            ["NVIDIA CUDA Cores", "Intel Iris Xe Graphics"],
+            ["Tensor Cores", '10,496'],
+            ["저장장치", "320"],
+            ["RT Cores", "80"],
+            ["Graphics Clock (MHz)", "Base = 1402 / Boost = 1935"],
+            ["Floating Point", "40.62 FP32 TFLOPS"]
         ]
     },
 
