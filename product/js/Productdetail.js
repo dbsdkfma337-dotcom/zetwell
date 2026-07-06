@@ -936,7 +936,7 @@ const productData = {
 
         sliderImages: [
             "../img/wsr209.png",
-            "../img/wsr209-r.png"
+            "../img/wsr209-r.png",
         ],
 
         hero: {
@@ -2510,6 +2510,11 @@ const productData = {
         },
 
         specTable: [
+            ["CPU", 'Intel LGA1700 Socket Alder Lake-S processors Support up to 125W processor'],
+            ["Chipset", 'Intel® Q670E Chipset'],
+            ["GPU Card (Optional)", 'NVIDIA Blackwell'],
+            ["System Memory", 'DDR5 SO-DIMM up to 32GB / Per DIMM, up to 4800MHz / 64G'],
+            ["Graphics", 'Controller: Intel UHD Graphics 770 driven by Xe Architecture'],
             ["GPU Architecture", 'NVIDIA Blackwell'],
             ["Graphics Processing Unit", "NVIDIA RTX PRO™ 5000 Blackwell Generation Embedded GPU"],
             ["NVIDIA CUDA Cores", "Intel Iris Xe Graphics"],
