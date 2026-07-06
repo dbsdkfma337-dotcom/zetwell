@@ -74,7 +74,7 @@ const productData = {
             ]
         },
 
-        video: "../video/43IG-video.mp4",
+        video: "../video/43IG-video2.mp4",
 
 
         specTable: [
@@ -166,7 +166,7 @@ const productData = {
             ]
         },
 
-        video: "../video/43IG-video.mp4",
+        video: "../video/43IG-video2.mp4",
 
 
         specTable: [
@@ -250,7 +250,7 @@ const productData = {
             ]
         },
 
-        video: "../img/43IG-video.mp4",
+        video: "../video/43IG-video2.mp4",
 
 
         specTable: [
