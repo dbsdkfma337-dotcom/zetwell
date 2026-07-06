@@ -2355,7 +2355,7 @@ const productData = {
             desc: `<strong>독보적인 이동성 및 내구성 (Pelican Rugged Design)</strong>군용 스펙을 충족하는 고강도 펠리칸 하드케이스 일체형으로 제작되어, 격오지 및 험지 이동 시 발생할 수 있는 극심한 진동, 충격, 침수, 먼지로부터 내부의 Blackwell MXM GPU 시스템을 완벽하게 보호합니다.<br><strong>무전원 환경을 위한 배터리 팩 옵션 (Seamless Power Supply)</strong>고용량 내장형 배터리 장착 옵션을 지원하여, 발전기 가동이 불가능하거나 전원 공급이 불안정한 이동 중에도 끊김 없는(Uninterrupted) 실시간 엣지 AI 연산 및 전술 임무 수행이 가능합니다.`,
             icon: "📟",
             specTitle: "MXM-GPU",
-            specDesc: "산업용 보드/모듈 NVIDIA RTX PRO 5000 Blackwell Generation Embedded GPU/Type B",
+            specDesc: "산업용 보드/모듈 NVIDIA RTX PRO 4000 Blackwell Generation Embedded GPU/Type B",
             img: "../img/ze5000m.png"
         },
 
@@ -2440,7 +2440,7 @@ const productData = {
             desc: `<strong>독보적인 이동성 및 내구성 (Pelican Rugged Design)</strong>군용 스펙을 충족하는 고강도 펠리칸 하드케이스 일체형으로 제작되어, 격오지 및 험지 이동 시 발생할 수 있는 극심한 진동, 충격, 침수, 먼지로부터 내부의 Blackwell MXM GPU 시스템을 완벽하게 보호합니다.<br><strong>무전원 환경을 위한 배터리 팩 옵션 (Seamless Power Supply)</strong>고용량 내장형 배터리 장착 옵션을 지원하여, 발전기 가동이 불가능하거나 전원 공급이 불안정한 이동 중에도 끊김 없는(Uninterrupted) 실시간 엣지 AI 연산 및 전술 임무 수행이 가능합니다.`,
             icon: "📟",
             specTitle: "MXM-GPU",
-            specDesc: "산업용 보드/모듈 NVIDIA RTX PRO 5000 Blackwell Generation Embedded GPU/Type B",
+            specDesc: "산업용 보드/모듈 NVIDIA RTX PRO 2000 Blackwell Generation Embedded GPU/Type B",
             img: "../img/ze5000m.png"
         },
 
