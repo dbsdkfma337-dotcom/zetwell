@@ -658,26 +658,26 @@ const productData = {
         ],
 
         hero: {
-            title: `차세대 Edge AI를 위한 Intel® Core™ Ultra 플랫폼`,
-            desc: `<strong>차세대 AI 프로세서 완벽 지원 (Intel® Core™ Ultra 7/5)</strong><br>최신 고효율 하이브리드 아키텍처 기반의 Meteor Lake 및 Arrow Lake (U/H 시리즈) 프로세서를 탑재하여 성능과 전력 효율성을 동시에 달성했습니다. 특히 CPU, GPU와 더불어 내장된 통합 NPU(Neural Processing Unit)를 통해 에지 단에서의 AI 인프라 워크로드를 저전력으로 상시 분산 처리합니다.<br><strong>산업용 등급의 안정성 및 고속 입출력(I/O) 설계</strong><br>24시간 상시 가동되는 미션 크리티컬 환경에 최적화된 산업용 고신뢰성 설계가 적용되었습니다. 고대역폭 데이터 전송을 위한 다중 인터페이스를 지원하여, 대용량 센서 데이터 및 다채널 카메라 피드를 병목 현상 없이 메인 시스템으로 신속하게 전달합니다.`,
+            title: `Intel® Core™ Ultra Platform for Next-Generation Edge AI`,
+            desc: `<strong>Full Support for Next-Generation AI Processors (Intel® Core™ Ultra 7/5)</strong><br>Powered by the latest high-efficiency hybrid architecture, supporting Intel® Meteor Lake and Arrow Lake (U/H Series) processors, this platform delivers both outstanding performance and power efficiency. Equipped with an integrated NPU (Neural Processing Unit) alongside the CPU and GPU, it enables low-power, always-on distributed processing of Edge AI workloads directly at the edge.<br><strong>Industrial-Grade Reliability & High-Speed I/O Architecture</strong><br>Designed for mission-critical environments requiring 24/7 continuous operation, the system features an industrial-grade, high-reliability architecture. Multiple high-bandwidth interfaces enable rapid transfer of large-scale sensor data and multi-channel camera feeds to the main system without bottlenecks.`,
             icon: "🧠",
-            specTitle: "AI 프로세서 지원",
-            specDesc: "Intel® Core™ Ultra와 NPU 기반의 고성능 AI 연산 및 저전력 처리",
+            specTitle: "AI Processor Support",
+            specDesc: "High-Performance AI Computing and Low-Power Processing Powered by Intel® Core™ Ultra and Integrated NPU",
             img: "../img/zw5000-nvid.png"
         },
 
         design: {
             img: "../img/WSR213.png",
-            title: `3U iSeries Injection Molded Fly Rack (13") 케이스 적용`,
-            desc: `<strong>완벽한 수납 및 항공 이동 편의성</strong>: 군용 등급의 고강도 사출 성형 하드케이스와 내부 3U 알루미늄 랙 부품이 결합된 하이브리드 구조입니다. 13인치 콤팩트 깊이로 보관 및 적재가 매우 용이하며, 필요 시 내부 랙만 신속하게 분리하여 탁상형으로 전환할 수 있습니다.<br><strong>이동식 하드케이스 스타일 디자인</strong>: 캐리어 형태의 부드러운 인라인 휠과 개폐식 풀 핸들이 내장되어 가혹한 험지나 격오지에서도 혼자서 손쉽게 장비를 운반할 수 있습니다.<br><strong>철저한 환경 차단 (IP67)</strong>: 방수·방진 및 충격 흡수 성능이 뛰어나, 이동 및 보관 중 발생할 수 있는 내부 장비의 파손을 완벽히 방지합니다.`,
+            title: `Housed in a 3U iSeries Injection Molded Fly Rack (13") Case`,
+            desc: `<strong>Optimized Storage and Air Transport Convenience</strong><br>Featuring a hybrid design that combines a military-grade injection-molded hard case with an internal 3U aluminum rack, this solution offers exceptional durability and portability. Its compact 13-inch depth allows for easy storage and transportation, while the internal rack can be quickly detached and used as a desktop unit when needed.<br><strong>Portable Hard Case Design</strong><br>Equipped with smooth in-line wheels and a retractable pull handle, the case enables effortless one-person transport, even across rough terrain and in remote operational environments.<br><strong>Comprehensive Environmental Protection (IP67)</strong><br>With outstanding waterproof, dustproof, and shock-resistant performance, the case provides reliable protection against damage to internal equipment during transportation and storage.`,
             specs: [
                 {
-                    title: "특징",
-                    items: ["완벽한 수납", "이동 편의성", "하이브리드 구조"]
+                    title: "Key Features",
+                    items: ["Perfect Storage", "Easy Mobility", "Hybrid Design"]
                 },
                 {
-                    title: "특징",
-                    items: ["혼자서 손쉽게 장비 운반 가능", "방수·방진 및 충격 흡수 성능"]
+                    title: "Key Features",
+                    items: ["Easy One-Person Transport", "Waterproof", "Dustproof & Shock Resistance"]
                 }
             ]
         },
@@ -690,25 +690,25 @@ const productData = {
         ],
 
         rugged: {
-            title: `그 어떤 환경에서도 살아남는,<br>강력한 보호성능`,
+            title: `Engineered to Survive Any Environment<br>Uncompromising Protection`,
             cards: [
                 {
                 icon: "🔒",
-                title: "견고한 잠금 장치",
-                value: "금속 래치 적용",
-                desc: "금속 래치와 잠금 지원 구조로 운송 중에도 안정적인 보호 성능을 제공합니다."
+                title: "Secure Locking System",
+                value: "Metal Latch",
+                desc: "Equipped with durable metal latches and a lockable design to provide reliable protection during transportation."
                 },
                 {
                 icon: "☔",
-                title: "방수·방진 구조",
-                value: "IP65",
-                desc: "특수 실팅 구조로 외부의 물과 먼지로부터 장비를 안전하게 보호합니다."
+                title: "Waterproof & Dustproof Design",
+                value: "IP65 Rated",
+                desc: "A specialized sealing structure protects equipment from water and dust, ensuring reliable performance in demanding environments."
                 },
                 {
                 icon: "⚙️",
-                title: "자동 압력 조절 밸브",
-                value: "압력 자동 조절",
-                desc: "내부 압력을 자동으로 조절하여 기압 변화시에도 안정적인 상태를 유지합니다."
+                title: "Automatic Pressure Equalization Valve",
+                value: "Automatic Pressure Equalization",
+                desc: "Automatically equalizes internal pressure to maintain stable protection during changes in atmospheric pressure."
                 }
             ]
         },
@@ -828,6 +828,100 @@ const productData = {
         ]
     },
 
+    "zw4000neng": {
+        title: "Advanced Edge AI for Diverse",
+
+        desc: "Intel® Core™ Ultra with Intel® W880/Q870 chipset<br>NVIDIA RTX PRO 4000 Blackwell",
+
+        model: "ZW4000N",
+
+        visualImg: "../img/wsr210-bg2.png",
+
+        koLink: "./Productdetail.html?product=wsr213",
+        engLink: "./Productdetail-eng.html?product=wsr213eng",
+
+        sliderImages: [
+            "../img/wsr210-f.png",
+            "../img/wsr210-r.png"
+        ],
+
+        hero: {
+            title: `Intel® Core™ Ultra Platform for Next-Generation Edge AI`,
+            desc: `<strong>Full Support for Next-Generation AI Processors (Intel® Core™ Ultra 7/5)</strong><br>Powered by the latest high-efficiency hybrid architecture, supporting Intel® Meteor Lake and Arrow Lake (U/H Series) processors, this platform delivers both outstanding performance and power efficiency. Equipped with an integrated NPU (Neural Processing Unit) alongside the CPU and GPU, it enables low-power, always-on distributed processing of Edge AI workloads directly at the edge.<br><strong>Industrial-Grade Reliability & High-Speed I/O Architecture</strong><br>Designed for mission-critical environments requiring 24/7 continuous operation, the system features an industrial-grade, high-reliability architecture. Multiple high-bandwidth interfaces enable rapid transfer of large-scale sensor data and multi-channel camera feeds to the main system without bottlenecks.`,
+            icon: "🧠",
+            specTitle: "AI Processor Support",
+            specDesc: "High-Performance AI Computing and Low-Power Processing Powered by Intel® Core™ Ultra and Integrated NPU",
+            img: "../img/zw5000-nvid.png"
+        },
+
+        design: {
+            img: "../img/WSR213.png",
+            title: `Housed in a 3U iSeries Injection Molded Fly Rack (13") Case`,
+            desc: `<strong>Optimized Storage and Air Transport Convenience</strong><br>Featuring a hybrid design that combines a military-grade injection-molded hard case with an internal 3U aluminum rack, this solution offers exceptional durability and portability. Its compact 13-inch depth allows for easy storage and transportation, while the internal rack can be quickly detached and used as a desktop unit when needed.<br><strong>Portable Hard Case Design</strong><br>Equipped with smooth in-line wheels and a retractable pull handle, the case enables effortless one-person transport, even across rough terrain and in remote operational environments.<br><strong>Comprehensive Environmental Protection (IP67)</strong><br>With outstanding waterproof, dustproof, and shock-resistant performance, the case provides reliable protection against damage to internal equipment during transportation and storage.`,
+            specs: [
+                {
+                    title: "Key Features",
+                    items: ["Perfect Storage", "Easy Mobility", "Hybrid Design"]
+                },
+                {
+                    title: "Key Features",
+                    items: ["Easy One-Person Transport", "Waterproof", "Dustproof & Shock Resistance"]
+                }
+            ]
+        },
+
+        photos: [
+            "../img/wsr210-bg.png",
+            "../img/wsr210-bg2.png",
+            "../img/wsr210-bg3.png",
+            "../img/wsr210-bg4.png"
+        ],
+
+        rugged: {
+            title: `Engineered to Survive Any Environment<br>Uncompromising Protection`,
+            cards: [
+                {
+                icon: "🔒",
+                title: "Secure Locking System",
+                value: "Metal Latch",
+                desc: "Equipped with durable metal latches and a lockable design to provide reliable protection during transportation."
+                },
+                {
+                icon: "☔",
+                title: "Waterproof & Dustproof Design",
+                value: "IP65 Rated",
+                desc: "A specialized sealing structure protects equipment from water and dust, ensuring reliable performance in demanding environments."
+                },
+                {
+                icon: "⚙️",
+                title: "Automatic Pressure Equalization Valve",
+                value: "Automatic Pressure Equalization",
+                desc: "Automatically equalizes internal pressure to maintain stable protection during changes in atmospheric pressure."
+                }
+            ]
+        },
+
+        specTable: [
+            ["MODEL", 'ZW4000N'],
+            ["CPU", "Intel® Core™ Ultra 7/5 Series processors (Meteor Lake-U/H) (Arrow Lake-U/H)"],
+            ["Chipset", "Intel® Arc™ graphics ; Intel® UHD Graphics"],
+            ["System Memory", "2 x DDR5 SODIMM, Max 64GB"],
+            ["Storage", "1 x SATA ports 3.0 Data transfer rates up to 6.0 Gb/s (600 MB/s)<br>1 x M.2 M key Type 2280 (PCIe x4), Support NVMe"],
+            ["BIOS", "AMI UEFI BIOS"],
+            ["Display", "1 x HDMI® ; 1 x DP ; 1 x Type C DP ALT Mode, 1 x LVDS or eDP (BIOS)"],
+            ["TPM", "Hardware TPM 2.0 ; OEM Optional to Firmware TPM 2.0"],
+            ["LAN", "5 x Intel 2.5GbE I226-IT (external)"],
+            ["Serial IO", "	4 x RS232 / 422 / 485 (internal) eSPI<br> *COM1~COM4 pin9 5V / 12V (Option)"],
+            ["CANBus", "2 x CANBus"],
+            ["SMBus / I2C / I2S", "1 x SMBus ; 1 x 12C ; 1 x I2S"],
+            ["GPIO", "Hardware digital Input & Output, 4 x DI / 4 x DO"],
+            ["WDT", "Hardware Watch Dog Timer, 0~255 sec programmable"],
+            ["Power Input", "Wide Range DC IN +9~36V"],
+            ["Operation Temperature<br>(100 % CPU Usage)", "-40°C~70°C(under specific environmental & CPU power consumption conditions)"],
+            ["Operation Humidity", "5~95%, non-condensing"]
+        ]
+    },
+
     "zw2000n": {
         title: "Advanced Edge AI for Diverse",
 
@@ -897,6 +991,100 @@ const productData = {
                 title: "자동 압력 조절 밸브",
                 value: "압력 자동 조절",
                 desc: "내부 압력을 자동으로 조절하여 기압 변화시에도 안정적인 상태를 유지합니다."
+                }
+            ]
+        },
+
+        specTable: [
+            ["MODEL", 'ZW2000N'],
+            ["CPU", "Intel® Core™ Ultra 7/5 Series processors (Meteor Lake-U/H) (Arrow Lake-U/H)"],
+            ["Chipset", "Intel® Arc™ graphics ; Intel® UHD Graphics"],
+            ["System Memory", "2 x DDR5 SODIMM, Max 64GB"],
+            ["Storage", "1 x SATA ports 3.0 Data transfer rates up to 6.0 Gb/s (600 MB/s)<br>1 x M.2 M key Type 2280 (PCIe x4), Support NVMe"],
+            ["BIOS", "AMI UEFI BIOS"],
+            ["Display", "1 x HDMI® ; 1 x DP ; 1 x Type C DP ALT Mode, 1 x LVDS or eDP (BIOS)"],
+            ["TPM", "Hardware TPM 2.0 ; OEM Optional to Firmware TPM 2.0"],
+            ["LAN", "5 x Intel 2.5GbE I226-IT (external)"],
+            ["Serial IO", "	4 x RS232 / 422 / 485 (internal) eSPI<br> *COM1~COM4 pin9 5V / 12V (Option)"],
+            ["CANBus", "2 x CANBus"],
+            ["SMBus / I2C / I2S", "1 x SMBus ; 1 x 12C ; 1 x I2S"],
+            ["GPIO", "Hardware digital Input & Output, 4 x DI / 4 x DO"],
+            ["WDT", "Hardware Watch Dog Timer, 0~255 sec programmable"],
+            ["Power Input", "Wide Range DC IN +9~36V"],
+            ["Operation Temperature<br>(100 % CPU Usage)", "-40°C~70°C(under specific environmental & CPU power consumption conditions)"],
+            ["Operation Humidity", "5~95%, non-condensing"]
+        ]
+    },
+
+    "zw2000neng": {
+        title: "Advanced Edge AI for Diverse",
+
+        desc: "Intel® Core™ Ultra with Intel® W880/Q870 chipset<br>NVIDIA RTX PRO 2000 Blackwell",
+
+        model: "ZW2000N",
+
+        visualImg: "../img/wsr209-bg3.png",
+
+        koLink: "./Productdetail.html?product=wsr213",
+        engLink: "./Productdetail-eng.html?product=wsr213eng",
+
+        sliderImages: [
+            "../img/wsr209.png",
+            "../img/wsr209-r.png"
+        ],
+
+        hero: {
+            title: `Intel® Core™ Ultra Platform for Next-Generation Edge AI`,
+            desc: `<strong>Full Support for Next-Generation AI Processors (Intel® Core™ Ultra 7/5)</strong><br>Powered by the latest high-efficiency hybrid architecture, supporting Intel® Meteor Lake and Arrow Lake (U/H Series) processors, this platform delivers both outstanding performance and power efficiency. Equipped with an integrated NPU (Neural Processing Unit) alongside the CPU and GPU, it enables low-power, always-on distributed processing of Edge AI workloads directly at the edge.<br><strong>Industrial-Grade Reliability & High-Speed I/O Architecture</strong><br>Designed for mission-critical environments requiring 24/7 continuous operation, the system features an industrial-grade, high-reliability architecture. Multiple high-bandwidth interfaces enable rapid transfer of large-scale sensor data and multi-channel camera feeds to the main system without bottlenecks.`,
+            icon: "🧠",
+            specTitle: "AI Processor Support",
+            specDesc: "High-Performance AI Computing and Low-Power Processing Powered by Intel® Core™ Ultra and Integrated NPU",
+            img: "../img/zw5000-nvid.png"
+        },
+
+        design: {
+            img: "../img/WSR213.png",
+            title: `Housed in a 3U iSeries Injection Molded Fly Rack (13") Case`,
+            desc: `<strong>Optimized Storage and Air Transport Convenience</strong><br>Featuring a hybrid design that combines a military-grade injection-molded hard case with an internal 3U aluminum rack, this solution offers exceptional durability and portability. Its compact 13-inch depth allows for easy storage and transportation, while the internal rack can be quickly detached and used as a desktop unit when needed.<br><strong>Portable Hard Case Design</strong><br>Equipped with smooth in-line wheels and a retractable pull handle, the case enables effortless one-person transport, even across rough terrain and in remote operational environments.<br><strong>Comprehensive Environmental Protection (IP67)</strong><br>With outstanding waterproof, dustproof, and shock-resistant performance, the case provides reliable protection against damage to internal equipment during transportation and storage.`,
+            specs: [
+                {
+                    title: "Key Features",
+                    items: ["Perfect Storage", "Easy Mobility", "Hybrid Design"]
+                },
+                {
+                    title: "Key Features",
+                    items: ["Easy One-Person Transport", "Waterproof", "Dustproof & Shock Resistance"]
+                }
+            ]
+        },
+
+        photos: [
+            "../img/wsr209-bg.png",
+            "../img/wsr209-bg2.png",
+            "../img/wsr209-bg3.png",
+            "../img/wsr209-bg4.png"
+        ],
+
+        rugged: {
+            title: `Engineered to Survive Any Environment<br>Uncompromising Protection`,
+            cards: [
+                {
+                icon: "🔒",
+                title: "Secure Locking System",
+                value: "Metal Latch",
+                desc: "Equipped with durable metal latches and a lockable design to provide reliable protection during transportation."
+                },
+                {
+                icon: "☔",
+                title: "Waterproof & Dustproof Design",
+                value: "IP65 Rated",
+                desc: "A specialized sealing structure protects equipment from water and dust, ensuring reliable performance in demanding environments."
+                },
+                {
+                icon: "⚙️",
+                title: "Automatic Pressure Equalization Valve",
+                value: "Automatic Pressure Equalization",
+                desc: "Automatically equalizes internal pressure to maintain stable protection during changes in atmospheric pressure."
                 }
             ]
         },
