@@ -181,11 +181,11 @@ const productData = {
     products: [
             {
             category: "Zetstation-M시리즈",
-            name: "ZUK2000",
+            name: "ZM-3000",
             desc: "하이브리드 케리어 장치",
             img: "../img/UK2000.png",
-            alt: "ZUK2000",
-            link: "./Productdetail.html?product=uk2000"
+            alt: "ZM-3000",
+            link: "./Productdetail.html?product=zm3000"
             }
         ]
     },

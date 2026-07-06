@@ -1076,17 +1076,17 @@ const productData = {
         ]
     },
 
-    "uk2000": {
+    "zm3000": {
         title: "백팩<br> 멀티 워크스테이션",
 
         desc: "Backpack-Mounted Multi Workstation",
 
-        model: "ZUK2000",
+        model: "ZM-3000",
 
         visualImg: "../img/UK2000-bg2.png",
 
-        koLink: "./Productdetail.html?product=uk2000",
-        engLink: "./Productdetail-eng.html?product=uk2000eng",
+        koLink: "./Productdetail.html?product=zm3000",
+        engLink: "./Productdetail-eng.html?product=zm3000eng",
 
         sliderImages: [
             "../img/UK2000-open.png",
@@ -1173,17 +1173,17 @@ const productData = {
         ]
     },
 
-    "uk2000eng": {
+    "zm3000eng": {
         title: "Backpack-Mounted<br> Multi Workstation",
 
         desc: "Backpack-Mounted Multi Workstation",
 
-        model: "ZUK2000",
+        model: "ZM3000",
 
         visualImg: "../img/UK2000-bg2.png",
 
-        koLink: "./Productdetail.html?product=uk2000",
-        engLink: "./Productdetail-eng.html?product=uk2000eng",
+        koLink: "./Productdetail.html?product=zm3000",
+        engLink: "./Productdetail-eng.html?product=zm3000eng",
 
         sliderImages: [
             "../img/UK2000-open.png",
@@ -1535,22 +1535,29 @@ const productData = {
         specTable: [
             ["MODEL", 'CI870AW'],
             ["CPU", "Intel® Core™ Ultra 7/5 Series (Arrow Lake-S) processors"],
-            ["시야각", "178° (H) / 178° (V)"],
-            ["입력단자", "HDMI, USB, LAN, 전원 입력"],
-            ["전원", "AC 100~240V"],
-            ["작동온도", "-20°C ~ 60°C"],
-            ["보관온도", "-30°C ~ 70°C"],
-            ["방진방수", "IP65"],
-            ["외부크기", "1178 x 718 x 427 mm"],
-            ["내부크기", "1080 x 620 x 400 mm"],
-            ["증량", "약 24kg"]
+            ["MB Chipset", "Intel® Q870"],
+            ["Graphics", "Intel® UHD Graphics"],
+            ["System Memory", "2 x DDR5 SODIMM, Max 96GB"],
+            ["Storage", "	4 x SATA ports 3.0 Data transfer rates up to 6.0 Gb/s (600 MB/s)<br>1 x M.2 M key Type 3080 (PCIe x4 ), Support NVMe"],
+            ["BIOS", "AMI UEFI BIOS"],
+            ["Display", "1 x HDMI® ; 1 x DP ; 1 x Type C DP ALT Mode"],
+            ["TPM", "Hardware TPM 2.0 ; OEM Optional to Firmware TPM 2.0"],
+            ["LAN", "2 x Intel 2.5GbE I226-IT (external)"],
+            ["USB", "4 x USB 3.2 Gen 1 (external), 1 x Type C, USB 3.2 (external)<br>4 x USB 2.0 (internal))"],
+            ["Serial IO", "4 x RS232 / 422 / 485 (external)"],
+            ["SMBus / I2C / I2S", "1 x SMBus ; 6 x 12C ; 2 x I2S"],
+            ["GPIO", "Hardware digital Input & Output, 8 x DI / 8 x DO"],
+            ["WDT", "Hardware Watch Dog Timer, 0~65535 sec programmable"],
+            ["Power Input", "Wide Range DC IN +12~36V (Typ: +12V/+24V)"],
+            ["Operation Temperature", "-20°C~45°C (Ultra 7 265T)"],
+            ["Operation Humidity", "5~95%, non-condensing"]
         ]
     },
 
     "9000seeng": {
-        title: "이중화 서버<br>워크스테이션",
+        title: "Where Physical Security Meets Digital Protection<br>The Beginning of Complete Security",
 
-        desc: "Anti-Vibration Kit & Mounting Kit",
+        desc: "Physical Security, Logical Ease.<br>The Ultimate Start to Absolute Protection.",
 
         model: "9000SE",
 
@@ -1567,35 +1574,45 @@ const productData = {
         ],
 
         hero: {
-            title: `극한 환경에서<br>장비를 보호하다`,
-            desc: `대형 장비 및 정밀 기기를 위한 전문 보호 케이스입니다.<br> 충격,습기,온도 변화로부터 장비를 안전하게 보호하고<br> 어떤 환경에서도 안정적인 운용을 지원합니다. `,
-            icon: "⚒",
-            specTitle: "강한 내구성",
-            specDesc: "고강도 폴리프로필렌 소재로 충격과진동, 극한 환경에서도<br> 높은 내구성을 자랑합니다.",
+            title: `물리적 보안과 논리적 보안의 완벽한 조화`,
+            desc: `주요 도입 분야 (Target Markets)<br>
+                <strong>*금융 (Finance)</strong>
+                은행, 증권, 보험사 본점 및 대규모 고객·콜센터 <br>
+                <strong>*공공·국방 (Public & Defense)</strong>
+                정부 부처, 지자체, 군 기관 및 국책 연구소<br>
+                <strong>*국가 기반시설 (Infrastructure) </strong>
+                발전소, 에너지 공기업, 종합 관제 센터(교통·항만·철도)<br>
+                <strong>*의료 (Healthcare)</strong>
+                종합병원 진료실 및 의료정보(EMR) 시스템 운영 부서
+                <strong>*첨단 기술·제조 (Enterprise)</strong>
+                대기업 연구소, 방산 기업, 소스코드 보안이 필수적인 IT 개발사`,
+            icon: "🛡️",
+            specTitle: "논리적 보안",
+            specDesc: "암호화 및 접근 제어 기반의 보안 체계를 통해 데이터와 시스템을 안전하게 보호합니다.",
             img: "../img/9000SE.png"
         },
 
         design: {
-            img: "../img/9000SE-s.png",
+            img: "../img/9000SE-l.png",
             title: `넓은 내부 공간<br>더 높은 활용성`,
-            desc: `넉넉한 내부공간으로 다양한 장비와 액세서리를 효율적으로 수납할 수 있습니다. 맞춤형 품 구성으로 장비를 안전하게 고정하여 운반할 수 있습니다.`,
+            desc: `<strong>2U 단일 섀시, 독립형 듀얼 보드</strong>2U 랙 사이즈 하나에 전원 및 시스템이 독립된 2대의 보드를 장착하여, 하드웨어 레벨의 완벽한 격리와 이중화를 동시에 달성합니다.<strong>획기적인 공간 및 비용 절감 (High Density)</strong>기존 랙 공간 차지율을 50% 이상 줄여 전산실 및 관제 센터의 랙 상단 공간 활용도를 극대화합니다.<strong>단일 장애점(SPOF) 제로</strong>한쪽 보드나 네트워크에 장애가 발생해도, 독립된 다른 한쪽 보드가 중단 없는 업무 연속성(Business Continuity)을 유지합니다.<strong>고밀도 미션 크리티컬 설계</strong>발열과 전력 효율을 극대화한 산업용 설계로 365일 24시간 가동되는 종합 관제 및 재난 대응 환경에 최적화되어 있습니다.`,
             specs: [
                 {
-                    title: "용량",
-                    items: ["내부크기 1080x620x400", "외부크기 1178x718x427", "대용량 공간 260L"]
+                    title: "특징",
+                    items: ["2U 단일 섀시, 독립형 듀얼 보드", "획기적인 공간 및 비용 절감"]
                 },
                 {
-                    title: "내용필요",
-                    items: ["내용 필요", "내용 필요"]
+                    title: "특징",
+                    items: ["단일 장애점(SPOF) 제로", "고밀도 미션 크리티컬 설계"]
                 }
             ]
         },
 
         photos: [
             "../img/9000SE-bg.png",
-            "../img/43IG2.png",
-            "../img/43IG3.png",
-            "../img/43IG4.png"
+            "../img/9000SE-bg2.png",
+            "../img/9000SE-bg3.png",
+            "../img/9000SE-bg4.png"
         ],
 
         rugged: {
@@ -1623,17 +1640,24 @@ const productData = {
         },
 
         specTable: [
-            ["디스플레이", '43" 4k UHD (3840 × 2160)'],
-            ["밝기", "500 nits"],
-            ["시야각", "178° (H) / 178° (V)"],
-            ["입력단자", "HDMI, USB, LAN, 전원 입력"],
-            ["전원", "AC 100~240V"],
-            ["작동온도", "-20°C ~ 60°C"],
-            ["보관온도", "-30°C ~ 70°C"],
-            ["방진방수", "IP65"],
-            ["외부크기", "1178 x 718 x 427 mm"],
-            ["내부크기", "1080 x 620 x 400 mm"],
-            ["증량", "약 24kg"]
+            ["MODEL", 'CI870AW'],
+            ["CPU", "Intel® Core™ Ultra 7/5 Series (Arrow Lake-S) processors"],
+            ["MB Chipset", "Intel® Q870"],
+            ["Graphics", "Intel® UHD Graphics"],
+            ["System Memory", "2 x DDR5 SODIMM, Max 96GB"],
+            ["Storage", "	4 x SATA ports 3.0 Data transfer rates up to 6.0 Gb/s (600 MB/s)<br>1 x M.2 M key Type 3080 (PCIe x4 ), Support NVMe"],
+            ["BIOS", "AMI UEFI BIOS"],
+            ["Display", "1 x HDMI® ; 1 x DP ; 1 x Type C DP ALT Mode"],
+            ["TPM", "Hardware TPM 2.0 ; OEM Optional to Firmware TPM 2.0"],
+            ["LAN", "2 x Intel 2.5GbE I226-IT (external)"],
+            ["USB", "4 x USB 3.2 Gen 1 (external), 1 x Type C, USB 3.2 (external)<br>4 x USB 2.0 (internal))"],
+            ["Serial IO", "4 x RS232 / 422 / 485 (external)"],
+            ["SMBus / I2C / I2S", "1 x SMBus ; 6 x 12C ; 2 x I2S"],
+            ["GPIO", "Hardware digital Input & Output, 8 x DI / 8 x DO"],
+            ["WDT", "Hardware Watch Dog Timer, 0~65535 sec programmable"],
+            ["Power Input", "Wide Range DC IN +12~36V (Typ: +12V/+24V)"],
+            ["Operation Temperature", "-20°C~45°C (Ultra 7 265T)"],
+            ["Operation Humidity", "5~95%, non-condensing"]
         ]
     },
 
