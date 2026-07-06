@@ -2838,7 +2838,7 @@ const productData = {
             ["시야각", "상/하/좌/우 178° 이상 (Min.) / Viewing Angle"],
             ["터치 스크린 방식", "투사형 정전식 터치 스크린 (G+F+F구조) / Projected Capacitive"],
             ["멀티터치 포인트", "10 포인트 이상 (≥ 10 points)"],
-            ["터치 호환 OS", "Windows 7 / 8 / 10, Android, Linux"],
+            ["터치 호환 OS", "Windows 7 / 8 / 10 / 11, Android, Linux"],
             ["하우징 소재 / 색상", "판금 (Sheet metal) / 화이트 (White)"],
             ["제품 형태", "올인원 (All-in-one)"],
             ["전체 크기 (L × W × H)", "1234.00 x 250.00 x 772.00mm"],
