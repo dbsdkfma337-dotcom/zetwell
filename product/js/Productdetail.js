@@ -559,8 +559,10 @@ const productData = {
         engLink: "./Productdetail-eng.html?product=wsr213eng",
 
         sliderImages: [
+            "../img/wseries-open.png",
             "../img/WSR213.png",
-            "../img/wsr213-r2.png"
+            "../img/wsr213-r2.png",
+            
         ],
 
         hero: {
@@ -653,6 +655,7 @@ const productData = {
         engLink: "./Productdetail-eng.html?product=wsr213eng",
 
         sliderImages: [
+            "../img/wseries-open.png",
             "../img/WSR213.png",
             "../img/wsr213-r2.png"
         ],
@@ -747,6 +750,7 @@ const productData = {
         engLink: "./Productdetail-eng.html?product=wsr213eng",
 
         sliderImages: [
+            "../img/wseries-open.png",
             "../img/wsr210-f.png",
             "../img/wsr210-r.png"
         ],
@@ -841,6 +845,7 @@ const productData = {
         engLink: "./Productdetail-eng.html?product=wsr213eng",
 
         sliderImages: [
+            "../img/wseries-open.png",
             "../img/wsr210-f.png",
             "../img/wsr210-r.png"
         ],
@@ -935,6 +940,7 @@ const productData = {
         engLink: "./Productdetail-eng.html?product=wsr213eng",
 
         sliderImages: [
+            "../img/wseries-open.png",
             "../img/wsr209.png",
             "../img/wsr209-r.png",
         ],
@@ -1029,6 +1035,7 @@ const productData = {
         engLink: "./Productdetail-eng.html?product=wsr213eng",
 
         sliderImages: [
+            "../img/wseries-open.png",
             "../img/wsr209.png",
             "../img/wsr209-r.png"
         ],
