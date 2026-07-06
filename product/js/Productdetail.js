@@ -765,7 +765,7 @@ const productData = {
         },
 
         design: {
-            img: "../img/WSR213.png",
+            img: "../img/wsr213-r2.png",
             title: `3U iSeries Injection Molded Fly Rack (13") 케이스 적용`,
             desc: `<strong>완벽한 수납 및 항공 이동 편의성</strong>: 군용 등급의 고강도 사출 성형 하드케이스와 내부 3U 알루미늄 랙 부품이 결합된 하이브리드 구조입니다. 13인치 콤팩트 깊이로 보관 및 적재가 매우 용이하며, 필요 시 내부 랙만 신속하게 분리하여 탁상형으로 전환할 수 있습니다.<br><strong>이동식 하드케이스 스타일 디자인</strong>: 캐리어 형태의 부드러운 인라인 휠과 개폐식 풀 핸들이 내장되어 가혹한 험지나 격오지에서도 혼자서 손쉽게 장비를 운반할 수 있습니다.<br><strong>철저한 환경 차단 (IP67)</strong>: 방수·방진 및 충격 흡수 성능이 뛰어나, 이동 및 보관 중 발생할 수 있는 내부 장비의 파손을 완벽히 방지합니다.`,
             specs: [
@@ -860,7 +860,7 @@ const productData = {
         },
 
         design: {
-            img: "../img/WSR213.png",
+            img: "../img/wsr213-r2.png",
             title: `Housed in a 3U iSeries Injection Molded Fly Rack (13") Case`,
             desc: `<strong>Optimized Storage and Air Transport Convenience</strong><br>Featuring a hybrid design that combines a military-grade injection-molded hard case with an internal 3U aluminum rack, this solution offers exceptional durability and portability. Its compact 13-inch depth allows for easy storage and transportation, while the internal rack can be quickly detached and used as a desktop unit when needed.<br><strong>Portable Hard Case Design</strong><br>Equipped with smooth in-line wheels and a retractable pull handle, the case enables effortless one-person transport, even across rough terrain and in remote operational environments.<br><strong>Comprehensive Environmental Protection (IP67)</strong><br>With outstanding waterproof, dustproof, and shock-resistant performance, the case provides reliable protection against damage to internal equipment during transportation and storage.`,
             specs: [
@@ -955,7 +955,7 @@ const productData = {
         },
 
         design: {
-            img: "../img/WSR213.png",
+            img: "../img/wsr213-r2.png",
             title: `3U iSeries Injection Molded Fly Rack (13") 케이스 적용`,
             desc: `<strong>완벽한 수납 및 항공 이동 편의성</strong>: 군용 등급의 고강도 사출 성형 하드케이스와 내부 3U 알루미늄 랙 부품이 결합된 하이브리드 구조입니다. 13인치 콤팩트 깊이로 보관 및 적재가 매우 용이하며, 필요 시 내부 랙만 신속하게 분리하여 탁상형으로 전환할 수 있습니다.<br><strong>이동식 하드케이스 스타일 디자인</strong>: 캐리어 형태의 부드러운 인라인 휠과 개폐식 풀 핸들이 내장되어 가혹한 험지나 격오지에서도 혼자서 손쉽게 장비를 운반할 수 있습니다.<br><strong>철저한 환경 차단 (IP67)</strong>: 방수·방진 및 충격 흡수 성능이 뛰어나, 이동 및 보관 중 발생할 수 있는 내부 장비의 파손을 완벽히 방지합니다.`,
             specs: [
@@ -1050,7 +1050,7 @@ const productData = {
         },
 
         design: {
-            img: "../img/WSR213.png",
+            img: "../img/wsr213-r2.png",
             title: `Housed in a 3U iSeries Injection Molded Fly Rack (13") Case`,
             desc: `<strong>Optimized Storage and Air Transport Convenience</strong><br>Featuring a hybrid design that combines a military-grade injection-molded hard case with an internal 3U aluminum rack, this solution offers exceptional durability and portability. Its compact 13-inch depth allows for easy storage and transportation, while the internal rack can be quickly detached and used as a desktop unit when needed.<br><strong>Portable Hard Case Design</strong><br>Equipped with smooth in-line wheels and a retractable pull handle, the case enables effortless one-person transport, even across rough terrain and in remote operational environments.<br><strong>Comprehensive Environmental Protection (IP67)</strong><br>With outstanding waterproof, dustproof, and shock-resistant performance, the case provides reliable protection against damage to internal equipment during transportation and storage.`,
             specs: [
