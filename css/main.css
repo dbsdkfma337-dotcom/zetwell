@@ -19,7 +19,7 @@ body {
 }
 
 #header .logo img {
-    width: 80%;
+    width: 70%;
 }
 
 #header .logo,
@@ -217,10 +217,6 @@ body {
 @media (max-width: 1024px) {
     #header {
         padding: 16px 24px;
-    }
-
-    #header .logo img {
-        width: 130px;
     }
 
     #header .gnb-area {
@@ -434,7 +430,7 @@ body {
     transform: translateY(-50%);
     line-height: 1.2;
     color: #fff;
-    font-size: 2.5vw;
+    font-size: 45px;
     font-weight: 300;
 }
 
@@ -728,7 +724,6 @@ body {
     }
 
     .maincontent1-inner {
-        flex-wrap: wrap;
         align-items: stretch;
         gap: 28px;
     }
@@ -747,6 +742,10 @@ body {
 }
 
 @media (max-width: 768px) {
+    .main-visual p {
+        font-size: 40px;
+    }
+
     .maincontent1 {
         padding: 90px 18px 100px;
     }
@@ -805,6 +804,10 @@ body {
 }
 
 @media (max-width: 480px) {
+    .main-visual p {
+        font-size: 5.5vw;
+    }
+
     .maincontent1 {
         padding: 70px 25px 80px;
     }
