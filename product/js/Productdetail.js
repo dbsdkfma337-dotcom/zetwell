@@ -643,7 +643,7 @@ const productData = {
     "zw5000neng": {
         title: "Advanced Edge AI for Diverse",
 
-        desc: "Intel® Core™ Ultra with Intel® W880/Q870 chipset<br>NVIDIA RTX PRO 4000 Blackwell",
+        desc: "Intel® Core™ Ultra with Intel® W880/Q870 chipset<br>NVIDIA RTX PRO 5000 Blackwell",
 
         model: "ZW5000N",
 
@@ -735,9 +735,9 @@ const productData = {
     },
 
     "zw4000n": {
-        title: "내용필요",
+        title: "Advanced Edge AI for Diverse",
 
-        desc: "내용필요",
+        desc: "Intel® Core™ Ultra with Intel® W880/Q870 chipset<br>NVIDIA RTX PRO 4000 Blackwell",
 
         model: "ZW4000N",
 
@@ -829,9 +829,9 @@ const productData = {
     },
 
     "zw2000n": {
-        title: "내용필요",
+        title: "Advanced Edge AI for Diverse",
 
-        desc: "내용필요",
+        desc: "Intel® Core™ Ultra with Intel® W880/Q870 chipset<br>NVIDIA RTX PRO 2000 Blackwell",
 
         model: "ZW2000N",
 
