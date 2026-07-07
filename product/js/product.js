@@ -26,9 +26,9 @@ const productData = {
             {
             category: "Zetstation-S series",
             name: "ZS-3020R",
-            desc: "S-Series ....",
+            desc: "Mobile Tactical Server Mounted in a MIL-SPEC Armored Case",
             img: "../img/s-series.png",
-            alt: "SSR001",
+            alt: "ZS-3020R",
             link: "./Productdetail.html?product=zs-3020reng"
             }
         ]
@@ -199,11 +199,11 @@ const productData = {
     products: [
             {
             category: "Zetstation-M series",
-            name: "ZUK2000",
+            name: "ZM-3000",
             desc: "Hybrid Carrier System",
             img: "../img/UK2000.png",
-            alt: "ZUK2000",
-            link: "./Productdetail-eng.html?product=uk2000eng"
+            alt: "ZM-3000",
+            link: "./Productdetail-eng.html?product=zm3000eng"
             }
         ]
     },
@@ -447,7 +447,7 @@ const productData = {
         ]
     },
 
-    "t-serieseng": {
+    "t-series-eng": {
         title: "Transparent Display",
         desc: "Breaking the Limits of Space Transparent LED Control Monitor",
         visualImg: "../img/t-series-bg.jpg",

@@ -173,7 +173,7 @@ const productData = {
             ["Display", '43" 4k UHD (3840 × 2160)'],
             ["Brightness", "500 nits"],
             ["Viewing Angle", "178° (H) / 178° (V)"],
-            ["Input Port", "HDMI, USB, LAN, 전원 입력"],
+            ["Input Port", "HDMI, USB, LAN, Power Input"],
             ["Power", "AC 100~240V"],
             ["Operating Temperature", "-20°C ~ 60°C"],
             ["Storage Temperature", "-30°C ~ 70°C"],
@@ -193,6 +193,9 @@ const productData = {
         model: "43MG",
 
         visualImg: "../img/43MG-bg.png",
+
+        koLink: "./Productdetail.html?product=43mg",
+        engLink: "./Productdetail-eng.html?product=43mgeng",
 
         sliderImages: [
             "../img/43MG-h.png",
@@ -276,13 +279,16 @@ const productData = {
 
     "43mgeng": {
 
-        title: "이동형 멀티터치<br> 테이블 디스플레이",
+        title: "Mobile Multi-Touch<br> Table Display",
 
         desc: "Built for On-the-Move Operations",
 
         model: "43MG",
 
         visualImg: "../img/43MG-bg.png",
+
+        koLink: "./Productdetail.html?product=43mg",
+        engLink: "./Productdetail-eng.html?product=43mgeng",
 
         sliderImages: [
             "../img/43MG-h.png",
@@ -323,25 +329,25 @@ const productData = {
         ],
 
         rugged: {
-            title: `그 어떤 환경에서도 살아남는,<br>강력한 보호성능`,
+            title: `Powerful Protection<br>for Any Environment`,
             cards: [
                 {
-                icon: "🔒",
-                title: "견고한 잠금 장치",
-                value: "금속 래치 적용",
-                desc: "금속 래치와 잠금 지원 구조로 운송 중에도 안정적인 보호 성능을 제공합니다."
+                    icon: "🔒",
+                    title: "Secure Locking System",
+                    value: "Metal Latches",
+                    desc: "Equipped with durable metal latches and a secure locking mechanism to protect equipment during transport."
                 },
                 {
-                icon: "☔",
-                title: "방수·방진 구조",
-                value: "IP65",
-                desc: "특수 실팅 구조로 외부의 물과 먼지로부터 장비를 안전하게 보호합니다."
+                    icon: "☔",
+                    title: "Water & Dust Protection",
+                    value: "IP65 Rated",
+                    desc: "The sealed enclosure protects equipment from water, dust, and other external contaminants."
                 },
                 {
-                icon: "⚙️",
-                title: "자동 압력 조절 밸브",
-                value: "압력 자동 조절",
-                desc: "내부 압력을 자동으로 조절하여 기압 변화시에도 안정적인 상태를 유지합니다."
+                    icon: "⚙️",
+                    title: "Automatic Pressure Relief Valve",
+                    value: "Automatic Pressure Equalization",
+                    desc: "Automatically equalizes internal pressure to maintain stability under changing atmospheric conditions."
                 }
             ]
         },
@@ -350,17 +356,17 @@ const productData = {
 
 
         specTable: [
-            ["디스플레이", '43" 4k UHD (3840 × 2160)'],
-            ["밝기", "500 nits"],
-            ["시야각", "178° (H) / 178° (V)"],
-            ["입력단자", "HDMI, USB, LAN, 전원 입력"],
-            ["전원", "AC 100~240V"],
-            ["작동온도", "-20°C ~ 60°C"],
-            ["보관온도", "-30°C ~ 70°C"],
-            ["방진방수", "IP65"],
-            ["외부크기", "1178 x 718 x 427 mm"],
-            ["내부크기", "1080 x 620 x 400 mm"],
-            ["증량", "약 24kg"]
+            ["Display", '43" 4k UHD (3840 × 2160)'],
+            ["Brightness", "500 nits"],
+            ["Viewing Angle", "178° (H) / 178° (V)"],
+            ["Input Port", "HDMI, USB, LAN, Power Input"],
+            ["Power", "AC 100~240V"],
+            ["Operating Temperature", "-20°C ~ 60°C"],
+            ["Storage Temperature", "-30°C ~ 70°C"],
+            ["Dustproof & Waterproof", "IP65"],
+            ["External Dimensions", "1178 x 718 x 427 mm"],
+            ["Internal Dimensions", "1080 x 620 x 400 mm"],
+            ["Weight", "Approx. 24 kg"]
         ]
     },
 
@@ -555,8 +561,8 @@ const productData = {
 
         visualImg: "../img/wsr213-bg4.png",
 
-        koLink: "./Productdetail.html?product=wsr213",
-        engLink: "./Productdetail-eng.html?product=wsr213eng",
+        koLink: "./Productdetail.html?product=zw5000n",
+        engLink: "./Productdetail-eng.html?product=zw5000neng",
 
         sliderImages: [
             "../img/wseries-open.png",
@@ -651,8 +657,8 @@ const productData = {
 
         visualImg: "../img/wsr213-bg4.png",
 
-        koLink: "./Productdetail.html?product=wsr213",
-        engLink: "./Productdetail-eng.html?product=wsr213eng",
+        koLink: "./Productdetail.html?product=zw5000n",
+        engLink: "./Productdetail-eng.html?product=zw5000neng",
 
         sliderImages: [
             "../img/wseries-open.png",
@@ -746,8 +752,8 @@ const productData = {
 
         visualImg: "../img/wsr210-bg2.png",
 
-        koLink: "./Productdetail.html?product=wsr213",
-        engLink: "./Productdetail-eng.html?product=wsr213eng",
+        koLink: "./Productdetail.html?product=zw4000n",
+        engLink: "./Productdetail-eng.html?product=zw4000neng",
 
         sliderImages: [
             "../img/wseries-open.png",
@@ -841,8 +847,8 @@ const productData = {
 
         visualImg: "../img/wsr210-bg2.png",
 
-        koLink: "./Productdetail.html?product=wsr213",
-        engLink: "./Productdetail-eng.html?product=wsr213eng",
+        koLink: "./Productdetail.html?product=zw4000n",
+        engLink: "./Productdetail-eng.html?product=zw4000neng",
 
         sliderImages: [
             "../img/wseries-open.png",
@@ -936,8 +942,8 @@ const productData = {
 
         visualImg: "../img/wsr209-bg3.png",
 
-        koLink: "./Productdetail.html?product=wsr213",
-        engLink: "./Productdetail-eng.html?product=wsr213eng",
+        koLink: "./Productdetail.html?product=zw2000n",
+        engLink: "./Productdetail-eng.html?product=zw2000neng",
 
         sliderImages: [
             "../img/wseries-open.png",
@@ -1031,8 +1037,8 @@ const productData = {
 
         visualImg: "../img/wsr209-bg3.png",
 
-        koLink: "./Productdetail.html?product=wsr213",
-        engLink: "./Productdetail-eng.html?product=wsr213eng",
+        koLink: "./Productdetail.html?product=zw2000n",
+        engLink: "./Productdetail-eng.html?product=zw2000neng",
 
         sliderImages: [
             "../img/wseries-open.png",
@@ -1711,8 +1717,8 @@ const productData = {
 
         visualImg: "../img/s988-bg.png",
 
-        koLink: "./Productdetail.html?product=S988",
-        engLink: "./Productdetail-eng.html?product=S988eng",
+        koLink: "./Productdetail.html?product=s988",
+        engLink: "./Productdetail-eng.html?product=s988eng",
 
         sliderImages: [
             "../img/S988.png",
@@ -1798,8 +1804,8 @@ const productData = {
 
         visualImg: "../img/s988-bg.png",
 
-        koLink: "./Productdetail.html?product=S988",
-        engLink: "./Productdetail-eng.html?product=S988eng",
+        koLink: "./Productdetail.html?product=s988",
+        engLink: "./Productdetail-eng.html?product=s988eng",
 
         sliderImages: [
             "../img/S988.png",
@@ -2274,7 +2280,7 @@ const productData = {
         visualImg: "../img/eph-bg.png",
 
         koLink: "./Productdetail.html?product=ze5000m",
-        engLink: "./Productdetail-eng.html?product=ze5000m",
+        engLink: "./Productdetail-eng.html?product=ze5000meng",
 
         sliderImages: [
             "../img/eph.png",
@@ -2365,7 +2371,7 @@ const productData = {
         visualImg: "../img/eph-bg.png",
 
         koLink: "./Productdetail.html?product=ze5000m",
-        engLink: "./Productdetail-eng.html?product=ze5000m",
+        engLink: "./Productdetail-eng.html?product=ze5000meng",
 
         sliderImages: [
             "../img/eph.png",
@@ -2455,8 +2461,8 @@ const productData = {
 
         visualImg: "../img/eph-bg.png",
 
-        koLink: "./Productdetail.html?product=eph8",
-        engLink: "./Productdetail-eng.html?product=eph8",
+        koLink: "./Productdetail.html?product=ze4000m",
+        engLink: "./Productdetail-eng.html?product=ze4000meng",
 
         sliderImages: [
             "../img/eph.png",
@@ -2637,8 +2643,8 @@ const productData = {
 
         visualImg: "../img/eph-bg.png",
 
-        koLink: "./Productdetail.html?product=eph10",
-        engLink: "./Productdetail-eng.html?product=eph10",
+        koLink: "./Productdetail.html?product=ze2000m",
+        engLink: "./Productdetail-eng.html?product=ze2000meng",
 
         sliderImages: [
             "../img/eph.png",
@@ -2728,7 +2734,7 @@ const productData = {
         visualImg: "../img/eph-bg.png",
 
         koLink: "./Productdetail.html?product=ze2000m",
-        engLink: "./Productdetail-eng.html?product=ze2000m",
+        engLink: "./Productdetail-eng.html?product=ze2000meng",
 
         sliderImages: [
             "../img/eph.png",
@@ -2817,8 +2823,8 @@ const productData = {
 
         visualImg: "../img/t-series-bg.jpg",
 
-        koLink: "./Productdetail.html?product=ihh10",
-        engLink: "./Productdetail-eng.html?product=ihh10",
+        koLink: "./Productdetail.html?product=zv30ta1",
+        engLink: "./Productdetail-eng.html?product=zv30ta1eng",
 
         sliderImages: [
             "../img/t-series-f.png",
@@ -2924,8 +2930,8 @@ const productData = {
 
         visualImg: "../img/t-series-bg.jpg",
 
-        koLink: "./Productdetail.html?product=ihh10",
-        engLink: "./Productdetail-eng.html?product=ihh10",
+        koLink: "./Productdetail.html?product=zv30ta1",
+        engLink: "./Productdetail-eng.html?product=zv30ta1eng",
 
         sliderImages: [
             "../img/t-series-f.png",
@@ -3038,8 +3044,8 @@ const productData = {
 
         visualImg: "../img/zv50ta1-bg.png",
 
-        koLink: "./Productdetail.html?product=ihh10",
-        engLink: "./Productdetail-eng.html?product=ihh10",
+        koLink: "./Productdetail.html?product=zv50ta1",
+        engLink: "./Productdetail-eng.html?product=zv50ta1eng",
 
         sliderImages: [
             "../img/t-series-f.png",
@@ -3144,8 +3150,8 @@ const productData = {
 
         visualImg: "../img/zv50ta1-bg.png",
 
-        koLink: "./Productdetail.html?product=ihh10",
-        engLink: "./Productdetail-eng.html?product=ihh10",
+        koLink: "./Productdetail.html?product=zv50ta1",
+        engLink: "./Productdetail-eng.html?product=zv50ta1eng",
 
         sliderImages: [
             "../img/t-series-f.png",
