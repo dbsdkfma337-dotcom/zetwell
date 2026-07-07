@@ -604,25 +604,25 @@ const productData = {
         ],
 
         rugged: {
-            title: `그 어떤 환경에서도 살아남는,<br>강력한 보호성능`,
+            title: `어떤 임무 환경에서도, <br>안정적인 시스템 운용`,
             cards: [
                 {
-                icon: "🔒",
-                title: "견고한 잠금 장치",
-                value: "금속 래치 적용",
-                desc: "금속 래치와 잠금 지원 구조로 운송 중에도 안정적인 보호 성능을 제공합니다."
+                icon: "☔",
+                title: "스탠다드 방수 케이스",
+                value: "IP67",
+                desc: "초고강도 폴리프로필렌 공중머 수지로 성형되었으며, 가스켓 밀봉 및 방수 및 방진 잠수 설계(MIL-C-4150J / IP67)를 특징으로 합니다."
                 },
                 {
-                icon: "☔",
-                title: "방수·방진 구조",
-                value: "IP65",
-                desc: "특수 실팅 구조로 외부의 물과 먼지로부터 장비를 안전하게 보호합니다."
+                icon: "🧱",
+                title: "분리가능한 거치프레임",
+                value: "PE 폼으로 보호",
+                desc: "SKB의 iSeries 케이스에 쉽게 장착할 수 있으며, 돌출된 노브와 버튼을 위한 고품질 PE 폼으로 보호"
                 },
                 {
                 icon: "⚙️",
-                title: "자동 압력 조절 밸브",
-                value: "압력 자동 조절",
-                desc: "내부 압력을 자동으로 조절하여 기압 변화시에도 안정적인 상태를 유지합니다."
+                title: "자동 대기압 평형 밸브",
+                value: "MIL-STD-648C",
+                desc: "자외선, 용제, 부식, 곰팡이 및 충격 손상에 대한 저항성(MIL-STD-810F)이 있습니다."
                 }
             ]
         },
@@ -699,25 +699,25 @@ const productData = {
         ],
 
         rugged: {
-            title: `Engineered to Survive Any Environment<br>Uncompromising Protection`,
+            title: `Reliable System Operation<br>in Any Mission Environment`,
             cards: [
                 {
-                icon: "🔒",
-                title: "Secure Locking System",
-                value: "Metal Latch",
-                desc: "Equipped with durable metal latches and a lockable design to provide reliable protection during transportation."
+                    icon: "☔",
+                    title: "Standard Waterproof Case",
+                    value: "IP67 Rated",
+                    desc: "Molded from ultra-high-strength polypropylene copolymer resin, featuring a gasket-sealed waterproof and dustproof design compliant with MIL-C-4150J and IP67."
                 },
                 {
-                icon: "☔",
-                title: "Waterproof & Dustproof Design",
-                value: "IP65 Rated",
-                desc: "A specialized sealing structure protects equipment from water and dust, ensuring reliable performance in demanding environments."
+                    icon: "🧱",
+                    title: "Removable Mounting Frame",
+                    value: "Protected with PE Foam",
+                    desc: "Designed for easy installation into SKB iSeries cases, with high-quality PE foam providing protection for protruding knobs and control buttons."
                 },
                 {
-                icon: "⚙️",
-                title: "Automatic Pressure Equalization Valve",
-                value: "Automatic Pressure Equalization",
-                desc: "Automatically equalizes internal pressure to maintain stable protection during changes in atmospheric pressure."
+                    icon: "⚙️",
+                    title: "Automatic Pressure Equalization Valve",
+                    value: "MIL-STD-648C",
+                    desc: "Provides excellent resistance to UV exposure, solvents, corrosion, fungus, and impact damage in accordance with MIL-STD-810F."
                 }
             ]
         },
@@ -794,25 +794,25 @@ const productData = {
         ],
 
         rugged: {
-            title: `그 어떤 환경에서도 살아남는,<br>강력한 보호성능`,
+            title: `어떤 임무 환경에서도, <br>안정적인 시스템 운용`,
             cards: [
                 {
-                icon: "🔒",
-                title: "견고한 잠금 장치",
-                value: "금속 래치 적용",
-                desc: "금속 래치와 잠금 지원 구조로 운송 중에도 안정적인 보호 성능을 제공합니다."
+                icon: "☔",
+                title: "스탠다드 방수 케이스",
+                value: "IP67",
+                desc: "초고강도 폴리프로필렌 공중머 수지로 성형되었으며, 가스켓 밀봉 및 방수 및 방진 잠수 설계(MIL-C-4150J / IP67)를 특징으로 합니다."
                 },
                 {
-                icon: "☔",
-                title: "방수·방진 구조",
-                value: "IP65",
-                desc: "특수 실팅 구조로 외부의 물과 먼지로부터 장비를 안전하게 보호합니다."
+                icon: "🧱",
+                title: "분리가능한 거치프레임",
+                value: "PE 폼으로 보호",
+                desc: "SKB의 iSeries 케이스에 쉽게 장착할 수 있으며, 돌출된 노브와 버튼을 위한 고품질 PE 폼으로 보호"
                 },
                 {
                 icon: "⚙️",
-                title: "자동 압력 조절 밸브",
-                value: "압력 자동 조절",
-                desc: "내부 압력을 자동으로 조절하여 기압 변화시에도 안정적인 상태를 유지합니다."
+                title: "자동 대기압 평형 밸브",
+                value: "MIL-STD-648C",
+                desc: "자외선, 용제, 부식, 곰팡이 및 충격 손상에 대한 저항성(MIL-STD-810F)이 있습니다."
                 }
             ]
         },
@@ -889,25 +889,25 @@ const productData = {
         ],
 
         rugged: {
-            title: `Engineered to Survive Any Environment<br>Uncompromising Protection`,
+            title: `Reliable System Operation<br>in Any Mission Environment`,
             cards: [
                 {
-                icon: "🔒",
-                title: "Secure Locking System",
-                value: "Metal Latch",
-                desc: "Equipped with durable metal latches and a lockable design to provide reliable protection during transportation."
+                    icon: "☔",
+                    title: "Standard Waterproof Case",
+                    value: "IP67 Rated",
+                    desc: "Molded from ultra-high-strength polypropylene copolymer resin, featuring a gasket-sealed waterproof and dustproof design compliant with MIL-C-4150J and IP67."
                 },
                 {
-                icon: "☔",
-                title: "Waterproof & Dustproof Design",
-                value: "IP65 Rated",
-                desc: "A specialized sealing structure protects equipment from water and dust, ensuring reliable performance in demanding environments."
+                    icon: "🧱",
+                    title: "Removable Mounting Frame",
+                    value: "Protected with PE Foam",
+                    desc: "Designed for easy installation into SKB iSeries cases, with high-quality PE foam providing protection for protruding knobs and control buttons."
                 },
                 {
-                icon: "⚙️",
-                title: "Automatic Pressure Equalization Valve",
-                value: "Automatic Pressure Equalization",
-                desc: "Automatically equalizes internal pressure to maintain stable protection during changes in atmospheric pressure."
+                    icon: "⚙️",
+                    title: "Automatic Pressure Equalization Valve",
+                    value: "MIL-STD-648C",
+                    desc: "Provides excellent resistance to UV exposure, solvents, corrosion, fungus, and impact damage in accordance with MIL-STD-810F."
                 }
             ]
         },
@@ -984,25 +984,25 @@ const productData = {
         ],
 
         rugged: {
-            title: `그 어떤 환경에서도 살아남는,<br>강력한 보호성능`,
+            title: `어떤 임무 환경에서도, <br>안정적인 시스템 운용`,
             cards: [
                 {
-                icon: "🔒",
-                title: "견고한 잠금 장치",
-                value: "금속 래치 적용",
-                desc: "금속 래치와 잠금 지원 구조로 운송 중에도 안정적인 보호 성능을 제공합니다."
+                icon: "☔",
+                title: "스탠다드 방수 케이스",
+                value: "IP67",
+                desc: "초고강도 폴리프로필렌 공중머 수지로 성형되었으며, 가스켓 밀봉 및 방수 및 방진 잠수 설계(MIL-C-4150J / IP67)를 특징으로 합니다."
                 },
                 {
-                icon: "☔",
-                title: "방수·방진 구조",
-                value: "IP65",
-                desc: "특수 실팅 구조로 외부의 물과 먼지로부터 장비를 안전하게 보호합니다."
+                icon: "🧱",
+                title: "분리가능한 거치프레임",
+                value: "PE 폼으로 보호",
+                desc: "SKB의 iSeries 케이스에 쉽게 장착할 수 있으며, 돌출된 노브와 버튼을 위한 고품질 PE 폼으로 보호"
                 },
                 {
                 icon: "⚙️",
-                title: "자동 압력 조절 밸브",
-                value: "압력 자동 조절",
-                desc: "내부 압력을 자동으로 조절하여 기압 변화시에도 안정적인 상태를 유지합니다."
+                title: "자동 대기압 평형 밸브",
+                value: "MIL-STD-648C",
+                desc: "자외선, 용제, 부식, 곰팡이 및 충격 손상에 대한 저항성(MIL-STD-810F)이 있습니다."
                 }
             ]
         },
@@ -1079,25 +1079,25 @@ const productData = {
         ],
 
         rugged: {
-            title: `Engineered to Survive Any Environment<br>Uncompromising Protection`,
+            title: `Reliable System Operation<br>in Any Mission Environment`,
             cards: [
                 {
-                icon: "🔒",
-                title: "Secure Locking System",
-                value: "Metal Latch",
-                desc: "Equipped with durable metal latches and a lockable design to provide reliable protection during transportation."
+                    icon: "☔",
+                    title: "Standard Waterproof Case",
+                    value: "IP67 Rated",
+                    desc: "Molded from ultra-high-strength polypropylene copolymer resin, featuring a gasket-sealed waterproof and dustproof design compliant with MIL-C-4150J and IP67."
                 },
                 {
-                icon: "☔",
-                title: "Waterproof & Dustproof Design",
-                value: "IP65 Rated",
-                desc: "A specialized sealing structure protects equipment from water and dust, ensuring reliable performance in demanding environments."
+                    icon: "🧱",
+                    title: "Removable Mounting Frame",
+                    value: "Protected with PE Foam",
+                    desc: "Designed for easy installation into SKB iSeries cases, with high-quality PE foam providing protection for protruding knobs and control buttons."
                 },
                 {
-                icon: "⚙️",
-                title: "Automatic Pressure Equalization Valve",
-                value: "Automatic Pressure Equalization",
-                desc: "Automatically equalizes internal pressure to maintain stable protection during changes in atmospheric pressure."
+                    icon: "⚙️",
+                    title: "Automatic Pressure Equalization Valve",
+                    value: "MIL-STD-648C",
+                    desc: "Provides excellent resistance to UV exposure, solvents, corrosion, fungus, and impact damage in accordance with MIL-STD-810F."
                 }
             ]
         },
@@ -1157,7 +1157,7 @@ const productData = {
             specs: [
                 {
                     title: "연산 메인보드 코어",
-                    items: ["산업용 임베디드 플랫폼 × 3세트 독립 실장",]
+                    items: ["산업용 임베디드<br> 플랫폼 x 3세트 독립 실장",]
                 },
                 {
                     title: "시스템 메모리",
@@ -1781,6 +1781,8 @@ const productData = {
             ]
         },
 
+        badgeImg: "../img/samsung-sticker.png",
+
         specTable: [
             ["CPU", 'Intel 8th Gen Intel® Coffee Lake-S, i7'],
             ["MB Chipset", "Intel® Q470"],
@@ -1867,6 +1869,8 @@ const productData = {
                 }
             ]
         },
+
+        badgeImg: "../img/samsung-sticker.png",
 
         specTable: [
             ["CPU", 'Intel 8th Gen Intel® Coffee Lake-S, i7'],
@@ -1961,8 +1965,6 @@ const productData = {
                 }
             ]
         },
-
-        badgeImg: "../img/samsung-sticker.png",
 
         specTable: [
             ["Model", 'S1388 Dispatcher Workstation'],
@@ -2061,8 +2063,6 @@ const productData = {
                 }
             ]
         },
-
-        badgeImg: "../img/samsung-sticker.png",
 
         specTable: [
             ["Model", 'S1388 Dispatcher Workstation'],
