@@ -2304,11 +2304,11 @@ const productData = {
             specs: [
                 {
                     title: "주요 특징",
-                    items: ["무소음 냉각", "전원 및 회선 이중화","다중 모니터 지원"]
+                    items: ["5G 특화망(Private) 기반", "고부하 GPU 컴퓨팅 보드"]
                 },
                 {
                     title: "주요 특징",
-                    items: ["통합 음성 통신", "디지털 공청","정확한 제어"]
+                    items: ["Nano Sim 슬롯, 스토리지, 무선모듈, 5g 지원을 위한 M.2인터페이스(M-key, 2xB-Key) 통해 탑재"]
                 }
             ]
         },
@@ -2393,14 +2393,14 @@ const productData = {
             title: `<div class="title-sm">The Ultimate Edge AI Computing Solution Combining<br>High-Performance x86 Processing and Flexible AI Acceleration</div>`,
             desc: `<div class="desc-item"><strong>Supports Up to 64GB DDR5 System Memory</strong> : When GPU VRAM is fully utilized, high-speed DDR5 system memory can be used to store audio streaming data, RAG (Retrieval-Augmented Generation) vector databases, and TTS audio databases, reducing data bottlenecks between the CPU and GPU.</div><div class="desc-item"><strong>High-Performance x86 Host CPU (Up to 125W TDP)</strong> : While the GPU handles LLM workloads, the Intel® CPU and its integrated Intel® UHD 770 graphics can offload STT/TTS audio preprocessing, improving overall AI processing efficiency.</div><div class="desc-item"><strong>Multiple LAN Ports (5 × 2.5GbE RJ45)</strong> : Five high-speed 2.5GbE RJ45 LAN ports provide reliable network connectivity, minimizing bottlenecks and packet loss while enabling efficient separation of communication and control signals.</div>`,
             specs: [
-                {
-                    title: "Key Features",
-                    items: ["Fanless Cooling", "Redundant Power & Network", "Multi-Monitor Support"]
-                },
-                {
-                    title: "Key Features",
-                    items: ["Integrated Voice Communication", "Digital Audio Monitoring", "Precision Control"]
-                }
+                        {
+                            title: "Key Features",
+                            items: ["Private 5G Network Support","High-Performance GPU Computing Board"]
+                        },
+                        {
+                            title: "Key Features",
+                            items: ["Nano SIM Slot, Storage, and Wireless Module","Supports 5G via M.2 Interfaces (M-Key, Dual B-Key)"]
+                        }
             ]
         },
 
@@ -2486,11 +2486,11 @@ const productData = {
             specs: [
                 {
                     title: "주요 특징",
-                    items: ["무소음 냉각", "전원 및 회선 이중화","다중 모니터 지원"]
+                    items: ["5G 특화망(Private) 기반", "고부하 GPU 컴퓨팅 보드"]
                 },
                 {
                     title: "주요 특징",
-                    items: ["통합 음성 통신", "디지털 공청","정확한 제어"]
+                    items: ["Nano Sim 슬롯, 스토리지, 무선모듈, 5g 지원을 위한 M.2인터페이스(M-key, 2xB-Key) 통해 탑재"]
                 }
             ]
         },
@@ -2575,14 +2575,14 @@ const productData = {
             title: `<div class="title-sm">The Ultimate Edge AI Computing Solution Combining<br>High-Performance x86 Processing and Flexible AI Acceleration</div>`,
             desc: `<div class="desc-item"><strong>Supports Up to 64GB DDR5 System Memory</strong> : When GPU VRAM is fully utilized, high-speed DDR5 system memory can be used to store audio streaming data, RAG (Retrieval-Augmented Generation) vector databases, and TTS audio databases, reducing data bottlenecks between the CPU and GPU.</div><div class="desc-item"><strong>High-Performance x86 Host CPU (Up to 125W TDP)</strong> : While the GPU handles LLM workloads, the Intel® CPU and its integrated Intel® UHD 770 graphics can offload STT/TTS audio preprocessing, improving overall AI processing efficiency.</div><div class="desc-item"><strong>Multiple LAN Ports (5 × 2.5GbE RJ45)</strong> : Five high-speed 2.5GbE RJ45 LAN ports provide reliable network connectivity, minimizing bottlenecks and packet loss while enabling efficient separation of communication and control signals.</div>`,
             specs: [
-                {
-                    title: "Key Features",
-                    items: ["Fanless Cooling", "Redundant Power & Network", "Multi-Monitor Support"]
-                },
-                {
-                    title: "Key Features",
-                    items: ["Integrated Voice Communication", "Digital Audio Monitoring", "Precision Control"]
-                }
+                    {
+                        title: "Key Features",
+                        items: ["Private 5G Network Support","High-Performance GPU Computing Board"]
+                    },
+                    {
+                        title: "Key Features",
+                        items: ["Nano SIM Slot, Storage, and Wireless Module","Supports 5G via M.2 Interfaces (M-Key, Dual B-Key)"]
+                    }
             ]
         },
 
@@ -2667,11 +2667,11 @@ const productData = {
             specs: [
                 {
                     title: "주요 특징",
-                    items: ["무소음 냉각", "전원 및 회선 이중화","다중 모니터 지원"]
+                    items: ["5G 특화망(Private) 기반", "고부하 GPU 컴퓨팅 보드"]
                 },
                 {
                     title: "주요 특징",
-                    items: ["통합 음성 통신", "디지털 공청","정확한 제어"]
+                    items: ["Nano Sim 슬롯, 스토리지, 무선모듈, 5g 지원을 위한 M.2인터페이스(M-key, 2xB-Key) 통해 탑재"]
                 }
             ]
         },
@@ -2755,14 +2755,14 @@ const productData = {
             title: `<div class="title-sm">The Ultimate Edge AI Computing Solution Combining<br>High-Performance x86 Processing and Flexible AI Acceleration</div>`,
             desc: `<div class="desc-item"><strong>Supports Up to 64GB DDR5 System Memory</strong> : When GPU VRAM is fully utilized, high-speed DDR5 system memory can be used to store audio streaming data, RAG (Retrieval-Augmented Generation) vector databases, and TTS audio databases, reducing data bottlenecks between the CPU and GPU.</div><div class="desc-item"><strong>High-Performance x86 Host CPU (Up to 125W TDP)</strong> : While the GPU handles LLM workloads, the Intel® CPU and its integrated Intel® UHD 770 graphics can offload STT/TTS audio preprocessing, improving overall AI processing efficiency.</div><div class="desc-item"><strong>Multiple LAN Ports (5 × 2.5GbE RJ45)</strong> : Five high-speed 2.5GbE RJ45 LAN ports provide reliable network connectivity, minimizing bottlenecks and packet loss while enabling efficient separation of communication and control signals.</div>`,
             specs: [
-                {
-                    title: "Key Features",
-                    items: ["Fanless Cooling", "Redundant Power & Network", "Multi-Monitor Support"]
-                },
-                {
-                    title: "Key Features",
-                    items: ["Integrated Voice Communication", "Digital Audio Monitoring", "Precision Control"]
-                }
+                    {
+                        title: "Key Features",
+                        items: ["Private 5G Network Support","High-Performance GPU Computing Board"]
+                    },
+                    {
+                        title: "Key Features",
+                        items: ["Nano SIM Slot, Storage, and Wireless Module","Supports 5G via M.2 Interfaces (M-Key, Dual B-Key)"]
+                    }
             ]
         },
 
