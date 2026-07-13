@@ -20,7 +20,7 @@
 
 .table-page .sub-visual-text {
     position: absolute;
-    top: 310px;
+    bottom: 80px;
     left: 120px;
     z-index: 2;
     color: #fff;
@@ -42,7 +42,7 @@
 .table-page .sub-visual-text strong {
     display: block;
     margin-top: 170px;
-    font-size: 95px;
+    font-size: 90px;
     line-height: 1;
     font-weight: 700;
 }

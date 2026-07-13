@@ -36,8 +36,8 @@
                         <li class="gnb-item">
                             <a href="#" class="gnb-link">ZETable</a>
                             <ul class="depth2">
-                                <li><a href="../product/Productdetail-eng.html?product=43igeng">43IG</a></li>
-                                <li><a href="../product/Productdetail-eng.html?product=43mgeng">43MG</a></li>
+                                <li><a href="../product/Productdetail-eng.html?product=zt43bieng">ZT43BI</a></li>
+                                <li><a href="../product/Productdetail-eng.html?product=zt43gmeng">ZT43GM</a></li>
                             </ul>
                         </li>
                         <li class="gnb-item">
@@ -185,7 +185,7 @@
                         </ul>
                     </div>
 
-                     <div class="footer-col">
+                    <div class="footer-col">
                         <h3>Contact</h3>
                         <p>
                             02-3281-0130
@@ -211,5 +211,33 @@
             </div>
         </footer>
     </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <script>
+        emailjs.init("hu5Qmxk3COAi6yR4a");
+        
+        const asForm = document.getElementById("asForm");
+
+        if (asForm) {
+            asForm.addEventListener("submit", function (e) {
+                e.preventDefault();
+
+                emailjs.sendForm(
+                    "service_trxnp68",
+                    "template_694yqpu",
+                    "#asForm"
+                )
+                .then(() => {
+                    alert("A/S 문의가 정상적으로 접수되었습니다.");
+                    asForm.reset();
+                })
+                .catch((error) => {
+                    console.error(error);
+                    alert("전송에 실패했습니다.");
+                });
+            });
+        }
+    </script>
 </body>
 </html>

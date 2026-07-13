@@ -62,7 +62,7 @@
     transform: translateY(-50%);
     border: 0;
     background: transparent;
-    font-size: 72px;
+    font-size: 42px;
     font-weight: 300;
     cursor: pointer;
     color: #000;
@@ -147,11 +147,15 @@
 .hero-text p {
     max-width: 560px;
     margin-bottom: 130px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 100;
-    line-height: 1.9;
+    line-height: 1.6;
     color: rgba(255, 255, 255, 0.72);
     word-break: keep-all;
+}
+
+#heroDesc .desc-item {
+    margin-bottom: 15px;
 }
 
 .spec-box {
@@ -246,6 +250,14 @@
     word-break: keep-all;
 }
 
+.spec-icon-img {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    object-fit: contain;
+    margin-bottom: 18px;
+}
+
 .title-sm {
     font-size: 45px;
 }
@@ -303,7 +315,7 @@
 }
 
 .spec-item li::before {
-    content: "• ";
+    content: "•";
     position: absolute;
     left: -10px;
 }
@@ -469,4 +481,219 @@
     width:200px;
     height:auto;
     object-fit:contain;
+}
+
+@media (max-width: 1024px) {
+    .slide-bottom {
+        width: 80%;
+    }
+
+    .slide-btn.prev {
+        left: 15%;
+    }
+
+    .slide-btn.next {
+        right: 15%;
+    }
+
+    .detail-hero {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        padding: 100px 40px;
+    }
+
+    .hero-text {
+        width: 100%;
+        max-width: 620px;
+    }
+
+    .hero-text h2 {
+        text-align: center;
+    }
+
+    .hero-text p {
+        max-width: 620px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .spec-box {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .hero-img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero-img img {
+        max-width: 520px;
+        width: 80%;
+    }
+
+    .design-section {
+        min-height: 860px;
+        padding: 80px 8%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .design-info {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .info-box {
+        width: 100%;
+    }
+
+    .design-img {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 750px) {
+
+    #subVisual .sub-visual-text {
+        left: 60px;
+    }
+
+    .info-box {
+        width: 100%;
+    }
+
+    .slide-img {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .slide-btn.prev {
+        left: 10%;
+    }
+
+    .slide-btn.next {
+        right: 10%;
+    }
+
+    .hero-img img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 577px) {
+
+    #subVisual .sub-visual-text {
+        left: 60px;
+    }
+
+    #subVisual .sub-visual-text p {
+        font-size: 20px;
+    }
+
+    #subVisual .sub-visual-text h2 {
+        font-size: 42px;
+    }
+
+    #subVisual .sub-visual-text strong {
+        font-size: 80px;
+    }
+
+    .slide-img {
+        width: 80%;
+    }
+
+    .slide-btn.prev {
+        left: 8%;
+    }
+
+    .slide-btn.next {
+        right: 8%;
+    }
+
+    .hero-text h2 {
+        font-size: 8vw;
+    }
+
+    .info-box {
+        width: 100%;
+        padding: 88px 30px 70px;
+    }
+
+    .info-box h2 {
+        font-size: 8vw;
+        text-align: center;
+    }
+
+    .spec-box .icon {
+        display: none;
+    }
+
+    .spec-box strong {
+        font-size: 25px;
+    }
+
+    .spec-box span {
+        font-size: 15px;
+    }
+
+    .hero-text p {
+        font-size: 17px;
+    }
+
+    .info-box p {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .spec-item h3 {
+        font-size: 18px;
+    }
+
+    .spec-item li {
+        font-size: 14px;
+    }
+
+    .spec-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .spec-table th {
+        width: 170px;
+    }
+}
+
+@media (max-width: 432px) {
+    #subVisual .sub-visual-text {
+        left: 30px;
+    }
+
+    #subVisual .sub-visual-text p {
+        font-size: 16px;
+    }
+
+    #subVisual .sub-visual-text h2 {
+        font-size: 6vw;
+    }
+
+    #subVisual .sub-visual-text strong {
+        font-size: 65px;
+    }
+    
+    .slide-btn {
+        font-size: 60px;
+    }
+
+    .spec-table .spec-table th {
+        width: 150px;
+    }
+
+    .spec-table th {
+        width: 150px;
+    }
 }

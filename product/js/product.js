@@ -369,6 +369,22 @@ const productData = {
             img: "../img/S1519H.png",
             alt: "S1519H",
             link: "./Productdetail.html?product=s1519h"
+            },
+            {
+            category: "Zetstation-CSTM시리즈",
+            name: "SV580S",
+            desc: "8개의 HID 핫키 장착 스피커 3Way시스템 제공",
+            img: "../img/sv580s.png",
+            alt: "SV580S",
+            link: "./Productdetail.html?product=sv580s"
+            },
+            {
+            category: "Zetstation-CSTM시리즈",
+            name: "SV380",
+            desc: "지령대용 AI 워크스테이션",
+            img: "../img/sv380.png",
+            alt: "SV380",
+            link: "./Productdetail.html?product=sv380"
             }
         ]
     },
@@ -419,6 +435,22 @@ const productData = {
             img: "../img/S1519H.png",
             alt: "S1519H",
             link: "./Productdetail-eng.html?product=s1519heng"
+            },
+            {
+            category: "Zetstation-CSTM시리즈",
+            name: "SV580S",
+            desc: "8 HID Hot Keys with Integrated 3-Way Speaker System",
+            img: "../img/S1519H.png",
+            alt: "SV580S",
+            link: "./Productdetail.html?product=sv580s"
+            },
+            {
+            category: "Zetstation-CSTM시리즈",
+            name: "SV380",
+            desc: "지령대용 AI 워크스테이션",
+            img: "../img/S1519H.png",
+            alt: "SV380",
+            link: "./Productdetail.html?product=sv380"
             }
         ]
     },
@@ -439,10 +471,10 @@ const productData = {
             },
             {
             category: "투명 디스플레이",
-            name: "ZV50T-A1",
+            name: "ZV55T-A1",
             desc: "투명 LED 관제 모니터",
             img: "../img/t-series-f.png",
-            link: "./Productdetail.html?product=zv50ta1"
+            link: "./Productdetail.html?product=zv55ta1"
             }
         ]
     },
@@ -463,10 +495,10 @@ const productData = {
             },
             {
             category: "Transparent Display",
-            name: "ZV50T-A1",
+            name: "ZV55T-A1",
             desc: "Transparent LED Control Monitor",
             img: "../img/t-series-f.png",
-            link: "./Productdetail.html?product=zv50ta1eng"
+            link: "./Productdetail.html?product=zv55ta1eng"
             }
         ]
     },

@@ -1,16 +1,16 @@
 const productData = {
 
-    "43ig": {
+    "zt43bi": {
         title: "이동형 멀티터치<br> 테이블 디스플레이",
 
         desc: "Built for On-the-Move Operations",
 
-        model: "43IG",
+        model: "ZT43BI",
 
         visualImg: "../img/43IG-bg.png",
 
-        koLink: "./Productdetail.html?product=43ig",
-        engLink: "./Productdetail-eng.html?product=43igeng",
+        koLink: "./Productdetail.html?product=zt43bi",
+        engLink: "./Productdetail-eng.html?product=zt43bieng",
 
         sliderImages: [
             "../img/43IG-h.png",
@@ -92,17 +92,17 @@ const productData = {
         ]
     },
 
-    "43igeng": {
+    "zt43bieng": {
         title: "Mobile Multi-Touch<br> Table Display",
 
         desc: "Built for On-the-Move Operations",
 
-        model: "43IG",
+        model: "ZT43BI",
 
         visualImg: "../img/43IG-bg.png",
 
-        koLink: "./Productdetail.html?product=43ig",
-        engLink: "./Productdetail-eng.html?product=43igeng",
+        koLink: "./Productdetail.html?product=zt43bi",
+        engLink: "./Productdetail-eng.html?product=zt43bieng",
 
         sliderImages: [
             "../img/43IG-h.png",
@@ -184,18 +184,18 @@ const productData = {
         ]
     },
 
-    "43mg": {
+    "zt43gm": {
 
         title: "이동형 멀티터치<br> 테이블 디스플레이",
 
         desc: "Built for On-the-Move Operations",
 
-        model: "43MG",
+        model: "ZT43GM",
 
         visualImg: "../img/43MG-bg.png",
 
-        koLink: "./Productdetail.html?product=43mg",
-        engLink: "./Productdetail-eng.html?product=43mgeng",
+        koLink: "./Productdetail.html?product=zt43gm",
+        engLink: "./Productdetail-eng.html?product=zt43gmeng",
 
         sliderImages: [
             "../img/43MG-h.png",
@@ -277,18 +277,18 @@ const productData = {
         ]
     },
 
-    "43mgeng": {
+    "zt43gmeng": {
 
         title: "Mobile Multi-Touch<br> Table Display",
 
         desc: "Built for On-the-Move Operations",
 
-        model: "43MG",
+        model: "ZT43GM",
 
         visualImg: "../img/43MG-bg.png",
 
-        koLink: "./Productdetail.html?product=43mg",
-        engLink: "./Productdetail-eng.html?product=43mgeng",
+        koLink: "./Productdetail.html?product=zt43gm",
+        engLink: "./Productdetail-eng.html?product=zt43gmeng",
 
         sliderImages: [
             "../img/43MG-h.png",
@@ -573,7 +573,7 @@ const productData = {
 
         hero: {
             title: `차세대 Edge AI를 위한 Intel® Core™ Ultra 플랫폼`,
-            desc: `<strong>차세대 AI 프로세서 완벽 지원 (Intel® Core™ Ultra 7/5)</strong><br>최신 고효율 하이브리드 아키텍처 기반의 Meteor Lake 및 Arrow Lake (U/H 시리즈) 프로세서를 탑재하여 성능과 전력 효율성을 동시에 달성했습니다. 특히 CPU, GPU와 더불어 내장된 통합 NPU(Neural Processing Unit)를 통해 에지 단에서의 AI 인프라 워크로드를 저전력으로 상시 분산 처리합니다.<br><strong>산업용 등급의 안정성 및 고속 입출력(I/O) 설계</strong><br>24시간 상시 가동되는 미션 크리티컬 환경에 최적화된 산업용 고신뢰성 설계가 적용되었습니다. 고대역폭 데이터 전송을 위한 다중 인터페이스를 지원하여, 대용량 센서 데이터 및 다채널 카메라 피드를 병목 현상 없이 메인 시스템으로 신속하게 전달합니다.`,
+            desc: `<div class="desc-item"><strong>차세대 AI 프로세서 완벽 지원 (Intel® Core™ Ultra 7/5)</strong><br>최신 고효율 하이브리드 아키텍처 기반의 Meteor Lake 및 Arrow Lake (U/H 시리즈) 프로세서를 탑재하여 성능과 전력 효율성을 동시에 달성했습니다. 특히 CPU, GPU와 더불어 내장된 통합 NPU(Neural Processing Unit)를 통해 에지 단에서의 AI 인프라 워크로드를 저전력으로 상시 분산 처리합니다.</div><div class="desc-item"><strong>산업용 등급의 안정성 및 고속 입출력(I/O) 설계</strong><br>24시간 상시 가동되는 미션 크리티컬 환경에 최적화된 산업용 고신뢰성 설계가 적용되었습니다. 고대역폭 데이터 전송을 위한 다중 인터페이스를 지원하여, 대용량 센서 데이터 및 다채널 카메라 피드를 병목 현상 없이 메인 시스템으로 신속하게 전달합니다.</div>`,
             icon: "🧠",
             specTitle: "AI 프로세서 지원",
             specDesc: "Intel® Core™ Ultra와 NPU 기반의 고성능 AI 연산 및 저전력 처리",
@@ -583,7 +583,7 @@ const productData = {
         design: {
             img: "../img/WSR213.png",
             title: `3U iSeries Injection Molded Fly Rack (13") 케이스 적용`,
-            desc: `<strong>완벽한 수납 및 항공 이동 편의성</strong>: 군용 등급의 고강도 사출 성형 하드케이스와 내부 3U 알루미늄 랙 부품이 결합된 하이브리드 구조입니다. 13인치 콤팩트 깊이로 보관 및 적재가 매우 용이하며, 필요 시 내부 랙만 신속하게 분리하여 탁상형으로 전환할 수 있습니다.<br><strong>이동식 하드케이스 스타일 디자인</strong>: 캐리어 형태의 부드러운 인라인 휠과 개폐식 풀 핸들이 내장되어 가혹한 험지나 격오지에서도 혼자서 손쉽게 장비를 운반할 수 있습니다.<br><strong>철저한 환경 차단 (IP67)</strong>: 방수·방진 및 충격 흡수 성능이 뛰어나, 이동 및 보관 중 발생할 수 있는 내부 장비의 파손을 완벽히 방지합니다.`,
+            desc: `<div class="desc-item"><strong>완벽한 수납 및 항공 이동 편의성</strong>: 군용 등급의 고강도 사출 성형 하드케이스와 내부 3U 알루미늄 랙 부품이 결합된 하이브리드 구조입니다. 13인치 콤팩트 깊이로 보관 및 적재가 매우 용이하며, 필요 시 내부 랙만 신속하게 분리하여 탁상형으로 전환할 수 있습니다.</div><div class="desc-item"><strong>이동식 하드케이스 스타일 디자인</strong>: 캐리어 형태의 부드러운 인라인 휠과 개폐식 풀 핸들이 내장되어 가혹한 험지나 격오지에서도 혼자서 손쉽게 장비를 운반할 수 있습니다.</div><div class="desc-item"><strong>철저한 환경 차단 (IP67)</strong>: 방수·방진 및 충격 흡수 성능이 뛰어나, 이동 및 보관 중 발생할 수 있는 내부 장비의 파손을 완벽히 방지합니다.</div>`,
             specs: [
                 {
                     title: "특징",
@@ -763,7 +763,7 @@ const productData = {
 
         hero: {
             title: `차세대 Edge AI를 위한 Intel® Core™ Ultra 플랫폼`,
-            desc: `<strong>차세대 AI 프로세서 완벽 지원 (Intel® Core™ Ultra 7/5)</strong><br>최신 고효율 하이브리드 아키텍처 기반의 Meteor Lake 및 Arrow Lake (U/H 시리즈) 프로세서를 탑재하여 성능과 전력 효율성을 동시에 달성했습니다. 특히 CPU, GPU와 더불어 내장된 통합 NPU(Neural Processing Unit)를 통해 에지 단에서의 AI 인프라 워크로드를 저전력으로 상시 분산 처리합니다.<br><strong>산업용 등급의 안정성 및 고속 입출력(I/O) 설계</strong><br>24시간 상시 가동되는 미션 크리티컬 환경에 최적화된 산업용 고신뢰성 설계가 적용되었습니다. 고대역폭 데이터 전송을 위한 다중 인터페이스를 지원하여, 대용량 센서 데이터 및 다채널 카메라 피드를 병목 현상 없이 메인 시스템으로 신속하게 전달합니다.`,
+            desc: `<div class="desc-item"><strong>차세대 AI 프로세서 완벽 지원 (Intel® Core™ Ultra 7/5)</strong><br>최신 고효율 하이브리드 아키텍처 기반의 Meteor Lake 및 Arrow Lake (U/H 시리즈) 프로세서를 탑재하여 성능과 전력 효율성을 동시에 달성했습니다. 특히 CPU, GPU와 더불어 내장된 통합 NPU(Neural Processing Unit)를 통해 에지 단에서의 AI 인프라 워크로드를 저전력으로 상시 분산 처리합니다.</div><div class="desc-item"><strong>산업용 등급의 안정성 및 고속 입출력(I/O) 설계</strong><br>24시간 상시 가동되는 미션 크리티컬 환경에 최적화된 산업용 고신뢰성 설계가 적용되었습니다. 고대역폭 데이터 전송을 위한 다중 인터페이스를 지원하여, 대용량 센서 데이터 및 다채널 카메라 피드를 병목 현상 없이 메인 시스템으로 신속하게 전달합니다.</div>`,
             icon: "🧠",
             specTitle: "AI 프로세서 지원",
             specDesc: "Intel® Core™ Ultra와 NPU 기반의 고성능 AI 연산 및 저전력 처리",
@@ -771,9 +771,9 @@ const productData = {
         },
 
         design: {
-            img: "../img/wsr213-r2.png",
+            img: "../img/wsr210-f.png",
             title: `3U iSeries Injection Molded Fly Rack (13") 케이스 적용`,
-            desc: `<strong>완벽한 수납 및 항공 이동 편의성</strong>: 군용 등급의 고강도 사출 성형 하드케이스와 내부 3U 알루미늄 랙 부품이 결합된 하이브리드 구조입니다. 13인치 콤팩트 깊이로 보관 및 적재가 매우 용이하며, 필요 시 내부 랙만 신속하게 분리하여 탁상형으로 전환할 수 있습니다.<br><strong>이동식 하드케이스 스타일 디자인</strong>: 캐리어 형태의 부드러운 인라인 휠과 개폐식 풀 핸들이 내장되어 가혹한 험지나 격오지에서도 혼자서 손쉽게 장비를 운반할 수 있습니다.<br><strong>철저한 환경 차단 (IP67)</strong>: 방수·방진 및 충격 흡수 성능이 뛰어나, 이동 및 보관 중 발생할 수 있는 내부 장비의 파손을 완벽히 방지합니다.`,
+            desc: `<div class="desc-item"><strong>완벽한 수납 및 항공 이동 편의성</strong>: 군용 등급의 고강도 사출 성형 하드케이스와 내부 3U 알루미늄 랙 부품이 결합된 하이브리드 구조입니다. 13인치 콤팩트 깊이로 보관 및 적재가 매우 용이하며, 필요 시 내부 랙만 신속하게 분리하여 탁상형으로 전환할 수 있습니다.</div><div class="desc-item"><strong>이동식 하드케이스 스타일 디자인</strong>: 캐리어 형태의 부드러운 인라인 휠과 개폐식 풀 핸들이 내장되어 가혹한 험지나 격오지에서도 혼자서 손쉽게 장비를 운반할 수 있습니다.</div><div class="desc-item"><strong>철저한 환경 차단 (IP67)</strong>: 방수·방진 및 충격 흡수 성능이 뛰어나, 이동 및 보관 중 발생할 수 있는 내부 장비의 파손을 완벽히 방지합니다.</div>`,
             specs: [
                 {
                     title: "특징",
@@ -953,7 +953,7 @@ const productData = {
 
         hero: {
             title: `차세대 Edge AI를 위한 Intel® Core™ Ultra 플랫폼`,
-            desc: `<strong>차세대 AI 프로세서 완벽 지원 (Intel® Core™ Ultra 7/5)</strong><br>최신 고효율 하이브리드 아키텍처 기반의 Meteor Lake 및 Arrow Lake (U/H 시리즈) 프로세서를 탑재하여 성능과 전력 효율성을 동시에 달성했습니다. 특히 CPU, GPU와 더불어 내장된 통합 NPU(Neural Processing Unit)를 통해 에지 단에서의 AI 인프라 워크로드를 저전력으로 상시 분산 처리합니다.<br><strong>산업용 등급의 안정성 및 고속 입출력(I/O) 설계</strong><br>24시간 상시 가동되는 미션 크리티컬 환경에 최적화된 산업용 고신뢰성 설계가 적용되었습니다. 고대역폭 데이터 전송을 위한 다중 인터페이스를 지원하여, 대용량 센서 데이터 및 다채널 카메라 피드를 병목 현상 없이 메인 시스템으로 신속하게 전달합니다.`,
+            desc: `<div class="desc-item"><strong>차세대 AI 프로세서 완벽 지원 (Intel® Core™ Ultra 7/5)</strong><br>최신 고효율 하이브리드 아키텍처 기반의 Meteor Lake 및 Arrow Lake (U/H 시리즈) 프로세서를 탑재하여 성능과 전력 효율성을 동시에 달성했습니다. 특히 CPU, GPU와 더불어 내장된 통합 NPU(Neural Processing Unit)를 통해 에지 단에서의 AI 인프라 워크로드를 저전력으로 상시 분산 처리합니다.</div><div class="desc-item"><strong>산업용 등급의 안정성 및 고속 입출력(I/O) 설계</strong><br>24시간 상시 가동되는 미션 크리티컬 환경에 최적화된 산업용 고신뢰성 설계가 적용되었습니다. 고대역폭 데이터 전송을 위한 다중 인터페이스를 지원하여, 대용량 센서 데이터 및 다채널 카메라 피드를 병목 현상 없이 메인 시스템으로 신속하게 전달합니다.</div>`,
             icon: "🧠",
             specTitle: "AI 프로세서 지원",
             specDesc: "Intel® Core™ Ultra와 NPU 기반의 고성능 AI 연산 및 저전력 처리",
@@ -961,9 +961,9 @@ const productData = {
         },
 
         design: {
-            img: "../img/wsr213-r2.png",
+            img: "../img/wsr209-r.png",
             title: `3U iSeries Injection Molded Fly Rack (13") 케이스 적용`,
-            desc: `<strong>완벽한 수납 및 항공 이동 편의성</strong>: 군용 등급의 고강도 사출 성형 하드케이스와 내부 3U 알루미늄 랙 부품이 결합된 하이브리드 구조입니다. 13인치 콤팩트 깊이로 보관 및 적재가 매우 용이하며, 필요 시 내부 랙만 신속하게 분리하여 탁상형으로 전환할 수 있습니다.<br><strong>이동식 하드케이스 스타일 디자인</strong>: 캐리어 형태의 부드러운 인라인 휠과 개폐식 풀 핸들이 내장되어 가혹한 험지나 격오지에서도 혼자서 손쉽게 장비를 운반할 수 있습니다.<br><strong>철저한 환경 차단 (IP67)</strong>: 방수·방진 및 충격 흡수 성능이 뛰어나, 이동 및 보관 중 발생할 수 있는 내부 장비의 파손을 완벽히 방지합니다.`,
+            desc: `<div class="desc-item"><strong>완벽한 수납 및 항공 이동 편의성</strong>: 군용 등급의 고강도 사출 성형 하드케이스와 내부 3U 알루미늄 랙 부품이 결합된 하이브리드 구조입니다. 13인치 콤팩트 깊이로 보관 및 적재가 매우 용이하며, 필요 시 내부 랙만 신속하게 분리하여 탁상형으로 전환할 수 있습니다.</div><div class="desc-item"><strong>이동식 하드케이스 스타일 디자인</strong>: 캐리어 형태의 부드러운 인라인 휠과 개폐식 풀 핸들이 내장되어 가혹한 험지나 격오지에서도 혼자서 손쉽게 장비를 운반할 수 있습니다.</div><div class="desc-item"><strong>철저한 환경 차단 (IP67)</strong>: 방수·방진 및 충격 흡수 성능이 뛰어나, 이동 및 보관 중 발생할 수 있는 내부 장비의 파손을 완벽히 방지합니다.</div>`,
             specs: [
                 {
                     title: "특징",
@@ -1143,7 +1143,7 @@ const productData = {
 
         hero: {
             title: `이동형 전술 통제 스테이션`,
-            desc: `본 시스템은 글로벌 군사 및 산업 표준 규격을 만족하는 펠리칸 1510(Pelican™ 1510) 하드 케이스를 인클로저 플랫폼 으로 채택하고, 내부에 고성능 인텔 12/13세대 연산 엔진 하드웨어를 총 3세트 독립 실장한 고신뢰성 이동형 전술 작전 통제 스테이션입니다. 단 한 대의 하드 케이스 전개만으로 물리 망 분리 및 독립된 3대의 PC 시스템을 동시 제어할 수 있 으며, 고시인성 야외용 5인치 1000nits IPS 터치 스크린, 빌트인 기가비트 스위치 허브 및 대용량 민웰(MEAN WELL) 이중 전원 공급 장치(SMPS)가 단일 판넬 내에 통합 가공 되었습니다. 또한 고속 LTE 무선 통신 모뎀 슬롯(옵션)을 지원 하여 인프라가 전무한 험지 야전에서도 광대역 네트워크를 유연하게 확보할 수 있습니다.`,
+            desc: `본 시스템은 글로벌 군사 및 산업 표준 규격을 만족하는 <strong>펠리칸 1510(Pelican™ 1510) 하드 케이스를 인클로저 플랫폼 으로 채택</strong>하고, 내부에 고성능 인텔 12/13세대 연산 엔진 하드웨어를 총 3세트 독립 실장한 고신뢰성 이동형 전술 작전 통제 스테이션입니다. 단 한 대의 하드 케이스 전개만으로 물리 망 분리 및 독립된 3대의 PC 시스템을 동시 제어할 수 있 으며, 고시인성 야외용 5인치 1000nits IPS 터치 스크린, 빌트인 기가비트 스위치 허브 및 대용량 민웰(MEAN WELL) 이중 전원 공급 장치(SMPS)가 단일 판넬 내에 통합 가공 되었습니다. 또한 고속 LTE 무선 통신 모뎀 슬롯(옵션)을 지원 하여 인프라가 전무한 험지 야전에서도 광대역 네트워크를 유연하게 확보할 수 있습니다.`,
             icon: "🛡️",
             specTitle: "펠리칸 1510 하드 케이스",
             specDesc: "정품 펠리칸 1510 하우징을 채택하여 외부 압력, 진동, 수분 유입으로부터 핵심 유닛을 완벽히 보호",
@@ -1153,7 +1153,7 @@ const productData = {
         design: {
             img: "../img/UK2000-open.png",
             title: `3개 독립 하드웨어<br> 보드 내장`,
-            desc: `하우징 내부 레이아웃에 메인보드 3개가 개별 분리 실장되어 시스템 자원(CPU, 메모리, 저장장치)이 완벽하게 분할되어 있습 니다. 1호기, 2호기, 3호기 각각 독립적인 운영체제 구동 및 연산이 가능하여, 군 전술 작전망과 상용망의 물리적 망분리 환경 및 다채널 관제·제어를 단일 스테이션에서 완벽히 수행합니다.`,
+            desc: `하우징 내부 레이아웃에 메인보드 3개가 개별 분리 실장되어 시스템 자원(CPU, 메모리, 저장장치)이 완벽하게 분할되어 있습 니다. <strong>1호기, 2호기, 3호기 각각 독립적인 운영체제 구동 및 연산이 가능</strong>하여, 군 전술 작전망과 상용망의 물리적 망분리 환경 및 다채널 관제·제어를 단일 스테이션에서 완벽히 수행합니다.`,
             specs: [
                 {
                     title: "연산 메인보드 코어",
@@ -1368,7 +1368,7 @@ const productData = {
         ],
 
         rugged: {
-            title: `특수 환경에서도 살아남는,<br>최적화된 임베디드 컴퓨터`,
+            title: `특수 환경에서도 살아남는<br>최적화된 임베디드 컴퓨터`,
             cards: [
                 {
                 icon: "🌬️ + 🔥",
@@ -1399,7 +1399,7 @@ const productData = {
             ["시스템 메모리 (RAM)", '1 x DDR5 5200 / 4800 MHz SO-DIMM  최대 32GB 지원'],
             ["내장 UPS 모듈", '슈퍼커패시터 기반 전원 안정화 및 정전 보호 시스템'],
             ["전원 입력 (Power)", "DC 12V / 5A (차량 인버터 대응 어댑터 공급 및 전원 라인 케이블 가공 안정화)"],
-            ["네트워크 (LAN)", "LAN1 : Intel® 2.5GbE I226-IT 산업용 초고속 이더넷<br>LAN2 : Intel® 2.5GbE I226-IT 산업용 초고속 이더넷<br>LAN3 : 방수캡 마감 공정 (NC 처리"],
+            ["네트워크 (LAN)", "LAN1 : Intel® 2.5GbE I226-IT 산업용 초고속 이더넷<br>LAN2 : Intel® 2.5GbE I226-IT 산업용 초고속 이더넷<br>LAN3 : 방수캡 마감 공정 (NC 처리)"],
             ["모바일 통신 (LTE)", "LTE 무선 모뎀 커스텀 빌드 지원 (Option) / 전면 고이득 WWAN 안테나 포트 2개 탑재"],
             ["디스플레이 출력", "1 x HDMI® 고화질 디지털 비디오 출력 포트"],
             ["인터페이스 포트", "1 x USB 2.0 포트 / 전면 원터치 메탈 전원 스위치 버튼 / Red LED 전원 상태 표시등"],
@@ -1515,17 +1515,17 @@ const productData = {
 
         hero: {
             title: `물리적 보안과 논리적 보안의 완벽한 조화`,
-            desc: `주요 도입 분야 (Target Markets)<br>
-                <strong>*금융 (Finance)</strong>
-                은행, 증권, 보험사 본점 및 대규모 고객·콜센터 <br>
-                <strong>*공공·국방 (Public & Defense)</strong>
-                정부 부처, 지자체, 군 기관 및 국책 연구소<br>
-                <strong>*국가 기반시설 (Infrastructure) </strong>
-                발전소, 에너지 공기업, 종합 관제 센터(교통·항만·철도)<br>
-                <strong>*의료 (Healthcare)</strong>
-                종합병원 진료실 및 의료정보(EMR) 시스템 운영 부서
-                <strong>*첨단 기술·제조 (Enterprise)</strong>
-                대기업 연구소, 방산 기업, 소스코드 보안이 필수적인 IT 개발사`,
+            desc: `<div class="desc-item">주요 도입 분야 (Target Markets)</div>
+                <div class="desc-item"><strong>금융 (Finance)</strong>:
+                은행, 증권, 보험사 본점 및 대규모 고객·콜센터</div> 
+                <div class="desc-item"><strong>공공·국방 (Public & Defense)</strong>:
+                정부 부처, 지자체, 군 기관 및 국책 연구소</div>
+                <div class="desc-item"><strong>국가 기반시설 (Infrastructure)</strong>:
+                발전소, 에너지 공기업, 종합 관제 센터(교통·항만·철도)</div>
+                <div class="desc-item"><strong>의료 (Healthcare)</strong>:
+                종합병원 진료실 및 의료정보(EMR) 시스템 운영 부서</div>
+                <div class="desc-item"><strong>첨단 기술·제조 (Enterprise)</strong>:
+                대기업 연구소, 방산 기업, 소스코드 보안이 필수적인 IT 개발사</div>`,
             icon: "🛡️",
             specTitle: "논리적 보안",
             specDesc: "암호화 및 접근 제어 기반의 보안 체계를 통해 데이터와 시스템을 안전하게 보호합니다.",
@@ -1535,7 +1535,7 @@ const productData = {
         design: {
             img: "../img/9000SE-l.png",
             title: `넓은 내부 공간<br>더 높은 활용성`,
-            desc: `<strong>2U 단일 섀시, 독립형 듀얼 보드</strong>2U 랙 사이즈 하나에 전원 및 시스템이 독립된 2대의 보드를 장착하여, 하드웨어 레벨의 완벽한 격리와 이중화를 동시에 달성합니다.<strong>획기적인 공간 및 비용 절감 (High Density)</strong>기존 랙 공간 차지율을 50% 이상 줄여 전산실 및 관제 센터의 랙 상단 공간 활용도를 극대화합니다.<strong>단일 장애점(SPOF) 제로</strong>한쪽 보드나 네트워크에 장애가 발생해도, 독립된 다른 한쪽 보드가 중단 없는 업무 연속성(Business Continuity)을 유지합니다.<strong>고밀도 미션 크리티컬 설계</strong>발열과 전력 효율을 극대화한 산업용 설계로 365일 24시간 가동되는 종합 관제 및 재난 대응 환경에 최적화되어 있습니다.`,
+            desc: `<div class="desc-item"><strong>2U 단일 섀시, 독립형 듀얼 보드</strong><br>2U 랙 사이즈 하나에 전원 및 시스템이 독립된 2대의 보드를 장착하여, 하드웨어 레벨의 완벽한 격리와 이중화를 동시에 달성합니다.</div><div class="desc-item"><strong>획기적인 공간 및 비용 절감 (High Density)</strong><br>기존 랙 공간 차지율을 50% 이상 줄여 전산실 및 관제 센터의 랙 상단 공간 활용도를 극대화합니다.</div> <div class="desc-item"><strong>단일 장애점(SPOF) 제로</strong><br>한쪽 보드나 네트워크에 장애가 발생해도, 독립된 다른 한쪽 보드가 중단 없는 업무 연속성(Business Continuity)을 유지합니다.</div><div class="desc-item"><strong>고밀도 미션 크리티컬 설계</strong><br>발열과 전력 효율을 극대화한 산업용 설계로 365일 24시간 가동되는 종합 관제 및 재난 대응 환경에 최적화되어 있습니다.</div>`,
             specs: [
                 {
                     title: "특징",
@@ -1550,9 +1550,9 @@ const productData = {
 
         photos: [
             "../img/9000SE-bg.png",
-            "../img/9000SE-bg2.png",
-            "../img/9000SE-bg3.png",
-            "../img/9000SE-bg4.png"
+            "../img/9000se-bg2.png",
+            "../img/9000se-bg3.png",
+            "../img/9000se-bg4.png"
         ],
 
         rugged: {
@@ -1623,15 +1623,15 @@ const productData = {
         hero: {
             title: `The Perfect Harmony of Physical and Logical Security`,
             desc: `Target Markets<br>
-                    <strong>*Finance</strong>
+                    <strong>Finance</strong>
                     Banks, securities firms, insurance company headquarters, and large-scale customer service & call centers<br>
-                    <strong>*Public & Defense</strong>
+                    <strong>Public & Defense</strong>
                     Government agencies, local governments, military organizations, and national research institutes<br>
-                    <strong>*Infrastructure</strong>
+                    <strong>Infrastructure</strong>
                     Power plants, public energy corporations, and integrated control centers (Transportation · Ports · Railways)<br>
-                    <strong>*Healthcare</strong>
+                    <strong>Healthcare</strong>
                     Hospital examination rooms and medical information (EMR) system operations departments<br>
-                    <strong>*Enterprise</strong>
+                    <strong>Enterprise</strong>
                     Corporate R&D centers, defense companies, and IT development firms where source code security is essential`,
             icon: "🛡️",
             specTitle: "Logical Security",
@@ -1642,7 +1642,7 @@ const productData = {
         design: {
             img: "../img/9000SE-l.png",
             title: `Spacious Interior<br>Greater Flexibility`,
-            desc: `<strong>2U Single Chassis with Independent Dual Boards</strong>Two independent boards, each with its own power and system, are integrated into a single 2U rack chassis, providing complete hardware-level isolation and redundancy.<strong>Maximized Space & Cost Efficiency (High Density)</strong>Reduces rack space usage by more than 50%, maximizing rack utilization in data centers and control rooms.<strong>Zero Single Point of Failure (SPOF)</strong>Even if one board or network fails, the other independent board continues operating without interruption, ensuring business continuity.<strong>High-Density Mission-Critical Design</strong>Optimized for industrial environments with enhanced thermal efficiency and power optimization, delivering reliable 24/7 operation for integrated control centers and emergency response systems.`,
+            desc: `<div class="desc-item"><strong>2U Single Chassis with Independent Dual Boards</strong><br>Two fully independent boards, each with its own power and system, are integrated into a single 2U rack chassis, delivering complete hardware-level isolation and redundancy.</div><div class="desc-item"><strong>High-Density Design for Significant Space & Cost Savings</strong><br>Reduces rack space requirements by more than 50%, maximizing rack utilization in data centers and command & control facilities.</div> <div class="desc-item"><strong>Zero Single Point of Failure (SPOF)</strong><br>Even if one board or network fails, the other independent board continues operating, ensuring uninterrupted business continuity.</div><div class="desc-item"><strong>High-Density Mission-Critical Architecture</strong><br>Engineered for maximum thermal efficiency and power optimization, this industrial-grade design is ideal for 24/7 operation in integrated command centers and emergency response environments.</div>`,
             specs: [
                 {
                     title: "Features",
@@ -1657,9 +1657,9 @@ const productData = {
 
         photos: [
             "../img/9000SE-bg.png",
-            "../img/9000SE-bg2.png",
-            "../img/9000SE-bg3.png",
-            "../img/9000SE-bg4.png"
+            "../img/9000se-bg2.png",
+            "../img/9000se-bg3.png",
+            "../img/9000se-bg4.png"
         ],
 
         rugged: {
@@ -1727,7 +1727,7 @@ const productData = {
 
         hero: {
             title: `예민한 환경에서<br>자유로운 설치 가능`,
-            desc: `<strong>공간적 음향 분리 (Spatial Separation)</strong>: 좌/우/전면 등 물리적으로 분산된 4개의 스피커에 서로 다른 무전 채널(예: 소방망, 경찰망, 지자체망, 내부 인터컴)을 각각 독립적으로 할당합니다.<br><strong>직관적인 상황 인지</strong>: 소리가 들려오는 방향만으로 어느 기관, 어느 구역의 무전인지 직관적으로 파악할 수 있어 관제사의 판단 속도를 획기적으로 높입니다.<br><strong>멀티태스킹 관제 최적화</strong>: 동시다발적인 교신 상황에서도 음성이 뭉개지거나 중첩되지 않아 오독과 오청을 완벽하게 방지합니다.`,
+            desc: `<div class="desc-item"><strong>공간적 음향 분리 (Spatial Separation)</strong><br> 좌/우/전면 등 물리적으로 분산된 4개의 스피커에 서로 다른 무전 채널(예: 소방망, 경찰망, 지자체망, 내부 인터컴)을 각각 독립적으로 할당합니다.</div><div class="desc-item"><strong>직관적인 상황 인지</strong><br>소리가 들려오는 방향만으로 어느 기관, 어느 구역의 무전인지 직관적으로 파악할 수 있어 관제사의 판단 속도를 획기적으로 높입니다.</div><div class="desc-item"><strong>멀티태스킹 관제 최적화</strong><br>동시다발적인 교신 상황에서도 음성이 뭉개지거나 중첩되지 않아 오독과 오청을 완벽하게 방지합니다.</div>`,
             icon: "",
             specTitle: "직관적 상황 인지",
             specDesc: "채널별 음성을 공간적으로 분리해 직관적인 상황 인지와 신속한 의사결정을 지원",
@@ -1737,7 +1737,7 @@ const productData = {
         design: {
             img: "../img/S988-top.png",
             title: `현장을 압도하는 최대 8W 고출력 사운드`,
-            desc: `<strong>소음 환경을 뚫고 나오는 명확함</strong>: 소음이 심한 대규모 관제실이나 비상 상황으로 어수선한 현장 지휘소에서도 뭉개짐 없이 웅장하고 또렷한 음성 출력을 보장합니다. <br><strong>저왜곡 디지털 앰프 설계</strong>: 출력을 최대(8W)로 높여도 찢어지는 소리나 노이즈 없이 원음 그대로의 맑고 깨끗한 오디오를 전달하여 장시간 근무하는 관제사의 청각 피로도를 최소화합니다.`,
+            desc: `<div class="desc-item"><strong>소음 환경을 뚫고 나오는 명확함</strong><br>소음이 심한 대규모 관제실이나 비상 상황으로 어수선한 현장 지휘소에서도 뭉개짐 없이 웅장하고 또렷한 음성 출력을 보장합니다.</div><strong>저왜곡 디지털 앰프 설계</strong><br>출력을 최대(8W)로 높여도 찢어지는 소리나 노이즈 없이 원음 그대로의 맑고 깨끗한 오디오를 전달하여 장시간 근무하는 관제사의 청각 피로도를 최소화합니다.`,
             specs: [
                 {
                     title: "특징",
@@ -1906,7 +1906,7 @@ const productData = {
 
         hero: {
             title: `지령대의 효율적인<br>디스패쳐 워크스테이션`,
-            desc: `S1388 (H9 Dispatcher Workstation)은 모든 상황실에 이상적인 고성능 산업용 워크스테이션입니다. 비디오 방송과 같은 CPU 집약적인 근무 환경에서도 최고 사양을 발휘할 수 있도록 설계되었으며, 13세대 Intel® Core™ 프로세서 기반의 강력하고 무소음 냉각 시스템으로 지령 환경에 최적화된 견고한 솔루션을 제공합니다. `,
+            desc: `S1388 (H9 Dispatcher Workstation)은 <strong>모든 상황실에 이상적인 고성능 산업용 워크스테이션</strong>입니다. 비디오 방송과 같은 CPU 집약적인 근무 환경에서도 최고 사양을 발휘할 수 있도록 설계되었으며, 13세대 Intel® Core™ 프로세서 기반의 강력하고 무소음 냉각 시스템으로 지령 환경에 최적화된 견고한 솔루션을 제공합니다. `,
             icon: "🚀",
             specTitle: "13세대 강력한 성능",
             specDesc: "Intel® 13th Gen Raptor Lake-P/U i7 Pentium CPU 기반의 강력한 지령 장치",
@@ -2102,7 +2102,7 @@ const productData = {
 
         hero: {
             title: `강력한 AI 처리 성능<br> (GPU / NPU 탑재)`,
-            desc: `GPU를 탑재하여 LLM(대규모 언어 모델)을 포함한 복잡한 AI 연산을 효율적으로 수행합니다. NPU 장치의 경우 병렬로 구성하여 더욱 빠른 속도를 체감할 수 있습니다. NVIDIA RTX 2000 Ada Generation D6 16GB부터 시작하며, 더 높은 사양의 GPU까지 옵션으로 지원하여 요구되는 AI 워크로드에 완벽하게 대응합니다. 또한 Hailo-10H AI Accelerator를 통해 탁월한 AI 가속을 제공합니다.(선택옵션)`,
+            desc: `GPU를 탑재하여 LLM(대규모 언어 모델)을 포함한 복잡한 AI 연산을 효율적으로 수행합니다. NPU 장치의 경우 병렬로 구성하여 더욱 빠른 속도를 체감할 수 있습니다. NVIDIA RTX 2000 Ada Generation D6 16GB부터 시작하며, 더 높은 사양의 GPU까지 옵션으로 지원하여 요구되는 AI 워크로드에 완벽하게 대응합니다. 또한 Hailo-10H AI Accelerator를 통해 탁월한 AI 가속을 제공합니다. (선택옵션)`,
             icon: "",
             specTitle: "NPU가 탑재된 Intel® Core™ Ultra 기반으로<br>엣지 AI 추론 수행",
             specDesc: "S1517H / 1519H는 NPU가 탑재된 Intel® Core™ Ultra 기반으로 엣지에서 직접 AI 추론을 수행하며, 선택 사양인 NVIDIA® 개별 PCIe GPU를 통해 머신 비전, 지령AI 등에서 연산 성능을 확장할 수 있는 고성능 AI 관제 시스템입니다.",
@@ -2290,7 +2290,7 @@ const productData = {
 
         hero: {
             title: `야전 최적화 폼팩터: <br>고신뢰성 이동형 펠리칸 케이스`,
-            desc: `<strong>독보적인 이동성 및 내구성 (Pelican Rugged Design)</strong>군용 스펙을 충족하는 고강도 펠리칸 하드케이스 일체형으로 제작되어, 격오지 및 험지 이동 시 발생할 수 있는 극심한 진동, 충격, 침수, 먼지로부터 내부의 Blackwell MXM GPU 시스템을 완벽하게 보호합니다.<br><strong>무전원 환경을 위한 배터리 팩 옵션 (Seamless Power Supply)</strong>고용량 내장형 배터리 장착 옵션을 지원하여, 발전기 가동이 불가능하거나 전원 공급이 불안정한 이동 중에도 끊김 없는(Uninterrupted) 실시간 엣지 AI 연산 및 전술 임무 수행이 가능합니다.`,
+            desc: `<div class="desc-item"><strong>독보적인 이동성 및 내구성 (Pelican Rugged Design)</strong><br>군용 스펙을 충족하는 고강도 펠리칸 하드케이스 일체형으로 제작되어, 격오지 및 험지 이동 시 발생할 수 있는 극심한 진동, 충격, 침수, 먼지로부터 내부의 Blackwell MXM GPU 시스템을 완벽하게 보호합니다.</div><div class="desc-item"><strong>무전원 환경을 위한 배터리 팩 옵션 (Seamless Power Supply)</strong><br>고용량 내장형 배터리 장착 옵션을 지원하여, 발전기 가동이 불가능하거나 전원 공급이 불안정한 이동 중에도 끊김 없는(Uninterrupted) 실시간 엣지 AI 연산 및 전술 임무 수행이 가능합니다.</div>`,
             icon: "📟",
             specTitle: "MXM-GPU",
             specDesc: "산업용 보드/모듈 NVIDIA RTX PRO 5000 Blackwell Generation Embedded GPU/Type B",
@@ -2303,12 +2303,14 @@ const productData = {
             desc: `<div class="desc-item"><strong>최대 64GB DDR5 시스템 메모리 지원</strong> : GPU VRAM이 부족할 때, 오디오 스트리밍 데이터 처리나 덜 빈번하게 쓰이는 RAG(검색 증강 생성)용 벡터 데이터베이스, TTS 음원 DB 등을 고속 DDR5 시스템 메모리에 상주시켜 메인 CPU와 GPU 간의 데이터 병목을 줄여줍니다.</div><div class="desc-item"><strong>강력한 x86 호스트 CPU (최대 125W TDP)</strong> : GPU가 LLM에 집중하는 동안 인텔 CPU의 iGPU(Intel UHD 770)나 CPU 코어 자체 연산력을 활용해 STT/TTS 오디오 전처리를 분담할 수 있습니다.</div><div class="desc-item"><strong>다중 LAN 포트 (5x 2.5G RJ45)</strong> : 네트워크 병목이나 패킷 손실 없이 안정적으로 수신하고 제어 신호를 분리하기에 물리적으로 매우 유리합니다.</div>`,
             specs: [
                 {
-                    title: "주요 특징",
-                    items: ["5G 특화망(Private) 기반", "고부하 GPU 컴퓨팅 보드"]
+                    title: "EM8695",
+                    img: "../img/eseries-usim.png",
+                    items: ["폐쇄형 5G 특화망(Private) 기반 미션 크리티컬 데이터 처리를 위한 고부하 GPU 컴퓨팅 보드","Private 5G 지원", "Nano Sim 슬롯, 스토리지, 무선모듈, 5g 지원을 위한 M.2인터페이스(M-key, 2xB-Key) 통해 탑재"]
                 },
                 {
-                    title: "주요 특징",
-                    items: ["Nano Sim 슬롯, 스토리지, 무선모듈, 5g 지원을 위한 M.2인터페이스(M-key, 2xB-Key) 통해 탑재"]
+                    title: "FN920C04",
+                    img: "../img/eseries-usim2.png",
+                    items: ["폐쇄형 5G 특화망(Private) 기반 미션 크리티컬 데이터 처리를 위한 고부하 GPU 컴퓨팅 보드","Private 5G 지원", "Nano Sim 슬롯, 스토리지, 무선모듈, 5g 지원을 위한 M.2인터페이스(M-key, 2xB-Key) 통해 탑재"]
                 }
             ]
         },
@@ -2321,7 +2323,7 @@ const productData = {
         ],
 
         rugged: {
-            title: `그 어떤 환경에서도 살아남는,<br>강력한 보호성능`,
+            title: `AI와 고성능 컴퓨팅이 만난,<br>차세대 Edge AI Solution`,
             cards: [
                 {
                 icon: "🔇",
@@ -2412,7 +2414,7 @@ const productData = {
         ],
 
         rugged: {
-            title: `Built to Survive the Harshest Environments,<br>Rugged Protection`,
+            title: `AI Meets High-Performance Computing,<br>Next-Generation Edge AI Solution`,
             cards: [
                 {
                 icon: "🔇",
@@ -2472,7 +2474,7 @@ const productData = {
 
         hero: {
             title: `야전 최적화 폼팩터: <br>고신뢰성 이동형 펠리칸 케이스`,
-            desc: `<strong>독보적인 이동성 및 내구성 (Pelican Rugged Design)</strong>군용 스펙을 충족하는 고강도 펠리칸 하드케이스 일체형으로 제작되어, 격오지 및 험지 이동 시 발생할 수 있는 극심한 진동, 충격, 침수, 먼지로부터 내부의 Blackwell MXM GPU 시스템을 완벽하게 보호합니다.<br><strong>무전원 환경을 위한 배터리 팩 옵션 (Seamless Power Supply)</strong>고용량 내장형 배터리 장착 옵션을 지원하여, 발전기 가동이 불가능하거나 전원 공급이 불안정한 이동 중에도 끊김 없는(Uninterrupted) 실시간 엣지 AI 연산 및 전술 임무 수행이 가능합니다.`,
+            desc: `<div class="desc-item"><strong>독보적인 이동성 및 내구성 (Pelican Rugged Design)</strong><br>군용 스펙을 충족하는 고강도 펠리칸 하드케이스 일체형으로 제작되어, 격오지 및 험지 이동 시 발생할 수 있는 극심한 진동, 충격, 침수, 먼지로부터 내부의 Blackwell MXM GPU 시스템을 완벽하게 보호합니다.</div><div class="desc-item"><strong>무전원 환경을 위한 배터리 팩 옵션 (Seamless Power Supply)</strong><br>고용량 내장형 배터리 장착 옵션을 지원하여, 발전기 가동이 불가능하거나 전원 공급이 불안정한 이동 중에도 끊김 없는(Uninterrupted) 실시간 엣지 AI 연산 및 전술 임무 수행이 가능합니다.</div>`,
             icon: "📟",
             specTitle: "MXM-GPU",
             specDesc: "산업용 보드/모듈 NVIDIA RTX PRO 4000 Blackwell Generation Embedded GPU/Type B",
@@ -2480,17 +2482,19 @@ const productData = {
         },
 
         design: {
-            img: "../img/zw5000m.png",
+            img: "../img/eph-1.png",
             title: `<div class="title-sm">고성능 x86 CPU의 연산력과 유연한 하드웨어<br> AI 가속 성능을 결합한 AI엣지 컴퓨팅의 최적 솔루션</div>`,
             desc: `<div class="desc-item"><strong>최대 64GB DDR5 시스템 메모리 지원</strong> : GPU VRAM이 부족할 때, 오디오 스트리밍 데이터 처리나 덜 빈번하게 쓰이는 RAG(검색 증강 생성)용 벡터 데이터베이스, TTS 음원 DB 등을 고속 DDR5 시스템 메모리에 상주시켜 메인 CPU와 GPU 간의 데이터 병목을 줄여줍니다.</div><div class="desc-item"><strong>강력한 x86 호스트 CPU (최대 125W TDP)</strong> : GPU가 LLM에 집중하는 동안 인텔 CPU의 iGPU(Intel UHD 770)나 CPU 코어 자체 연산력을 활용해 STT/TTS 오디오 전처리를 분담할 수 있습니다.</div><div class="desc-item"><strong>다중 LAN 포트 (5x 2.5G RJ45)</strong> : 네트워크 병목이나 패킷 손실 없이 안정적으로 수신하고 제어 신호를 분리하기에 물리적으로 매우 유리합니다.</div>`,
             specs: [
                 {
-                    title: "주요 특징",
-                    items: ["5G 특화망(Private) 기반", "고부하 GPU 컴퓨팅 보드"]
+                    title: "EM8695",
+                    img: "../img/eseries-usim.png",
+                    items: ["폐쇄형 5G 특화망(Private) 기반 미션 크리티컬 데이터 처리를 위한 고부하 GPU 컴퓨팅 보드","Private 5G 지원", "Nano Sim 슬롯, 스토리지, 무선모듈, 5g 지원을 위한 M.2인터페이스(M-key, 2xB-Key) 통해 탑재"]
                 },
                 {
-                    title: "주요 특징",
-                    items: ["Nano Sim 슬롯, 스토리지, 무선모듈, 5g 지원을 위한 M.2인터페이스(M-key, 2xB-Key) 통해 탑재"]
+                    title: "FN920C04",
+                    img: "../img/eseries-usim2.png",
+                    items: ["폐쇄형 5G 특화망(Private) 기반 미션 크리티컬 데이터 처리를 위한 고부하 GPU 컴퓨팅 보드","Private 5G 지원", "Nano Sim 슬롯, 스토리지, 무선모듈, 5g 지원을 위한 M.2인터페이스(M-key, 2xB-Key) 통해 탑재"]
                 }
             ]
         },
@@ -2503,7 +2507,7 @@ const productData = {
         ],
 
         rugged: {
-            title: `그 어떤 환경에서도 살아남는,<br>강력한 보호성능`,
+            title: `AI와 고성능 컴퓨팅이 만난,<br>차세대 Edge AI Solution`,
             cards: [
                 {
                 icon: "🔇",
@@ -2563,7 +2567,7 @@ const productData = {
 
         hero: {
             title: `Field-Optimized Form Factor:<br>High-Reliability Portable Pelican Case`,
-            desc: `<strong>Exceptional Mobility & Durability (Pelican Rugged Design)</strong>Built into a high-strength Pelican hard case that meets military-grade specifications, the system provides outstanding protection for the internal Blackwell MXM GPU platform against severe vibration, shock, water ingress, and dust encountered during transport in remote and harsh environments.<br><strong>Battery Pack Option for Off-Grid Operation (Seamless Power Supply)</strong>An optional high-capacity integrated battery pack enables uninterrupted real-time Edge AI computing and tactical mission execution, even in environments where generators are unavailable or power supply is unstable.`,
+            desc: `<strong>Exceptional Mobility & Durability (Pelican Rugged Design)</strong><br>Built into a high-strength Pelican hard case that meets military-grade specifications, the system provides outstanding protection for the internal Blackwell MXM GPU platform against severe vibration, shock, water ingress, and dust encountered during transport in remote and harsh environments.<br><strong>Battery Pack Option for Off-Grid Operation (Seamless Power Supply)</strong><br>An optional high-capacity integrated battery pack enables uninterrupted real-time Edge AI computing and tactical mission execution, even in environments where generators are unavailable or power supply is unstable.`,
             icon: "📟",
             specTitle: "MXM-GPU",
             specDesc: "Industrial Boards & Modules NVIDIA RTX PRO 4000 Blackwell Generation Embedded GPU/Type B",
@@ -2594,7 +2598,7 @@ const productData = {
         ],
 
         rugged: {
-            title: `Built to Survive the Harshest Environments,<br>Rugged Protection`,
+            title: `AI Meets High-Performance Computing,<br>Next-Generation Edge AI Solution`,
             cards: [
                 {
                 icon: "🔇",
@@ -2653,7 +2657,7 @@ const productData = {
 
         hero: {
             title: `야전 최적화 폼팩터: <br>고신뢰성 이동형 펠리칸 케이스`,
-            desc: `<strong>독보적인 이동성 및 내구성 (Pelican Rugged Design)</strong>군용 스펙을 충족하는 고강도 펠리칸 하드케이스 일체형으로 제작되어, 격오지 및 험지 이동 시 발생할 수 있는 극심한 진동, 충격, 침수, 먼지로부터 내부의 Blackwell MXM GPU 시스템을 완벽하게 보호합니다.<br><strong>무전원 환경을 위한 배터리 팩 옵션 (Seamless Power Supply)</strong>고용량 내장형 배터리 장착 옵션을 지원하여, 발전기 가동이 불가능하거나 전원 공급이 불안정한 이동 중에도 끊김 없는(Uninterrupted) 실시간 엣지 AI 연산 및 전술 임무 수행이 가능합니다.`,
+            desc: `<div class="desc-item"><strong>독보적인 이동성 및 내구성 (Pelican Rugged Design)</strong><br>군용 스펙을 충족하는 고강도 펠리칸 하드케이스 일체형으로 제작되어, 격오지 및 험지 이동 시 발생할 수 있는 극심한 진동, 충격, 침수, 먼지로부터 내부의 Blackwell MXM GPU 시스템을 완벽하게 보호합니다.</div><div class="desc-item"><strong>무전원 환경을 위한 배터리 팩 옵션 (Seamless Power Supply)</strong><br>고용량 내장형 배터리 장착 옵션을 지원하여, 발전기 가동이 불가능하거나 전원 공급이 불안정한 이동 중에도 끊김 없는(Uninterrupted) 실시간 엣지 AI 연산 및 전술 임무 수행이 가능합니다.</div>`,
             icon: "📟",
             specTitle: "MXM-GPU",
             specDesc: "산업용 보드/모듈 NVIDIA RTX PRO 2000 Blackwell Generation Embedded GPU/Type B",
@@ -2666,12 +2670,14 @@ const productData = {
             desc: `<div class="desc-item"><strong>최대 64GB DDR5 시스템 메모리 지원</strong> : GPU VRAM이 부족할 때, 오디오 스트리밍 데이터 처리나 덜 빈번하게 쓰이는 RAG(검색 증강 생성)용 벡터 데이터베이스, TTS 음원 DB 등을 고속 DDR5 시스템 메모리에 상주시켜 메인 CPU와 GPU 간의 데이터 병목을 줄여줍니다.</div><div class="desc-item"><strong>강력한 x86 호스트 CPU (최대 125W TDP)</strong> : GPU가 LLM에 집중하는 동안 인텔 CPU의 iGPU(Intel UHD 770)나 CPU 코어 자체 연산력을 활용해 STT/TTS 오디오 전처리를 분담할 수 있습니다.</div><div class="desc-item"><strong>다중 LAN 포트 (5x 2.5G RJ45)</strong> : 네트워크 병목이나 패킷 손실 없이 안정적으로 수신하고 제어 신호를 분리하기에 물리적으로 매우 유리합니다.</div>`,
             specs: [
                 {
-                    title: "주요 특징",
-                    items: ["5G 특화망(Private) 기반", "고부하 GPU 컴퓨팅 보드"]
+                    title: "EM8695",
+                    img: "../img/eseries-usim.png",
+                    items: ["폐쇄형 5G 특화망(Private) 기반 미션 크리티컬 데이터 처리를 위한 고부하 GPU 컴퓨팅 보드","Private 5G 지원", "Nano Sim 슬롯, 스토리지, 무선모듈, 5g 지원을 위한 M.2인터페이스(M-key, 2xB-Key) 통해 탑재"]
                 },
                 {
-                    title: "주요 특징",
-                    items: ["Nano Sim 슬롯, 스토리지, 무선모듈, 5g 지원을 위한 M.2인터페이스(M-key, 2xB-Key) 통해 탑재"]
+                    title: "FN920C04",
+                    img: "../img/eseries-usim2.png",
+                    items: ["폐쇄형 5G 특화망(Private) 기반 미션 크리티컬 데이터 처리를 위한 고부하 GPU 컴퓨팅 보드","Private 5G 지원", "Nano Sim 슬롯, 스토리지, 무선모듈, 5g 지원을 위한 M.2인터페이스(M-key, 2xB-Key) 통해 탑재"]
                 }
             ]
         },
@@ -2684,7 +2690,7 @@ const productData = {
         ],
 
         rugged: {
-            title: `그 어떤 환경에서도 살아남는,<br>강력한 보호성능`,
+            title: `AI와 고성능 컴퓨팅이 만난,<br>차세대 Edge AI Solution`,
             cards: [
                 {
                 icon: "🔇",
@@ -2743,7 +2749,7 @@ const productData = {
 
         hero: {
             title: `Field-Optimized Form Factor:<br>High-Reliability Portable Pelican Case`,
-            desc: `<strong>Exceptional Mobility & Durability (Pelican Rugged Design)</strong>Built into a high-strength Pelican hard case that meets military-grade specifications, the system provides outstanding protection for the internal Blackwell MXM GPU platform against severe vibration, shock, water ingress, and dust encountered during transport in remote and harsh environments.<br><strong>Battery Pack Option for Off-Grid Operation (Seamless Power Supply)</strong>An optional high-capacity integrated battery pack enables uninterrupted real-time Edge AI computing and tactical mission execution, even in environments where generators are unavailable or power supply is unstable.`,
+            desc: `<strong>Exceptional Mobility & Durability (Pelican Rugged Design)</strong><br>>uilt into a high-strength Pelican hard case that meets military-grade specifications, the system provides outstanding protection for the internal Blackwell MXM GPU platform against severe vibration, shock, water ingress, and dust encountered during transport in remote and harsh environments.<br><strong>Battery Pack Option for Off-Grid Operation (Seamless Power Supply)</strong><br>An optional high-capacity integrated battery pack enables uninterrupted real-time Edge AI computing and tactical mission execution, even in environments where generators are unavailable or power supply is unstable.`,
             icon: "📟",
             specTitle: "MXM-GPU",
             specDesc: "Industrial Boards & Modules NVIDIA RTX PRO 2000 Blackwell Generation Embedded GPU/Type B",
@@ -2774,7 +2780,7 @@ const productData = {
         ],
 
         rugged: {
-            title: `Built to Survive the Harshest Environments,<br>Rugged Protection`,
+            title: `AI Meets High-Performance Computing,<br>Next-Generation Edge AI Solution`,
             cards: [
                 {
                 icon: "🔇",
@@ -2833,7 +2839,7 @@ const productData = {
 
         hero: {
             title: `공간의 한계를 깨다<br>투명 led 관제모니터`,
-            desc: `시각적 개방성과 기능성을 동시에 만족시키는 혁신적 공간 설계본 설계는 협소한 관제 테이블 환경에서 발생할 수 있는 시각적 폐쇄감을 최소화하는 데 집중했습니다.테이블 측면에 고투과율 투명 LED 디스플레이를 배치함으로써, 정보 전달이라는 본연의 기능은 유지한 채 주변 공간과의 유기적인 연결성을 확보했습니다. 측면 공간의 개방성을 극대화하여 작업자에게 최적의 시야와 쾌적한 관제 환경을 제공합니다.`,
+            desc: `시각적 개방성과 기능성을 동시에 만족시키는 혁신적 공간 설계본 설계는 협소한 관제 테이블 환경에서 발생할 수 있는 시각적 폐쇄감을 최소화하는 데 집중했습니다. 테이블 측면에 고투과율 투명 LED 디스플레이를 배치함으로써, <strong>정보 전달이라는 본연의 기능은 유지한 채 주변 공간과의 유기적인 연결성을 확보</strong>했습니다. 측면 공간의 개방성을 극대화하여 작업자에게 최적의 시야와 쾌적한 관제 환경을 제공합니다.`,
             icon: "🪟",
             specTitle: "개방성과 기능성 만족",
             specDesc: "최적의 시야와 쾌적한 관제 환경을 제공",
@@ -2847,7 +2853,7 @@ const productData = {
             specs: [
                 {
                     title: "드라이버 보드 사양",
-                    items: ["고해상도 입력 지원: 3채널 HDMI 2.0 입력 지원,3840 × 2160 @ 60Hz 입력까지 수용 가능 ", " 무선 제어 모듈: 빌트인 무선 제어 모듈 내장","시스템 구조: 순수 하드웨어 아키텍처로 설계"]
+                    items: ["고해상도 입력 지원: 3채널 HDMI 2.0 입력 지원, 3840 × 2160 @ 60Hz 입력까지 수용 가능 ", " 무선 제어 모듈: 빌트인 무선 제어 모듈 내장","시스템 구조: 순수 하드웨어 아키텍처로 설계"]
                 },
                 {
                     title: "드라이버 보드 사양",
@@ -3035,12 +3041,12 @@ const productData = {
         ]
     },
 
-    "zv50ta1": {
+    "zv55ta1": {
         title: "투명 디스플레이",
 
         desc: "공간의 한계를 깬 투명 led 관제모니터",
 
-        model: "ZV50T-A1",
+        model: "ZV55T-A1",
 
         visualImg: "../img/zv50ta1-bg.png",
 
@@ -3054,8 +3060,7 @@ const productData = {
 
         hero: {
             title: `투명 OLED 디스플레이`,
-            desc: `<strong>특수 선박의 함교(조타실)</strong> 전면 유리창을 대형 투명 디스플레이로 구축하고, 선박 자동 식별 장치(AIS), 레이더(RADAR), 전자해도(ENC)와 연동합니다. <br> <strong>충돌 사고 예방 및 안전성 향상</strong>: 해상에서는 레이더 화면과 실제 바다를 번갈아 보다가 착시나 인지 지연으로 충돌 사고가 발생하는 경우가 많습니다. 투명 디스플레이는 레이더 정보와 실제 선박을 일치시켜 주므로 오판 확률을 획기적으로 줄입니다.<br><strong>야간 및 악천후 항해 혁신</strong>: 저조도 카메라 및 열화상 카메라와 연동하면, 칠흑 같은 밤바다에서도 레이저로 그린 듯한 선명한 전방 지형과 타 선박의 위치를 볼 수 있어 항해 피로도가 극도로 감소합니다.
-`,
+            desc: `<div class="desc-item"><strong>특수 선박의 함교(조타실)</strong>: 전면 유리창을 대형 투명 디스플레이로 구축하고, 선박 자동 식별 장치(AIS), 레이더(RADAR), 전자해도(ENC)와 연동합니다.</div><div class="desc-item"><strong>충돌 사고 예방 및 안전성 향상</strong>: 해상에서는 레이더 화면과 실제 바다를 번갈아 보다가 착시나 인지 지연으로 충돌 사고가 발생하는 경우가 많습니다. 투명 디스플레이는 레이더 정보와 실제 선박을 일치시켜 주므로 오판 확률을 획기적으로 줄입니다.</div><div class="desc-item"><strong>야간 및 악천후 항해 혁신</strong>: 저조도 카메라 및 열화상 카메라와 연동하면, 칠흑 같은 밤바다에서도 레이저로 그린 듯한 선명한 전방 지형과 타 선박의 위치를 볼 수 있어 항해 피로도가 극도로 감소합니다.</div>`,
             icon: "🪟",
             specTitle: "직관적 항해 지원",
             specDesc: "실시간 정보와 실제 시야를 하나로",
@@ -3065,7 +3070,7 @@ const productData = {
         design: {
             img: "../img/zv50ta1-bg.png",
             title: `국방 작전 지원을 위한<br> 통합 전술 상황 분석<br> 솔루션`,
-            desc: `<div class="desc-item"><strong>1. 실시간 데이터 융합 및 시각화 전장에 대한 완전한 이해를 제공합니다.</strong> 다기종 드론 라이브 피드 통합, 고해상도 지형및 위성 영상 스캔, 아군 및 적군 유닛 실시간 위치 및 활동 추적  </div><div class="desc-item"><strong>2. 지능형 AI 기반 상황 예측 선제적 의사결정을 지원합니다.</strong><br> AI 기반 예상 도달시간(ETA) 및 최적 경로 분석, 적대적 의사결정 모델링 및 예측, 작전 상황투영 시뮬레이션</div> <div class="desc-item"><strong>3.상호 운용성 및 원활한 협업 지휘통제 효율성을 극대화합니다.</strong><br> 지휘관 및 상황실 요원 간실시간 상황공유, 투명 디스플레이및 대형스크린 최적화 인터페이스, 한국군 및 연합 작전 시스템과의 완벽한 호환 </div>`,
+            desc: `<div class="desc-item"><strong>1. 실시간 데이터 융합 및 시각화 전장에 대한 완전한 이해를 제공합니다.</strong> 다기종 드론 라이브 피드 통합, 고해상도 지형및 위성 영상 스캔, 아군 및 적군 유닛 실시간 위치 및 활동 추적  </div><div class="desc-item"><strong>2. 지능형 AI 기반 상황 예측 선제적 의사결정을 지원합니다.</strong><br> AI 기반 예상 도달시간(ETA) 및 최적 경로 분석, 적대적 의사결정 모델링 및 예측, 작전 상황투영 시뮬레이션</div> <div class="desc-item"><strong>3. 상호 운용성 및 원활한 협업 지휘통제 효율성을 극대화합니다.</strong><br> 지휘관 및 상황실 요원 간실시간 상황공유, 투명 디스플레이및 대형스크린 최적화 인터페이스, 한국군 및 연합 작전 시스템과의 완벽한 호환 </div>`,
             specs: [
                 {
                     title: "주요 특징",
@@ -3081,8 +3086,8 @@ const productData = {
         photos: [
             "../img/t-series-bg2.png",
             "../img/zv50ta1-bg.png",
-            "../img/zv50ta1-bg.png",
-            "../img/zv50ta1-bg.png"
+            "../img/zv50ta1-bg2.png",
+            "../img/zv50ta1-bg3.png"
         ],
 
         rugged: {
@@ -3110,10 +3115,10 @@ const productData = {
         },
 
         specTable: [
-            ["제품 크기", '50 인치 (50 inch)'],
+            ["제품 크기", '55 인치 (55 inch)'],
             ["스크린 타입", "OLED 스크린, AM-OLED"],
             ["재생률", "120 Hz"],
-            ["디스플레이 영역", "664.29 mm(H) × 373.48 mm(V)"],
+            ["디스플레이 영역", "1209.60mm(H) x 680.40mm(V)"],
             ["패널 외곽 사이즈", "1225.50mm(H)  x 687.00mm(V) x 1.72mm(D)"],
             ["화면 해상도", "1366 × 768"],
             ["최대 입력 해상도", "3840 × 2160 / 60Hz 4k지원"],
@@ -3141,17 +3146,17 @@ const productData = {
         ]
     },
 
-    "zv50ta1eng": {
+    "zv55ta1eng": {
         title: "Transparent Display",
 
         desc: "Transparent LED Control Display<br>That Redefines Spatial Limits",
 
-        model: "ZV50T-A1",
+        model: "ZV55T-A1",
 
         visualImg: "../img/zv50ta1-bg.png",
 
-        koLink: "./Productdetail.html?product=zv50ta1",
-        engLink: "./Productdetail-eng.html?product=zv50ta1eng",
+        koLink: "./Productdetail.html?product=zv55ta1",
+        engLink: "./Productdetail-eng.html?product=zv55ta1eng",
 
         sliderImages: [
             "../img/t-series-f.png",
@@ -3194,8 +3199,8 @@ const productData = {
         photos: [
             "../img/t-series-bg2.png",
             "../img/zv50ta1-bg.png",
-            "../img/zv50ta1-bg.png",
-            "../img/zv50ta1-bg.png"
+            "../img/zv50ta1-bg2.png",
+            "../img/zv50ta1-bg3.png"
         ],
 
         rugged: {
@@ -3223,10 +3228,10 @@ const productData = {
         },
 
         specTable: [
-            ["Product Size", "50-inch"],
+            ["Product Size", "55-inch"],
             ["Screen Type", "OLED Screen, AM-OLED"],
             ["Refresh Rate", "120 Hz"],
-            ["Display Area", "664.29 mm (H) × 373.48 mm (V)"],
+            ["Display Area", "1209.6 mm (H) × 680.40 mm (V)"],
             ["Panel Dimensions", "1225.50 × 687.00 × 1.72 mm (H × V × D)"],
             ["Resolution", "1366 × 768"],
             ["Maximum Input Resolution", "3840 × 2160 @ 60Hz (4K Supported)"],
@@ -3251,6 +3256,183 @@ const productData = {
             ["Operating Environment", "Indoor"],
             ["Operating Temperature / Humidity", "0°C ~ 45°C / 10% ~ 90% (Non-Condensing)"],
             ["Storage Temperature / Humidity", "-20°C ~ 60°C / 10% ~ 90% (Non-Condensing)"]
+        ]
+    },
+
+    "sv580s": {
+        title: "8개의 HID 핫키 장착 스피커",
+
+        desc: "15.6인치 All in One 통신패널",
+
+        model: "SV580S",
+
+        visualImg: "../img/sv580s-bg.png",
+
+        koLink: "./Productdetail.html?product=sv580s",
+        engLink: "./Productdetail-eng.html?product=sv580seng",
+
+        sliderImages: [
+            "../img/sv580s.png",
+            "../img/sv580s-r.png",
+            "../img/sv580s-v.png",
+        ],
+
+        hero: {
+            title: `내용필요`,
+            desc: `내용필요`,
+            icon: "🪟",
+            specTitle: "",
+            specDesc: "내용필요",
+            img: "../img/sv580s.png"
+        },
+
+        design: {
+            img: "../img/sv580s-r.png",
+            title: `내용필요`,
+            desc: `내용필요`,
+            specs: [
+                {
+                    title: "주요 특징",
+                    items: ["내용필요",]
+                },
+                {
+                    title: "주요 특징",
+                    items: ["내용필요",]
+                }
+            ]
+        },
+
+        photos: [
+            "../img/sv580s-bg.png",
+            "../img/sv580s-bg2.png",
+            "../img/sv580s-bg3.png",
+            "../img/sv580s-bg4.png"
+        ],
+
+        rugged: {
+            title: `내용필요`,
+            cards: [
+                {
+                icon: "🔲",
+                title: "내용필요",
+                value: "내용필요",
+                desc: "내용필요"
+                },
+                {
+                icon: "↔️ ↕️",
+                title: "내용필요",
+                value: "내용필요",
+                desc: "내용필요"
+                },
+                {
+                icon: "🎨",
+                title: "내용필요",
+                value: "내용필요",
+                desc: "내용필요"
+                }
+            ]
+        },
+
+        specTable: [
+            ["내용필요", '55 인치 (55 inch)'],
+            ["스크린 타입", "OLED 스크린, AM-OLED"],
+            ["재생률", "120 Hz"]
+        ]
+    },
+
+    "sv380": {
+        title: "고성능 산업용 모니터",
+
+        desc: "한국형 OS 구름 4단계 보안 기술 적용",
+
+        model: "SV380",
+
+        visualImg: "../img/sv380-bg4.png",
+
+        koLink: "./Productdetail.html?product=sv580s",
+        engLink: "./Productdetail-eng.html?product=sv580seng",
+
+        sliderImages: [
+            "../img/sv380.png",
+            "../img/sv380-r.png",
+            "../img/sv380-v.png",
+        ],
+
+        hero: {
+            title: `고성능 산업용 모니터`,
+            desc: `SV380은 X86 (i5-7200U) CPU와 8GB DDR4 RAM을 탑재한 고성능 산업용 모니터입니다. 10.1인치 고릴라 터치스크린과 -20℃ ~ +60℃의 운용 온도 범위에서 최상의 내구성을 보장합니다. <strong>한국형 OS “구름” 4단계 보안</strong> 및 <strong>KCMVP 알고리즘</strong>, 무팬 알루미늄 구리 분산 방열 설계를 통해 극한 환경에서도 안정적이며, IP 인터컴, (보안) IP PHONE, 재난망(MCPTT) 등 다양한 통신 환경에 최적화되어 있습니다.`,
+            icon: "🪟",
+            specTitle: "한국형 OS “구름” 4단계 보안 기술 적용 ",
+            specDesc: "한국형 OS “구름” 4단계 보안 및 KCMVP 알고리즘, 무팬 알루미늄 구리 분산 방열 설계를 통해 극한 환경에서도 안정적",
+            img: "../img/sv380-r.png"
+        },
+
+        design: {
+            img: "../img/sv380.png",
+            title: `주요기능`,
+            desc: `<strong>적용분야</strong>: IP 인터컴, (보안) IP PHONE, 보조 지령대<br>
+                    <strong>적용OS</strong>: WINDOWS 10 IOT, LINUX 구름OS<br>
+                    <strong>적용 APP</strong>: INTERCOM APP, IP-PHONE APP, MCPTT APP<br>
+                    <strong>OEM/ODM제품</strong>: 제3자 적용 응용 MMI제공<br>
+                    <strong>터치</strong>: 10.1인치 고릴라 터치스크린 적용<br>
+                    <strong>사운드</strong>: 5W 스피커 적용<br>
+                    <strong>옵션</strong>: MCPTT & VOLTE 적용시 별도 5G LTE 모뎀 장착`,
+            specs: [
+                {
+                    title: "사운드 DSP 칩",
+                    items: ["별도 DSP 칩 적용 (사운드보드)","다채널 음향 수용","코덱별 음향 송출 및 빠른 운용 모드"]
+                },
+                {
+                    title: "365일 산업용 LCD",
+                    items: ["산업용 LCD 디스플레이 적용","365일 상시 애플리케이션 실행 가능","액정 5년 무상 서비스"]
+                }
+            ]
+        },
+
+        photos: [
+            "../img/sv380-bg2.png",
+            "../img/sv380-bg3.png",
+            "../img/sv380-bg.png",
+            "../img/sv380-bg4.png"
+        ],
+
+        rugged: {
+            title: `고강도 산업 환경에서도<br> 최상의 성능과 내구성을 보장`,
+            cards: [
+                {
+                icon: "🌡️",
+                title: "알루미늄 구리 분산 방열",
+                value: "방열 우수성",
+                desc: "알루미늄 구리 분산 방열로 무팬(無팬) 구현, 탁월한 방열 우수성"
+                },
+                {
+                icon: "📟",
+                title: "산업용 메인보드",
+                value: "X86 계열",
+                desc: "멀티프로세서와 영상 처리에 최적화된 X86 계열 산업용 메인보드"
+                },
+                {
+                icon: "❄️",
+                title: "극한 환경 작동",
+                value: "40~85°C",
+                desc: "극한 환경(-40~85°C)에서도 작동하는 내구성이 강화된 산업용 DDR4 메모리 (3년 무상서비스)"
+                }
+            ]
+        },
+
+        specTable: [
+            ["CPU", 'X86 ( i5-7200U )'],
+            ["터치/LCD", "10.1 inch 16:9 (1280 x 800) 정전식"],
+            ["OS (기본)", "Windows 10 Pro / 11 Pro (64 bit)"],
+            ["OS (맞춤)", "구름OS"],
+            ["응용(App)", "재난망 (MCPTT) / 인터컴 (rcu K3.0) / IP Phone (rcu i3.0)"],
+            ["주파수 클럭", "Base Freq. 2.7GHz Max Freq. 3.5GHz"],
+            ["RAM", "1 x DDR4-2666MHz 8GB"],
+            ["저장장치", "256GB (MLC 산업용)"],
+            ["MMI", "핸드셋 PTT, Lamp(TX/RX), PTT"],
+            ["부속품", "헤드셋(PTT), 구즈넥 PTT 마이크, 웹캠"],
+            ["운용 온도", "-20℃ ~ +60℃"],
+            ["크기", "W 322 x H 230 x D 42"]
         ]
     },
 
@@ -3339,6 +3521,7 @@ document.getElementById("designSpecList").innerHTML =
     product.design.specs
         .map(item => `
             <div class="spec-item">
+                ${item.img ? `<img src="${item.img}" class="spec-icon-img" alt="${item.title}">` : ""}
                 <h3>${item.title}</h3>
                 <ul>
                     ${item.items.map(text => `<li>${text}</li>`).join("")}
@@ -3389,3 +3572,4 @@ if (product.badgeImg) {
         <img class="product-badge" src="${product.badgeImg}" alt="">
     `);
 }
+

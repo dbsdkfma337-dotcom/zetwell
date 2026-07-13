@@ -36,8 +36,8 @@
                         <li class="gnb-item">
                             <a href="#" class="gnb-link">ZETable</a>
                             <ul class="depth2">
-                                <li><a href="../product/Productdetai??product=43ig">43IG</a></li>
-                                <li><a href="../product/Productdetai??product=43mg">43MG</a></li>
+                                <li><a href="../product/Productdetai??product=zt43bi">ZT43BI</a></li>
+                                <li><a href="../product/Productdetai??product=zt43gm">ZT43GM</a></li>
                             </ul>
                         </li>
                         <li class="gnb-item">
@@ -121,21 +121,20 @@
                     <p>궁금한 점을 문의해주세요.</p>
                 </div>
 
-                <form class="inquiry-form">
+                <form class="inquiry-form" id="contact-form">
                     <div class="form-block">
                         <h3>정보</h3>
 
                         <div class="form-list">
                             <div class="form-row">
                                 <label>이름</label>
-                                <input type="text" placeholder="이름을 입력해주세요.">
+                                <input type="text" name="name" placeholder="이름을 입력해주세요." required>
                             </div>
 
                             <div class="form-row">
                                 <label>이메일</label>
-                                <input type="text" placeholder="이메일 주소를 입력해주세요.">
+                                <input type="text" name="email" placeholder="이메일 주소를 입력해주세요." required>
                             </div>
-
                         </div>
                     </div>
 
@@ -145,13 +144,13 @@
                         <div class="form-list">
                             <div class="form-row">
                                 <label>문의 내용 <span>*</span></label>
-                                <textarea placeholder="상세 내용을 입력해주세요."></textarea>
+                                <textarea name="message" placeholder="상세 내용을 입력해주세요." required></textarea>
                             </div>
                         </div>
                     </div>
 
                     <div class="butten-block">
-                        <button>send message</button>
+                        <button type="submit">send message</button>
                     </div>
                 </form>
             </div>
@@ -164,7 +163,6 @@
                         Designed & Assembled in the Korea
                     </h2>
 
- 
                     <a href="./made-in-korea.html" class="footer-btn">
                         MADE IN KOREA
                         <img src="../img/flag.png" alt="">
@@ -186,7 +184,7 @@
                         </ul>
                     </div>
 
-                     <div class="footer-col">
+                    <div class="footer-col">
                         <h3>Contact</h3>
                         <p>
                             02-3281-0130
@@ -211,5 +209,30 @@
             </div>
         </footer>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <script>
+        emailjs.init("hU5Qmxk3COAi6yR4a");
+
+        const form = document.querySelector("#contact-form");
+
+        form.addEventListener("submit", function(e) {
+            e.preventDefault();
+
+            emailjs.sendForm(
+                "service_trxnp68",
+                "template_t9ub7hi",
+                "#contact-form"
+            )
+            .then(function() {
+                alert("문의가 정상적으로 전송되었습니다.");
+                form.reset();
+            })
+            .catch(function(error) {
+                console.error("EmailJS Error:", error);
+                alert("전송 중 오류가 발생했습니다. 다시 시도해주세요.");
+            });
+        });
+    </script>
 </body>
 </html>
