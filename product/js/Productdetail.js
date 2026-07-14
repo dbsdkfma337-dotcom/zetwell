@@ -3349,8 +3349,15 @@ const productData = {
         badgeImg: "../img/odm-logo.png",
 
         specTable: [
-            ["내용필요", '내용필요'],
-            ["내용필요", "내용필요"]
+            ["CPU", '인텔 코어 i5-1235U(최대 4.4GHz)'],
+            ["메모리", "8GB DDR5 SDRAM / 16GB DDR5 SDRAM (기본장착) / 32GB DDR5 SDRAM (선택)"],
+            ["저장 장치", "256GB M.2 NVMe SSD / 512GB M.2 NVMe SSD (기본장착) / 1TB M.2 NVMe SSD (선택) / 2TB M.2 NVMe SSD (선택)"],
+            ["운영체제 (OS)", "Windows 11 Pro (64 bit)"],
+            ["WWAN", "4G / 5G"],
+            ["터치", "Projected Capacitive Multi Touch"],
+            ["작동 습도", "10% ~ 90% RH, 비응축"],
+            ["작동 온도", "-10°C ~ 50°C"],
+            ["보관 온도", "-30°C ~ 70°C"]
         ]
     },
 
