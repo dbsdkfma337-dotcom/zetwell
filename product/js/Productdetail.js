@@ -3332,10 +3332,10 @@ const productData = {
                 desc: "LTE, 국가재난안전통신망(PS-LTE) 및 주요 무선 통신 프로토콜 연동은 물론, 상위 시스템 및 관제 센터와의 안정적인 유선 네트워크 연동을 완벽하게 지원합니다."
                 },
                 {
-                icon: "👆",
-                title: "미스 클릭 방지 및 촉각 피드백",
-                value: "오작동 차단",
-                desc: "장갑을 착용한 상태나 긴박한 현장 제어 중에도 확실한 입력감을 주는 산업용 기계식/멤브레인 HID 스위치를 채택하여 오작동을 원천 차단합니다."
+                icon: "🔌",
+                title: "I/O 포트 장착",
+                value: "확장성",
+                desc: "다양한 현장 장비(무전기 게이트웨이, 외부 스피커, 구스넥 마이크 등)와의 확장성을 고려한 풍부한 I/O 포트를 장착했습니다."
                 },
                 {
                 icon: "🔄",
@@ -3374,7 +3374,7 @@ const productData = {
 
         hero: {
             title: `고성능 산업용 모니터`,
-            desc: `SV380은 X86 (i5-7200U) CPU와 8GB DDR4 RAM을 탑재한 고성능 산업용 모니터입니다. 10.1인치 고릴라 터치스크린과 -20℃ ~ +60℃의 운용 온도 범위에서 최상의 내구성을 보장합니다. <strong>한국형 OS “구름” 4단계 보안</strong> 및 <strong>KCMVP 알고리즘</strong>, 무팬 알루미늄 구리 분산 방열 설계를 통해 극한 환경에서도 안정적이며, IP 인터컴, (보안) IP PHONE, 재난망(MCPTT) 등 다양한 통신 환경에 최적화되어 있습니다.`,
+            desc: `SV380은 X86 (i5-7200U) CPU와 8GB DDR4 RAM을 탑재한 고성능 산업용 모니터입니다. 10.1인치 터치스크린과 -20℃ ~ +60℃의 운용 온도 범위에서 최상의 내구성을 보장합니다. <strong>한국형 OS “구름” 4단계 보안</strong> 및 <strong>KCMVP 알고리즘</strong>, 무팬 알루미늄 구리 분산 방열 설계를 통해 극한 환경에서도 안정적이며, IP 인터컴, (보안) IP PHONE, 재난망(MCPTT) 등 다양한 통신 환경에 최적화되어 있습니다.`,
             icon: "🔐",
             specTitle: "한국형 OS “구름” 4단계 보안 기술 적용 ",
             specDesc: "한국형 OS “구름” 4단계 보안 및 KCMVP 알고리즘, 무팬 알루미늄 구리 분산 방열 설계를 통해 극한 환경에서도 안정적",
@@ -3388,7 +3388,7 @@ const productData = {
                     <strong>적용OS</strong>: WINDOWS 10 IOT, LINUX 구름OS<br>
                     <strong>적용 APP</strong>: INTERCOM APP, IP-PHONE APP, MCPTT APP<br>
                     <strong>OEM/ODM제품</strong>: 제3자 적용 응용 MMI제공<br>
-                    <strong>터치</strong>: 10.1인치 고릴라 터치스크린 적용<br>
+                    <strong>터치</strong>: 10.1인치 터치스크린 적용<br>
                     <strong>사운드</strong>: 5W 스피커 적용<br>
                     <strong>옵션</strong>: MCPTT & VOLTE 적용시 별도 5G LTE 모뎀 장착`,
             specs: [
@@ -3428,7 +3428,7 @@ const productData = {
                 {
                 icon: "❄️",
                 title: "극한 환경 작동",
-                value: "40~85°C",
+                value: "-40~85°C",
                 desc: "극한 환경(-40~85°C)에서도 작동하는 내구성이 강화된 산업용 DDR4 메모리 (3년 무상서비스)"
                 }
             ]
