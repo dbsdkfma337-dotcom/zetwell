@@ -335,7 +335,7 @@ const productData = {
             category: "Zetstation-CSTM시리즈",
             name: "S988",
             desc: "지령대용 워크스테이션",
-            img: "../img/S988-odm.png",
+            img: "../img/s988-odm.png",
             alt: "S988",
             link: "./Productdetail.html?product=s988"
             },
