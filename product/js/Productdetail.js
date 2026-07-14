@@ -1781,7 +1781,7 @@ const productData = {
             ]
         },
 
-        badgeImg: "../img/samsung-sticker.png",
+        badgeImg: "../img/odm-logo.png",
 
         specTable: [
             ["CPU", 'Intel 8th Gen Intel® Coffee Lake-S, i7'],
@@ -1870,7 +1870,7 @@ const productData = {
             ]
         },
 
-        badgeImg: "../img/samsung-sticker.png",
+        badgeImg: "../img/odm-logo.png",
 
         specTable: [
             ["CPU", 'Intel 8th Gen Intel® Coffee Lake-S, i7'],
@@ -1965,6 +1965,8 @@ const productData = {
                 }
             ]
         },
+
+        badgeImg: "../img/odm-logo.png",
 
         specTable: [
             ["Model", 'S1388 Dispatcher Workstation'],
@@ -2064,6 +2066,8 @@ const productData = {
             ]
         },
 
+        badgeImg: "../img/odm-logo.png",
+
         specTable: [
             ["Model", 'S1388 Dispatcher Workstation'],
             ["CPU", "Intel® 13th Gen Raptor Lake-P/ Raptor Lake-U i7 Pentium CPU"],
@@ -2156,7 +2160,7 @@ const productData = {
             ]
         },
 
-        badgeImg: "../img/samsung-sticker.png",
+        badgeImg: "../img/odm-logo.png",
 
         specTable: [
             ["Model", 'S1517H / S1519H'],
@@ -2250,7 +2254,7 @@ const productData = {
             ]
         },
 
-        badgeImg: "../img/samsung-sticker.png",
+        badgeImg: "../img/odm-logo.png",
 
         specTable: [
             ["Model", 'S1517H / S1519H'],
@@ -3259,12 +3263,12 @@ const productData = {
         ]
     },
 
-    "sv580s": {
+    "sv580": {
         title: "8개의 HID 핫키 장착 스피커",
 
         desc: "15.6인치 All in One 통신패널",
 
-        model: "SV580S",
+        model: "SV580",
 
         visualImg: "../img/sv580s-bg.png",
 
@@ -3273,31 +3277,36 @@ const productData = {
 
         sliderImages: [
             "../img/sv580s.png",
-            "../img/sv580s-r.png",
-            "../img/sv580s-v.png",
+            "../img/sv580b.png",
+            "../img/sv580-r.png",
+            "../img/sv580b-r.png",
+            "../img/sv580-v.png",
+            "../img/sv580b-v.png",
         ],
 
         hero: {
-            title: `내용필요`,
-            desc: `내용필요`,
-            icon: "🪟",
-            specTitle: "",
-            specDesc: "내용필요",
+            title: `15.6인치 와이드 터치스크린 탑재`,
+            desc: `넓은 화면 공간을 통해 복잡한 GIS(지리정보시스템) 맵, 다중 채널 통제 화면, 실시간 신고 접수 창을 한눈에 모니터링할 수 있는 최적의 시야를 제공합니다. 멀티터치 지원으로 긴급 상황에서도 오작동 없는 직관적이고 빠른 제어가 가능합니다.`,
+            icon: "📷",
+            specTitle: "Full HD 전면 카메라 기본탑재",
+            specDesc: "단말기 전면 상단 중앙에 고해상도 카메라가 매립형으로 장착되어 별도의 외장 웹캠을 연결하는 번거로움이 없습니다.",
             img: "../img/sv580s.png"
         },
 
         design: {
-            img: "../img/sv580s-r.png",
-            title: `내용필요`,
-            desc: `내용필요`,
+            img: "../img/sv580b.png",
+            title: `True All-in-One 하드웨어 아키텍처`,
+            desc: `<div class="desc-item">별도의 PC 본체나 외장 게이트웨이 없이, 단말기 내부에서 무선 통신 처리, 음성 코덱 변환, IP 네트워크 제어를 모두 처리합니다. 상황실 데스크의 선 정리를 깔끔하게 해결하고, 공간 배치 효율성을 극대화합니다.</div><div class="desc-item"><strong>실시간 양방향 영상통화</strong><br> LTE 단말기나 모바일 기기를 소지한 현장 요원과 일대일 혹은 다자간 고화질 영상 통화를 수행합니다. 현장에서 송출하는 영상 정보를 15.6인치 대화면으로 확인하면서, 지휘관의 모습도 현장에 실시간으로 전달하여 현장감 있는 지휘 통제를 실현합니다.</div><div class="desc-item"><strong>비대면 화상 회의 및 상황실 간 연동</strong><br>메인 관제 센터나 타 지청 상황실의 지령장치(SV-580) 간에 고화질 화상 회의를 즉각 개설하여 다원 합동 지휘 및 긴급 의사결정을 신속하게 진행할 수 있습니다.</div>`,
             specs: [
                 {
-                    title: "주요 특징",
-                    items: ["내용필요",]
+                    title: "SV580-S",
+                    img: "../img/sv580s.png",
+                    items: ["운용 환경에 맞는 조작부 선택","버튼 구성에 따라 선택 가능한 모델","동일한 성능, 다양한 조작부 옵션"]
                 },
                 {
-                    title: "주요 특징",
-                    items: ["내용필요",]
+                    title: "SV580-B",
+                    img: "../img/sv580b.png",
+                    items: ["운용 환경에 맞는 조작부 선택","버튼 구성에 따라 선택 가능한 모델","동일한 성능, 다양한 조작부 옵션"]
                 }
             ]
         },
@@ -3305,38 +3314,39 @@ const productData = {
         photos: [
             "../img/sv580s-bg.png",
             "../img/sv580s-bg2.png",
-            "../img/sv580s-bg3.png",
-            "../img/sv580s-bg4.png"
+            "../img/sv580b-bg.png",
+            "../img/sv580b-bg2.png"
         ],
 
         rugged: {
-            title: `내용필요`,
+            title: `안정적인 운용을 위한<br>최적의 선택`,
             cards: [
                 {
-                icon: "🔲",
-                title: "내용필요",
-                value: "내용필요",
-                desc: "내용필요"
+                icon: "📡",
+                title: "유무선 통합 통신 하드웨어 인터페이스",
+                value: "안정적 연동",
+                desc: "LTE, 국가재난안전통신망(PS-LTE) 및 주요 무선 통신 프로토콜 연동은 물론, 상위 시스템 및 관제 센터와의 안정적인 유선 네트워크 연동을 완벽하게 지원합니다."
                 },
                 {
-                icon: "↔️ ↕️",
-                title: "내용필요",
-                value: "내용필요",
-                desc: "내용필요"
+                icon: "👆",
+                title: "미스 클릭 방지 및 촉각 피드백",
+                value: "오작동 차단",
+                desc: "장갑을 착용한 상태나 긴박한 현장 제어 중에도 확실한 입력감을 주는 산업용 기계식/멤브레인 HID 스위치를 채택하여 오작동을 원천 차단합니다."
                 },
                 {
-                icon: "🎨",
-                title: "내용필요",
-                value: "내용필요",
-                desc: "내용필요"
+                icon: "🔄",
+                title: "가혹한 환경을 견디는 고신뢰성 설계",
+                value: "24시간 안정 운용",
+                desc: "24시간 365일 중단 없는 지휘 통제를 위해 산업용 컴포넌트를 채택하였으며, 발열을 최소화하는 하드웨어 구조로 설계되어 안정성이 뛰어납니다."
                 }
             ]
         },
 
+        badgeImg: "../img/odm-logo.png",
+
         specTable: [
-            ["내용필요", '55 인치 (55 inch)'],
-            ["스크린 타입", "OLED 스크린, AM-OLED"],
-            ["재생률", "120 Hz"]
+            ["내용필요", '내용필요)'],
+            ["내용필요", "내용필요"]
         ]
     },
 
@@ -3361,7 +3371,7 @@ const productData = {
         hero: {
             title: `고성능 산업용 모니터`,
             desc: `SV380은 X86 (i5-7200U) CPU와 8GB DDR4 RAM을 탑재한 고성능 산업용 모니터입니다. 10.1인치 고릴라 터치스크린과 -20℃ ~ +60℃의 운용 온도 범위에서 최상의 내구성을 보장합니다. <strong>한국형 OS “구름” 4단계 보안</strong> 및 <strong>KCMVP 알고리즘</strong>, 무팬 알루미늄 구리 분산 방열 설계를 통해 극한 환경에서도 안정적이며, IP 인터컴, (보안) IP PHONE, 재난망(MCPTT) 등 다양한 통신 환경에 최적화되어 있습니다.`,
-            icon: "🪟",
+            icon: "🔐",
             specTitle: "한국형 OS “구름” 4단계 보안 기술 적용 ",
             specDesc: "한국형 OS “구름” 4단계 보안 및 KCMVP 알고리즘, 무팬 알루미늄 구리 분산 방열 설계를 통해 극한 환경에서도 안정적",
             img: "../img/sv380-r.png"
@@ -3419,6 +3429,8 @@ const productData = {
                 }
             ]
         },
+
+        badgeImg: "../img/odm-logo.png",
 
         specTable: [
             ["CPU", 'X86 ( i5-7200U )'],

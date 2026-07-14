@@ -208,21 +208,6 @@ const productData = {
         ]
     },
 
-    "ig-series": {
-    title: "43IG",
-    visualImg: "../img/Zetstation-bg.png",
-    products: [
-            {
-            category: "Zetavle시리즈",
-            name: "43IG",
-            desc: "43IG 제품 설명이 들어갑니다....",
-            img: "../img/MODEL-HRD2000M.png",
-            alt: "43IG",
-            link: "./product-detail.html?product=esr001"
-            }
-        ]
-    },
-
     "n-series": {
     title: "NVIS-Series",
     desc: "NVIS(Night Vision Imaging System, 야간 투시 장비) 모니터 <br> 야간 투시경(NVG)과의 상호 간섭 방지 (빛의 파장 제어)",
@@ -334,7 +319,7 @@ const productData = {
             category: "Zetstation-CSTM시리즈",
             name: "HRD<br>2000M",
             desc: "차량용 특수 컴퓨터",
-            img: "../img/HRD2000M.png",
+            img: "../img/HRD2000M-odm.png",
             alt: "HRD2000M",
             link: "./Productdetail.html?product=hrd2000m"
             },
@@ -342,7 +327,7 @@ const productData = {
             category: "Zetstation-CSTM시리즈",
             name: "9000SE",
             desc: "망 분리 특수 컴퓨터",
-            img: "../img/9000SE.png",
+            img: "../img/9000se-odm.png",
             alt: "9000SE",
             link: "./Productdetail.html?product=9000se"
             },
@@ -350,7 +335,7 @@ const productData = {
             category: "Zetstation-CSTM시리즈",
             name: "S988",
             desc: "지령대용 워크스테이션",
-            img: "../img/S988.png",
+            img: "../img/S988-odm.png",
             alt: "S988",
             link: "./Productdetail.html?product=s988"
             },
@@ -358,7 +343,7 @@ const productData = {
             category: "Zetstation-CSTM시리즈",
             name: "S1388",
             desc: "구름 OS 특수 컴퓨터",
-            img: "../img/S1388.png",
+            img: "../img/s1388-odm.png",
             alt: "S1388",
             link: "./Productdetail.html?product=s1388"
             },
@@ -366,23 +351,23 @@ const productData = {
             category: "Zetstation-CSTM시리즈",
             name: "S1519H",
             desc: "지령대용 AI 워크스테이션",
-            img: "../img/S1519H.png",
+            img: "../img/s1519h-odm.png",
             alt: "S1519H",
             link: "./Productdetail.html?product=s1519h"
             },
             {
             category: "Zetstation-CSTM시리즈",
-            name: "SV580S",
-            desc: "8개의 HID 핫키 장착 스피커 3Way시스템 제공",
-            img: "../img/sv580s.png",
-            alt: "SV580S",
-            link: "./Productdetail.html?product=sv580s"
+            name: "SV580",
+            desc: "15.6인치 터치 All-IN-ONE 지령장치",
+            img: "../img/sv580-odm.png",
+            alt: "SV580",
+            link: "./Productdetail.html?product=sv580"
             },
             {
             category: "Zetstation-CSTM시리즈",
             name: "SV380",
-            desc: "지령대용 AI 워크스테이션",
-            img: "../img/sv380.png",
+            desc: "10.1인치 터치 All-IN-ONE 탁상형",
+            img: "../img/sv380-odm.png",
             alt: "SV380",
             link: "./Productdetail.html?product=sv380"
             }
@@ -442,7 +427,7 @@ const productData = {
             desc: "8 HID Hot Keys with Integrated 3-Way Speaker System",
             img: "../img/S1519H.png",
             alt: "SV580S",
-            link: "./Productdetail.html?product=sv580s"
+            link: "./Productdetail.html?product=sv580"
             },
             {
             category: "Zetstation-CSTM시리즈",
