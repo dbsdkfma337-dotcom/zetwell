@@ -385,7 +385,7 @@ const productData = {
             category: "Zetstation-CSTM series",
             name: "HRD<br>2000M",
             desc: "Vehicle-Mounted Server",
-            img: "../img/HRD2000M.png",
+            img: "../img/HRD2000M-odm.png",
             alt: "HRD2000M",
             link: "./Productdetail-eng.html?product=hrd2000meng"
             },
@@ -393,7 +393,7 @@ const productData = {
             category: "Zetstation-CSTM series",
             name: "9000SE",
             desc: "Redundant Server / Workstation",
-            img: "../img/9000SE.png",
+            img: "../img/9000se-odm.png",
             alt: "9000SE",
             link: "./Productdetail-eng.html?product=9000seeng"
             },
@@ -401,7 +401,7 @@ const productData = {
             category: "Zetstation-CSTM series",
             name: "S988",
             desc: "High-Performance Workstation Powered by an 8th Generation Intel® Core™ i7 Processor",
-            img: "../img/S988.png",
+            img: "../img/s988-odm.png",
             alt: "S988",
             link: "./Productdetail-eng.html?product=s988eng"
             },
@@ -409,7 +409,7 @@ const productData = {
             category: "Zetstation-CSTM series",
             name: "S1388",
             desc: "Intelligent Monitoring System Maximizing Connectivity, Security, and User Convenience",
-            img: "../img/S1388.png",
+            img: "../img/s1388-odm.png",
             alt: "S1388",
             link: "./Productdetail-eng.html?product=s1388eng"
             },
@@ -417,15 +417,15 @@ const productData = {
             category: "Zetstation-CSTM series",
             name: "S1519H",
             desc: "AI Inference System for Edge Computing",
-            img: "../img/S1519H.png",
+            img: "../img/s1519h-odm.png",
             alt: "S1519H",
             link: "./Productdetail-eng.html?product=s1519heng"
             },
             {
             category: "Zetstation-CSTM시리즈",
-            name: "SV580S",
+            name: "SV580",
             desc: "8 HID Hot Keys with Integrated 3-Way Speaker System",
-            img: "../img/S1519H.png",
+            img: "../img/sv580-odm.png",
             alt: "SV580S",
             link: "./Productdetail.html?product=sv580"
             },
@@ -433,7 +433,7 @@ const productData = {
             category: "Zetstation-CSTM시리즈",
             name: "SV380",
             desc: "지령대용 AI 워크스테이션",
-            img: "../img/S1519H.png",
+            img: "../img/sv380-odm.png",
             alt: "SV380",
             link: "./Productdetail.html?product=sv380"
             }

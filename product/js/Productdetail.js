@@ -3345,7 +3345,7 @@ const productData = {
         badgeImg: "../img/odm-logo.png",
 
         specTable: [
-            ["내용필요", '내용필요)'],
+            ["내용필요", '내용필요'],
             ["내용필요", "내용필요"]
         ]
     },
